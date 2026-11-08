@@ -58,25 +58,46 @@ function fmtDate(ts) {
     d.toLocaleTimeString('de-DE', { hour: '2-digit', minute: '2-digit' });
 }
 
-/* Vorlesen: nur nach Tippen, keine anderen Töne */
+/* Vorlesen: nur nach Tippen. Erst fertige Aufnahme (audio/<kennung>.mp3), sonst Stimme des Geräts */
+function audioKey(text) {
+  const t = text.normalize('NFC').replace(/\s+/g, ' ').trim();
+  let h = 0x811c9dc5;
+  for (let i = 0; i < t.length; i++) { h ^= t.charCodeAt(i); h = Math.imul(h, 0x01000193) >>> 0; }
+  return h.toString(16).padStart(8, '0');
+}
 const Voice = {
-  btn: null,
+  btn: null, audio: null,
   stop() {
     try { speechSynthesis.cancel(); } catch (e) { }
+    if (this.audio) { try { this.audio.pause(); } catch (e) { } this.audio = null; }
     if (this.btn) { this.btn.classList.remove('on'); this.btn = null; }
   },
-  ok() { return typeof speechSynthesis !== 'undefined' && typeof SpeechSynthesisUtterance !== 'undefined'; },
+  ok() { return true; },
+  pick() {
+    const vs = (typeof speechSynthesis !== 'undefined' ? speechSynthesis.getVoices() : []).filter(v => /^de/i.test(v.lang));
+    const gut = vs.find(v => /premium|enhanced|natural|neural|anna|petra|markus|google/i.test(v.name));
+    return gut || vs.find(v => v.localService) || vs[0];
+  },
+  browser(text, btn, tempo) {
+    if (typeof speechSynthesis === 'undefined' || typeof SpeechSynthesisUtterance === 'undefined') { this.stop(); return; }
+    const u = new SpeechSynthesisUtterance(text);
+    u.lang = 'de-DE'; u.rate = Math.min(tempo || 0.9, 0.9);
+    const v = this.pick(); if (v) u.voice = v;
+    u.onend = u.onerror = () => { if (this.btn === btn) this.stop(); };
+    speechSynthesis.speak(u);
+  },
   speak(text, btn, tempo) {
-    if (!this.ok()) return;
+    btn = btn || { classList: { add() { }, remove() { } } };
     if (this.btn === btn) { this.stop(); return; }
     this.stop();
-    const u = new SpeechSynthesisUtterance(text);
-    u.lang = 'de-DE';
-    u.rate = tempo || 0.9;
-    const vs = speechSynthesis.getVoices().filter(v => /^de/i.test(v.lang));
-    if (vs.length) u.voice = vs.find(v => v.localService) || vs[0];
-    u.onend = u.onerror = () => { if (this.btn === btn) this.stop(); };
     this.btn = btn; btn.classList.add('on');
-    speechSynthesis.speak(u);
+    const a = new Audio('audio/' + audioKey(text) + '.mp3');
+    a.playbackRate = Math.min(1.1, Math.max(0.8, (tempo || 0.9) / 0.9));
+    this.audio = a;
+    let fallback = false;
+    const fb = () => { if (fallback || this.btn !== btn) return; fallback = true; this.audio = null; this.browser(text, btn, tempo); };
+    a.addEventListener('error', fb);
+    a.addEventListener('ended', () => { if (this.btn === btn) this.stop(); });
+    a.play().catch(fb);
   }
 };

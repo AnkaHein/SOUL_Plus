@@ -51,19 +51,73 @@ const eqSet = (a, b) => a.size === b.size && [...a].every(x => b.has(x));
 /* ---------- Auswahl (eine Antwort) ---------- */
 PZ.auswahl = function (p, ctx) {
   let sel = -1, locked = false;
+  const bildOpts = p.optionen.some(o => o && o.img);
   const btns = p.optionen.map((o, i) => h('button', {
-    class: 'opt', type: 'button',
-    onclick: () => { if (locked) return; sel = i; upd(); ctx.changed(); }
-  }, o));
+    class: 'opt' + (o && o.img ? ' imgopt' : ''), type: 'button',
+    onclick: () => { if (locked) return; sel = i; upd(); ctx.changed(); if (o && o.t && !o.img && p.sprichOpt) Voice.speak(o.t, null, 0.9); }
+  }, o && o.img ? [h('img', { src: o.img, alt: '' }), o.t ? h('span', null, o.t) : null] : o));
   function upd() { btns.forEach((b, i) => b.classList.toggle('sel', i === sel)); }
+  const head = (p.bild || p.sprich) ? h('div', { class: 'bildkopf' },
+    p.bild ? h('img', { class: 'frageBild', src: p.bild, alt: '' }) : null,
+    p.sprich ? h('button', { class: 'speak big', type: 'button', 'aria-label': 'Vorlesen', onclick: e => Voice.speak(p.sprich, e.currentTarget, 0.85) }, '🔊') : null,
+    p.wort ? h('div', { class: 'wortgross' }, p.wort) : null) : null;
   return {
-    el: h('div', { class: 'opts' }, btns),
+    el: h('div', { class: 'auswahlwrap' }, head, h('div', { class: 'opts' + (bildOpts ? ' bildopts' : '') }, btns)),
     ready: () => sel >= 0,
     check: () => ({ ok: sel === p.richtig }),
     reveal() { btns.forEach((b, i) => { b.classList.remove('sel'); b.classList.toggle('good', i === p.richtig); }); },
     fill() { sel = p.richtig; upd(); },
     lock() { locked = true; btns.forEach(b => b.disabled = true); },
     wrong() { btns.forEach((b, i) => { if (i === sel) { b.classList.add('shake'); setTimeout(() => b.classList.remove('shake'), 500); } }); sel = -1; upd(); }
+  };
+};
+
+/* ---------- Paare: Bild und Wort verbinden (Tippen, Tippen) ---------- */
+PZ.paare = function (p, ctx) {
+  let cur = -1, locked = false; const done = new Set();
+  const L = p.links.map((o, i) => h('button', { class: 'pbild', type: 'button', onclick: () => pickL(i) }, h('img', { src: o.img, alt: '' })));
+  const Rr = p.rechts.map((w, j) => h('button', { class: 'pwort', type: 'button', onclick: () => pickR(j) }, w));
+  const rIdx = i => p.paare[i];
+  function upd() { L.forEach((b, i) => { b.classList.toggle('sel', i === cur); b.classList.toggle('good', done.has(i)); b.disabled = done.has(i) || locked; }); Rr.forEach((b, j) => { const d = [...done].some(i => rIdx(i) === j); b.classList.toggle('good', d); b.disabled = d || locked; }); }
+  function pickL(i) { if (locked || done.has(i)) return; cur = i; upd(); }
+  function pickR(j) {
+    if (locked || cur < 0) return;
+    if (rIdx(cur) === j) { done.add(cur); cur = -1; upd(); Voice.speak(p.rechts[j], null, 0.9); if (done.size === p.links.length) ctx.solved(); }
+    else { const b = Rr[j]; b.classList.add('shake'); setTimeout(() => b.classList.remove('shake'), 500); cur = -1; upd(); ctx.mistake(); }
+  }
+  return {
+    el: h('div', { class: 'paare' }, h('div', { class: 'pcol' }, L), h('div', { class: 'pcol' }, Rr)),
+    auto: true, ready: () => true, check: () => ({ ok: done.size === p.links.length }),
+    reveal() { p.links.forEach((_, i) => done.add(i)); cur = -1; upd(); },
+    fill() { p.links.forEach((_, i) => done.add(i)); upd(); },
+    lock() { locked = true; upd(); },
+    wrong() { }
+  };
+};
+
+/* ---------- Sortieren: Bilder antippen, dann den richtigen Korb antippen ---------- */
+PZ.sortieren = function (p, ctx) {
+  const place = p.items.map(() => -1); let cur = -1, locked = false;
+  const poolEl = h('div', { class: 'spool' });
+  const korbEls = p.koerbe.map((n, k) => h('button', { class: 'korb', type: 'button', onclick: () => drop(k) }, h('b', null, n), h('div', { class: 'kin' })));
+  function drop(k) { if (locked || cur < 0) return; place[cur] = k; cur = -1; draw(); ctx.changed(); }
+  function back(i) { if (locked) return; place[i] = -1; cur = -1; draw(); ctx.changed(); }
+  const tile = (it, i, inKorb) => h('button', { class: 'sitem' + (cur === i ? ' sel' : ''), type: 'button', onclick: e => { e.stopPropagation(); inKorb ? back(i) : (cur = cur === i ? -1 : i, draw()); } },
+    h('img', { src: it.img, alt: '' }), it.t ? h('span', null, it.t) : null);
+  function draw() {
+    poolEl.replaceChildren(...p.items.map((it, i) => place[i] < 0 ? tile(it, i, false) : null).filter(Boolean));
+    korbEls.forEach((b, k) => b.querySelector('.kin').replaceChildren(...p.items.map((it, i) => place[i] === k ? tile(it, i, true) : null).filter(Boolean)));
+    korbEls.forEach(b => b.classList.toggle('bereit', cur >= 0));
+  }
+  draw();
+  return {
+    el: h('div', { class: 'sortieren' }, h('p', { class: 'small' }, 'Tippe ein Bild an. Tippe dann den passenden Korb an.'), poolEl, h('div', { class: 'koerbe' }, korbEls)),
+    ready: () => place.every(x => x >= 0),
+    check: () => ({ ok: place.every((x, i) => x === p.loesung[i]) }),
+    reveal() { p.loesung.forEach((k, i) => place[i] = k); cur = -1; draw(); korbEls.forEach(b => b.classList.add('good')); },
+    fill() { p.loesung.forEach((k, i) => place[i] = k); cur = -1; draw(); },
+    lock() { locked = true; },
+    wrong() { p.items.forEach((_, i) => { if (place[i] !== p.loesung[i]) place[i] = -1; }); cur = -1; draw(); }
   };
 };
 

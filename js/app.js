@@ -19,7 +19,7 @@ async function J(path) {
   if (!r.ok) throw new Error('Datei fehlt: ' + path);
   const j = await r.json(); S.cache[path] = j; return j;
 }
-const bpath = id => `content/deutsch/${id}/`;
+const bpath = id => `content/${id[0] === 'l' ? 'lern' : 'deutsch'}/${id}/`;
 async function Bz(id) { const j = await J(bpath(id) + 'baustein.json'); return j; }
 
 /* ---------- Darstellung ---------- */
@@ -30,12 +30,17 @@ function fachVars(f) {
 }
 function setBg(name) {
   S.bgName = name || S.bgName;
-  const n = S.bgName;
+  const n = S.bgName, fr = document.getElementById('frame');
+  const m = /^([dl]\d)-/.exec(n || '');
   const portrait = innerHeight > innerWidth;
-  const url = n === 'start' ? 'assets/bg/start.webp' : `assets/bg/${n}-${portrait ? 'p' : 'l'}.webp`;
-  $bg.style.backgroundImage = `url(${url})`;
+  if (m && fr) {
+    fr.classList.add('themed'); document.body.dataset.theme = m[1];
+    fr.style.setProperty('--framebg', m[1][0] === 'l' ? 'linear-gradient(#f1f8f5,#e4f1ec)' : `url("${new URL(`assets/bg/${n}-${portrait ? 'p' : 'l'}.webp`, document.baseURI).href}")`);
+  } else if (fr) {
+    fr.classList.remove('themed'); delete document.body.dataset.theme; fr.style.removeProperty('--framebg');
+  }
 }
-addEventListener('resize', () => setBg());
+addEventListener('resize', () => { setBg(); if (window.__drawSpur) window.__drawSpur(); });
 function applySettings() {
   const e = (S.P && S.P.einst) || { schrift: 1, zeilen: 0, ruhig: false };
   const r = document.documentElement.style;
@@ -45,9 +50,16 @@ function applySettings() {
 }
 function save() { if (S.P) Store.save(S.P); }
 function go(screen, params) {
-  Voice.stop(); S.screen = screen; S.params = params || {}; render(); window.scrollTo(0, 0);
+  Voice.stop(); S.screen = screen; S.params = params || {}; render(); window.scrollTo(0, 0); { const f = document.getElementById("frame"); if (f) f.scrollTop = 0; }
+}
+function updateHead() {
+  const hr = document.getElementById('hr');
+  if (hr && !hr.firstChild) hr.appendChild(logoBtn());
+  const hm = document.getElementById('hm');
+  if (hm) hm.textContent = S.P && S.P.name ? `Willkommen, ${S.P.name}!` : 'Willkommen!';
 }
 async function render() {
+  updateHead();
   const tok = ++S.tok;
   try {
     const fn = SCREENS[S.screen];
@@ -98,8 +110,7 @@ function topbar(opts) {
     opts.noStufe ? null : stufeSeg(opts.readonlyStufe),
     h('span', { class: 'spacer' }),
     punktePill(),
-    opts.noSettings ? null : h('button', { class: 'iconbtn', type: 'button', onclick: () => go('einst'), 'aria-label': 'Einstellungen' }, '⚙️'),
-    opts.back ? null : logoBtn());
+    opts.noSettings ? null : h('button', { class: 'iconbtn', type: 'button', onclick: () => go('einst'), 'aria-label': 'Einstellungen' }, '⚙️'));
 }
 function progressToNext() {
   const nx = Punkte.naechste(S.P);
@@ -153,7 +164,7 @@ SCREENS.name = function () {
     if (!S.P.anleitung) { go('start'); anleitung(true); } else go('start');
   };
   inp.addEventListener('keydown', e => { if (e.key === 'Enter') go1(); });
-  return h('div', { class: 'namebox' }, h('div', { class: 'toplogo' }, logoBtn()), h('div', { class: 'card plain' },
+  return h('div', { class: 'namebox' }, h('div', { class: 'card plain' },
     h('h1', null, 'Willkommen bei SOUL Plus'),
     h('p', null, 'Zusatzbausteine für alle, die schon fertig sind. Wie heißt du?'),
     inp, msg,
@@ -174,7 +185,7 @@ SCREENS.start = async function () {
   });
   const z = S.P.zuletzt;
   return [topbar(),
-  h('div', { class: 'hero' }, h('h1', null, `Hallo, ${S.P.name}!`), h('p', null, 'Such dir ein Fach aus. Alle Bausteine sind sofort frei, die Reihenfolge ist egal.')),
+  h('div', { class: 'hero' }, h('h1', null, `Hallo, ${S.P.name}!`), h('p', null, 'Such dir ein Fach aus und beginne dein Rätselabenteuer.')),
   progressToNext(),
   z ? h('div', { class: 'btnrow' }, h('button', { class: 'btn big', onclick: () => openKapitel(z.b, z.k) }, '▶ Weitermachen')) : null,
   h('div', { class: 'tiles' }, tiles),
@@ -189,7 +200,7 @@ SCREENS.fach = async function () {
   const fa = await J('content/faecher.json');
   const ids = ((fa[k] && fa[k].bausteine) || []).filter(id => !Admin.data.ausgeblendet.includes(id));
   const out = [topbar({ back: () => go('start') }), h('div', { class: 'hero' }, h('h1', null, f.name))];
-  if (k === 'lern') {
+  if (k === 'lern' && !ids.length) {
     out.push(h('div', { class: 'card plain' }, h('h2', null, 'Lernwerkstatt'),
       h('p', null, 'Hier entstehen Bausteine mit einfacheren Aufgaben und vielen Bildern, für Kinder im I-Bereich. Sie laufen im selben Konto, deine Punkte zählen mit.'),
       h('p', { class: 'small' }, 'Die Inhalte folgen, sobald Deutsch geprüft ist.')));
@@ -213,29 +224,49 @@ SCREENS.baustein = async function () {
   const b = await Bz(S.params.b);
   S.lastB = b.kurz; setBg(b.kurz + '-haupt'); fachVars(b.fach);
   const nextK = (() => { for (const c of b.kapitel) if (!S.P.kapDone[b.id + '/' + c.nr]) return c.nr; return 0; })();
-  const kaps = b.kapitel.map(c => {
+  const kaps = b.kapitel.map((c, i) => {
     const done = !!S.P.kapDone[b.id + '/' + c.nr], locked = c.nr > 1 && !S.P.kapDone[b.id + '/' + (c.nr - 1)];
+    const cls = 'stat ' + (i % 2 ? 'r' : 'l') + (locked ? ' locked' : '') + (done ? ' done' : '') + (c.nr === nextK ? ' next' : '');
     return h('button', {
-      class: 'kap' + (locked ? ' locked' : ''), type: 'button',
+      class: cls, type: 'button',
       onclick: () => locked ? toast(`Schließe zuerst Kapitel ${c.nr - 1} ab, die Geschichte geht dort weiter.`) : openKapitel(b.id, c.nr)
     },
-      h('div', { class: 'ki' }, img(c.bild, '', '', h('span', null, c.nr))),
-      h('div', null, h('h3', null, `Kapitel ${c.nr}: ${c.titel}`), h('p', null, c.teaser)),
-      h('span', { class: 'st' }, done ? '✅' : locked ? '🔒' : c.nr === nextK ? '▶️' : ''));
+      h('div', { class: 'node' }, img(c.bild, '', '', h('span', null, c.nr)),
+        h('i', { class: 'nr' }, c.nr), h('span', { class: 'st' }, done ? '✅' : locked ? '🔒' : c.nr === nextK ? '▶️' : '')),
+      h('div', { class: 'slab' }, h('h3', null, `Kapitel ${c.nr}: ${c.titel}`), h('p', null, c.teaser)));
   });
-  const team = Object.values(b.figuren).map(f => h('div', { class: 'pill', style: { background: 'rgba(255,255,255,.94)', fontWeight: 400, padding: '6px 12px 6px 6px' } },
-    f.img ? img(f.img, '', 'avatar sm') : null, h('span', null, h('b', null, f.name), ' ', h('small', { class: 'small' }, f.rolle))));
-  return [topbar({ back: () => go('fach', { fach: b.fach }) }),
+  const svgEl = document.createElementNS('http://www.w3.org/2000/svg', 'svg'); svgEl.setAttribute('class', 'spursvg'); svgEl.setAttribute('aria-hidden', 'true');
+  const spur = h('div', { class: 'spur' }, svgEl, kaps);
+  const drawSpur = () => {
+    const sv = svgEl; if (!spur.isConnected) return;
+    const R = spur.getBoundingClientRect(), pts = [...spur.querySelectorAll('.node')].map(n => { const r = n.getBoundingClientRect(); return [r.left - R.left + r.width / 2, r.top - R.top + r.height / 2]; });
+    if (pts.length < 2) return;
+    sv.setAttribute('viewBox', `0 0 ${R.width} ${R.height}`); sv.setAttribute('width', R.width); sv.setAttribute('height', R.height);
+    let all = '', doneD = '';
+    const stats = [...spur.querySelectorAll('.stat')];
+    for (let i = 0; i < pts.length - 1; i++) {
+      const [x1, y1] = pts[i], [x2, y2] = pts[i + 1], my = (y1 + y2) / 2;
+      const seg = `M${x1} ${y1} C${x1} ${my}, ${x2} ${my}, ${x2} ${y2} `;
+      all += seg; if (stats[i].classList.contains('done')) doneD += seg;
+    }
+    sv.innerHTML = `<path d="${all}" class="trail"/><path d="${doneD}" class="trail got"/>`;
+  };
+  setTimeout(drawSpur, 0); setTimeout(drawSpur, 400);
+  window.__drawSpur = drawSpur;
+  const team = Object.values(b.figuren).map(f => h('div', { class: 'pcard' },
+    f.img ? img(f.img, '', 'avatar lg') : h('div', { class: 'avatar lg ph' }, f.name.replace(/^(Frau|Herr|Opa|Hausmeister)\s+/, '').charAt(0)),
+    h('div', null, h('b', null, f.name), h('small', null, f.rolle))));
+  return [topbar({ back: () => go('fach', { fach: b.fach }), noStufe: b.fach === 'lern' }),
   h('div', { class: 'hero' }, h('h1', null, b.titel), h('p', null, b.untertitel)),
-  h('div', { class: 'card', style: { marginBottom: '16px' } }, h('p', { style: { margin: 0 } }, b.einleitung), h('div', { style: { display: 'flex', flexWrap: 'wrap', gap: '8px', marginTop: '10px' } }, team)),
-  h('div', { class: 'kaps' }, kaps)];
+  h('div', { class: 'card glass', style: { marginBottom: '16px' } }, h('p', { style: { margin: 0 } }, b.einleitung), h('div', { class: 'team' }, team)),
+  spur];
 };
 
 /* ---------- Kapitel starten ---------- */
 const key = (b, k, st, i) => `${b}/${k}/${st}/${i}`;
 async function openKapitel(bid, k) {
   try {
-    const bz = await Bz(bid), st = S.P.stufe;
+    const bz = await Bz(bid), st = bz.fach === 'lern' ? 'leicht' : S.P.stufe;
     const data = await J(`${bpath(bid)}kap${k}-${st}.json`);
     const unsolved = data.raetsel.findIndex((_, i) => !S.P.solved[key(bid, k, st, i)]);
     S.lastB = bz.kurz;
@@ -251,7 +282,7 @@ SCREENS.raetsel = function () {
   const { bz, data } = R, kap = bz.kapitel[R.k - 1];
   setBg(bz.kurz + '-raetsel'); fachVars(bz.fach);
   const e = S.P.einst;
-  R.mat = Material(data.material, bz.figuren, [0.75, 0.9, 1.1][e.tempo] || 0.9, e.vorlesen !== false);
+  R.mat = Material(data.material, bz.figuren, [0.75, 0.9, 1.1][e.tempo] || 0.9, e.vorlesen !== false && R.stufe === 'leicht');
   const dots = h('div', { class: 'dots' });
   const puzzleBox = h('div', { class: 'card' });
   const tierWrap = h('div', { class: 'tier' });
@@ -280,7 +311,7 @@ SCREENS.raetsel = function () {
         if (R.hints >= 2 && p.hilfe2) body.push(h('p', null, '💡 ' + p.hilfe2));
         const more = R.hints < maxH && (R.hints === 0 || p.hilfe2);
         if (more) body.push(h('button', { class: 'btn', type: 'button', onclick: useHint }, R.hints === 0 ? 'Tipp holen' : 'Noch ein Tipp'),
-          h('div', { class: 'cost' }, `Jeder Tipp kostet ${Cfg.punkte.hilfeAbzug} Punkte.`));
+          bz.keinAbzug ? null : h('div', { class: 'cost' }, `Jeder Tipp kostet ${Cfg.punkte.hilfeAbzug} Punkte.`));
       }
       kids.push(h('div', { class: 'bubble' }, h('button', { class: 'x', type: 'button', 'aria-label': 'Schließen', onclick: () => { R.bubbleOpen = false; R.bubbleText = ''; drawTier(); } }, '×'), body));
     }
@@ -315,17 +346,17 @@ SCREENS.raetsel = function () {
     function mistake(msg) {
       if (over) return true;
       R.mist++; ctx.tries = R.mist + 1;
-      if (R.mist >= 3) {
+      if (R.mist >= (bz.maxFehler || 3)) {
         ui.reveal(); ui.lock(); over = true; finish(false, true); return true;
       }
-      fb.replaceChildren(h('div', { class: 'fb no' }, (msg || 'Das passt noch nicht. Schau noch einmal genau hin.') + ` (Noch ${3 - R.mist} ${3 - R.mist === 1 ? 'Versuch' : 'Versuche'})`));
+      fb.replaceChildren(h('div', { class: 'fb no' }, (msg || 'Das passt noch nicht. Schau noch einmal genau hin.') + ` (Noch ${(bz.maxFehler || 3) - R.mist} ${(bz.maxFehler || 3) - R.mist === 1 ? 'Versuch' : 'Versuche'})`));
       if (ui.wrong) ui.wrong();
       if (checkBtn) checkBtn.disabled = !ui.ready();
       return false;
     }
     function finish(correct, revealed) {
       over = true; R.solvedNow = true; R.bubbleOpen = false; R.bubbleText = '';
-      let pts = revealed ? 0 : Punkte.wert(R.mist, R.hints);
+      let pts = revealed ? 0 : Punkte.wert(R.mist, bz.keinAbzug ? 0 : R.hints);
       const first = !S.P.solved[k];
       if (!first || R.replay) pts = 0;
       if (first && !R.replay) {
@@ -378,7 +409,7 @@ SCREENS.raetsel = function () {
     h('div', { class: 'topbar' }, h('button', { class: 'back', type: 'button', onclick: () => go('baustein', { b: R.b }) }, '← Kapitel'),
       h('div', { class: 'seg ro' }, h('button', { class: 'on', type: 'button' }, R.stufe)), h('span', { class: 'spacer' }), punktePill()),
     h('div', { class: 'rhead' }, h('h2', null, `Kapitel ${R.k}: ${kap.titel}`), dots),
-    h('div', { class: 'rlayout' }, matCard, puzzleBox),
+    h('div', { class: 'rlayout' + ((data.material || []).length ? '' : ' solo') }, (data.material || []).length ? matCard : null, puzzleBox),
     tierWrap];
 };
 
