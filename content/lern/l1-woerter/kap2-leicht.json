@@ -1,0 +1,143 @@
+{
+ "kap": 2,
+ "stufe": "leicht",
+ "titel": "Essen und Trinken",
+ "auftrag": "",
+ "woerter": 0,
+ "material": [],
+ "raetsel": [
+  {
+   "typ": "auswahl",
+   "rtyp": "Wort und Bild",
+   "frage": "Welches Bild passt zum Wort?",
+   "wort": "Käse",
+   "sprich": "Käse",
+   "optionen": [
+    {
+     "img": "assets/lern/kaese.webp"
+    },
+    {
+     "img": "assets/lern/hase.webp"
+    },
+    {
+     "img": "assets/lern/stift.webp"
+    }
+   ],
+   "richtig": 0,
+   "hilfe1": "Tippe auf den Lautsprecher. Dann hörst du das Wort.",
+   "hilfe2": "Das Wort fängt mit „K“ an.",
+   "hl": [],
+   "spur": false
+  },
+  {
+   "typ": "auswahl",
+   "rtyp": "Bild und Wort",
+   "frage": "Welches Wort passt zum Bild?",
+   "bild": "assets/lern/eis.webp",
+   "optionen": [
+    "Vogel",
+    "Uhr",
+    "Eis"
+   ],
+   "richtig": 2,
+   "sprichOpt": true,
+   "hilfe1": "Tippe auf ein Wort. Dann hörst du es.",
+   "hilfe2": "Das Wort fängt mit „E“ an.",
+   "hl": [],
+   "spur": false
+  },
+  {
+   "typ": "auswahl",
+   "rtyp": "Anfangsbuchstabe",
+   "frage": "Mit welchem Buchstaben fängt das Wort an?",
+   "bild": "assets/lern/milch.webp",
+   "sprich": "Milch",
+   "optionen": [
+    "D",
+    "M",
+    "W"
+   ],
+   "richtig": 1,
+   "hilfe1": "Tippe auf den Lautsprecher. Sprich das Wort langsam nach.",
+   "hilfe2": "Du hörst am Anfang: M.",
+   "hl": [],
+   "spur": false
+  },
+  {
+   "typ": "paare",
+   "rtyp": "Bild und Wort verbinden",
+   "frage": "Verbinde jedes Bild mit dem richtigen Wort. Tippe erst das Bild, dann das Wort.",
+   "links": [
+    {
+     "img": "assets/lern/ei.webp"
+    },
+    {
+     "img": "assets/lern/brot.webp"
+    },
+    {
+     "img": "assets/lern/apfel.webp"
+    },
+    {
+     "img": "assets/lern/milch.webp"
+    }
+   ],
+   "rechts": [
+    "Apfel",
+    "Milch",
+    "Brot",
+    "Ei"
+   ],
+   "paare": [
+    3,
+    2,
+    0,
+    1
+   ],
+   "hilfe1": "Fang mit dem Bild an, das du am besten kennst.",
+   "hilfe2": "Wenn ein Wort nicht passt, bleibt das Bild stehen. Versuche ein anderes Wort.",
+   "hl": [],
+   "spur": false
+  },
+  {
+   "typ": "sortieren",
+   "rtyp": "Klatschen und sortieren",
+   "frage": "Sprich das Wort und klatsche mit. Wie oft klatschst du? Sortiere die Bilder.",
+   "koerbe": [
+    "1 Klatscher",
+    "mehr Klatscher"
+   ],
+   "items": [
+    {
+     "img": "assets/lern/banane.webp"
+    },
+    {
+     "img": "assets/lern/milch.webp"
+    },
+    {
+     "img": "assets/lern/apfel.webp"
+    },
+    {
+     "img": "assets/lern/tomate.webp"
+    },
+    {
+     "img": "assets/lern/ei.webp"
+    },
+    {
+     "img": "assets/lern/brot.webp"
+    }
+   ],
+   "loesung": [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   "hilfe1": "Ball hat einen Klatscher. Ku-chen hat zwei Klatscher.",
+   "hilfe2": "Sprich das Wort langsam: Ba-na-ne. Wie oft klatschst du?",
+   "hl": [],
+   "spur": false
+  }
+ ]
+}

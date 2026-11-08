@@ -1,0 +1,143 @@
+{
+ "kap": 3,
+ "stufe": "leicht",
+ "titel": "Im Klassenzimmer",
+ "auftrag": "",
+ "woerter": 0,
+ "material": [],
+ "raetsel": [
+  {
+   "typ": "auswahl",
+   "rtyp": "Bild und Wort",
+   "frage": "Welches Wort passt zum Bild?",
+   "bild": "assets/lern/schere.webp",
+   "optionen": [
+    "Schere",
+    "Ei",
+    "Schuh"
+   ],
+   "richtig": 0,
+   "sprichOpt": true,
+   "hilfe1": "Tippe auf ein Wort. Dann hörst du es.",
+   "hilfe2": "Das Wort fängt mit „S“ an.",
+   "hl": [],
+   "spur": false
+  },
+  {
+   "typ": "auswahl",
+   "rtyp": "Anfangsbuchstabe",
+   "frage": "Mit welchem Buchstaben fängt das Wort an?",
+   "bild": "assets/lern/stift.webp",
+   "sprich": "Stift",
+   "optionen": [
+    "M",
+    "K",
+    "S"
+   ],
+   "richtig": 2,
+   "hilfe1": "Tippe auf den Lautsprecher. Sprich das Wort langsam nach.",
+   "hilfe2": "Du hörst am Anfang: S.",
+   "hl": [],
+   "spur": false
+  },
+  {
+   "typ": "auswahl",
+   "rtyp": "Wort und Bild",
+   "frage": "Welches Bild passt zum Wort?",
+   "wort": "Heft",
+   "sprich": "Heft",
+   "optionen": [
+    {
+     "img": "assets/lern/heft.webp"
+    },
+    {
+     "img": "assets/lern/tasse.webp"
+    },
+    {
+     "img": "assets/lern/brot.webp"
+    }
+   ],
+   "richtig": 0,
+   "hilfe1": "Tippe auf den Lautsprecher. Dann hörst du das Wort.",
+   "hilfe2": "Das Wort fängt mit „H“ an.",
+   "hl": [],
+   "spur": false
+  },
+  {
+   "typ": "paare",
+   "rtyp": "Bild und Wort verbinden",
+   "frage": "Verbinde jedes Bild mit dem richtigen Wort. Tippe erst das Bild, dann das Wort.",
+   "links": [
+    {
+     "img": "assets/lern/stift.webp"
+    },
+    {
+     "img": "assets/lern/tafel.webp"
+    },
+    {
+     "img": "assets/lern/rucksack.webp"
+    },
+    {
+     "img": "assets/lern/buch.webp"
+    }
+   ],
+   "rechts": [
+    "Tafel",
+    "Buch",
+    "Stift",
+    "Rucksack"
+   ],
+   "paare": [
+    2,
+    0,
+    3,
+    1
+   ],
+   "hilfe1": "Fang mit dem Bild an, das du am besten kennst.",
+   "hilfe2": "Wenn ein Wort nicht passt, bleibt das Bild stehen. Versuche ein anderes Wort.",
+   "hl": [],
+   "spur": false
+  },
+  {
+   "typ": "sortieren",
+   "rtyp": "Klatschen und sortieren",
+   "frage": "Sprich das Wort und klatsche mit. Wie oft klatschst du? Sortiere die Bilder.",
+   "koerbe": [
+    "1 Klatscher",
+    "mehr Klatscher"
+   ],
+   "items": [
+    {
+     "img": "assets/lern/rucksack.webp"
+    },
+    {
+     "img": "assets/lern/schere.webp"
+    },
+    {
+     "img": "assets/lern/stift.webp"
+    },
+    {
+     "img": "assets/lern/tisch.webp"
+    },
+    {
+     "img": "assets/lern/buch.webp"
+    },
+    {
+     "img": "assets/lern/tafel.webp"
+    }
+   ],
+   "loesung": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "hilfe1": "Ball hat einen Klatscher. Ku-chen hat zwei Klatscher.",
+   "hilfe2": "Sprich das Wort langsam: Ba-na-ne. Wie oft klatschst du?",
+   "hl": [],
+   "spur": false
+  }
+ ]
+}

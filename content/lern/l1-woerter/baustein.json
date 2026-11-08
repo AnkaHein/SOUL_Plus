@@ -1,0 +1,62 @@
+{
+ "id": "l1-woerter",
+ "kurz": "l1",
+ "fach": "lern",
+ "titel": "Wörter und Bilder",
+ "untertitel": "Vier Runden zum Üben",
+ "kachel": "assets/kachel/lern.webp",
+ "maxFehler": 2,
+ "keinAbzug": true,
+ "einleitung": "Hier übst du Wörter mit Bildern. Tippe auf den Lautsprecher, dann hörst du das Wort. Du kannst nichts falsch machen: Wenn etwas nicht passt, probierst du es einfach noch einmal.",
+ "figuren": {},
+ "hilfe": {
+  "name": "Schraubi",
+  "img": "assets/hilfe/schraubi.webp",
+  "emoji": "🤖",
+  "jubel": [
+   "Klasse gemacht!",
+   "Super!",
+   "Das hast du toll gelöst.",
+   "Weiter so!",
+   "Prima, das war richtig."
+  ]
+ },
+ "kapitel": [
+  {
+   "nr": 1,
+   "titel": "Tiere",
+   "teaser": "Hund, Katze, Pferd und mehr. Hör gut zu!",
+   "begruessung": "Hallo! Ich bin Schraubi. Tippe auf mich, wenn du Hilfe brauchst.",
+   "ende": "Alle Tiere gefunden. Prima!",
+   "bild": "assets/lern/hund.webp"
+  },
+  {
+   "nr": 2,
+   "titel": "Essen und Trinken",
+   "teaser": "Äpfel, Brot und Eis. Was passt zusammen?",
+   "begruessung": "Super, weiter geht es! Tippe auf den Lautsprecher, dann hörst du das Wort.",
+   "ende": "Das war lecker. Gut gemacht!",
+   "bild": "assets/lern/apfel.webp"
+  },
+  {
+   "nr": 3,
+   "titel": "Im Klassenzimmer",
+   "teaser": "Stift, Buch und Tafel. Du kennst sie alle.",
+   "begruessung": "Du bist schon richtig gut. Weiter so!",
+   "ende": "Du kennst dich im Klassenzimmer aus.",
+   "bild": "assets/lern/stift.webp"
+  },
+  {
+   "nr": 4,
+   "titel": "Zuhause",
+   "teaser": "Bett, Lampe und Tasse. Was gibt es bei dir zu Hause?",
+   "begruessung": "Die letzte Runde. Du schaffst das!",
+   "ende": "Geschafft! Du bist ein Wörter-Profi.",
+   "bild": "assets/lern/lampe.webp"
+  }
+ ],
+ "abschluss": {
+  "titel": "Alle Runden geschafft!",
+  "text": "Du kennst jetzt viele Wörter ganz genau. Schraubi ist stolz auf dich."
+ }
+}
