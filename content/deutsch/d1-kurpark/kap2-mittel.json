@@ -84,20 +84,20 @@
    ],
    "aussagen": [
     {
-     "text": "Ich habe die Kasse gezählt und dabei einen Lieferwagen gesehen.",
-     "richtig": 1
+     "text": "Der Park kostet zu viel Geld.",
+     "richtig": 2
     },
     {
-     "text": "Ich wollte alte Pläne mit dem Weg von heute vergleichen.",
-     "richtig": 3
+     "text": "Ich habe die Kasse gezählt und dabei einen Lieferwagen gesehen.",
+     "richtig": 1
     },
     {
      "text": "Ein Mann hat eine Tafel zum Tor getragen.",
      "richtig": 0
     },
     {
-     "text": "Der Park kostet zu viel Geld.",
-     "richtig": 2
+     "text": "Ich wollte alte Pläne mit dem Weg von heute vergleichen.",
+     "richtig": 3
     }
    ],
    "hilfe1": "Die Aussagen sind mit anderen Worten wiedergegeben. Suche den passenden Inhalt.",

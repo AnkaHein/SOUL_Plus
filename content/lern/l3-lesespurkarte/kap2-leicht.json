@@ -1,0 +1,204 @@
+{
+ "kap": 2,
+ "stufe": "leicht",
+ "titel": "Jonas auf dem Bauernhof",
+ "auftrag": "",
+ "woerter": 0,
+ "material": [],
+ "raetsel": [
+  {
+   "typ": "lesespur",
+   "rtyp": "Lesespur",
+   "frage": "Lies den Abschnitt. Suche dann den Ort auf der Karte und tippe ihn an.",
+   "karte": "assets/lesespur/hof.webp",
+   "nrImBild": false,
+   "orte": [
+    {
+     "nr": 1,
+     "x": 0.01,
+     "y": 0.01,
+     "w": 0.22,
+     "h": 0.26,
+     "name": "Bauernhaus",
+     "text": [
+      "Das ist das Bauernhaus. Jonas ist bei Oma und Opa auf dem Hof.",
+      "Es ist früh am Morgen. Die Tiere haben Hunger. Zuerst holt Jonas Eier."
+     ],
+     "suche": "Suche den Hühnerstall.",
+     "next": 1
+    },
+    {
+     "nr": 5,
+     "x": 0.26,
+     "y": 0.01,
+     "w": 0.22,
+     "h": 0.26,
+     "name": "Hühnerstall",
+     "text": [
+      "Das ist der Hühnerstall. Die Hühner gackern laut.",
+      "Jonas findet fünf Eier im Nest. Er legt sie in den Korb. Dann braucht er frische Milch."
+     ],
+     "suche": "Suche den Kuhstall.",
+     "next": 2
+    },
+    {
+     "nr": 6,
+     "x": 0.51,
+     "y": 0.01,
+     "w": 0.23,
+     "h": 0.26,
+     "name": "Kuhstall",
+     "text": [
+      "Das ist der Kuhstall. Die Kuh ist schwarz und weiß.",
+      "Opa melkt sie. Die Milch ist noch warm. Danach sind die Schafe dran."
+     ],
+     "suche": "Suche die Schafweide.",
+     "next": 3
+    },
+    {
+     "nr": 11,
+     "x": 0.76,
+     "y": 0.01,
+     "w": 0.23,
+     "h": 0.26,
+     "name": "Schafweide",
+     "text": [
+      "Das ist die Schafweide. Zwei Schafe fressen Gras.",
+      "Ihre Wolle ist weich. Jonas streichelt sie. Auf der Nachbarwiese steht ein Pferd."
+     ],
+     "suche": "Suche die Pferdekoppel.",
+     "next": 6
+    },
+    {
+     "nr": 10,
+     "x": 0.03,
+     "y": 0.28,
+     "w": 0.27,
+     "h": 0.24,
+     "name": "Traktor",
+     "falsch": [
+      "Hier ist der Traktor. Er steht auf dem Feld.",
+      "Heute braucht Jonas keinen Traktor."
+     ]
+    },
+    {
+     "nr": 3,
+     "x": 0.34,
+     "y": 0.28,
+     "w": 0.28,
+     "h": 0.24,
+     "name": "Gemüsegarten",
+     "text": [
+      "Das ist der Gemüsegarten. Die Tomaten sind rot und reif.",
+      "Jonas pflückt viele. Auch Salat und Karotten wachsen hier. Alles kommt in den Korb."
+     ],
+     "suche": "Suche den Hofladen.",
+     "next": 8
+    },
+    {
+     "nr": 2,
+     "x": 0.66,
+     "y": 0.28,
+     "w": 0.28,
+     "h": 0.24,
+     "name": "Pferdekoppel",
+     "text": [
+      "Das ist die Pferdekoppel. Das Pferd ist braun und wiehert leise.",
+      "Jonas gibt ihm einen Apfel. Dann holt er Heu für die Hasen."
+     ],
+     "suche": "Suche die Scheune.",
+     "next": 7
+    },
+    {
+     "nr": 12,
+     "x": 0.03,
+     "y": 0.53,
+     "w": 0.27,
+     "h": 0.24,
+     "name": "Scheune",
+     "text": [
+      "Das ist die Scheune. Hier liegen viele Heuballen.",
+      "Jonas nimmt ein Bündel Heu. Es kitzelt an den Armen. Das Heu ist für die Hasen."
+     ],
+     "suche": "Suche den Hasenstall.",
+     "next": 10
+    },
+    {
+     "nr": 4,
+     "x": 0.34,
+     "y": 0.53,
+     "w": 0.28,
+     "h": 0.24,
+     "name": "Hofladen",
+     "text": [
+      "Das ist der Hofladen. Hier gibt es Milch, Käse und Eier.",
+      "Jonas stellt die Tomaten ins Regal. Oma lobt ihn."
+     ],
+     "ende": [
+      "Der Morgen ist geschafft. Jonas ist stolz.",
+      "Geschafft! Du hast die ganze Lesespur gefunden."
+     ]
+    },
+    {
+     "nr": 8,
+     "x": 0.66,
+     "y": 0.53,
+     "w": 0.28,
+     "h": 0.24,
+     "name": "Teich",
+     "falsch": [
+      "Hier ist der Teich. Die Fische schwimmen im Wasser.",
+      "Jonas muss heute keine Fische füttern."
+     ]
+    },
+    {
+     "nr": 13,
+     "x": 0.03,
+     "y": 0.78,
+     "w": 0.27,
+     "h": 0.21,
+     "name": "Hasenstall",
+     "text": [
+      "Das ist der Hasenstall. Zwei Hasen sitzen im Stroh.",
+      "Jonas legt das Heu hinein. Die Hasen fressen sofort. Jetzt braucht Oma Tomaten für den Laden."
+     ],
+     "suche": "Suche den Gemüsegarten.",
+     "next": 5
+    },
+    {
+     "nr": 9,
+     "x": 0.34,
+     "y": 0.78,
+     "w": 0.28,
+     "h": 0.21,
+     "name": "Supermarkt",
+     "falsch": [
+      "Hier ist der Supermarkt. Man kann dort Brot und Milch kaufen.",
+      "Auf dem Hof gibt es alles selbst. Jonas braucht ihn nicht."
+     ]
+    },
+    {
+     "nr": 7,
+     "x": 0.66,
+     "y": 0.78,
+     "w": 0.28,
+     "h": 0.21,
+     "name": "Hundehütte",
+     "falsch": [
+      "Hier ist die Hundehütte. Der Hund schläft.",
+      "Er hat schon gefressen."
+     ]
+    }
+   ],
+   "start": 0,
+   "falsch": [
+    "Hier ist es falsch.",
+    "Geh zurück zu deiner letzten richtigen Nummer."
+   ],
+   "hilfe1": "Lies die letzte Zeile noch einmal. Dort steht, was du suchst.",
+   "hilfe2": "Schau dir die Bilder auf der Karte genau an.",
+   "hl": [],
+   "spur": false
+  }
+ ]
+}

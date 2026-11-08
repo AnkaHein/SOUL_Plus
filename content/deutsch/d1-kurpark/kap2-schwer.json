@@ -90,10 +90,6 @@
      "richtig": 1
     },
     {
-     "text": "Nach dem Abendessen kehrte ich in den Park zurück.",
-     "richtig": 0
-    },
-    {
      "text": "Wer den Park erhalten will, hängt nur an der Vergangenheit.",
      "richtig": 2
     },
@@ -104,6 +100,10 @@
     {
      "text": "Ein Fahrzeug fuhr ohne Licht auf dem Dach vorbei.",
      "richtig": 1
+    },
+    {
+     "text": "Nach dem Abendessen kehrte ich in den Park zurück.",
+     "richtig": 0
     }
    ],
    "hilfe1": "Die Aussagen sind mit anderen Worten umschrieben. Achte auf den Inhalt.",

@@ -282,7 +282,7 @@ SCREENS.raetsel = function () {
   const { bz, data } = R, kap = bz.kapitel[R.k - 1];
   setBg(bz.kurz + '-raetsel'); fachVars(bz.fach);
   const e = S.P.einst;
-  R.mat = Material(data.material, bz.figuren, [0.75, 0.9, 1.1][e.tempo] || 0.9, e.vorlesen !== false && R.stufe === 'leicht');
+  R.mat = Material(data.material, bz.figuren, [0.75, 0.9, 1.1][e.tempo] || 0.9, e.vorlesen !== false && R.stufe === 'leicht' && bz.fach !== 'lern');
   const dots = h('div', { class: 'dots' });
   const puzzleBox = h('div', { class: 'card' });
   const tierWrap = h('div', { class: 'tier' });
@@ -389,7 +389,7 @@ SCREENS.raetsel = function () {
     R.checkBtn = () => checkBtn;
     R.actions = actions;
     R.finishNow = finish;
-    if (!R.greeted && kap.begruessung) { R.greeted = true; R.bubbleText = kap.begruessung; R.bubbleOpen = true; }
+    if (!R.greeted && kap.begruessung) { R.greeted = true; R.bubbleText = kap.begruessung; R.bubbleOpen = p.typ !== 'lesespur'; }
     drawTier();
   }
 

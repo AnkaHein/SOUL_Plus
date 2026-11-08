@@ -143,19 +143,19 @@
    ],
    "aussagen": [
     {
-     "text": "Herr Kessler schrieb bis 23 Uhr Rechnungen.",
-     "richtig": 0
+     "text": "Frau Maiwald zeigt das Foto.",
+     "richtig": 1
     },
     {
-     "text": "Frau Wiesel vergleicht gerade die Uhrzeiten.",
-     "richtig": 1
+     "text": "Herr Kessler schrieb bis 23 Uhr Rechnungen.",
+     "richtig": 0
     },
     {
      "text": "Der Lieferwagen stand vor dem Tor.",
      "richtig": 0
     },
     {
-     "text": "Frau Maiwald zeigt das Foto.",
+     "text": "Frau Wiesel vergleicht gerade die Uhrzeiten.",
      "richtig": 1
     },
     {

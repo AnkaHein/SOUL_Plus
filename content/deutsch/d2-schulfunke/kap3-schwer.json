@@ -83,10 +83,6 @@
      "richtig": 2
     },
     {
-     "text": "Man darf die Chemikalien nicht unbeaufsichtigt lassen.",
-     "richtig": 0
-    },
-    {
      "text": "Meine Aufmerksamkeit galt dem Schlüsselbund eines Kollegen.",
      "richtig": 1
     },
@@ -97,6 +93,10 @@
     {
      "text": "Ich vermute, jemand kannte unseren Zeitplan.",
      "richtig": 2
+    },
+    {
+     "text": "Man darf die Chemikalien nicht unbeaufsichtigt lassen.",
+     "richtig": 0
     }
    ],
    "hilfe1": "Die Aussagen sind umschrieben. Suche den passenden Inhalt.",

@@ -13,8 +13,9 @@ function Material(cards, persons, tempo, vorlesenAn) {
   const el = h('div', { class: 'mat' });
   cards.forEach((c, ci) => {
     const body = h('div', { class: 'matbody' });
-    (c.saetze || []).forEach(par => {
+    (c.saetze || []).forEach((par, pi) => {
       const p = h('p');
+      if (c.art === 'brief' && pi === 0 && par.length === 1 && par[0].length < 45 && /\d{4}/.test(par[0])) p.className = 'ortdatum';
       par.forEach(s => {
         const sp = h('span', { class: 's', 'data-i': n }, s + ' ');
         const idx = n++;
@@ -82,7 +83,7 @@ PZ.paare = function (p, ctx) {
   function pickL(i) { if (locked || done.has(i)) return; cur = i; upd(); }
   function pickR(j) {
     if (locked || cur < 0) return;
-    if (rIdx(cur) === j) { done.add(cur); cur = -1; upd(); Voice.speak(p.rechts[j], null, 0.9); if (done.size === p.links.length) ctx.solved(); }
+    if (rIdx(cur) === j) { done.add(cur); cur = -1; upd(); if (done.size === p.links.length) ctx.solved(); }
     else { const b = Rr[j]; b.classList.add('shake'); setTimeout(() => b.classList.remove('shake'), 500); cur = -1; upd(); ctx.mistake(); }
   }
   return {
@@ -329,5 +330,57 @@ PZ.karte = function (p, ctx) {
     reveal() { gs.forEach((g, i) => { g.classList.remove('sel'); g.classList.toggle('good', p.orte[i].id === p.richtig); }); },
     fill() { sel = p.richtig; upd(); },
     lock() { locked = true; }, wrong() { sel = null; upd(); }
+  };
+};
+
+/* ---------- Lesespur: Abschnitt lesen, Ort auf der Karte antippen ---------- */
+PZ.lesespur = function (p, ctx) {
+  let cur = p.start, locked = false, msg = null, finished = false;
+  const visited = [p.start];
+  const nrOf = i => p.orte[i].nr;
+  const card = h('div', { class: 'lscard' });
+  const spurEl = h('div', { class: 'lsspur', 'aria-label': 'Meine Lesespur' });
+  const box = h('div', { class: 'lsmap' }, h('img', { class: 'lsimg', src: p.karte, alt: 'Karte' }));
+  const spots = p.orte.map((o, i) => {
+    const b = h('button', { class: 'lsspot', type: 'button', 'aria-label': o.name, onclick: () => tap(i),
+      style: { left: o.x * 100 + '%', top: o.y * 100 + '%', width: o.w * 100 + '%', height: o.h * 100 + '%' } },
+      p.nrImBild ? null : h('span', { class: 'lsnr' }, String(o.nr)));
+    box.append(b); return b;
+  });
+  function tap(i) {
+    if (locked || finished) return;
+    const c = p.orte[cur];
+    if (c.next === i) { cur = i; msg = null; visited.push(i); if (!p.orte[i].next && p.orte[i].ende) { finished = true; } draw(); if (finished) setTimeout(() => ctx.solved(), 900); }
+    else if (i === cur) { msg = null; draw(); }
+    else if (p.orte[i].falsch) { msg = { i, text: p.orte[i].falsch }; draw(); }
+    else { msg = { i, text: null }; draw(); }
+  }
+  function para(arr) { return arr.map(t => h('p', null, t)); }
+  function draw() {
+    const o = p.orte[cur];
+    const kids = [];
+    if (msg) {
+      const m = msg.text;
+      kids.push(h('div', { class: 'lsfalsch' },
+        h('div', { class: 'lsnum bad' }, p.nrImBild ? String(p.orte[msg.i].nr) : String(p.orte[msg.i].nr)),
+        ...(m ? para(m) : [h('p', null, 'Das ist nicht der richtige Ort.')]),
+        h('p', null, h('strong', null, m ? p.falsch[0] : 'Hier ist es falsch.')),
+        h('p', null, p.falsch[1]),
+        h('button', { class: 'lsback', type: 'button', onclick: () => { msg = null; draw(); } }, `Zurück zu Nr. ${nrOf(cur)}`)));
+    } else {
+      kids.push(h('div', { class: 'lsnum' }, String(o.nr)), ...para(o.text));
+      if (o.suche) kids.push(h('p', { class: 'lssuche' }, o.suche));
+      if (o.ende) kids.push(...para(o.ende).map(e => { e.classList.add('lsende'); return e; }));
+    }
+    card.replaceChildren(...kids);
+    spurEl.replaceChildren(h('span', { class: 'lsspurl' }, 'Meine Lesespur:'), ...visited.map(i => h('span', { class: 'lschip' }, String(nrOf(i)))));
+    spots.forEach((b, i) => { b.classList.toggle('lsgut', visited.includes(i) && i !== cur); b.classList.toggle('lsjetzt', i === cur); });
+  }
+  draw();
+  return {
+    el: h('div', { class: 'lesespur' }, h('div', { class: 'lscol' }, card, spurEl), box),
+    auto: true, ready: () => false, check: () => ({ ok: finished }),
+    reveal() { locked = true; }, fill() { finished = true; locked = true; },
+    lock() { locked = true; }, wrong() { }
   };
 };

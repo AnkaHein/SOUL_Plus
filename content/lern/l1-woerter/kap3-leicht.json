@@ -45,7 +45,6 @@
    "rtyp": "Wort und Bild",
    "frage": "Welches Bild passt zum Wort?",
    "wort": "Heft",
-   "sprich": "Heft",
    "optionen": [
     {
      "img": "assets/lern/heft.webp"

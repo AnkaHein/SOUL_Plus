@@ -28,7 +28,6 @@
    "rtyp": "Wort und Bild",
    "frage": "Welches Bild passt zum Wort?",
    "wort": "Schuh",
-   "sprich": "Schuh",
    "optionen": [
     {
      "img": "assets/lern/schuh.webp"

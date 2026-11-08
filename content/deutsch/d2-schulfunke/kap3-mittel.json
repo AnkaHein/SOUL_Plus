@@ -78,20 +78,20 @@
    ],
    "aussagen": [
     {
-     "text": "Ich darf die Chemikalien nicht allein lassen.",
-     "richtig": 0
+     "text": "Ich bin der Konkurrenz zuzurechnen, bedauere den Vorfall aber.",
+     "richtig": 3
     },
     {
-     "text": "Ich war mit meinen Schlüsseln beschäftigt.",
-     "richtig": 1
+     "text": "Ich darf die Chemikalien nicht allein lassen.",
+     "richtig": 0
     },
     {
      "text": "Nach meiner Rückkehr rief ich Mara an.",
      "richtig": 2
     },
     {
-     "text": "Ich bin der Konkurrenz zuzurechnen, bedauere den Vorfall aber.",
-     "richtig": 3
+     "text": "Ich war mit meinen Schlüsseln beschäftigt.",
+     "richtig": 1
     }
    ],
    "hilfe1": "Die Aussagen sind umschrieben. Suche den passenden Inhalt.",

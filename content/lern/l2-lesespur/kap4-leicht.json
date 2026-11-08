@@ -1,0 +1,93 @@
+{
+ "kap": 4,
+ "stufe": "leicht",
+ "titel": "Ein Abend zu Hause",
+ "auftrag": "Lies die Geschichte.",
+ "woerter": 32,
+ "material": [
+  {
+   "kopf": "Ein Abend zu Hause",
+   "art": "text",
+   "saetze": [
+    [
+     "Es ist Abend.",
+     "Jonas zieht die Jacke und die Schuhe aus.",
+     "Er trinkt Milch aus der Tasse.",
+     "Dann macht er die Lampe an und liest ein Buch.",
+     "Später geht er ins Bett."
+    ]
+   ]
+  }
+ ],
+ "raetsel": [
+  {
+   "typ": "auswahl",
+   "rtyp": "Frage zum Text",
+   "frage": "Was liest Jonas?",
+   "optionen": [
+    {
+     "img": "assets/lern/fenster.webp"
+    },
+    {
+     "img": "assets/lern/buch.webp"
+    },
+    {
+     "img": "assets/lern/fisch.webp"
+    }
+   ],
+   "richtig": 1,
+   "hilfe1": "Lies den vierten Satz.",
+   "hilfe2": "Er liest ein …",
+   "hl": [
+    3
+   ],
+   "spur": false
+  },
+  {
+   "typ": "markieren",
+   "rtyp": "Satz finden",
+   "frage": "Tippe den Satz an: Was trinkt Jonas?",
+   "richtig": [
+    2
+   ],
+   "hilfe1": "Suche das Wort „trinkt“.",
+   "hilfe2": "Es ist der dritte Satz.",
+   "hl": [
+    2
+   ],
+   "spur": false
+  },
+  {
+   "typ": "auswahl",
+   "rtyp": "Frage zum Text",
+   "frage": "Wohin geht Jonas später?",
+   "optionen": [
+    "ins Bett",
+    "auf den Mond",
+    "in die Tasse"
+   ],
+   "richtig": 0,
+   "hilfe1": "Lies den letzten Satz.",
+   "hilfe2": "Später geht er …",
+   "hl": [
+    4
+   ],
+   "spur": false
+  },
+  {
+   "typ": "reihenfolge",
+   "rtyp": "Reihenfolge",
+   "frage": "Bring die Sätze in die richtige Reihenfolge.",
+   "items": [
+    "Es ist Abend.",
+    "Er trinkt Milch aus der Tasse.",
+    "Später geht er ins Bett."
+   ],
+   "art": "satz",
+   "hilfe1": "Zuerst ist es Abend.",
+   "hilfe2": "Ganz am Ende geht Jonas ins Bett.",
+   "hl": [],
+   "spur": false
+  }
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "kap": 1,
+ "stufe": "leicht",
+ "titel": "Tom und Max",
+ "auftrag": "Lies die Geschichte.",
+ "woerter": 20,
+ "material": [
+  {
+   "kopf": "Tom und Max",
+   "art": "text",
+   "saetze": [
+    [
+     "Tom hat einen Hund.",
+     "Der Hund heißt Max.",
+     "Max mag Käse.",
+     "Tom gibt Max ein Stück Käse.",
+     "Max freut sich."
+    ]
+   ]
+  }
+ ],
+ "raetsel": [
+  {
+   "typ": "auswahl",
+   "rtyp": "Frage zum Text",
+   "frage": "Wie heißt der Hund?",
+   "optionen": [
+    "Tisch",
+    "Max",
+    "Schere"
+   ],
+   "richtig": 1,
+   "hilfe1": "Lies den zweiten Satz.",
+   "hilfe2": "Der Name steht im Satz „Der Hund heißt …“.",
+   "hl": [
+    1
+   ],
+   "spur": false
+  },
+  {
+   "typ": "auswahl",
+   "rtyp": "Frage zum Text",
+   "frage": "Was mag Max?",
+   "optionen": [
+    {
+     "img": "assets/lern/tafel.webp"
+    },
+    {
+     "img": "assets/lern/jacke.webp"
+    },
+    {
+     "img": "assets/lern/kaese.webp"
+    }
+   ],
+   "richtig": 2,
+   "hilfe1": "Lies den dritten Satz.",
+   "hilfe2": "Max mag …",
+   "hl": [
+    2
+   ],
+   "spur": false
+  },
+  {
+   "typ": "markieren",
+   "rtyp": "Satz finden",
+   "frage": "Tippe den Satz an: Was gibt Tom dem Hund?",
+   "richtig": [
+    3
+   ],
+   "hilfe1": "Suche das Wort „gibt“.",
+   "hilfe2": "Es ist der vierte Satz.",
+   "hl": [
+    3
+   ],
+   "spur": false
+  },
+  {
+   "typ": "reihenfolge",
+   "rtyp": "Reihenfolge",
+   "frage": "Bring die Sätze in die richtige Reihenfolge.",
+   "items": [
+    "Tom hat einen Hund.",
+    "Tom gibt Max ein Stück Käse.",
+    "Max freut sich."
+   ],
+   "art": "satz",
+   "hilfe1": "Zuerst hat Tom einen Hund.",
+   "hilfe2": "Am Ende freut sich Max.",
+   "hl": [],
+   "spur": false
+  }
+ ]
+}

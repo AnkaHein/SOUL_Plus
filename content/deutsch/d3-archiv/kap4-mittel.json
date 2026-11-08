@@ -112,19 +112,19 @@
    ],
    "aussagen": [
     {
-     "text": "Ich weiß nicht, wer ich bin.",
-     "richtig": 1
+     "text": "Sie hat leise geweint.",
+     "richtig": 0
     },
     {
-     "text": "Gestern sah ich eine Frau mit einer Brille.",
-     "richtig": 0
+     "text": "Ich weiß nicht, wer ich bin.",
+     "richtig": 1
     },
     {
      "text": "Ich habe immer Hunger auf Wörter.",
      "richtig": 1
     },
     {
-     "text": "Sie hat leise geweint.",
+     "text": "Gestern sah ich eine Frau mit einer Brille.",
      "richtig": 0
     },
     {

@@ -158,16 +158,20 @@
    ],
    "aussagen": [
     {
+     "text": "Der Brunnen leuchtet im Hintergrund.",
+     "richtig": 1
+    },
+    {
      "text": "Herr Kessler schrieb bis 23 Uhr Rechnungen.",
+     "richtig": 0
+    },
+    {
+     "text": "Der Lieferwagen stand vor dem Tor.",
      "richtig": 0
     },
     {
      "text": "Frau Wiesel vergleicht gerade die Uhrzeiten.",
      "richtig": 1
-    },
-    {
-     "text": "Der Lieferwagen stand vor dem Tor.",
-     "richtig": 0
     },
     {
      "text": "Frau Maiwald zeigt das Foto.",
@@ -176,10 +180,6 @@
     {
      "text": "Er hat den Bon eingesteckt.",
      "richtig": 0
-    },
-    {
-     "text": "Der Brunnen leuchtet im Hintergrund.",
-     "richtig": 1
     }
    ],
    "hilfe1": "Achte auf die Wörter „schrieb“, „stand“, „hat eingesteckt“, „vergleicht“ und „zeigt“.",

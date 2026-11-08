@@ -122,12 +122,12 @@
    ],
    "aussagen": [
     {
-     "text": "Herr Kessler war bis 23 Uhr im Büro.",
-     "richtig": 0
-    },
-    {
      "text": "Frau Maiwald macht gerade ein Foto.",
      "richtig": 1
+    },
+    {
+     "text": "Herr Kessler war bis 23 Uhr im Büro.",
+     "richtig": 0
     },
     {
      "text": "Der Lieferwagen fuhr vor zehn Minuten weg.",

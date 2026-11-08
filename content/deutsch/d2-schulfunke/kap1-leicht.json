@@ -49,20 +49,20 @@
    ],
    "aussagen": [
     {
-     "text": "Ich habe das Foto vom Schulhof gemacht.",
-     "richtig": 1
+     "text": "Ich gestalte die Titelseite.",
+     "richtig": 2
     },
     {
-     "text": "Ich lese noch einmal alle Texte.",
-     "richtig": 3
+     "text": "Ich habe das Foto vom Schulhof gemacht.",
+     "richtig": 1
     },
     {
      "text": "Die Ausgabe muss morgen in den Druck.",
      "richtig": 0
     },
     {
-     "text": "Ich gestalte die Titelseite.",
-     "richtig": 2
+     "text": "Ich lese noch einmal alle Texte.",
+     "richtig": 3
     }
    ],
    "hilfe1": "Lies den Text über jede Person noch einmal.",

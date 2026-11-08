@@ -135,16 +135,20 @@
    ],
    "aussagen": [
     {
+     "text": "Yusuf prüft in diesem Moment die Datei.",
+     "richtig": 1
+    },
+    {
      "text": "Die Gäste strömten auf den Schulhof.",
+     "richtig": 0
+    },
+    {
+     "text": "Das Fest endete um 18 Uhr.",
      "richtig": 0
     },
     {
      "text": "Mara liest gerade die Pausenpost.",
      "richtig": 1
-    },
-    {
-     "text": "Das Fest endete um 18 Uhr.",
-     "richtig": 0
     },
     {
      "text": "Tobi sucht jetzt im Kopierraum.",
@@ -153,10 +157,6 @@
     {
      "text": "Jonas hat die Meldung geschrieben.",
      "richtig": 0
-    },
-    {
-     "text": "Yusuf prüft in diesem Moment die Datei.",
-     "richtig": 1
     }
    ],
    "hilfe1": "Achte auf die Wörter „strömten“, „endete“, „hat geschrieben“, „liest“, „sucht“ und „prüft“.",

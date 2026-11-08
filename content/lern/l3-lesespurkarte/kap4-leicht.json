@@ -1,0 +1,204 @@
+{
+ "kap": 4,
+ "stufe": "leicht",
+ "titel": "Ben in der Schule",
+ "auftrag": "",
+ "woerter": 0,
+ "material": [],
+ "raetsel": [
+  {
+   "typ": "lesespur",
+   "rtyp": "Lesespur",
+   "frage": "Lies den Abschnitt. Suche dann den Ort auf der Karte und tippe ihn an.",
+   "karte": "assets/lesespur/schule.webp",
+   "nrImBild": false,
+   "orte": [
+    {
+     "nr": 8,
+     "x": 0.01,
+     "y": 0.01,
+     "w": 0.22,
+     "h": 0.26,
+     "name": "Eingang",
+     "text": [
+      "Das ist der Eingang der Schule. Die Tür ist offen.",
+      "Viele Kinder gehen hinein. Ben zieht seine Jacke aus."
+     ],
+     "suche": "Suche die Garderobe.",
+     "next": 7
+    },
+    {
+     "nr": 7,
+     "x": 0.26,
+     "y": 0.01,
+     "w": 0.22,
+     "h": 0.26,
+     "name": "Klassenzimmer",
+     "text": [
+      "Das ist das Klassenzimmer. Ben setzt sich an seinen Tisch.",
+      "An der Tafel steht ein Wort. Er schreibt es ins Heft. Dann klingelt es zur Pause."
+     ],
+     "suche": "Suche den Pausenhof.",
+     "next": 2
+    },
+    {
+     "nr": 4,
+     "x": 0.51,
+     "y": 0.01,
+     "w": 0.23,
+     "h": 0.26,
+     "name": "Pausenhof",
+     "text": [
+      "Das ist der Pausenhof. Die Kinder spielen auf der Rutsche.",
+      "Ben sitzt auf der Bank. Er liest gern. Er will ein Buch holen."
+     ],
+     "suche": "Suche die Bibliothek.",
+     "next": 5
+    },
+    {
+     "nr": 13,
+     "x": 0.76,
+     "y": 0.01,
+     "w": 0.23,
+     "h": 0.26,
+     "name": "Turnhalle",
+     "falsch": [
+      "Hier ist die Turnhalle. Heute hat Ben keinen Sport.",
+      "Seine Turnschuhe sind zu Hause."
+     ]
+    },
+    {
+     "nr": 12,
+     "x": 0.03,
+     "y": 0.28,
+     "w": 0.27,
+     "h": 0.24,
+     "name": "Mensa",
+     "text": [
+      "Das ist die Mensa. Ben isst Brot mit Käse und trinkt Milch.",
+      "Dazu nimmt er einen Apfel. Danach darf seine Klasse in den Garten."
+     ],
+     "suche": "Suche den Schulgarten.",
+     "next": 9
+    },
+    {
+     "nr": 2,
+     "x": 0.34,
+     "y": 0.28,
+     "w": 0.28,
+     "h": 0.24,
+     "name": "Bibliothek",
+     "text": [
+      "Das ist die Bibliothek. Hier stehen viele Bücher.",
+      "Ben leiht ein Buch über Tiere aus. Es ist ganz still. Nach der Pause ist Kunst."
+     ],
+     "suche": "Suche den Kunstraum.",
+     "next": 8
+    },
+    {
+     "nr": 5,
+     "x": 0.66,
+     "y": 0.28,
+     "w": 0.28,
+     "h": 0.24,
+     "name": "Lehrerzimmer",
+     "falsch": [
+      "Hier ist das Lehrerzimmer. Hier arbeiten die Lehrer.",
+      "Ben hat dort heute nichts zu tun."
+     ]
+    },
+    {
+     "nr": 3,
+     "x": 0.03,
+     "y": 0.53,
+     "w": 0.27,
+     "h": 0.24,
+     "name": "Garderobe",
+     "text": [
+      "Das ist die Garderobe. Ben hängt seine Jacke an den Haken.",
+      "Die Schuhe stellt er ins Fach. Den Rucksack nimmt er mit."
+     ],
+     "suche": "Suche das Klassenzimmer.",
+     "next": 1
+    },
+    {
+     "nr": 9,
+     "x": 0.34,
+     "y": 0.53,
+     "w": 0.28,
+     "h": 0.24,
+     "name": "Kunstraum",
+     "text": [
+      "Das ist der Kunstraum. Ben malt ein Bild mit Pinsel und Farben.",
+      "Er malt ein Haus mit rotem Dach. Jetzt knurrt sein Magen."
+     ],
+     "suche": "Suche die Mensa.",
+     "next": 4
+    },
+    {
+     "nr": 6,
+     "x": 0.66,
+     "y": 0.53,
+     "w": 0.28,
+     "h": 0.24,
+     "name": "Schulgarten",
+     "text": [
+      "Das ist der Schulgarten. Hier wachsen Tomaten und Salat.",
+      "Ben gießt die Beete. Die Pflanzen werden groß."
+     ],
+     "ende": [
+      "Der Schultag war schön. Ben freut sich auf morgen.",
+      "Geschafft! Du hast die ganze Lesespur gefunden."
+     ]
+    },
+    {
+     "nr": 10,
+     "x": 0.03,
+     "y": 0.78,
+     "w": 0.27,
+     "h": 0.21,
+     "name": "Fahrradständer",
+     "falsch": [
+      "Hier ist der Fahrradständer. Hier stehen drei Fahrräder.",
+      "Ben ist heute mit dem Bus gekommen."
+     ]
+    },
+    {
+     "nr": 1,
+     "x": 0.34,
+     "y": 0.78,
+     "w": 0.28,
+     "h": 0.21,
+     "name": "Bushaltestelle",
+     "text": [
+      "Das ist die Bushaltestelle. Ben fährt mit dem Bus zur Schule.",
+      "Der Bus hält. Ben steigt aus und geht zur Schule."
+     ],
+     "suche": "Suche den Eingang.",
+     "next": 0
+    },
+    {
+     "nr": 11,
+     "x": 0.66,
+     "y": 0.78,
+     "w": 0.28,
+     "h": 0.21,
+     "name": "Hausmeisterraum",
+     "falsch": [
+      "Hier ist der Raum vom Hausmeister. Dort stehen Leiter und Werkzeug.",
+      "Ben braucht heute kein Werkzeug."
+     ]
+    }
+   ],
+   "start": 11,
+   "falsch": [
+    "Hier ist es falsch.",
+    "Geh zurück zu deiner letzten richtigen Nummer."
+   ],
+   "hilfe1": "Lies die letzte Zeile noch einmal. Dort steht, was du suchst.",
+   "hilfe2": "Schau dir die Bilder auf der Karte genau an.",
+   "hl": [],
+   "spur": false
+  }
+ ]
+}

@@ -1,0 +1,205 @@
+{
+ "kap": 1,
+ "stufe": "leicht",
+ "titel": "Lina zu Hause",
+ "auftrag": "",
+ "woerter": 0,
+ "material": [],
+ "raetsel": [
+  {
+   "typ": "lesespur",
+   "rtyp": "Lesespur",
+   "frage": "Lies den Abschnitt. Suche dann den Ort auf der Karte und tippe ihn an.",
+   "karte": "assets/lesespur/zuhause.webp",
+   "nrImBild": false,
+   "orte": [
+    {
+     "nr": 12,
+     "x": 0.01,
+     "y": 0.01,
+     "w": 0.22,
+     "h": 0.26,
+     "name": "Flur",
+     "text": [
+      "Das ist der Flur. Lina zieht die Jacke an.",
+      "Die Schuhe stehen neben der Tür. Draußen scheint die Sonne."
+     ],
+     "suche": "Suche den Garten.",
+     "next": 5
+    },
+    {
+     "nr": 6,
+     "x": 0.26,
+     "y": 0.01,
+     "w": 0.22,
+     "h": 0.26,
+     "name": "Küche",
+     "text": [
+      "Das ist die Küche. Auf dem Tisch liegt Brot.",
+      "Lina trinkt Milch aus der Tasse. Dann will sie nach draußen. Sie braucht Jacke und Schuhe."
+     ],
+     "suche": "Suche den Flur.",
+     "next": 0
+    },
+    {
+     "nr": 7,
+     "x": 0.51,
+     "y": 0.01,
+     "w": 0.23,
+     "h": 0.26,
+     "name": "Wohnzimmer",
+     "text": [
+      "Das ist das Wohnzimmer. Papa sitzt auf dem Sofa.",
+      "Er liest den Brief und freut sich. Er sagt: „Wir fahren heute zu Oma!“ Lina will noch die Katze rufen."
+     ],
+     "suche": "Suche das Fenster.",
+     "next": 9
+    },
+    {
+     "nr": 1,
+     "x": 0.76,
+     "y": 0.01,
+     "w": 0.23,
+     "h": 0.26,
+     "name": "Kinderzimmer",
+     "text": [
+      "Das ist das Kinderzimmer. Lina wacht auf.",
+      "Das Bett ist warm. Der Teddy liegt neben ihr. Lina hat Hunger."
+     ],
+     "suche": "Suche die Küche.",
+     "next": 1
+    },
+    {
+     "nr": 10,
+     "x": 0.03,
+     "y": 0.28,
+     "w": 0.27,
+     "h": 0.24,
+     "name": "Badezimmer",
+     "text": [
+      "Das ist das Badezimmer. Lina wäscht sich die Hände. Das Handtuch ist gelb."
+     ],
+     "ende": [
+      "Jetzt ist Lina bereit. Sie fährt mit Papa zu Oma.",
+      "Geschafft! Du hast die ganze Lesespur gefunden."
+     ]
+    },
+    {
+     "nr": 5,
+     "x": 0.34,
+     "y": 0.28,
+     "w": 0.28,
+     "h": 0.24,
+     "name": "Garten",
+     "text": [
+      "Das ist der Garten. Ein großer Baum steht auf der Wiese.",
+      "Lina hört ein Auto vor dem Zaun. Vielleicht ist Post da."
+     ],
+     "suche": "Suche den Briefkasten.",
+     "next": 12
+    },
+    {
+     "nr": 4,
+     "x": 0.66,
+     "y": 0.28,
+     "w": 0.28,
+     "h": 0.24,
+     "name": "Garage",
+     "text": [
+      "Das ist die Garage. Das Auto ist blau.",
+      "Papa packt die Taschen ein. Lina hat noch schmutzige Hände."
+     ],
+     "suche": "Suche das Badezimmer.",
+     "next": 4
+    },
+    {
+     "nr": 13,
+     "x": 0.03,
+     "y": 0.53,
+     "w": 0.27,
+     "h": 0.24,
+     "name": "Keller",
+     "falsch": [
+      "Hier ist der Keller. Hier stehen Gläser und eine Treppe.",
+      "Lina muss heute nichts aus dem Keller holen."
+     ]
+    },
+    {
+     "nr": 8,
+     "x": 0.34,
+     "y": 0.53,
+     "w": 0.28,
+     "h": 0.24,
+     "name": "Dachboden",
+     "falsch": [
+      "Hier ist der Dachboden. Hier stehen viele Kisten.",
+      "Lina braucht heute nichts vom Dachboden."
+     ]
+    },
+    {
+     "nr": 9,
+     "x": 0.66,
+     "y": 0.53,
+     "w": 0.28,
+     "h": 0.24,
+     "name": "Fenster",
+     "text": [
+      "Das ist das Fenster. Die Katze liegt in der Sonne.",
+      "Sie schläft. Lina streichelt sie. Dann hört sie ein Rascheln im Garten."
+     ],
+     "suche": "Suche den Hasenstall.",
+     "next": 10
+    },
+    {
+     "nr": 11,
+     "x": 0.03,
+     "y": 0.78,
+     "w": 0.27,
+     "h": 0.21,
+     "name": "Hasenstall",
+     "text": [
+      "Das ist der Hasenstall. Zwei Hasen sitzen im Stroh.",
+      "Lina gibt ihnen Wasser. Papa ruft: „Das Auto ist fertig!“"
+     ],
+     "suche": "Suche die Garage.",
+     "next": 6
+    },
+    {
+     "nr": 2,
+     "x": 0.34,
+     "y": 0.78,
+     "w": 0.28,
+     "h": 0.21,
+     "name": "Leuchtturm",
+     "falsch": [
+      "Hier ist der Leuchtturm. Das Meer ist blau.",
+      "Zu Hause bei Lina gibt es keinen Leuchtturm."
+     ]
+    },
+    {
+     "nr": 3,
+     "x": 0.66,
+     "y": 0.78,
+     "w": 0.28,
+     "h": 0.21,
+     "name": "Briefkasten",
+     "text": [
+      "Das ist der Briefkasten. Ein Brief steckt darin.",
+      "Er ist für Papa. Lina läuft schnell zurück ins Haus."
+     ],
+     "suche": "Suche das Wohnzimmer.",
+     "next": 2
+    }
+   ],
+   "start": 3,
+   "falsch": [
+    "Hier ist es falsch.",
+    "Geh zurück zu deiner letzten richtigen Nummer."
+   ],
+   "hilfe1": "Lies die letzte Zeile noch einmal. Dort steht, was du suchst.",
+   "hilfe2": "Schau dir die Bilder auf der Karte genau an.",
+   "hl": [],
+   "spur": false
+  }
+ ]
+}

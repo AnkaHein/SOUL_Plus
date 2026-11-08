@@ -61,16 +61,16 @@
    ],
    "aussagen": [
     {
-     "text": "Ich habe Tobi mit einem Becher im Flur gesehen.",
-     "richtig": 1
-    },
-    {
      "text": "Ich habe das Layout ausgedruckt.",
      "richtig": 2
     },
     {
      "text": "Ich habe das Kerzenbild entwickelt.",
      "richtig": 0
+    },
+    {
+     "text": "Ich habe Tobi mit einem Becher im Flur gesehen.",
+     "richtig": 1
     }
    ],
    "hilfe1": "Lies jede Aussage noch einmal und achte auf die Überschriften.",

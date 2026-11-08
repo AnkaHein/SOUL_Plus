@@ -1,0 +1,206 @@
+{
+ "kap": 5,
+ "stufe": "leicht",
+ "titel": "Finn bei der Zeitung",
+ "auftrag": "",
+ "woerter": 0,
+ "material": [],
+ "raetsel": [
+  {
+   "typ": "lesespur",
+   "rtyp": "Lesespur",
+   "frage": "Lies den Abschnitt. Suche dann den Ort auf der Karte und tippe ihn an.",
+   "karte": "assets/lesespur/finn.webp",
+   "nrImBild": true,
+   "orte": [
+    {
+     "nr": 1,
+     "x": 0.01,
+     "y": 0.02,
+     "w": 0.28,
+     "h": 0.25,
+     "name": "Zeitung",
+     "text": [
+      "Finn ist Reporter. Er arbeitet bei der Zeitung.",
+      "Heute ist ein großer Tag. Die Chefin gibt ihm ein Thema. Es gibt einen neuen Spielplatz. Finn soll darüber schreiben.",
+      "Finn nimmt seine Kamera mit."
+     ],
+     "suche": "Suche den Spielplatz.",
+     "next": 5
+    },
+    {
+     "nr": 2,
+     "x": 0.28,
+     "y": 0.01,
+     "w": 0.22,
+     "h": 0.22,
+     "name": "Briefkasten",
+     "text": [
+      "Das ist der Briefkasten. Eine Zeitung steckt darin.",
+      "Am Morgen holt Oma Berger die Zeitung heraus. Sie freut sich. Sie will die Zeitung lesen."
+     ],
+     "suche": "Suche Omas Küchentisch.",
+     "next": 9
+    },
+    {
+     "nr": 3,
+     "x": 0.58,
+     "y": 0.02,
+     "w": 0.18,
+     "h": 0.25,
+     "name": "Schreibtisch",
+     "text": [
+      "Das ist der Schreibtisch. Finn sitzt am Computer.",
+      "Er schreibt: „Der Spielplatz ist neu. Die Kinder freuen sich.“ Er sucht ein gutes Foto aus.",
+      "Der Text ist fertig. Die Chefin soll ihn lesen."
+     ],
+     "suche": "Suche das Büro der Chefin.",
+     "next": 10
+    },
+    {
+     "nr": 4,
+     "x": 0.76,
+     "y": 0.03,
+     "w": 0.23,
+     "h": 0.27,
+     "name": "Bäckerei",
+     "falsch": [
+      "Hier ist die Bäckerei. Es riecht nach Brötchen.",
+      "Finn hat Hunger. Aber er hat gerade keine Zeit."
+     ]
+    },
+    {
+     "nr": 5,
+     "x": 0.73,
+     "y": 0.28,
+     "w": 0.26,
+     "h": 0.24,
+     "name": "Schwimmbad",
+     "falsch": [
+      "Hier ist das Schwimmbad. Die Kinder springen ins Wasser.",
+      "Finn hat keine Badehose dabei."
+     ]
+    },
+    {
+     "nr": 6,
+     "x": 0.31,
+     "y": 0.24,
+     "w": 0.41,
+     "h": 0.27,
+     "name": "Spielplatz",
+     "text": [
+      "Hier ist der Spielplatz. Er ist neu und bunt.",
+      "Finn macht Fotos von der Rutsche. Ein Mädchen lacht. Finn fragt: „Gefällt dir der Spielplatz?“",
+      "Das Mädchen sagt: „Ja, die Rutsche ist toll!“ Finn schreibt das auf. Jetzt muss er den Text schreiben."
+     ],
+     "suche": "Suche den Schreibtisch.",
+     "next": 2
+    },
+    {
+     "nr": 7,
+     "x": 0.01,
+     "y": 0.29,
+     "w": 0.29,
+     "h": 0.21,
+     "name": "Tankstelle",
+     "falsch": [
+      "Hier ist die Tankstelle. Die Autos tanken Benzin.",
+      "Hier wird keine Zeitung gemacht."
+     ]
+    },
+    {
+     "nr": 8,
+     "x": 0.02,
+     "y": 0.49,
+     "w": 0.29,
+     "h": 0.24,
+     "name": "Druckerei",
+     "text": [
+      "Hier ist die Druckerei. Die Maschinen sind laut.",
+      "Sie drucken ganz viele Zeitungen. Die Zeitungen kommen in Pakete. Jemand muss die Pakete wegbringen."
+     ],
+     "suche": "Suche den Lieferwagen.",
+     "next": 12
+    },
+    {
+     "nr": 9,
+     "x": 0.33,
+     "y": 0.48,
+     "w": 0.34,
+     "h": 0.26,
+     "name": "Kino",
+     "falsch": [
+      "Hier ist das Kino. Es läuft ein Film.",
+      "Finn schaut heute keinen Film. Er muss arbeiten."
+     ]
+    },
+    {
+     "nr": 10,
+     "x": 0.68,
+     "y": 0.53,
+     "w": 0.3,
+     "h": 0.25,
+     "name": "Omas Küchentisch",
+     "text": [
+      "Hier ist Omas Küchentisch. Oma Berger trinkt Tee. Sie liest die Zeitung.",
+      "Sie sieht Finns Text über den Spielplatz. Sie sieht auch das Foto.",
+      "„Das hat Finn geschrieben!“, sagt Oma."
+     ],
+     "ende": [
+      "Ende. Finns Text ist in der Zeitung.",
+      "Geschafft! Du hast die ganze Lesespur gefunden."
+     ]
+    },
+    {
+     "nr": 11,
+     "x": 0.03,
+     "y": 0.73,
+     "w": 0.26,
+     "h": 0.25,
+     "name": "Büro der Chefin",
+     "text": [
+      "Das ist das Büro der Chefin. Sie liest den Text.",
+      "Sie sagt: „Gut gemacht, Finn!“ Der Text kommt in die Zeitung. Jetzt wird die Zeitung gedruckt."
+     ],
+     "suche": "Suche die Druckerei.",
+     "next": 7
+    },
+    {
+     "nr": 12,
+     "x": 0.29,
+     "y": 0.73,
+     "w": 0.44,
+     "h": 0.25,
+     "name": "Zoo",
+     "falsch": [
+      "Hier ist der Zoo. Ein Affe sitzt im Baum.",
+      "Finn soll nicht über Tiere schreiben."
+     ]
+    },
+    {
+     "nr": 13,
+     "x": 0.72,
+     "y": 0.78,
+     "w": 0.27,
+     "h": 0.21,
+     "name": "Lieferwagen",
+     "text": [
+      "Das ist der Lieferwagen. Der Fahrer lädt die Pakete ein.",
+      "Er fährt durch die Stadt. Er bringt die Zeitungen zu den Häusern."
+     ],
+     "suche": "Suche den Briefkasten.",
+     "next": 1
+    }
+   ],
+   "start": 0,
+   "falsch": [
+    "Hier ist es falsch.",
+    "Geh zurück zu deiner letzten richtigen Nummer."
+   ],
+   "hilfe1": "Lies die letzte Zeile noch einmal. Dort steht, was du suchst.",
+   "hilfe2": "Schau dir die Bilder auf der Karte genau an.",
+   "hl": [],
+   "spur": false
+  }
+ ]
+}

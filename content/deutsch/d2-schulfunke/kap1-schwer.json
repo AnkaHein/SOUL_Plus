@@ -65,10 +65,6 @@
      "richtig": 0
     },
     {
-     "text": "Ich muss den Abzug erst im Fotolabor entwickeln.",
-     "richtig": 1
-    },
-    {
      "text": "Jonas weiß noch nicht, dass sein Artikel gekürzt wird.",
      "richtig": 2
     },
@@ -78,6 +74,10 @@
     },
     {
      "text": "Ich habe das Foto mit den Kerzen gemacht.",
+     "richtig": 1
+    },
+    {
+     "text": "Ich muss den Abzug erst im Fotolabor entwickeln.",
      "richtig": 1
     }
    ],

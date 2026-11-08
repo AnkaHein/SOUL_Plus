@@ -20,7 +20,9 @@
  },
  "lern": {
   "bausteine": [
-   "l1-woerter"
+   "l1-woerter",
+   "l2-lesespur",
+   "l3-lesespurkarte"
   ]
  }
 }

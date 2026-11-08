@@ -1,0 +1,206 @@
+{
+ "kap": 3,
+ "stufe": "leicht",
+ "titel": "Mia auf dem Markt",
+ "auftrag": "",
+ "woerter": 0,
+ "material": [],
+ "raetsel": [
+  {
+   "typ": "lesespur",
+   "rtyp": "Lesespur",
+   "frage": "Lies den Abschnitt. Suche dann den Ort auf der Karte und tippe ihn an.",
+   "karte": "assets/lesespur/markt.webp",
+   "nrImBild": false,
+   "orte": [
+    {
+     "nr": 1,
+     "x": 0.01,
+     "y": 0.01,
+     "w": 0.22,
+     "h": 0.26,
+     "name": "Eingang",
+     "text": [
+      "Das ist der Eingang vom Markt. Mia und Papa wollen einkaufen.",
+      "Sie haben einen Zettel dabei. Zuerst brauchen sie Brot."
+     ],
+     "suche": "Suche den Bäcker.",
+     "next": 3
+    },
+    {
+     "nr": 4,
+     "x": 0.26,
+     "y": 0.01,
+     "w": 0.22,
+     "h": 0.26,
+     "name": "Obststand",
+     "text": [
+      "Das ist der Obststand. Hier liegen Äpfel und Bananen.",
+      "Mia wählt rote Äpfel. Papa nimmt Bananen. Jetzt fehlen noch Tomaten."
+     ],
+     "suche": "Suche den Gemüsestand.",
+     "next": 2
+    },
+    {
+     "nr": 8,
+     "x": 0.51,
+     "y": 0.01,
+     "w": 0.23,
+     "h": 0.26,
+     "name": "Gemüsestand",
+     "text": [
+      "Das ist der Gemüsestand. Die Tomaten sind rot und reif.",
+      "Papa legt sie in die Tüte. Mia will Oma eine Freude machen."
+     ],
+     "suche": "Suche den Blumenstand.",
+     "next": 8
+    },
+    {
+     "nr": 2,
+     "x": 0.76,
+     "y": 0.01,
+     "w": 0.23,
+     "h": 0.26,
+     "name": "Bäcker",
+     "text": [
+      "Das ist der Stand vom Bäcker. Es riecht nach frischem Brot.",
+      "Papa kauft ein großes Brot. Dazu brauchen sie Käse."
+     ],
+     "suche": "Suche den Käsestand.",
+     "next": 4
+    },
+    {
+     "nr": 13,
+     "x": 0.03,
+     "y": 0.28,
+     "w": 0.27,
+     "h": 0.24,
+     "name": "Käsestand",
+     "text": [
+      "Das ist der Käsestand. Der Käse ist gelb und hat Löcher.",
+      "Mia darf ein Stück probieren. Es schmeckt gut. Jetzt brauchen sie noch Milch."
+     ],
+     "suche": "Suche den Wagen mit der Milch.",
+     "next": 5
+    },
+    {
+     "nr": 3,
+     "x": 0.34,
+     "y": 0.28,
+     "w": 0.28,
+     "h": 0.24,
+     "name": "Milchwagen",
+     "text": [
+      "Das ist der Wagen mit der Milch. Hier gibt es auch Eier.",
+      "Papa nimmt eine Kanne Milch und sechs Eier. Danach kauft er Obst."
+     ],
+     "suche": "Suche den Obststand.",
+     "next": 1
+    },
+    {
+     "nr": 10,
+     "x": 0.66,
+     "y": 0.28,
+     "w": 0.28,
+     "h": 0.24,
+     "name": "Eisstand",
+     "text": [
+      "Das ist der Eisstand. Mia nimmt ein Eis mit Schokolade.",
+      "Papa nimmt ein Eis mit Vanille. Sie wollen sich hinsetzen."
+     ],
+     "suche": "Suche den Brunnen.",
+     "next": 9
+    },
+    {
+     "nr": 7,
+     "x": 0.03,
+     "y": 0.53,
+     "w": 0.27,
+     "h": 0.24,
+     "name": "Fischstand",
+     "falsch": [
+      "Hier ist der Fischstand. Die Fische liegen auf Eis.",
+      "Auf dem Zettel steht kein Fisch."
+     ]
+    },
+    {
+     "nr": 9,
+     "x": 0.34,
+     "y": 0.53,
+     "w": 0.28,
+     "h": 0.24,
+     "name": "Blumenstand",
+     "text": [
+      "Das ist der Blumenstand. Hier stehen viele bunte Blumen.",
+      "Mia nimmt gelbe Blumen für Oma. Dann will sie etwas Kaltes essen."
+     ],
+     "suche": "Suche den Eisstand.",
+     "next": 6
+    },
+    {
+     "nr": 11,
+     "x": 0.66,
+     "y": 0.53,
+     "w": 0.28,
+     "h": 0.24,
+     "name": "Brunnen",
+     "text": [
+      "Das ist der Brunnen. Das Wasser plätschert.",
+      "Mia und Papa essen ihr Eis. Dann müssen sie bezahlen."
+     ],
+     "suche": "Suche die Kasse.",
+     "next": 12
+    },
+    {
+     "nr": 5,
+     "x": 0.03,
+     "y": 0.78,
+     "w": 0.27,
+     "h": 0.21,
+     "name": "Hutgeschäft",
+     "falsch": [
+      "Hier ist das Hutgeschäft. Im Fenster hängen bunte Hüte.",
+      "Mia braucht heute keinen Hut."
+     ]
+    },
+    {
+     "nr": 6,
+     "x": 0.34,
+     "y": 0.78,
+     "w": 0.28,
+     "h": 0.21,
+     "name": "Spielzeugladen",
+     "falsch": [
+      "Hier ist der Spielzeugladen. Im Fenster sitzt ein Teddy.",
+      "Heute kaufen sie kein Spielzeug."
+     ]
+    },
+    {
+     "nr": 12,
+     "x": 0.66,
+     "y": 0.78,
+     "w": 0.28,
+     "h": 0.21,
+     "name": "Kasse",
+     "text": [
+      "Das ist die Kasse. Papa bezahlt alles.",
+      "Die Sachen kommen in drei Tüten. Der Einkauf ist fertig."
+     ],
+     "ende": [
+      "Mia und Papa gehen mit den Tüten nach Hause.",
+      "Geschafft! Du hast die ganze Lesespur gefunden."
+     ]
+    }
+   ],
+   "start": 0,
+   "falsch": [
+    "Hier ist es falsch.",
+    "Geh zurück zu deiner letzten richtigen Nummer."
+   ],
+   "hilfe1": "Lies die letzte Zeile noch einmal. Dort steht, was du suchst.",
+   "hilfe2": "Schau dir die Bilder auf der Karte genau an.",
+   "hl": [],
+   "spur": false
+  }
+ ]
+}

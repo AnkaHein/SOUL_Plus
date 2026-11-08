@@ -28,7 +28,6 @@
    "rtyp": "Wort und Bild",
    "frage": "Welches Bild passt zum Wort?",
    "wort": "Kuh",
-   "sprich": "Kuh",
    "optionen": [
     {
      "img": "assets/lern/schere.webp"

@@ -60,20 +60,20 @@
    ],
    "aussagen": [
     {
-     "text": "Ich habe ein Foto mit Kerzen aufgenommen.",
-     "richtig": 1
+     "text": "Ich baue die Titelseite zusammen.",
+     "richtig": 2
     },
     {
-     "text": "Ich prüfe noch einmal alle Texte.",
-     "richtig": 3
+     "text": "Ich habe ein Foto mit Kerzen aufgenommen.",
+     "richtig": 1
     },
     {
      "text": "Ich kürze den Gastartikel wegen Platzmangels.",
      "richtig": 0
     },
     {
-     "text": "Ich baue die Titelseite zusammen.",
-     "richtig": 2
+     "text": "Ich prüfe noch einmal alle Texte.",
+     "richtig": 3
     }
    ],
    "hilfe1": "Die Aussagen sind mit anderen Worten geschrieben. Achte auf die Aufgaben der Personen.",

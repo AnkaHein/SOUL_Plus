@@ -311,7 +311,7 @@ html,body{height:100%;overflow:hidden}
 #app{padding-bottom:90px}
 
 /* ===== Lernwerkstatt: Bildaufgaben ===== */
-body[data-theme=l1]{--glass:rgba(255,255,255,.94);--glass-line:#00967C;--glass-text:#1d2928;--glass-soft:#5b6b69;--paper-card:#fff}
+body[data-theme^=l]{--glass:rgba(255,255,255,.94);--glass-line:#00967C;--glass-text:#1d2928;--glass-soft:#5b6b69;--paper-card:#fff}
 .rlayout.solo{max-width:760px;margin:0 auto}
 .auswahlwrap{display:flex;flex-direction:column;gap:14px}
 .bildkopf{display:flex;align-items:center;justify-content:center;gap:18px;flex-wrap:wrap}
@@ -321,7 +321,8 @@ body[data-theme=l1]{--glass:rgba(255,255,255,.94);--glass-line:#00967C;--glass-t
 .opts.bildopts{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
 .opt.imgopt{display:flex;flex-direction:column;align-items:center;gap:6px;padding:8px;text-align:center}
 .opt.imgopt img{width:100%;aspect-ratio:1/1;object-fit:contain;background:#fff;border-radius:10px}
-.opts:not(.bildopts) .opt{font-size:1.35rem;font-weight:700;text-align:center;padding:16px}
+.opts:not(.bildopts) .opt{font-size:1.05rem;font-weight:600;text-align:center;padding:14px 16px}
+body[data-theme^=l] .opts:not(.bildopts) .opt{font-size:1.35rem;font-weight:700;padding:16px}
 .paare{display:grid;grid-template-columns:1fr 1fr;gap:18px}
 .pcol{display:flex;flex-direction:column;gap:12px}
 .pbild{border:2px solid #d4dad8;background:#fff;border-radius:14px;padding:6px;display:flex;justify-content:center}
@@ -343,7 +344,41 @@ body[data-theme=l1]{--glass:rgba(255,255,255,.94);--glass-line:#00967C;--glass-t
 .korb .kin{display:flex;flex-wrap:wrap;gap:8px;justify-content:center}
 @media (max-width:520px){.sitem{width:78px}.sitem img{width:66px;height:66px}.wortgross{font-size:2rem}.pbild img{height:78px}.pwort{font-size:1.15rem;min-height:90px}}
 /* Lernwerkstatt: heller Rahmen ohne Abdunkelung */
-body[data-theme=l1] #frame.themed{background:var(--framebg) padding-box,var(--verlauf) border-box}
-body[data-theme=l1] #frame.themed .hero,body[data-theme=l1] #frame.themed .rhead h2,body[data-theme=l1] #frame.themed .geschafft h1{color:#1d2928;text-shadow:none}
-body[data-theme=l1] #frame.themed .kap.locked{background:rgba(255,255,255,.6)}
+body[data-theme^=l] #frame.themed{background:var(--framebg) padding-box,var(--verlauf) border-box}
+body[data-theme^=l] #frame.themed .hero,body[data-theme^=l] #frame.themed .rhead h2,body[data-theme^=l] #frame.themed .geschafft h1{color:#1d2928;text-shadow:none}
+body[data-theme^=l] #frame.themed .kap.locked{background:rgba(255,255,255,.6)}
 @media (min-width:980px){.rlayout.solo{grid-template-columns:1fr;max-width:640px}}
+
+.matbody p.ortdatum{text-align:right;margin-bottom:14px}
+
+/* Kapitel-geschafft-Kacheln: dunkle Schrift auf hellem Grund (überschreibt die Karten-.stat-Regeln) */
+.stats .stat{display:block;background:#fff;color:#1d2928;padding:14px;text-align:center;border-radius:16px;box-shadow:0 2px 8px rgba(0,0,0,.12)}
+.stats .stat b{color:var(--gruen)}
+
+body[data-theme^=l] .matcard .matbody{font-size:1.25rem;line-height:1.8}
+
+/* Lesespur auf der Karte */
+.rlayout.solo:has(.lesespur){max-width:1060px}
+@media (min-width:980px){.rlayout.solo:has(.lesespur){grid-template-columns:1fr;max-width:1060px}}
+.lesespur{display:grid;gap:16px;grid-template-columns:1fr}
+@media (min-width:860px){.lesespur{grid-template-columns:minmax(260px,330px) 1fr;align-items:start}}
+.lscol{display:flex;flex-direction:column;gap:10px}
+.lscard{background:#fffdf5;border:2px solid #cdae6b;border-radius:16px;padding:14px 16px;font-size:1.12rem;line-height:1.6}
+.lscard p{margin:.35em 0}
+.lsnum{display:inline-flex;align-items:center;justify-content:center;min-width:44px;height:44px;border-radius:50%;background:#00967C;color:#fff;font-weight:800;font-size:1.4rem;margin-bottom:4px}
+.lsnum.bad{background:#c8453a}
+.lssuche{font-weight:800;color:#00695a;font-size:1.2rem;border-top:2px dashed #cdae6b;padding-top:8px;margin-top:10px!important}
+.lsende{font-weight:700;color:#256d3b}
+.lsfalsch{background:#fdeceb;border-radius:12px;padding:8px 10px;margin:-6px}
+.lsback{margin-top:6px;border:2px solid #1d2928;background:#fff;border-radius:12px;padding:10px 14px;font-weight:700;font-size:1rem}
+.lsspur{display:flex;flex-wrap:wrap;gap:6px;align-items:center;font-size:.95rem}
+.lsspurl{font-weight:700;margin-right:4px}
+.lschip{display:inline-flex;align-items:center;justify-content:center;min-width:30px;height:30px;border-radius:50%;background:#e4f1ec;border:2px solid #00967C;font-weight:800}
+.lsmap{position:relative;width:100%;line-height:0}
+.lsimg{width:100%;height:auto;border-radius:14px;background:#fff;border:1px solid rgba(0,0,0,.1)}
+.lsspot{position:absolute;background:transparent;border:2px solid transparent;border-radius:18px;padding:0;cursor:pointer}
+.lsspot:hover,.lsspot:focus-visible{border-color:rgba(0,150,124,.7);background:rgba(0,150,124,.08)}
+.lsspot.lsgut{border-color:rgba(58,163,90,.9);background:rgba(58,163,90,.14)}
+.lsspot.lsjetzt{border-color:#e0a00a;background:rgba(255,200,40,.18)}
+.lsnr{position:absolute;left:4px;top:4px;width:34px;height:34px;border-radius:50%;background:#fff;border:3px solid #1d2928;color:#1d2928;font-weight:800;font-size:1.05rem;line-height:28px;text-align:center;box-shadow:0 1px 4px rgba(0,0,0,.3)}
+@media (max-width:520px){.lsnr{width:26px;height:26px;line-height:20px;font-size:.85rem;border-width:2px}}

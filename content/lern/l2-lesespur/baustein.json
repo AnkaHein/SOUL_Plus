@@ -1,0 +1,62 @@
+{
+ "id": "l2-lesespur",
+ "kurz": "l2",
+ "fach": "lern",
+ "titel": "Geschichten lesen",
+ "untertitel": "Vier kurze Geschichten mit Aufgaben",
+ "kachel": "assets/kachel/lern.webp",
+ "maxFehler": 2,
+ "keinAbzug": true,
+ "einleitung": "Hier liest du kurze Geschichten. Lies jede Geschichte in Ruhe. Danach löst du vier Aufgaben. Wenn etwas nicht passt, probierst du es einfach noch einmal.",
+ "figuren": {},
+ "hilfe": {
+  "name": "Schraubi",
+  "img": "assets/hilfe/schraubi.webp",
+  "emoji": "🤖",
+  "jubel": [
+   "Klasse gelesen!",
+   "Super!",
+   "Das hast du toll gelöst.",
+   "Weiter so!",
+   "Prima, das war richtig."
+  ]
+ },
+ "kapitel": [
+  {
+   "nr": 1,
+   "titel": "Tom und Max",
+   "teaser": "Tom hat einen Hund. Was mag der Hund?",
+   "begruessung": "Lies die Geschichte. Dann kommen vier Aufgaben.",
+   "ende": "Du hast gut gelesen!",
+   "bild": "assets/lern/hund.webp"
+  },
+  {
+   "nr": 2,
+   "titel": "Lena in der Schule",
+   "teaser": "Lena packt ihren Rucksack. Was ist drin?",
+   "begruessung": "Noch eine Geschichte. Lies in Ruhe.",
+   "ende": "Prima gelesen!",
+   "bild": "assets/lern/rucksack.webp"
+  },
+  {
+   "nr": 3,
+   "titel": "Das Picknick",
+   "teaser": "Mia und Ben essen im Park. Wer kommt zu Besuch?",
+   "begruessung": "Diese Geschichte spielt im Park.",
+   "ende": "Du bist ein guter Leser!",
+   "bild": "assets/lern/brot.webp"
+  },
+  {
+   "nr": 4,
+   "titel": "Ein Abend zu Hause",
+   "teaser": "Jonas ist müde. Was macht er noch?",
+   "begruessung": "Die letzte Geschichte. Du schaffst das!",
+   "ende": "Geschafft! Du bist ein Lese-Profi.",
+   "bild": "assets/lern/lampe.webp"
+  }
+ ],
+ "abschluss": {
+  "titel": "Alle Geschichten gelesen!",
+  "text": "Du hast genau gelesen und alle Aufgaben gelöst. Schraubi ist stolz auf dich."
+ }
+}

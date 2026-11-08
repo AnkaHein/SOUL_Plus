@@ -1,0 +1,70 @@
+{
+ "id": "l3-lesespurkarte",
+ "kurz": "l3",
+ "fach": "lern",
+ "titel": "Lesespuren auf der Karte",
+ "untertitel": "Lies, suche und finde den Weg",
+ "kachel": "assets/kachel/lern.webp",
+ "maxFehler": 2,
+ "keinAbzug": true,
+ "einleitung": "Hier folgst du einer Lesespur. Lies den Abschnitt. Am Ende steht, was du suchst. Tippe den Ort auf der Karte an. Wenn du falsch tippst, passiert nichts Schlimmes: Du gehst einfach zurück.",
+ "figuren": {},
+ "hilfe": {
+  "name": "Schraubi",
+  "img": "assets/hilfe/schraubi.webp",
+  "emoji": "🤖",
+  "jubel": [
+   "Klasse gefunden!",
+   "Super!",
+   "Du bist ein guter Leser.",
+   "Weiter so!",
+   "Prima, das war richtig."
+  ]
+ },
+ "kapitel": [
+  {
+   "nr": 1,
+   "titel": "Lina zu Hause",
+   "teaser": "Ein Tag bei Lina. Wo geht die Spur hin?",
+   "begruessung": "Lies genau. Dann suche den Ort auf der Karte.",
+   "ende": "Du hast alle Orte gefunden!",
+   "bild": "assets/lesespur/zuhause.webp"
+  },
+  {
+   "nr": 2,
+   "titel": "Jonas auf dem Bauernhof",
+   "teaser": "Jonas hilft auf dem Hof. Welche Tiere trifft er?",
+   "begruessung": "Lies genau. Dann suche den Ort auf der Karte.",
+   "ende": "Du hast alle Orte gefunden!",
+   "bild": "assets/lesespur/hof.webp"
+  },
+  {
+   "nr": 3,
+   "titel": "Mia auf dem Markt",
+   "teaser": "Mia und Papa gehen einkaufen. Was kommt auf den Zettel?",
+   "begruessung": "Lies genau. Dann suche den Ort auf der Karte.",
+   "ende": "Du hast alle Orte gefunden!",
+   "bild": "assets/lesespur/markt.webp"
+  },
+  {
+   "nr": 4,
+   "titel": "Ben in der Schule",
+   "teaser": "Ein Schultag von Ben. Was erlebt er?",
+   "begruessung": "Lies genau. Dann suche den Ort auf der Karte.",
+   "ende": "Du hast alle Orte gefunden!",
+   "bild": "assets/lesespur/schule.webp"
+  },
+  {
+   "nr": 5,
+   "titel": "Finn bei der Zeitung",
+   "teaser": "Finn ist Reporter. Heute begleitest du ihn.",
+   "begruessung": "Lies genau. Dann suche den Ort auf der Karte.",
+   "ende": "Du hast alle Orte gefunden!",
+   "bild": "assets/lesespur/finn.webp"
+  }
+ ],
+ "abschluss": {
+  "titel": "Alle Lesespuren gefunden!",
+  "text": "Du hast genau gelesen und jeden Ort gefunden. Schraubi ist stolz auf dich."
+ }
+}

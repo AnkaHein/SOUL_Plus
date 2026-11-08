@@ -79,20 +79,20 @@
    ],
    "aussagen": [
     {
-     "text": "Ich habe in der Nacht einen riesigen Schatten gesehen.",
-     "richtig": 0
+     "text": "Ich wollte im Park alte Pläne vergleichen.",
+     "richtig": 3
     },
     {
-     "text": "Danach fuhr ein weißer Lieferwagen vorbei.",
-     "richtig": 1
+     "text": "Ich habe in der Nacht einen riesigen Schatten gesehen.",
+     "richtig": 0
     },
     {
      "text": "Ein Parkplatz wäre besser als der alte Park.",
      "richtig": 2
     },
     {
-     "text": "Ich wollte im Park alte Pläne vergleichen.",
-     "richtig": 3
+     "text": "Danach fuhr ein weißer Lieferwagen vorbei.",
+     "richtig": 1
     }
    ],
    "hilfe1": "Lies jede Aussage noch einmal und achte auf die Namen oben.",

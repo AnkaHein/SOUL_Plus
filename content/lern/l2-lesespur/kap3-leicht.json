@@ -1,0 +1,92 @@
+{
+ "kap": 3,
+ "stufe": "leicht",
+ "titel": "Das Picknick",
+ "auftrag": "Lies die Geschichte.",
+ "woerter": 34,
+ "material": [
+  {
+   "kopf": "Das Picknick",
+   "art": "text",
+   "saetze": [
+    [
+     "Mia und Ben gehen in den Park.",
+     "Sie haben Brot, Milch und einen Apfel dabei.",
+     "Ein Vogel sitzt auf dem Tisch.",
+     "Der Vogel will das Brot haben.",
+     "Mia lacht und gibt ihm ein Stück."
+    ]
+   ]
+  }
+ ],
+ "raetsel": [
+  {
+   "typ": "markieren",
+   "rtyp": "Satz finden",
+   "frage": "Tippe den Satz an: Wer sitzt auf dem Tisch?",
+   "richtig": [
+    2
+   ],
+   "hilfe1": "Suche das Wort „Tisch“.",
+   "hilfe2": "Es ist der dritte Satz.",
+   "hl": [
+    2
+   ],
+   "spur": false
+  },
+  {
+   "typ": "auswahl",
+   "rtyp": "Frage zum Text",
+   "frage": "Wer sitzt auf dem Tisch?",
+   "optionen": [
+    {
+     "img": "assets/lern/tafel.webp"
+    },
+    {
+     "img": "assets/lern/schuh.webp"
+    },
+    {
+     "img": "assets/lern/vogel.webp"
+    }
+   ],
+   "richtig": 2,
+   "hilfe1": "Lies den dritten Satz.",
+   "hilfe2": "Ein … sitzt auf dem Tisch.",
+   "hl": [
+    2
+   ],
+   "spur": false
+  },
+  {
+   "typ": "auswahl",
+   "rtyp": "Stimmt das?",
+   "frage": "Stimmt das? „Mia und Ben haben Käse dabei.“",
+   "optionen": [
+    "Stimmt",
+    "Stimmt nicht"
+   ],
+   "richtig": 1,
+   "hilfe1": "Lies den zweiten Satz.",
+   "hilfe2": "Was haben sie dabei? Brot, Milch und einen …",
+   "hl": [
+    1
+   ],
+   "spur": false
+  },
+  {
+   "typ": "reihenfolge",
+   "rtyp": "Reihenfolge",
+   "frage": "Bring die Sätze in die richtige Reihenfolge.",
+   "items": [
+    "Mia und Ben gehen in den Park.",
+    "Ein Vogel sitzt auf dem Tisch.",
+    "Mia gibt ihm ein Stück."
+   ],
+   "art": "satz",
+   "hilfe1": "Zuerst gehen Mia und Ben in den Park.",
+   "hilfe2": "Am Ende bekommt der Vogel etwas.",
+   "hl": [],
+   "spur": false
+  }
+ ]
+}

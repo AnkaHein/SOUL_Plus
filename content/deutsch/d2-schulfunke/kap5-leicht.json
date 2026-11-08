@@ -114,12 +114,12 @@
    ],
    "aussagen": [
     {
-     "text": "Die Gäste kamen am Samstag.",
-     "richtig": 0
-    },
-    {
      "text": "Mara liest gerade die Pausenpost.",
      "richtig": 1
+    },
+    {
+     "text": "Die Gäste kamen am Samstag.",
+     "richtig": 0
     },
     {
      "text": "Das Fest begann um 14 Uhr.",
