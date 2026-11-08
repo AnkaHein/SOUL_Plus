@@ -1,0 +1,177 @@
+{
+ "kap": 2,
+ "stufe": "schwer",
+ "titel": "Das Buch ohne Wörter",
+ "auftrag": "Das Buch hat Lücken, denn ihm fehlen Wörter. Finde heraus, welche.",
+ "woerter": 132,
+ "material": [
+  {
+   "kopf": "Mira Federhold",
+   "art": "aussage",
+   "saetze": [
+    [
+     "Dieses Buch hat fast alle Verben verloren.",
+     "Das sind die Wörter, die sagen, was jemand tut.",
+     "Ohne sie bleibt eine Geschichte stehen wie eine Uhr ohne Zeiger, und niemand kann mehr erkennen, ob etwas Schönes oder etwas Gefährliches geschieht.",
+     "Lies die Seite und überlege, was dort gestanden haben könnte."
+    ]
+   ],
+   "person": "mira"
+  },
+  {
+   "kopf": "Seite aus dem Buch ohne Wörter",
+   "art": "buch",
+   "saetze": [
+    [
+     "Der Mond ____ über dem Dorf, und alle Häuser lagen im Schlaf.",
+     "Die Katze ____ auf dem Dach und miaute leise, als wüsste sie etwas, das die Menschen nicht ahnten.",
+     "Unten im Hof ____ ein altes Fass, aus dem es nach Äpfeln roch.",
+     "Plötzlich ____ ein Fenster, und ein Mädchen lehnte sich hinaus, die Haare noch zerzaust vom Schlaf.",
+     "Es flüsterte einen Namen in die Nacht.",
+     "Ein Licht ____ in der Dunkelheit, und die Katze sprang davon, als hätte sie genau darauf gewartet."
+    ]
+   ]
+  }
+ ],
+ "raetsel": [
+  {
+   "typ": "auswahl",
+   "frage": "Welches Wort passt am besten in die zweite Lücke? „Die Katze ____ auf dem Dach und miaute leise.“",
+   "optionen": [
+    "schwamm",
+    "saß",
+    "las",
+    "backte"
+   ],
+   "richtig": 1,
+   "hilfe1": "Überlege, was eine Katze auf einem Dach tun kann.",
+   "hilfe2": "Das Wort sagt, wie sie dort war, bevor sie davonsprang.",
+   "hl": [
+    5
+   ],
+   "spur": false,
+   "rtyp": "Wort erschließen"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Welches Wort passt am besten in die vierte Lücke? „Plötzlich ____ ein Fenster.“",
+   "optionen": [
+    "öffnete sich",
+    "kochte",
+    "wuchs",
+    "sang"
+   ],
+   "richtig": 0,
+   "hilfe1": "Danach lehnt sich ein Mädchen hinaus. Was muss mit dem Fenster passiert sein?",
+   "hilfe2": "Das Wort sagt, dass etwas plötzlich aufgeht.",
+   "hl": [
+    7
+   ],
+   "spur": false,
+   "rtyp": "Wort erschließen"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Was soll der Satz „als wüsste sie etwas, das die Menschen nicht ahnten“ andeuten?",
+   "optionen": [
+    "Die Katze kann sprechen.",
+    "Die Katze ist hungrig.",
+    "Die Katze ist Teil eines Geheimnisses.",
+    "Die Menschen haben Angst vor Katzen."
+   ],
+   "richtig": 2,
+   "hilfe1": "Lies, wer etwas nicht ahnt und wer etwas weiß.",
+   "hilfe2": "Wer etwas weiß, das andere nicht ahnen, kennt ein Geheimnis.",
+   "hl": [
+    5
+   ],
+   "spur": false,
+   "rtyp": "Zwischen den Zeilen"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Warum sprang die Katze davon?",
+   "optionen": [
+    "Sie hatte auf das Licht gewartet.",
+    "Sie hatte Angst vor dem Mädchen.",
+    "Sie wollte die Äpfel fressen.",
+    "Sie wurde vom Mond geblendet."
+   ],
+   "richtig": 0,
+   "hilfe1": "Lies den letzten Satz der Seite.",
+   "hilfe2": "Der letzte Nebensatz beginnt mit „als hätte sie“.",
+   "hl": [
+    9
+   ],
+   "spur": false,
+   "rtyp": "Zwischen den Zeilen"
+  },
+  {
+   "typ": "luecke",
+   "frage": "Mira hat Wörter gesammelt, die ähnlich klingen. Wähle das richtige.",
+   "text": "Auf jeder ___ steht ein Wort. Die Geige hat vier ___. Das Kleid ist aus ___. Der Wind ___ durch die Gasse. Das Buch ___ im Regal. Wir ___ einen Brief. Der Mond ___ hell.",
+   "luecken": [
+    {
+     "optionen": [
+      "Saite",
+      "Seite",
+      "Seide"
+     ],
+     "richtig": 1
+    },
+    {
+     "optionen": [
+      "Saiten",
+      "Seiten",
+      "Seide"
+     ],
+     "richtig": 0
+    },
+    {
+     "optionen": [
+      "Seite",
+      "Saite",
+      "Seide"
+     ],
+     "richtig": 2
+    },
+    {
+     "optionen": [
+      "Weht",
+      "weht",
+      "weth"
+     ],
+     "richtig": 1
+    },
+    {
+     "optionen": [
+      "steht",
+      "stet",
+      "Steht"
+     ],
+     "richtig": 0
+    },
+    {
+     "optionen": [
+      "Schreiben",
+      "schreiber",
+      "schreiben"
+     ],
+     "richtig": 2
+    },
+    {
+     "optionen": [
+      "Scheint",
+      "scheint",
+      "schaint"
+     ],
+     "richtig": 1
+    }
+   ],
+   "hilfe1": "Frage dich bei jedem Satz: Welche Bedeutung passt?",
+   "hilfe2": "Ein Buch hat Seiten. Eine Geige hat Saiten. Kleider gibt es aus Stoff.",
+   "spur": true,
+   "rtyp": "Lückentext"
+  }
+ ]
+}

@@ -1,0 +1,90 @@
+{
+ "kap": 6,
+ "stufe": "leicht",
+ "titel": "Die Enthüllung",
+ "auftrag": "Mara hat den Fall in einem Artikel aufgeschrieben. Lies ihn.",
+ "woerter": 68,
+ "material": [
+  {
+   "kopf": "Titelseite gefunden!",
+   "art": "zeitung",
+   "saetze": [
+    [
+     "Die verschwundene Titelseite ist wieder da.",
+     "Sie lag im Kopierraum.",
+     "Jonas von der Pausenpost hatte sie dort versteckt.",
+     "Er war wütend, weil sein Artikel stark gekürzt wurde.",
+     "Er hat sich selbst verraten, denn er wusste von den dreißig Kerzen auf dem Foto.",
+     "Jonas hat seinen Fehler zugegeben.",
+     "Mara hat sich bei ihm entschuldigt.",
+     "Sein Artikel erscheint nun in voller Länge.",
+     "Jonas arbeitet künftig im Team des Schulfunke mit."
+    ]
+   ],
+   "person": "mara"
+  }
+ ],
+ "raetsel": [
+  {
+   "typ": "reihenfolge",
+   "frage": "Bring die Ereignisse in die richtige Reihenfolge. Was passierte zuerst?",
+   "items": [
+    "Die Titelseite verschwindet.",
+    "Der anonyme Zettel taucht auf.",
+    "Die Kinder bemerken die Kerzen in der Pausenpost.",
+    "Die Titelseite wird im Kopierraum gefunden."
+   ],
+   "hilfe1": "Der Artikel erzählt die Geschichte von vorn nach hinten.",
+   "hilfe2": "Die Titelseite wird erst am Ende gefunden.",
+   "hl": [
+    0,
+    4
+   ],
+   "spur": false,
+   "rtyp": "Zeitleiste"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Welche Schlagzeile passt am besten zum Artikel?",
+   "optionen": [
+    "Pausenpost wird eingestellt",
+    "Titelseite für immer verloren",
+    "Titelseite gefunden: Streit beigelegt",
+    "Mara verlässt die Redaktion"
+   ],
+   "richtig": 2,
+   "hilfe1": "Worum geht es im ganzen Artikel? Wie geht es aus?",
+   "hilfe2": "Die Titelseite ist wieder da und der Streit ist vorbei.",
+   "hl": [
+    0,
+    7
+   ],
+   "spur": false,
+   "rtyp": "Beste Überschrift"
+  },
+  {
+   "typ": "markieren",
+   "frage": "Welcher Satz verrät, warum Jonas die Titelseite versteckt hat?",
+   "richtig": [
+    3
+   ],
+   "hilfe1": "Such das Wort „wütend“.",
+   "hilfe2": "Der Satz steht in der Mitte des Artikels.",
+   "hl": [
+    1,
+    4
+   ],
+   "spur": false,
+   "rtyp": "Beweis markieren"
+  },
+  {
+   "typ": "fehler",
+   "frage": "Mara hat den Artikel für den Druck abgetippt. Darin stecken drei Fehler. Findest du sie?",
+   "text": "Die verschwundene Titelseite ist [[wider|wieder|wiedar]] da!\nJonas hat seinen Fehler zugegeben. Mara hat sich [[endschuldigt|entschuldigt|entschuldikt]], und Jonas arbeitet jetzt im Team mit. Der Artikel von Jonas erscheint in der [[nechsten|nächsten|nachsten]] Ausgabe.",
+   "hilfe1": "Achte auf „wieder“ und „wider“, auf „ent-“ und auf den Umlaut.",
+   "hilfe2": "Gesucht sind Fehler in „wieder“, „entschuldigt“ und „nächsten“.",
+   "spur": true,
+   "rtyp": "Fehlerteufel"
+  }
+ ]
+}

@@ -1,0 +1,88 @@
+{
+ "kap": 1,
+ "stufe": "leicht",
+ "titel": "Der erste Fall",
+ "auftrag": "Lies die Zeitungsmeldung. Dann löst du vier Rätsel.",
+ "woerter": 76,
+ "material": [
+  {
+   "kopf": "Rätselhafte Diebstähle im Kurpark",
+   "art": "zeitung",
+   "saetze": [
+    [
+     "In den letzten Wochen sind im Kurpark mehrere Dinge verschwunden.",
+     "Zuerst fehlten die kleinen Messingschilder an den Bänken.",
+     "Dann blieb die Uhr am Pavillon stehen.",
+     "Sie zeigt seit Montag immer zehn nach drei.",
+     "Am Wochenende war auch die Gedenktafel am Brunnen weg.",
+     "Die Polizei hat keine Spur.",
+     "Der Parkwächter sagt: „Nachts ist hier niemand zu sehen.“",
+     "Viele Besucher sind besorgt.",
+     "Besonders die alte Gedenktafel war den Menschen in der Stadt wichtig.",
+     "Die Stadt bittet um Hinweise."
+    ]
+   ]
+  }
+ ],
+ "raetsel": [
+  {
+   "typ": "markieren",
+   "frage": "Tippe den Satz an, der sagt, wann die Uhr stehen geblieben ist.",
+   "richtig": [
+    3
+   ],
+   "hilfe1": "Es geht um die Uhr. Suche die Sätze, in denen die Uhr vorkommt.",
+   "hilfe2": "Die Uhrzeit steht in dem Satz, der mit „Sie“ beginnt.",
+   "hl": [
+    1,
+    2
+   ],
+   "spur": false,
+   "rtyp": "Beweis markieren"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Wo hing die Gedenktafel?",
+   "optionen": [
+    "an den Bänken",
+    "am Pavillon",
+    "am Kiosk",
+    "am Brunnen"
+   ],
+   "richtig": 3,
+   "hilfe1": "Such das Wort „Gedenktafel“ im Text.",
+   "hilfe2": "Das Wort steht im Satz über das Wochenende.",
+   "hl": [
+    4
+   ],
+   "spur": false,
+   "rtyp": "Schnellsuche"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Stimmt das? „Die Polizei hat schon eine Spur.“",
+   "optionen": [
+    "Stimmt",
+    "Stimmt nicht",
+    "Steht nicht im Text"
+   ],
+   "richtig": 1,
+   "hilfe1": "Such den Satz über die Polizei.",
+   "hilfe2": "Lies genau: Hat die Polizei eine Spur oder keine?",
+   "hl": [
+    5
+   ],
+   "spur": false,
+   "rtyp": "Wahr, falsch oder steht nicht im Text"
+  },
+  {
+   "typ": "fehler",
+   "frage": "Frau Wiesel hat einen Aushang geschrieben. Darin stecken drei Fehler. Findest du sie?",
+   "text": "Hilfe für den Kurpark!\nIm Kurpark [[felen|fehlen|fählen]] Schilder, eine Uhr und eine [[Tavel|Tafel|Tahfel]].\nWir suchen kluge Kinder, die genau [[lessen|lesen|leesen]] und gut zuhören.\nTreffpunkt ist der alte Pavillon, Mittwoch um 15 Uhr.",
+   "hilfe1": "Lies jedes Wort langsam. Sprich es leise mit.",
+   "hilfe2": "Die Fehler stecken in Wörtern mit „h“, mit „f“ und mit „s“.",
+   "spur": true,
+   "rtyp": "Fehlerteufel"
+  }
+ ]
+}

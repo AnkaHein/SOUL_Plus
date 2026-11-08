@@ -1,0 +1,196 @@
+{
+ "kap": 2,
+ "stufe": "schwer",
+ "titel": "Die Zeugen",
+ "auftrag": "Frau Wiesel hat vier Menschen befragt. Lies ihre Aussagen genau.",
+ "woerter": 287,
+ "material": [
+  {
+   "kopf": "Opa Gustav",
+   "art": "aussage",
+   "saetze": [
+    [
+     "Ich sitze seit vierzig Jahren jeden Tag auf der Bank am Teich, mir entgeht nichts, das können Sie jeden fragen.",
+     "In der Nacht zum Sonntag sah ich einen Schatten am Brunnen.",
+     "Der Mann war riesig, bestimmt drei Meter groß, und er hat eine Tafel unter dem Arm getragen.",
+     "Ich wollte rufen, aber meine Stimme hat mich im Stich gelassen.",
+     "Um 21 Uhr war der Kiosk schon dunkel, da bin ich nach Hause gegangen, habe mir eine Suppe gewärmt und bin später noch einmal zurückgekommen, weil ich nicht schlafen konnte."
+    ]
+   ],
+   "person": "gustav"
+  },
+  {
+   "kopf": "Frau Maiwald",
+   "art": "aussage",
+   "saetze": [
+    [
+     "Mein Kiosk steht gleich neben dem Tor, deshalb sehe ich viel, ohne dass ich es will.",
+     "Am Samstag habe ich bis 22 Uhr verkauft und danach noch eine Stunde die Kasse gezählt.",
+     "Kurz nach elf fuhr ein weißer Lieferwagen langsam am Park vorbei, ohne Licht auf dem Dach.",
+     "Ich habe mich gewundert, denn um diese Zeit ist hier sonst nichts los.",
+     "Das Kennzeichen konnte ich leider nicht lesen, es war zu dunkel."
+    ]
+   ],
+   "person": "maiwald"
+  },
+  {
+   "kopf": "Herr Kessler",
+   "art": "aussage",
+   "saetze": [
+    [
+     "Ich habe nichts gesehen und nichts gehört.",
+     "Der Kurpark ist alt, schmutzig und teuer in der Pflege, das weiß jeder, der einmal einen Haushalt geführt hat.",
+     "Ein Parkplatz wäre für die Stadt viel besser, und ich wundere mich, dass man darüber überhaupt noch streitet.",
+     "Wer das nicht einsieht, denkt nur an früher.",
+     "Ich war am Samstag den ganzen Abend beschäftigt, mehr geht Sie nichts an."
+    ]
+   ],
+   "person": "kessler"
+  },
+  {
+   "kopf": "Elsa Winter",
+   "art": "aussage",
+   "saetze": [
+    [
+     "Ich arbeite als Praktikantin im Stadtarchiv.",
+     "Am Samstag war ich im Park, weil ich alte Pläne mit dem heutigen Wegenetz vergleichen wollte.",
+     "Ich hatte eine Mappe und einen Maßstab dabei und bin kurz vor zehn wieder gegangen, weil es zu dunkel wurde.",
+     "Gestohlen habe ich nichts, das müssen Sie mir glauben.",
+     "Aber im Archiv liegt etwas, das Sie sich ansehen sollten."
+    ]
+   ],
+   "person": "elsa"
+  }
+ ],
+ "raetsel": [
+  {
+   "typ": "zuordnen",
+   "frage": "Wer hat das gesagt? Tippe die passende Person an.",
+   "personen": [
+    {
+     "name": "Gustav",
+     "img": "assets/figuren/gustav.webp"
+    },
+    {
+     "name": "Frau Maiwald",
+     "img": "assets/figuren/maiwald.webp"
+    },
+    {
+     "name": "Herr Kessler",
+     "img": "assets/figuren/kessler.webp"
+    },
+    {
+     "name": "Elsa",
+     "img": "assets/figuren/elsa.webp"
+    }
+   ],
+   "aussagen": [
+    {
+     "text": "Das Kennzeichen war nicht lesbar, weil es dunkel war.",
+     "richtig": 1
+    },
+    {
+     "text": "Nach dem Abendessen kehrte ich in den Park zurück.",
+     "richtig": 0
+    },
+    {
+     "text": "Wer den Park erhalten will, hängt nur an der Vergangenheit.",
+     "richtig": 2
+    },
+    {
+     "text": "Vor zehn Uhr habe ich den Park verlassen.",
+     "richtig": 3
+    },
+    {
+     "text": "Ein Fahrzeug fuhr ohne Licht auf dem Dach vorbei.",
+     "richtig": 1
+    }
+   ],
+   "hilfe1": "Die Aussagen sind mit anderen Worten umschrieben. Achte auf den Inhalt.",
+   "hilfe2": "Ein Fahrzeug und ein Kennzeichen: Wer redet davon?",
+   "spur": false,
+   "rtyp": "Wer sagt was?"
+  },
+  {
+   "typ": "mehrfach",
+   "frage": "Zwei Aussagen passen nicht zusammen. Welche?",
+   "optionen": [
+    "Elsa: Ich bin kurz vor zehn gegangen, weil es zu dunkel wurde.",
+    "Opa Gustav: Um 21 Uhr war der Kiosk schon dunkel.",
+    "Herr Kessler: Ich war den ganzen Abend beschäftigt.",
+    "Frau Maiwald: Nach 22 Uhr habe ich noch eine Stunde gerechnet.",
+    "Opa Gustav: Ich konnte nicht schlafen und kam zurück."
+   ],
+   "richtig": [
+    1,
+    3
+   ],
+   "hilfe1": "Vergleiche Aussagen über die Uhrzeit.",
+   "hilfe2": "Wann ging das Licht im Kiosk aus? Zwei Zeugen nennen verschiedene Zeiten.",
+   "hl": [
+    4,
+    6
+   ],
+   "spur": false,
+   "rtyp": "Widerspruch finden"
+  },
+  {
+   "typ": "markieren",
+   "frage": "Welcher Satz von Elsa macht neugierig und sollte weiterverfolgt werden?",
+   "richtig": [
+    19
+   ],
+   "hilfe1": "Such den Satz, der auf etwas Neues hinweist.",
+   "hilfe2": "Er steht am Ende ihrer Aussage.",
+   "hl": [
+    17,
+    18
+   ],
+   "spur": false,
+   "rtyp": "Beweis markieren"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Was verrät Herr Kessler durch seine Wortwahl über seine Haltung zum Kurpark?",
+   "optionen": [
+    "Er liebt den Park und will ihn schützen.",
+    "Er kennt den Park kaum und hat Angst vor ihm.",
+    "Er findet den Park unwichtig und will ihn verändern.",
+    "Er will den Park der Stadt schenken."
+   ],
+   "richtig": 2,
+   "hilfe1": "Achte auf die Wörter „alt“, „schmutzig“ und „teuer“.",
+   "hilfe2": "Wer so spricht, möchte meist etwas ändern.",
+   "hl": [
+    11
+   ],
+   "spur": false,
+   "rtyp": "Zwischen den Zeilen"
+  },
+  {
+   "typ": "reihenfolge",
+   "frage": "Bring die Teile in die richtige Reihenfolge. So entsteht eine Aussage von Frau Maiwald.",
+   "items": [
+    "Kurz nach elf",
+    "fuhr",
+    "ein weißer Lieferwagen",
+    "ohne Licht auf dem Dach",
+    "am Park vorbei"
+   ],
+   "alt": [
+    [
+     0,
+     1,
+     2,
+     4,
+     3
+    ]
+   ],
+   "art": "satz",
+   "hilfe1": "Der Satz beginnt mit der Zeit.",
+   "hilfe2": "An zweiter Stelle steht das Wort, das sagt, was geschieht.",
+   "spur": true,
+   "rtyp": "Zeugenaussage ordnen"
+  }
+ ]
+}

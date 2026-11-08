@@ -1,0 +1,110 @@
+{
+ "kap": 1,
+ "stufe": "mittel",
+ "titel": "Der erste Fall",
+ "auftrag": "Lies die Zeitungsmeldung. Dann löst du fünf Rätsel.",
+ "woerter": 137,
+ "material": [
+  {
+   "kopf": "Rätselhafte Diebstähle im Kurpark",
+   "art": "zeitung",
+   "saetze": [
+    [
+     "In der Stadt wächst die Sorge: Im Kurpark verschwinden seit drei Wochen Dinge, und niemand weiß, wohin.",
+     "Zuerst fehlten die kleinen Messingschilder an den Bänken, auf denen die Namen der Spender standen.",
+     "Wenig später blieb die Uhr am Pavillon stehen.",
+     "Seit Montag zeigt sie immer zehn nach drei.",
+     "Am vergangenen Wochenende war dann auch die Gedenktafel am Brunnen verschwunden, die an die Gründung des Parks erinnert."
+    ],
+    [
+     "Die Polizei hat bisher keine Spur.",
+     "Ein Sprecher erklärt, es gebe keine Einbruchsspuren und keine Zeugen.",
+     "Auch der Parkwächter hat nichts bemerkt: „Nachts ist hier niemand zu sehen, und morgens ist plötzlich etwas weg.“"
+    ],
+    [
+     "Der Stadtrat will am kommenden Donnerstag über die Zukunft der Fläche am Pavillon beraten.",
+     "Fest steht nur eines: Wer den Kurpark liebt, ist beunruhigt.",
+     "Die Stadt bittet alle, die etwas gesehen haben, sich im Rathaus zu melden."
+    ]
+   ]
+  }
+ ],
+ "raetsel": [
+  {
+   "typ": "markieren",
+   "frage": "Welcher Satz sagt, woran die Gedenktafel erinnert?",
+   "richtig": [
+    4
+   ],
+   "hilfe1": "Such die Stelle über die Gedenktafel.",
+   "hilfe2": "Der Satz steht im ersten Absatz, ganz am Ende.",
+   "hl": [
+    1,
+    4
+   ],
+   "spur": false,
+   "rtyp": "Beweis markieren"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Worüber berät der Stadtrat am Donnerstag?",
+   "optionen": [
+    "über die Zukunft der Fläche am Pavillon",
+    "über die Suche nach den Dieben",
+    "über neue Bänke im Kurpark",
+    "über die Reparatur der Uhr"
+   ],
+   "richtig": 0,
+   "hilfe1": "Such das Wort „Stadtrat“.",
+   "hilfe2": "Der Satz steht im letzten Absatz.",
+   "hl": [
+    8
+   ],
+   "spur": false,
+   "rtyp": "Schnellsuche"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Stimmt das? „Die Polizei hat Einbruchsspuren gefunden.“",
+   "optionen": [
+    "Stimmt",
+    "Stimmt nicht",
+    "Steht nicht im Text"
+   ],
+   "richtig": 1,
+   "hilfe1": "Lies die Sätze über die Polizei im zweiten Absatz.",
+   "hilfe2": "Der Sprecher sagt etwas über „Einbruchsspuren“.",
+   "hl": [
+    6
+   ],
+   "spur": false,
+   "rtyp": "Wahr, falsch oder steht nicht im Text"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Stimmt das? „Die Messingschilder waren ein Geschenk der Stadt.“",
+   "optionen": [
+    "Stimmt",
+    "Stimmt nicht",
+    "Steht nicht im Text"
+   ],
+   "richtig": 2,
+   "hilfe1": "Lies, was über die Messingschilder gesagt wird.",
+   "hilfe2": "Steht dort, wer sie geschenkt hat? Oder nur, was auf ihnen stand?",
+   "hl": [
+    1
+   ],
+   "spur": false,
+   "rtyp": "Wahr, falsch oder steht nicht im Text"
+  },
+  {
+   "typ": "fehler",
+   "frage": "Frau Wiesel hat einen Aushang geschrieben. Darin stecken vier Fehler. Findest du sie?",
+   "text": "Hilfe für den Kurpark!\nSeit drei Wochen verschwinden im Kurpark Dinge. Die Bänke haben ihre Schilder [[verlohren|verloren|verlooren]], die Uhr steht still und eine [[Gedenktavel|Gedenktafel|Gedentafel]] fehlt.\nWir suchen [[Kinter|Kinder|Kindar]], die genau hinschauen und nicht aufgeben.\n[[Trefpunkt|Treffpunkt|Treffpunkd]]: alter Pavillon, Mittwoch um 15 Uhr.",
+   "hilfe1": "Es sind Fehler bei „o“, bei „t/d“, bei „f“ und bei einer langen Silbe.",
+   "hilfe2": "Schau dir die Wörter „verloren“, „Gedenktafel“, „Kinder“ und „Treffpunkt“ genauer an.",
+   "spur": true,
+   "rtyp": "Fehlerteufel"
+  }
+ ]
+}

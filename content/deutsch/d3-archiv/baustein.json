@@ -1,0 +1,86 @@
+{
+ "id": "d3-archiv",
+ "kurz": "d3",
+ "fach": "deutsch",
+ "titel": "Das Archiv der verlorenen Geschichten",
+ "untertitel": "Ein Fantasy-Rätsel in sechs Kapiteln",
+ "kachel": "assets/bausteine/d3.webp",
+ "einleitung": "Unter der Stadtbibliothek liegt ein geheimes Archiv. Dort verlieren die Bücher ihre Wörter, eines nach dem anderen. Mira Federhold, die Archivarin, braucht deine Hilfe. Lies genau, löse die Rätsel und finde heraus, wer die Wörter frisst.",
+ "figuren": {
+  "mira": {
+   "name": "Mira Federhold",
+   "rolle": "Archivarin",
+   "img": "assets/figuren/mira.webp"
+  },
+  "staub": {
+   "name": "Der Staubschatten",
+   "rolle": "Wörterfresser"
+  }
+ },
+ "hilfe": {
+  "name": "Silbe",
+  "img": "assets/hilfe/silbe.webp",
+  "emoji": "🐛",
+  "jubel": [
+   "Knabber, richtig!",
+   "Das Buch raschelt vor Freude!",
+   "Gut gelesen!",
+   "Silbe ist stolz auf dich.",
+   "Wort für Wort gelöst!"
+  ]
+ },
+ "kapitel": [
+  {
+   "nr": 1,
+   "titel": "Die Tür im Regal",
+   "teaser": "Mira zeigt dir das Archiv und ein Märchen verliert Wörter.",
+   "begruessung": "Knabber. Ich bin Silbe, der Bücherwurm. Tipp auf mich, wenn du Hilfe brauchst.",
+   "ende": "Das Märchen ist wieder vollständig. Aber wer hat die Wörter geholt?",
+   "bild": "assets/kapitel/d3-k1.webp"
+  },
+  {
+   "nr": 2,
+   "titel": "Das Buch ohne Wörter",
+   "teaser": "Eine Seite voller Lücken wartet auf dich.",
+   "begruessung": "Aus dem Zusammenhang kannst du fehlende Wörter erraten. Probier es aus.",
+   "ende": "Die Lücken sind gefüllt. Eine Spur führt zu einer alten Fabel.",
+   "bild": "assets/kapitel/d3-k2.webp"
+  },
+  {
+   "nr": 3,
+   "titel": "Die Fabel",
+   "teaser": "Ein Fuchs, ein Rabe und eine Lehre.",
+   "begruessung": "In Fabeln sprechen Tiere. Aber meinen sie wirklich nur Tiere?",
+   "ende": "Die Lehre der Fabel ist klar. Und im Archiv raschelt es noch immer.",
+   "bild": "assets/kapitel/d3-k3.webp"
+  },
+  {
+   "nr": 4,
+   "titel": "Das Tagebuch des Staubschattens",
+   "teaser": "Im Archiv liegt ein Tagebuch aus Staub.",
+   "begruessung": "Wer „ich“ sagt, erzählt von sich selbst. Achte auf Gefühle.",
+   "ende": "Der Staubschatten ist einsam. Er frisst Wörter, aber er will etwas anderes.",
+   "bild": "assets/kapitel/d3-k4.webp"
+  },
+  {
+   "nr": 5,
+   "titel": "Das Gedichtschloss",
+   "teaser": "Die Tür zum letzten Raum ist mit einem Gedicht verschlossen.",
+   "begruessung": "Gedichte sprechen in Bildern. Lass dir Zeit.",
+   "ende": "Das Schloss springt auf. Dahinter liegt das letzte Buch.",
+   "bild": "assets/kapitel/d3-k5.webp"
+  },
+  {
+   "nr": 6,
+   "titel": "Die letzte Seite",
+   "teaser": "Das Geheimnis des Archivs wird gelüftet.",
+   "begruessung": "Das Ende ist nah. Lies die Seite in Ruhe.",
+   "ende": "Der Staubschatten hat seine Geschichte. Die Bücher füllen sich wieder.",
+   "bild": "assets/kapitel/d3-k6.webp"
+  }
+ ],
+ "abschluss": {
+  "titel": "Archiv gerettet!",
+  "text": "Der Staubschatten heißt jetzt Mo und weht als Geschichtenwind durchs Archiv. Mira ernennt dich zur Ehrenarchivarin."
+ }
+}

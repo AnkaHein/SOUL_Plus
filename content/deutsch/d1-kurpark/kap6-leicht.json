@@ -1,0 +1,93 @@
+{
+ "kap": 6,
+ "stufe": "leicht",
+ "titel": "Die Zeitkapsel",
+ "auftrag": "Der Fall ist fast gelöst. Lies den Abschlussbericht.",
+ "woerter": 74,
+ "material": [
+  {
+   "kopf": "Abschlussbericht von Frau Wiesel",
+   "art": "bericht",
+   "saetze": [
+    [
+     "Der Fall ist gelöst.",
+     "Herr Kessler hat zuerst die Schilder abgeschraubt.",
+     "Danach hat er die Uhr angehalten.",
+     "Zuletzt nahm er die Gedenktafel mit.",
+     "Er wollte, dass der Park unwichtig wirkt.",
+     "Dann hätte der Stadtrat für den Parkplatz gestimmt.",
+     "Die Kinder haben ihn überführt.",
+     "Elsa und die Kinder öffneten die Zeitkapsel unter dem Brunnen.",
+     "Darin lagen Briefe von Kindern aus dem Jahr 1911.",
+     "Der Park bleibt, wie er ist.",
+     "Die Tafel hängt wieder am Brunnen."
+    ]
+   ],
+   "person": "wiesel"
+  }
+ ],
+ "raetsel": [
+  {
+   "typ": "reihenfolge",
+   "frage": "Bring die Ereignisse in die richtige Reihenfolge. Was passierte zuerst?",
+   "items": [
+    "Herr Kessler schraubt die Schilder ab.",
+    "Die Uhr am Pavillon wird angehalten.",
+    "Die Gedenktafel verschwindet.",
+    "Die Kinder öffnen die Zeitkapsel."
+   ],
+   "hilfe1": "Der Bericht nennt die Reihenfolge mit Wörtern wie „zuerst“, „danach“ und „zuletzt“.",
+   "hilfe2": "Die Zeitkapsel wird erst am Ende geöffnet.",
+   "hl": [
+    1,
+    2,
+    3
+   ],
+   "spur": false,
+   "rtyp": "Zeitleiste"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Welche Zusammenfassung passt am besten zum Bericht?",
+   "optionen": [
+    "Herr Kessler wollte den Park wertlos wirken lassen. Die Kinder überführten ihn, und der Park bleibt.",
+    "Elsa hat die Schilder abgeschraubt und wurde bestraft.",
+    "Opa Gustav hat alles gestohlen, und der Park wird verkauft.",
+    "Die Kinder haben die Zeitkapsel gestohlen und versteckt."
+   ],
+   "richtig": 0,
+   "hilfe1": "Wer hat etwas getan, warum, und wie geht es aus?",
+   "hilfe2": "Die richtige Antwort nennt Herrn Kessler, die Kinder und den Park.",
+   "hl": [
+    4,
+    9
+   ],
+   "spur": false,
+   "rtyp": "Beste Zusammenfassung"
+  },
+  {
+   "typ": "markieren",
+   "frage": "Welcher Satz verrät, warum Herr Kessler die Dinge entfernte?",
+   "richtig": [
+    4
+   ],
+   "hilfe1": "Such das Wort „wollte“.",
+   "hilfe2": "Der Satz steht in der Mitte des Berichts.",
+   "hl": [
+    3,
+    5
+   ],
+   "spur": false,
+   "rtyp": "Beweis markieren"
+  },
+  {
+   "typ": "fehler",
+   "frage": "Frau Wiesel hat den Bericht für die Zeitung geschrieben. Darin stecken drei Fehler. Findest du sie?",
+   "text": "Der Fall im Kurpark ist gelöst!\nHerr Kessler wurde [[überfürt|überführt|überfuhrt]]. Er wollte, dass der [[Stadtrad|Stadtrat|Stadtratt]] für einen Parkplatz stimmt.\nDie Kinder fanden die [[Zeitkabsel|Zeitkapsel|Zeitkapsell]] unter dem Brunnen. Der Park bleibt für alle offen.",
+   "hilfe1": "Prüfe die langen Wörter in der Mitte der Sätze.",
+   "hilfe2": "Gesucht sind Fehler in „überführt“, „Stadtrat“ und „Zeitkapsel“.",
+   "spur": true,
+   "rtyp": "Fehlerteufel"
+  }
+ ]
+}

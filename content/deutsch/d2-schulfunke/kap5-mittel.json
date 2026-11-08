@@ -1,0 +1,163 @@
+{
+ "kap": 5,
+ "stufe": "mittel",
+ "titel": "Der Faktencheck",
+ "auftrag": "Zwei Zeitungen berichten über dasselbe Fest. Vergleiche sie genau.",
+ "woerter": 95,
+ "material": [
+  {
+   "kopf": "Der Schulfunke berichtet",
+   "art": "zeitung",
+   "saetze": [
+    [
+     "Am Samstag feierte die Schule ihr Sommerfest.",
+     "Rund 250 Gäste kamen auf den Schulhof.",
+     "Das Fest begann um 14 Uhr und endete um 18 Uhr.",
+     "Es gab Kuchen, Musik und eine Tombola für den guten Zweck."
+    ]
+   ]
+  },
+  {
+   "kopf": "Die Pausenpost berichtet",
+   "art": "zeitung",
+   "saetze": [
+    [
+     "Am Samstag fand das Schulfest statt.",
+     "Über 400 Gäste strömten auf den Schulhof.",
+     "Das Fest begann um 14 Uhr und dauerte bis 19 Uhr.",
+     "Auf der verschwundenen Titelseite des Schulfunke soll übrigens ein Kuchen mit dreißig Kerzen zu sehen sein."
+    ]
+   ],
+   "person": "jonas"
+  },
+  {
+   "kopf": "Notiz von Mara",
+   "art": "aussage",
+   "saetze": [
+    [
+     "Das Titelfoto kannten nur Mara, Tobi, Yusuf und Herr Brandt.",
+     "Wir haben es niemandem gezeigt, nicht einmal der Druckerei."
+    ]
+   ],
+   "person": "mara"
+  }
+ ],
+ "raetsel": [
+  {
+   "typ": "mehrfach",
+   "frage": "Zwei Angaben widersprechen sich. Welche?",
+   "optionen": [
+    "Der Schulfunke: Das Fest begann um 14 Uhr.",
+    "Die Pausenpost: Das Fest begann um 14 Uhr.",
+    "Der Schulfunke: Rund 250 Gäste kamen auf den Schulhof.",
+    "Der Schulfunke: Es gab eine Tombola.",
+    "Die Pausenpost: Über 400 Gäste strömten auf den Schulhof."
+   ],
+   "richtig": [
+    2,
+    4
+   ],
+   "hilfe1": "Vergleiche die Zahlen der Gäste.",
+   "hilfe2": "Ein Fest kann nicht gleichzeitig rund 250 und über 400 Gäste haben.",
+   "hl": [
+    1,
+    5
+   ],
+   "spur": false,
+   "rtyp": "Widerspruch finden"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Wann endete das Fest laut dem Schulfunke?",
+   "optionen": [
+    "um 16 Uhr",
+    "um 18 Uhr",
+    "um 19 Uhr",
+    "um 22 Uhr"
+   ],
+   "richtig": 1,
+   "hilfe1": "Such die Uhrzeiten in der ersten Meldung.",
+   "hilfe2": "Die Pausenpost nennt 19 Uhr, der Schulfunke eine andere Zeit.",
+   "hl": [
+    2
+   ],
+   "spur": false,
+   "rtyp": "Schnellsuche"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Stimmt das? „Beide Zeitungen sagen, dass das Fest um 14 Uhr begann.“",
+   "optionen": [
+    "Stimmt",
+    "Stimmt nicht",
+    "Steht nicht im Text"
+   ],
+   "richtig": 0,
+   "hilfe1": "Vergleiche den Beginn des Festes in beiden Meldungen.",
+   "hilfe2": "Beide nennen dieselbe Uhrzeit.",
+   "hl": [
+    2,
+    6
+   ],
+   "spur": false,
+   "rtyp": "Wahr, falsch oder steht nicht im Text"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Warum ist der Satz über die Kerzen in der Pausenpost auffällig?",
+   "optionen": [
+    "Das Foto war schon in der Zeitung.",
+    "Die Pausenpost hat ein eigenes Foto gemacht.",
+    "Das Titelfoto kannten nur vier Personen.",
+    "Alle in der Schule kannten das Foto."
+   ],
+   "richtig": 2,
+   "hilfe1": "Lies die Notiz von Mara noch einmal.",
+   "hilfe2": "Wer die Kerzen kennt, muss das Titelfoto gesehen haben.",
+   "hl": [
+    7,
+    8
+   ],
+   "spur": false,
+   "rtyp": "Zwischen den Zeilen"
+  },
+  {
+   "typ": "zuordnen",
+   "frage": "Passt die Aussage zu „schon vorbei“ oder zu „gerade jetzt“?",
+   "personen": [
+    {
+     "name": "Schon vorbei"
+    },
+    {
+     "name": "Gerade jetzt"
+    }
+   ],
+   "aussagen": [
+    {
+     "text": "Die Gäste strömten auf den Schulhof.",
+     "richtig": 0
+    },
+    {
+     "text": "Mara liest gerade die Pausenpost.",
+     "richtig": 1
+    },
+    {
+     "text": "Das Fest endete um 18 Uhr.",
+     "richtig": 0
+    },
+    {
+     "text": "Tobi sucht jetzt im Kopierraum.",
+     "richtig": 1
+    },
+    {
+     "text": "Jonas hat die Meldung geschrieben.",
+     "richtig": 0
+    }
+   ],
+   "hilfe1": "Achte auf die Wörter „strömten“, „endete“, „hat geschrieben“, „liest“ und „sucht“.",
+   "hilfe2": "Was „strömten“ oder „endete“ ist, ist schon vorbei.",
+   "spur": true,
+   "rtyp": "Zeitform als Alibi"
+  }
+ ]
+}

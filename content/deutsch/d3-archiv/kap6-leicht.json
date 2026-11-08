@@ -1,0 +1,96 @@
+{
+ "kap": 6,
+ "stufe": "leicht",
+ "titel": "Die letzte Seite",
+ "auftrag": "Im letzten Raum liegt ein Buch mit einer einzigen Seite. Lies sie mit Mira.",
+ "woerter": 57,
+ "material": [
+  {
+   "kopf": "Die letzte Seite",
+   "art": "bericht",
+   "saetze": [
+    [
+     "Vor langer Zeit blieb eine Geschichte ungeschrieben.",
+     "Niemand las sie, niemand liebte sie.",
+     "Aus ihrem Staub wurde ein Schatten.",
+     "Er hatte Hunger auf Wörter, denn er suchte seine eigene Geschichte.",
+     "Mira fand die leere Seite.",
+     "Sie las dem Schatten eine neue Geschichte vor.",
+     "Da wurde er leicht und warm.",
+     "Er nannte sich Mo und wurde der Geschichtenwind."
+    ]
+   ],
+   "person": "mira"
+  }
+ ],
+ "raetsel": [
+  {
+   "typ": "auswahl",
+   "frage": "Warum fraß der Staubschatten die Wörter?",
+   "optionen": [
+    "Er war ein Wortsammler.",
+    "Er suchte seine eigene Geschichte.",
+    "Er mochte den Geschmack.",
+    "Er wollte die Bücher zerstören."
+   ],
+   "richtig": 1,
+   "hilfe1": "Lies den dritten Satz noch einmal.",
+   "hilfe2": "Er hatte Hunger, weil ihm etwas fehlte.",
+   "hl": [
+    3
+   ],
+   "spur": false,
+   "rtyp": "Ursache und Wirkung"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Stimmt das? „Mira schrieb dem Staubschatten eine neue Geschichte auf.“",
+   "optionen": [
+    "Stimmt",
+    "Stimmt nicht",
+    "Steht nicht im Text"
+   ],
+   "richtig": 1,
+   "hilfe1": "Achte darauf, was Mira tat.",
+   "hilfe2": "Sie hat sie ihm vorgelesen.",
+   "hl": [
+    5
+   ],
+   "spur": false,
+   "rtyp": "Wahr, falsch oder steht nicht im Text"
+  },
+  {
+   "typ": "reihenfolge",
+   "frage": "Bring die Ereignisse in die richtige Reihenfolge.",
+   "items": [
+    "Der Staubschatten entsteht aus einer ungeschriebenen Geschichte.",
+    "Mira findet die leere Seite.",
+    "Mira liest ihm seine Geschichte vor.",
+    "Der Staubschatten wird zu Mo, dem Geschichtenwind."
+   ],
+   "hilfe1": "Beginne mit dem, was vor langer Zeit geschah.",
+   "hilfe2": "Der Wind entsteht ganz am Ende.",
+   "hl": [
+    0,
+    4
+   ],
+   "spur": false,
+   "rtyp": "Zeitleiste"
+  },
+  {
+   "typ": "reihenfolge",
+   "frage": "Ordne die Teile zu einem Satz aus der Geschichte.",
+   "items": [
+    "Er",
+    "nannte",
+    "sich",
+    "Mo."
+   ],
+   "art": "satz",
+   "hilfe1": "Der Satz beginnt mit „Er“.",
+   "hilfe2": "Er nannte sich Mo.",
+   "spur": true,
+   "rtyp": "Satzbau"
+  }
+ ]
+}

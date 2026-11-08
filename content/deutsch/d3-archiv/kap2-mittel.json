@@ -1,0 +1,158 @@
+{
+ "kap": 2,
+ "stufe": "mittel",
+ "titel": "Das Buch ohne Wörter",
+ "auftrag": "Das Buch hat Lücken, denn ihm fehlen Wörter. Finde heraus, welche.",
+ "woerter": 92,
+ "material": [
+  {
+   "kopf": "Mira Federhold",
+   "art": "aussage",
+   "saetze": [
+    [
+     "Dieses Buch hat fast alle Verben verloren.",
+     "Das sind die Wörter, die sagen, was jemand tut.",
+     "Ohne sie bleibt eine Geschichte stehen wie eine Uhr ohne Zeiger.",
+     "Lies die Seite und überlege, was dort gestanden haben könnte."
+    ]
+   ],
+   "person": "mira"
+  },
+  {
+   "kopf": "Seite aus dem Buch ohne Wörter",
+   "art": "buch",
+   "saetze": [
+    [
+     "Der Mond ____ über dem Dorf, und alle Häuser lagen im Schlaf.",
+     "Die Katze ____ auf dem Dach und miaute leise.",
+     "Unten im Hof ____ ein altes Fass, aus dem es nach Äpfeln roch.",
+     "Plötzlich ____ ein Fenster, und ein Mädchen lehnte sich hinaus.",
+     "Ein Licht ____ in der Dunkelheit, und die Katze sprang davon."
+    ]
+   ]
+  }
+ ],
+ "raetsel": [
+  {
+   "typ": "auswahl",
+   "frage": "Welches Wort passt am besten in die zweite Lücke? „Die Katze ____ auf dem Dach und miaute leise.“",
+   "optionen": [
+    "schwamm",
+    "las",
+    "backte",
+    "saß"
+   ],
+   "richtig": 3,
+   "hilfe1": "Überlege, was eine Katze auf einem Dach tun kann.",
+   "hilfe2": "Das Wort sagt, wie sie dort war, bevor sie davonsprang.",
+   "hl": [
+    5
+   ],
+   "spur": false,
+   "rtyp": "Wort erschließen"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Welches Wort passt am besten in die vierte Lücke? „Plötzlich ____ ein Fenster.“",
+   "optionen": [
+    "kochte",
+    "öffnete sich",
+    "wuchs",
+    "sang"
+   ],
+   "richtig": 1,
+   "hilfe1": "Danach lehnt sich ein Mädchen hinaus. Was muss mit dem Fenster passiert sein?",
+   "hilfe2": "Das Wort sagt, dass etwas plötzlich aufgeht.",
+   "hl": [
+    7
+   ],
+   "spur": false,
+   "rtyp": "Wort erschließen"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Wie wirkt die Stimmung auf dieser Seite?",
+   "optionen": [
+    "ruhig und ein wenig geheimnisvoll",
+    "laut und lustig",
+    "wütend und wild",
+    "traurig und verzweifelt"
+   ],
+   "richtig": 0,
+   "hilfe1": "Achte auf die Wörter „im Schlaf“, „leise“ und „Dunkelheit“.",
+   "hilfe2": "Es ist Nacht, und alles ist still, bis etwas geschieht.",
+   "hl": [
+    4,
+    8
+   ],
+   "spur": false,
+   "rtyp": "Zwischen den Zeilen"
+  },
+  {
+   "typ": "markieren",
+   "frage": "Welcher Satz zeigt, dass es nach Äpfeln riecht?",
+   "richtig": [
+    6
+   ],
+   "hilfe1": "Such das Wort „Äpfeln“.",
+   "hilfe2": "Der Satz steht in der Mitte der Seite.",
+   "hl": [
+    5,
+    7
+   ],
+   "spur": false,
+   "rtyp": "Beweis markieren"
+  },
+  {
+   "typ": "luecke",
+   "frage": "Mira hat Wörter gesammelt, die ähnlich klingen. Wähle das richtige.",
+   "text": "Auf jeder ___ steht ein Wort. Die Geige hat vier ___. Das Kleid ist aus ___. Der Wind ___ durch die Gasse. Das Buch ___ im Regal.",
+   "luecken": [
+    {
+     "optionen": [
+      "Saite",
+      "Seite",
+      "Seide"
+     ],
+     "richtig": 1
+    },
+    {
+     "optionen": [
+      "Saiten",
+      "Seiten",
+      "Seide"
+     ],
+     "richtig": 0
+    },
+    {
+     "optionen": [
+      "Seite",
+      "Saite",
+      "Seide"
+     ],
+     "richtig": 2
+    },
+    {
+     "optionen": [
+      "Weht",
+      "weht",
+      "weth"
+     ],
+     "richtig": 1
+    },
+    {
+     "optionen": [
+      "steht",
+      "stet",
+      "Steht"
+     ],
+     "richtig": 0
+    }
+   ],
+   "hilfe1": "Frage dich bei jedem Satz: Welche Bedeutung passt?",
+   "hilfe2": "Ein Buch hat Seiten. Eine Geige hat Saiten. Kleider gibt es aus Stoff.",
+   "spur": true,
+   "rtyp": "Lückentext"
+  }
+ ]
+}

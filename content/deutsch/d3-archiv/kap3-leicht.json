@@ -1,0 +1,97 @@
+{
+ "kap": 3,
+ "stufe": "leicht",
+ "titel": "Die Fabel",
+ "auftrag": "Mira hat eine kurze Fabel gefunden. Lies sie genau.",
+ "woerter": 86,
+ "material": [
+  {
+   "kopf": "Der Fuchs und der Rabe",
+   "art": "fabel",
+   "saetze": [
+    [
+     "Ein Fuchs wollte über den Fluss.",
+     "Aber die Brücke war kaputt.",
+     "Er sah einen Raben und sagte: „Du kannst fliegen.",
+     "Sieh nach, wo es einen Weg gibt!“",
+     "Der Rabe antwortete: „Ich helfe dir, aber ich kenne mich am Boden nicht aus.“",
+     "Der Fuchs kannte jeden Pfad am Ufer.",
+     "So flog der Rabe voraus und rief, wo das Wasser flach war.",
+     "Der Fuchs lief am Ufer entlang und fand die Furt.",
+     "Beide kamen heil ans andere Ufer.",
+     "Da sagte der Fuchs: „Allein hätte ich das nie geschafft.“"
+    ]
+   ]
+  }
+ ],
+ "raetsel": [
+  {
+   "typ": "auswahl",
+   "frage": "Welche Lehre passt am besten zur Fabel?",
+   "optionen": [
+    "Man soll nie jemandem helfen.",
+    "Flüsse sind gefährlich.",
+    "Zusammen schafft man mehr als allein.",
+    "Füchse sind klüger als Raben."
+   ],
+   "richtig": 2,
+   "hilfe1": "Überlege, was Fuchs und Rabe zusammen geschafft haben.",
+   "hilfe2": "Was konnte der eine, was der andere nicht konnte?",
+   "hl": [
+    5,
+    9
+   ],
+   "spur": false,
+   "rtyp": "Beste Zusammenfassung"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Stimmt das? „Der Rabe flog dem Fuchs voraus.“",
+   "optionen": [
+    "Stimmt",
+    "Stimmt nicht",
+    "Steht nicht im Text"
+   ],
+   "richtig": 0,
+   "hilfe1": "Such die Stelle, an der der Rabe etwas tut.",
+   "hilfe2": "Der Rabe konnte sehen, wo das Wasser flach war.",
+   "hl": [
+    6
+   ],
+   "spur": false,
+   "rtyp": "Wahr, falsch oder steht nicht im Text"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Stimmt das? „Der Fuchs kann fliegen.“",
+   "optionen": [
+    "Stimmt",
+    "Stimmt nicht",
+    "Steht nicht im Text"
+   ],
+   "richtig": 1,
+   "hilfe1": "Lies den ersten Satz, in dem der Fuchs und der Rabe vorkommen.",
+   "hilfe2": "Der Fuchs sagt: „Du kannst fliegen.“ Er spricht den Raben an.",
+   "hl": [
+    2
+   ],
+   "spur": false,
+   "rtyp": "Wahr, falsch oder steht nicht im Text"
+  },
+  {
+   "typ": "reihenfolge",
+   "frage": "Bring die Teile in die richtige Reihenfolge. So entsteht ein Satz aus der Fabel.",
+   "items": [
+    "Der Rabe",
+    "rief",
+    "laut",
+    "wo das Wasser flach war."
+   ],
+   "art": "satz",
+   "hilfe1": "Der Satz beginnt mit „Der Rabe“.",
+   "hilfe2": "Das Wort nach „Der Rabe“ sagt, was er tut.",
+   "spur": true,
+   "rtyp": "Satzbau ordnen"
+  }
+ ]
+}

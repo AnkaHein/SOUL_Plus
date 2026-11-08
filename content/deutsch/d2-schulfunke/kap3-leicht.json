@@ -1,0 +1,135 @@
+{
+ "kap": 3,
+ "stufe": "leicht",
+ "titel": "Interviewnotizen",
+ "auftrag": "Mara hat Notizen von drei Gesprächen gemacht. Lies sie genau.",
+ "woerter": 63,
+ "material": [
+  {
+   "kopf": "Gespräch mit Tobi",
+   "art": "aussage",
+   "saetze": [
+    [
+     "Ich war von 15 bis 16 Uhr im Fotolabor.",
+     "Ich habe das Kerzenbild entwickelt.",
+     "Ich habe die ganze Zeit dort gestanden."
+    ]
+   ],
+   "person": "tobi"
+  },
+  {
+   "kopf": "Gespräch mit dem Hausmeister",
+   "art": "aussage",
+   "saetze": [
+    [
+     "Ich habe um 15:20 Uhr Tobi im Flur gesehen.",
+     "Er hatte einen Becher in der Hand.",
+     "Die Tür vom Redaktionsraum war offen."
+    ]
+   ],
+   "person": "pohl"
+  },
+  {
+   "kopf": "Gespräch mit Yusuf",
+   "art": "aussage",
+   "saetze": [
+    [
+     "Ich war am Kopierer und habe das Layout ausgedruckt.",
+     "Um 15:30 Uhr kam ich zurück.",
+     "Da war die Mappe weg."
+    ]
+   ],
+   "person": "yusuf"
+  }
+ ],
+ "raetsel": [
+  {
+   "typ": "zuordnen",
+   "frage": "Wer hat das gesagt? Tippe die passende Person an.",
+   "personen": [
+    {
+     "name": "Tobi",
+     "img": "assets/figuren/tobi.webp"
+    },
+    {
+     "name": "Hausmeister Pohl"
+    },
+    {
+     "name": "Yusuf",
+     "img": "assets/figuren/yusuf.webp"
+    }
+   ],
+   "aussagen": [
+    {
+     "text": "Ich habe Tobi mit einem Becher im Flur gesehen.",
+     "richtig": 1
+    },
+    {
+     "text": "Ich habe das Layout ausgedruckt.",
+     "richtig": 2
+    },
+    {
+     "text": "Ich habe das Kerzenbild entwickelt.",
+     "richtig": 0
+    }
+   ],
+   "hilfe1": "Lies jede Aussage noch einmal und achte auf die Überschriften.",
+   "hilfe2": "Wer arbeitet mit Bildern? Wer druckt etwas aus? Wer sieht jemanden im Flur?",
+   "spur": false,
+   "rtyp": "Wer sagt was?"
+  },
+  {
+   "typ": "mehrfach",
+   "frage": "Zwei Aussagen passen nicht zusammen. Welche?",
+   "optionen": [
+    "Yusuf: Um 15:30 Uhr kam ich zurück.",
+    "Hausmeister: Ich habe um 15:20 Uhr Tobi im Flur gesehen.",
+    "Hausmeister: Die Tür vom Redaktionsraum war offen.",
+    "Tobi: Ich habe die ganze Zeit im Fotolabor gestanden."
+   ],
+   "richtig": [
+    1,
+    3
+   ],
+   "hilfe1": "Vergleiche, wo Tobi laut den beiden Personen um 15:20 Uhr war.",
+   "hilfe2": "Kann Tobi im Fotolabor stehen und zugleich im Flur sein?",
+   "hl": [
+    2,
+    3
+   ],
+   "spur": false,
+   "rtyp": "Widerspruch finden"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Stimmt das? „Yusuf war um 15:30 Uhr wieder im Redaktionsraum.“",
+   "optionen": [
+    "Stimmt",
+    "Stimmt nicht",
+    "Steht nicht im Text"
+   ],
+   "richtig": 0,
+   "hilfe1": "Lies die Aussage von Yusuf bis zum Ende.",
+   "hilfe2": "Er sagt, wann er zurückkam.",
+   "hl": [
+    7
+   ],
+   "spur": false,
+   "rtyp": "Wahr, falsch oder steht nicht im Text"
+  },
+  {
+   "typ": "reihenfolge",
+   "frage": "Bring die Teile in die richtige Reihenfolge. So entsteht ein Satz mit wörtlicher Rede.",
+   "items": [
+    "„Ich war im Fotolabor“,",
+    "sagte",
+    "Tobi."
+   ],
+   "art": "satz",
+   "hilfe1": "Der Satz beginnt mit dem, was Tobi gesagt hat.",
+   "hilfe2": "Nach dem Gesagten steht ein Komma.",
+   "spur": true,
+   "rtyp": "Wörtliche Rede ordnen"
+  }
+ ]
+}

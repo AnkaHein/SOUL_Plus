@@ -1,0 +1,106 @@
+{
+ "kap": 2,
+ "stufe": "mittel",
+ "titel": "Der Zettel",
+ "auftrag": "Auf Maras Tisch lag ein Zettel. Lies ihn genau.",
+ "woerter": 56,
+ "material": [
+  {
+   "kopf": "Der anonyme Zettel",
+   "art": "zettel",
+   "saetze": [
+    [
+     "Die Titelseite ist in Sicherheit.",
+     "Sie liegt dort, wo viel kopiert wird, und niemand wird sie dort suchen.",
+     "Ich gebe sie nur zurück, wenn ihr einen Fehler zugebt.",
+     "Ihr habt jemanden ignoriert, der ein Teil dieser Zeitung sein wollte.",
+     "Denkt darüber nach, bevor ihr den Druck bestellt.",
+     "Ich warte bis morgen früh."
+    ],
+    [
+     "Ein Freund der Zeitung"
+    ]
+   ]
+  }
+ ],
+ "raetsel": [
+  {
+   "typ": "auswahl",
+   "frage": "Wo liegt die Titelseite wahrscheinlich?",
+   "optionen": [
+    "im Lehrerzimmer",
+    "im Keller",
+    "in der Turnhalle",
+    "im Kopierraum"
+   ],
+   "richtig": 3,
+   "hilfe1": "Lies den zweiten Satz auf dem Zettel.",
+   "hilfe2": "Wo wird in einer Schule viel kopiert?",
+   "hl": [
+    1
+   ],
+   "spur": false,
+   "rtyp": "Zwischen den Zeilen"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Was bedeutet „ignoriert“ in dem Satz „Ihr habt jemanden ignoriert“?",
+   "optionen": [
+    "sofort angerufen",
+    "sehr gelobt",
+    "nicht beachtet",
+    "laut gerufen"
+   ],
+   "richtig": 2,
+   "hilfe1": "Überlege, was jemand fühlt, der „ein Teil dieser Zeitung sein wollte“.",
+   "hilfe2": "Wer ignoriert wird, den beachtet man nicht.",
+   "hl": [
+    3
+   ],
+   "spur": false,
+   "rtyp": "Wort erschließen"
+  },
+  {
+   "typ": "markieren",
+   "frage": "Welcher Satz sagt, was passieren muss, damit die Titelseite zurückkommt?",
+   "richtig": [
+    2
+   ],
+   "hilfe1": "Such das Wort „zurück“.",
+   "hilfe2": "Der Satz steht in der Mitte des Zettels.",
+   "hl": [
+    1,
+    3
+   ],
+   "spur": false,
+   "rtyp": "Beweis markieren"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Wer könnte den Zettel geschrieben haben?",
+   "optionen": [
+    "Ein Lehrer, der die Zeitung lobt",
+    "Ein Kind aus der Grundschule, das die Ausgabe nicht kennt",
+    "Die Druckerei, die die Ausgabe drucken soll",
+    "Jemand, der sich in der Redaktion übergangen fühlt"
+   ],
+   "richtig": 3,
+   "hilfe1": "Lies den Satz über die Person, die ignoriert wurde.",
+   "hilfe2": "Der Schreiber will, dass die Redaktion einen Fehler zugibt. Wer wurde schlecht behandelt?",
+   "hl": [
+    3
+   ],
+   "spur": false,
+   "rtyp": "Zwischen den Zeilen"
+  },
+  {
+   "typ": "fehler",
+   "frage": "Tobi hat seine Notizen aufgeschrieben. Darin stecken vier Fehler. Findest du sie?",
+   "text": "Ich habe die Mappe zuletzt auf dem Tisch gesehen.\nDann bin ich ins Fotolabor gegangen, weil ich das Bild [[endwickeln|entwickeln|entwiekeln]] musste.\nAls ich zurückkam, war der [[Tich|Tisch|Tish]] leer. Ich habe sofort Herrn Brandt [[geruffen|gerufen|gerufn]] und danach Mara.\nWir haben jeden Winkel des Raumes durchsucht, aber nichts [[gefunten|gefunden|gefunnden]].",
+   "hilfe1": "Lies die Wörter mit „tw“, „sch“ und „d“ am Silbenende langsam.",
+   "hilfe2": "Gesucht sind Fehler in „entwickeln“, „Tisch“, „gerufen“ und „gefunden“.",
+   "spur": true,
+   "rtyp": "Fehlerteufel"
+  }
+ ]
+}

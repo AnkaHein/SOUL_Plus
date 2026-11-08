@@ -1,0 +1,121 @@
+{
+ "kap": 1,
+ "stufe": "mittel",
+ "titel": "Die Tür im Regal",
+ "auftrag": "Mira zeigt dir das Archiv. Lies den Anfang des Märchens aus dem ersten Buch.",
+ "woerter": 155,
+ "material": [
+  {
+   "kopf": "Mira Federhold",
+   "art": "aussage",
+   "saetze": [
+    [
+     "Willkommen im Archiv!",
+     "Ich bin Mira Federhold, und ich hüte die Geschichten, die hier unter der Stadtbibliothek leben.",
+     "Man kommt nur durch die Tür im Regal herein, wenn man das richtige Buch zieht.",
+     "Seit einiger Zeit verlieren die Bücher ihre Wörter.",
+     "Zuerst waren es nur ein paar Seiten, jetzt sind ganze Kapitel leer.",
+     "Bitte hilf mir herauszufinden, warum."
+    ]
+   ],
+   "person": "mira"
+  },
+  {
+   "kopf": "Der Müller und der Mondfisch",
+   "art": "maerchen",
+   "saetze": [
+    [
+     "Es war einmal ein kleiner Müller namens Tilo, der in einer alten Mühle am Rand des Dorfes lebte.",
+     "Jeden Morgen, noch vor Sonnenaufgang, mahlte er Korn für das ganze Dorf.",
+     "Eines Tages hörte er ein leises Weinen im Mühlteich.",
+     "Er schaute hinein und sah einen silbernen Fisch, der im Mondlicht glänzte.",
+     "Der Fisch sprach: „Hilf mir, ich habe mein Lied verloren und kann nicht mehr schwimmen.“",
+     "Tilo setzte sich ans Ufer und sang ihm ein Lied vor.",
+     "Da leuchtete der Fisch und schenkte ihm drei Wünsche.",
+     "Der erste Wunsch war, dass im Dorf nie jemand hungern muss."
+    ]
+   ]
+  }
+ ],
+ "raetsel": [
+  {
+   "typ": "reihenfolge",
+   "frage": "Bring die Ereignisse in die richtige Reihenfolge. Was passierte zuerst?",
+   "items": [
+    "Tilo mahlt vor Sonnenaufgang Korn.",
+    "Tilo hört ein Weinen im Teich.",
+    "Tilo sieht einen silbernen Fisch.",
+    "Der Fisch bittet um Hilfe.",
+    "Tilo singt dem Fisch ein Lied vor."
+   ],
+   "hilfe1": "Das Märchen erzählt von vorn nach hinten.",
+   "hilfe2": "Der Fisch bittet erst um Hilfe, nachdem Tilo ihn gesehen hat.",
+   "hl": [
+    7,
+    8,
+    11
+   ],
+   "spur": false,
+   "rtyp": "Zeitleiste"
+  },
+  {
+   "typ": "markieren",
+   "frage": "Welcher Satz zeigt, wie Tilo dem Fisch hilft?",
+   "richtig": [
+    11
+   ],
+   "hilfe1": "Such die Stelle, an der Tilo etwas für den Fisch tut.",
+   "hilfe2": "Der Satz steht nach der Bitte des Fisches.",
+   "hl": [
+    10,
+    12
+   ],
+   "spur": false,
+   "rtyp": "Beweis markieren"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Stimmt das? „Der Fisch kann nicht schwimmen, weil er sein Lied verloren hat.“",
+   "optionen": [
+    "Stimmt",
+    "Stimmt nicht",
+    "Steht nicht im Text"
+   ],
+   "richtig": 0,
+   "hilfe1": "Lies, was der Fisch zu Tilo sagt.",
+   "hilfe2": "Der Fisch erzählt von seinem Lied und von seinem Problem.",
+   "hl": [
+    10
+   ],
+   "spur": false,
+   "rtyp": "Wahr, falsch oder steht nicht im Text"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Was verrät der erste Wunsch über Tilo?",
+   "optionen": [
+    "Er denkt zuerst an andere und nicht an sich.",
+    "Er ist selbst sehr hungrig.",
+    "Er hat Angst vor dem Fisch.",
+    "Er will das Dorf verlassen."
+   ],
+   "richtig": 0,
+   "hilfe1": "Lies den letzten Satz des Märchens noch einmal.",
+   "hilfe2": "Tilo wünscht sich nichts für sich selbst.",
+   "hl": [
+    13
+   ],
+   "spur": false,
+   "rtyp": "Zwischen den Zeilen"
+  },
+  {
+   "typ": "fehler",
+   "frage": "Mira hat ein Schild an die Tür geschrieben. Darin stecken vier Fehler. Findest du sie?",
+   "text": "Willkommen im [[Archif|Archiv|Arciv]]!\nHier [[wonen|wohnen|wonnen]] Geschichten, die niemand [[vergesen|vergessen|vergeßen]] soll.\nBitte [[lessen|lesen|leesen]] sie leise und lass die Bücher in Ruhe.",
+   "hilfe1": "Lies das Schild laut und leise. Achte auf „h“, „f“ oder „v“ und auf „ss“.",
+   "hilfe2": "Gesucht sind Fehler in „Archiv“, „wohnen“, „vergessen“ und „lesen“.",
+   "spur": true,
+   "rtyp": "Fehlerteufel"
+  }
+ ]
+}

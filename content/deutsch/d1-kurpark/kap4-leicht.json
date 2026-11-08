@@ -1,0 +1,236 @@
+{
+ "kap": 4,
+ "stufe": "leicht",
+ "titel": "Die Karte im Kurpark",
+ "auftrag": "Elsa hat eine Wegbeschreibung abgeschrieben. Folge dem Weg auf der Karte.",
+ "woerter": 41,
+ "material": [
+  {
+   "kopf": "Wegbeschreibung",
+   "art": "karte",
+   "saetze": [
+    [
+     "Geh vom Haupttor geradeaus bis zum Brunnen."
+    ],
+    [
+     "Biege dort nach links ab."
+    ],
+    [
+     "Geh weiter, bis du den Teich siehst.",
+     "Dort wendest du dich nach rechts."
+    ],
+    [
+     "Bleib bei der Bank stehen.",
+     "Hinter der Bank beginnt ein Beet."
+    ],
+    [
+     "Am Beet steht der Hinweisstein."
+    ]
+   ],
+   "person": "elsa"
+  }
+ ],
+ "raetsel": [
+  {
+   "typ": "karte",
+   "frage": "Wo steht der Hinweisstein? Folge dem Weg und tippe den Ort an.",
+   "orte": [
+    {
+     "id": "tor",
+     "sym": "tor",
+     "x": 50,
+     "y": 62,
+     "label": "Haupttor"
+    },
+    {
+     "id": "brunnen",
+     "sym": "brunnen",
+     "x": 50,
+     "y": 38,
+     "label": "Brunnen"
+    },
+    {
+     "id": "teich",
+     "sym": "teich",
+     "x": 22,
+     "y": 40,
+     "label": "Teich"
+    },
+    {
+     "id": "bank1",
+     "sym": "bank",
+     "x": 20,
+     "y": 26,
+     "label": "Bank"
+    },
+    {
+     "id": "beet1",
+     "sym": "beet",
+     "x": 20,
+     "y": 12,
+     "label": "Beet"
+    },
+    {
+     "id": "pavillon",
+     "sym": "pavillon",
+     "x": 50,
+     "y": 14,
+     "label": "Pavillon"
+    },
+    {
+     "id": "beet2",
+     "sym": "beet",
+     "x": 70,
+     "y": 12,
+     "label": "Beet"
+    },
+    {
+     "id": "kiosk",
+     "sym": "kiosk",
+     "x": 80,
+     "y": 58,
+     "label": "Kiosk"
+    },
+    {
+     "id": "spiel",
+     "sym": "spielplatz",
+     "x": 82,
+     "y": 34,
+     "label": "Spielplatz"
+    },
+    {
+     "id": "bank2",
+     "sym": "bank",
+     "x": 66,
+     "y": 48,
+     "label": "Bank"
+    }
+   ],
+   "wege": [
+    [
+     "tor",
+     "brunnen"
+    ],
+    [
+     "brunnen",
+     "teich"
+    ],
+    [
+     "teich",
+     "bank1"
+    ],
+    [
+     "bank1",
+     "beet1"
+    ],
+    [
+     "brunnen",
+     "pavillon"
+    ],
+    [
+     "pavillon",
+     "beet2"
+    ],
+    [
+     "tor",
+     "kiosk"
+    ],
+    [
+     "brunnen",
+     "spiel"
+    ],
+    [
+     "brunnen",
+     "bank2"
+    ]
+   ],
+   "richtig": "beet1",
+   "hilfe1": "Beginne mit dem Finger am Haupttor und gehe den Weg Schritt für Schritt.",
+   "hilfe2": "Am Brunnen geht es nach links. Am Teich dann nach rechts, also weiter nach oben.",
+   "hl": [
+    1,
+    3
+   ],
+   "spur": false,
+   "rtyp": "Karte nach Text"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "In welche Richtung biegst du am Brunnen ab?",
+   "optionen": [
+    "geradeaus weiter",
+    "nach links",
+    "nach rechts",
+    "zurück zum Tor"
+   ],
+   "richtig": 1,
+   "hilfe1": "Such das Wort „Brunnen“ in der Wegbeschreibung.",
+   "hilfe2": "Der Satz steht gleich nach dem ersten.",
+   "hl": [
+    1
+   ],
+   "spur": false,
+   "rtyp": "Schnellsuche"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Stimmt das? „Der Weg beginnt am Kiosk.“",
+   "optionen": [
+    "Stimmt",
+    "Stimmt nicht",
+    "Steht nicht im Text"
+   ],
+   "richtig": 1,
+   "hilfe1": "Lies die erste Zeile der Wegbeschreibung.",
+   "hilfe2": "Wo beginnt der Weg: am Kiosk oder am Haupttor?",
+   "hl": [
+    0
+   ],
+   "spur": false,
+   "rtyp": "Wahr, falsch oder steht nicht im Text"
+  },
+  {
+   "typ": "luecke",
+   "frage": "Lies die Geschichte von Opa Gustav und wähle die passenden Wörter.",
+   "text": "Opa Gustav setzt sich ___ Bank. Dann sitzt er ___ Bank. Er legt den Hut ___ Bank. Der Hut liegt ___ Bank.",
+   "luecken": [
+    {
+     "optionen": [
+      "auf die",
+      "auf der",
+      "auf den"
+     ],
+     "richtig": 0
+    },
+    {
+     "optionen": [
+      "auf die",
+      "auf den",
+      "auf der"
+     ],
+     "richtig": 2
+    },
+    {
+     "optionen": [
+      "auf der",
+      "auf die",
+      "auf das"
+     ],
+     "richtig": 1
+    },
+    {
+     "optionen": [
+      "auf der",
+      "auf die",
+      "auf dem"
+     ],
+     "richtig": 0
+    }
+   ],
+   "hilfe1": "Frage dich: Geht jemand irgendwohin, oder ist er schon dort?",
+   "hilfe2": "Vergleiche „setzt sich“ und „sitzt“. Das zweite Wort passt nicht zu „auf die“.",
+   "spur": true,
+   "rtyp": "Lückentext"
+  }
+ ]
+}

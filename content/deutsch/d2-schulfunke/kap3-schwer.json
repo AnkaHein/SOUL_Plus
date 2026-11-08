@@ -1,0 +1,185 @@
+{
+ "kap": 3,
+ "stufe": "schwer",
+ "titel": "Interviewnotizen",
+ "auftrag": "Mara hat Notizen von vier Gesprächen gemacht. Lies sie genau.",
+ "woerter": 197,
+ "material": [
+  {
+   "kopf": "Gespräch mit Tobi",
+   "art": "aussage",
+   "saetze": [
+    [
+     "Ich war von 15 bis 16 Uhr im Fotolabor und habe das Kerzenbild entwickelt.",
+     "Ich habe die ganze Zeit dort gestanden, weil man die Chemie nicht allein lassen darf.",
+     "Die Mappe habe ich zuletzt um 14:45 Uhr gesehen, als ich sie auf den Tisch am Fenster gelegt habe.",
+     "Danach ist niemand mehr von uns in den Raum gegangen."
+    ]
+   ],
+   "person": "tobi"
+  },
+  {
+   "kopf": "Gespräch mit dem Hausmeister",
+   "art": "aussage",
+   "saetze": [
+    [
+     "Ich habe um 15:20 Uhr Tobi im Flur gesehen, er hatte einen Becher in der Hand und ging in Richtung Küche.",
+     "Die Tür vom Redaktionsraum war offen.",
+     "Ich habe aber niemanden hineingehen sehen, denn ich war mit dem Schlüsselbund beschäftigt, weil ein Kollege seinen Schlüssel verloren hatte."
+    ]
+   ],
+   "person": "pohl"
+  },
+  {
+   "kopf": "Gespräch mit Yusuf",
+   "art": "aussage",
+   "saetze": [
+    [
+     "Ich war am Kopierer im ersten Stock und habe das Layout ausgedruckt, weil der Drucker im Redaktionsraum kaputt ist.",
+     "Um 15:30 Uhr kam ich zurück.",
+     "Da war die Mappe weg, und ich habe sofort Mara angerufen.",
+     "Meiner Meinung nach hat jemand gewusst, wann wir alle weg sind."
+    ]
+   ],
+   "person": "yusuf"
+  },
+  {
+   "kopf": "Gespräch mit Jonas",
+   "art": "aussage",
+   "saetze": [
+    [
+     "Ich war die ganze Pause in der Redaktion der Pausenpost, die übrigens kein Konkurrent ist, sondern eine freie Zeitung.",
+     "Ich habe vom Verschwinden gehört und finde es schade.",
+     "Mit der Mappe habe ich nichts zu tun, und ich verstehe nicht, warum man mich überhaupt fragt."
+    ]
+   ],
+   "person": "jonas"
+  }
+ ],
+ "raetsel": [
+  {
+   "typ": "zuordnen",
+   "frage": "Wer hat das gesagt? Tippe die passende Person an.",
+   "personen": [
+    {
+     "name": "Tobi",
+     "img": "assets/figuren/tobi.webp"
+    },
+    {
+     "name": "Hausmeister Pohl"
+    },
+    {
+     "name": "Yusuf",
+     "img": "assets/figuren/yusuf.webp"
+    },
+    {
+     "name": "Jonas",
+     "img": "assets/figuren/jonas.webp"
+    }
+   ],
+   "aussagen": [
+    {
+     "text": "Ich muss den Raum verlassen haben, weil mein Drucker nicht funktioniert.",
+     "richtig": 2
+    },
+    {
+     "text": "Man darf die Chemikalien nicht unbeaufsichtigt lassen.",
+     "richtig": 0
+    },
+    {
+     "text": "Meine Aufmerksamkeit galt dem Schlüsselbund eines Kollegen.",
+     "richtig": 1
+    },
+    {
+     "text": "Ich verstehe nicht, warum ich verdächtigt werde.",
+     "richtig": 3
+    },
+    {
+     "text": "Ich vermute, jemand kannte unseren Zeitplan.",
+     "richtig": 2
+    }
+   ],
+   "hilfe1": "Die Aussagen sind umschrieben. Suche den passenden Inhalt.",
+   "hilfe2": "Wer hat keinen Drucker? Wer hat einen Verdacht über den Zeitplan?",
+   "spur": false,
+   "rtyp": "Wer sagt was?"
+  },
+  {
+   "typ": "mehrfach",
+   "frage": "Zwei Aussagen passen nicht zusammen. Welche?",
+   "optionen": [
+    "Yusuf: Der Drucker im Redaktionsraum ist kaputt.",
+    "Hausmeister: Ich habe um 15:20 Uhr Tobi im Flur gesehen.",
+    "Jonas: Mit der Mappe habe ich nichts zu tun.",
+    "Tobi: Ich habe die ganze Zeit im Fotolabor gestanden.",
+    "Hausmeister: Die Tür war offen.",
+    "Tobi: Danach ist niemand mehr in den Raum gegangen."
+   ],
+   "richtig": [
+    1,
+    3
+   ],
+   "hilfe1": "Vergleiche, wo Tobi laut den beiden Personen um 15:20 Uhr war.",
+   "hilfe2": "Kann Tobi im Fotolabor stehen und zugleich im Flur sein?",
+   "hl": [
+    1,
+    4
+   ],
+   "spur": false,
+   "rtyp": "Widerspruch finden"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Stimmt das? „Tobi hat die Mappe auf den Tisch am Fenster gelegt.“",
+   "optionen": [
+    "Stimmt",
+    "Stimmt nicht",
+    "Steht nicht im Text"
+   ],
+   "richtig": 0,
+   "hilfe1": "Lies Tobis Aussage bis zum Ende.",
+   "hilfe2": "Er sagt, wann er die Mappe zuletzt gesehen hat und wo sie lag.",
+   "hl": [
+    2
+   ],
+   "spur": false,
+   "rtyp": "Wahr, falsch oder steht nicht im Text"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Welche Aussage von Tobi ist nach den anderen Aussagen unwahrscheinlich?",
+   "optionen": [
+    "„Ich war von 15 bis 16 Uhr im Fotolabor.“",
+    "„Man darf die Chemie nicht allein lassen.“",
+    "„Die Mappe lag auf dem Tisch am Fenster.“",
+    "„Danach ist niemand mehr von uns in den Raum gegangen.“"
+   ],
+   "richtig": 3,
+   "hilfe1": "Die Tür war offen. Wer kann sagen, dass niemand mehr hineinging?",
+   "hilfe2": "Tobi war nicht im Raum und konnte das gar nicht wissen.",
+   "hl": [
+    3,
+    5
+   ],
+   "spur": false,
+   "rtyp": "Zwischen den Zeilen"
+  },
+  {
+   "typ": "reihenfolge",
+   "frage": "Bring die Teile in die richtige Reihenfolge. So entsteht ein Satz mit wörtlicher Rede.",
+   "items": [
+    "„Ich habe niemanden hineingehen sehen“,",
+    "antwortete",
+    "der Hausmeister",
+    "und",
+    "zeigte auf",
+    "den Schlüsselbund."
+   ],
+   "art": "satz",
+   "hilfe1": "Der Satz beginnt mit dem, was der Hausmeister gesagt hat.",
+   "hilfe2": "Nach dem Gesagten steht ein Komma, danach geht es mit dem Verb weiter.",
+   "spur": true,
+   "rtyp": "Wörtliche Rede ordnen"
+  }
+ ]
+}

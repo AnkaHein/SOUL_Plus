@@ -1,0 +1,122 @@
+{
+ "kap": 1,
+ "stufe": "schwer",
+ "titel": "Der erste Fall",
+ "auftrag": "Lies die Zeitungsmeldung und die Mitteilung aus dem Rathaus. Dann löst du fünf Rätsel.",
+ "woerter": 176,
+ "material": [
+  {
+   "kopf": "Rätselhafte Diebstähle im Kurpark",
+   "art": "zeitung",
+   "saetze": [
+    [
+     "Seit drei Wochen häufen sich im Kurpark merkwürdige Vorfälle, und die Stadt rätselt, wer dahintersteckt.",
+     "Den Anfang machten die kleinen Messingschilder an den Parkbänken, auf denen die Namen früherer Spender eingraviert waren.",
+     "Wenig später blieb die Uhr am Pavillon stehen.",
+     "Seit Montag zeigt sie unverändert zehn nach drei.",
+     "Am vergangenen Wochenende schließlich fehlte auch die Gedenktafel am Brunnen, die an die Gründung des Parks vor mehr als hundert Jahren erinnert."
+    ],
+    [
+     "Die Polizei hat nach eigenen Angaben bisher keine Spur.",
+     "Ein Sprecher erklärte, man habe weder Einbruchsspuren noch Zeugen gefunden.",
+     "Auch der Parkwächter, der jeden Abend abschließt, hat nichts bemerkt: „Nachts ist hier niemand zu sehen, und morgens ist plötzlich etwas weg.“"
+    ],
+    [
+     "Viele Anwohner halten die Vorfälle nicht für harmlose Streiche.",
+     "„Wer so gezielt vorgeht, der hat einen Plan“, sagt eine Spaziergängerin.",
+     "Die Stadt bittet alle, die etwas beobachtet haben, sich im Rathaus zu melden."
+    ]
+   ]
+  },
+  {
+   "kopf": "Aus dem Rathaus",
+   "art": "aushang",
+   "saetze": [
+    [
+     "Der Stadtrat berät am kommenden Donnerstag über die künftige Nutzung der Fläche am Pavillon.",
+     "Vorgeschlagen ist eine Prüfung, ob dort ein Parkplatz mit etwa achtzig Stellplätzen entstehen könnte.",
+     "Die Sitzung ist öffentlich."
+    ]
+   ]
+  }
+ ],
+ "raetsel": [
+  {
+   "typ": "markieren",
+   "frage": "Welcher Satz verrät, woran die Gedenktafel erinnert?",
+   "richtig": [
+    4
+   ],
+   "hilfe1": "Such die Stelle über die Gedenktafel im ersten Absatz der Zeitungsmeldung.",
+   "hilfe2": "Es ist der letzte Satz des ersten Absatzes.",
+   "hl": [
+    1,
+    4
+   ],
+   "spur": false,
+   "rtyp": "Beweis markieren"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Wie viele Stellplätze könnten nach dem Vorschlag entstehen?",
+   "optionen": [
+    "etwa achtzig",
+    "mehr als hundert",
+    "etwa dreißig",
+    "genau zwölf"
+   ],
+   "richtig": 0,
+   "hilfe1": "Das steht nicht in der Zeitungsmeldung, sondern in der Mitteilung.",
+   "hilfe2": "Such in der Mitteilung das Wort „Stellplätze“.",
+   "hl": [
+    12
+   ],
+   "spur": false,
+   "rtyp": "Schnellsuche"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Stimmt das? „Der Parkwächter hat den Dieb nachts beobachtet.“",
+   "optionen": [
+    "Stimmt",
+    "Stimmt nicht",
+    "Steht nicht im Text"
+   ],
+   "richtig": 1,
+   "hilfe1": "Lies, was der Parkwächter sagt.",
+   "hilfe2": "Er sagt, dass nachts niemand zu sehen ist.",
+   "hl": [
+    7
+   ],
+   "spur": false,
+   "rtyp": "Wahr, falsch oder steht nicht im Text"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Was meint die Spaziergängerin mit dem Satz „Wer so gezielt vorgeht, der hat einen Plan“?",
+   "optionen": [
+    "Der Täter hat sich verlaufen.",
+    "Die Stadt hat zu wenig Personal.",
+    "Der Täter sucht die Dinge mit Absicht aus.",
+    "Die Diebstähle sind nur ein Spiel."
+   ],
+   "richtig": 2,
+   "hilfe1": "Überlege, was „gezielt“ bedeutet.",
+   "hilfe2": "Wer gezielt etwas nimmt, wählt es mit Absicht aus.",
+   "hl": [
+    8
+   ],
+   "spur": false,
+   "rtyp": "Zwischen den Zeilen"
+  },
+  {
+   "typ": "fehler",
+   "frage": "Frau Wiesel hat einen Aushang geschrieben. Darin stecken fünf Fehler. Findest du sie?",
+   "text": "Aufruf an aufmerksame Kinder!\nIm Kurpark ist vieles [[verschwunnden|verschwunden|verschwuhnden]]: die Messingschilder, die [[Gedenktaffel|Gedenktafel|Gedentafel]] und die Zeit an der Uhr. Wir vermuten einen Dieb mit einem Plan.\nGesucht werden Kinder, die [[sorgfeltig|sorgfältig|sorkfältig]] lesen und auch [[Verdechtige|Verdächtige|Verdäktige]] befragen können.\nTreffpunkt ist der Pavillon, jeden [[Mitwoch|Mittwoch|Midtwoch]] um 15 Uhr.",
+   "hilfe1": "Prüfe besonders die langen Wörter. Hör dabei auf die Silben.",
+   "hilfe2": "Gesucht sind Fehler in „verschwunden“, „Gedenktafel“, „sorgfältig“, „Verdächtige“ und „Mittwoch“.",
+   "spur": true,
+   "rtyp": "Fehlerteufel"
+  }
+ ]
+}

@@ -1,0 +1,147 @@
+{
+ "kap": 5,
+ "stufe": "leicht",
+ "titel": "Das Alibi",
+ "auftrag": "Herr Kessler sagt, er war es nicht. Prüfe, ob seine Aussage stimmt.",
+ "woerter": 72,
+ "material": [
+  {
+   "kopf": "Aussage von Herrn Kessler",
+   "art": "aussage",
+   "saetze": [
+    [
+     "Am Samstag war ich bis 23 Uhr in meinem Büro.",
+     "Dann bin ich direkt nach Hause gefahren.",
+     "Im Kurpark war ich seit Wochen nicht."
+    ]
+   ],
+   "person": "kessler"
+  },
+  {
+   "kopf": "Kassenbon",
+   "art": "bon",
+   "saetze": [
+    [
+     "Bratwurst-Eck am Südtor"
+    ],
+    [
+     "Samstag, 22:41 Uhr"
+    ],
+    [
+     "1 Kaffee 2,50"
+    ],
+    [
+     "1 Bockwurst 3,20"
+    ],
+    [
+     "Bezahlt mit Karte: Kessler Bau GmbH"
+    ]
+   ]
+  },
+  {
+   "kopf": "Foto von Frau Maiwald",
+   "art": "foto",
+   "saetze": [
+    [
+     "Aufgenommen am Samstag um 22:58 Uhr vom Kiosk aus.",
+     "Ein Mann in heller Jacke trägt eine flache Platte zu einem weißen Lieferwagen.",
+     "Auf der Tür steht der halbe Schriftzug „KESS“."
+    ]
+   ],
+   "person": "maiwald"
+  }
+ ],
+ "raetsel": [
+  {
+   "typ": "mehrfach",
+   "frage": "Welche zwei Angaben passen nicht zusammen?",
+   "optionen": [
+    "Herr Kessler: Dann bin ich direkt nach Hause gefahren.",
+    "Foto: Aufgenommen vom Kiosk aus",
+    "Kassenbon: Samstag, 22:41 Uhr, Bratwurst-Eck am Südtor",
+    "Herr Kessler: Ich war bis 23 Uhr in meinem Büro."
+   ],
+   "richtig": [
+    2,
+    3
+   ],
+   "hilfe1": "Vergleiche die Uhrzeit im Büro mit der Uhrzeit auf dem Bon.",
+   "hilfe2": "Kann man um 22:41 Uhr im Büro und am Südtor sein?",
+   "hl": [
+    0,
+    4
+   ],
+   "spur": false,
+   "rtyp": "Widerspruch finden"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Woran erkennt man, dass der Bon zu Herrn Kessler gehört?",
+   "optionen": [
+    "Der Bon lag auf seinem Schreibtisch.",
+    "Er hat seinen Namen daraufgeschrieben.",
+    "Bezahlt wurde mit der Karte seiner Firma.",
+    "Der Verkäufer kennt ihn gut."
+   ],
+   "richtig": 2,
+   "hilfe1": "Lies die letzte Zeile auf dem Bon.",
+   "hilfe2": "Welche Firma steht dort?",
+   "hl": [
+    7
+   ],
+   "spur": false,
+   "rtyp": "Zwischen den Zeilen"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Stimmt das? „Auf dem Foto trägt der Mann eine dunkle Jacke.“",
+   "optionen": [
+    "Stimmt",
+    "Stimmt nicht",
+    "Steht nicht im Text"
+   ],
+   "richtig": 1,
+   "hilfe1": "Lies die Beschreibung des Fotos.",
+   "hilfe2": "Welche Farbe hat die Jacke?",
+   "hl": [
+    9
+   ],
+   "spur": false,
+   "rtyp": "Wahr, falsch oder steht nicht im Text"
+  },
+  {
+   "typ": "zuordnen",
+   "frage": "Passt die Aussage zu „schon vorbei“ oder zu „gerade jetzt“?",
+   "personen": [
+    {
+     "name": "Schon vorbei"
+    },
+    {
+     "name": "Gerade jetzt"
+    }
+   ],
+   "aussagen": [
+    {
+     "text": "Herr Kessler war bis 23 Uhr im Büro.",
+     "richtig": 0
+    },
+    {
+     "text": "Frau Maiwald macht gerade ein Foto.",
+     "richtig": 1
+    },
+    {
+     "text": "Der Lieferwagen fuhr vor zehn Minuten weg.",
+     "richtig": 0
+    },
+    {
+     "text": "Frau Wiesel liest jetzt den Bon.",
+     "richtig": 1
+    }
+   ],
+   "hilfe1": "Achte auf die Wörter „war“, „fuhr“, „macht“ und „liest“.",
+   "hilfe2": "Was „war“ oder „fuhr“, ist vorbei. Was „macht“ oder „liest“, passiert gerade.",
+   "spur": true,
+   "rtyp": "Zeitform als Alibi"
+  }
+ ]
+}

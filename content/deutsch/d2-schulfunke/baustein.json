@@ -1,0 +1,105 @@
+{
+ "id": "d2-schulfunke",
+ "kurz": "d2",
+ "fach": "deutsch",
+ "titel": "Die verschwundene Schülerzeitung",
+ "untertitel": "Ein Redaktionskrimi in sechs Kapiteln",
+ "kachel": "assets/bausteine/d2.webp",
+ "einleitung": "Du gehörst zur Redaktion der Schulzeitung „Der Schulfunke“. Einen Tag vor dem Druck der Jubiläumsausgabe ist die fertige Titelseite verschwunden. Wer steckt dahinter? Finde es heraus, bevor die Zeitung in den Druck geht.",
+ "figuren": {
+  "mara": {
+   "name": "Mara",
+   "rolle": "Chefredakteurin"
+  },
+  "tobi": {
+   "name": "Tobi",
+   "rolle": "Fotograf",
+   "img": "assets/figuren/tobi.webp"
+  },
+  "yusuf": {
+   "name": "Yusuf",
+   "rolle": "Layout",
+   "img": "assets/figuren/yusuf.webp"
+  },
+  "brandt": {
+   "name": "Herr Brandt",
+   "rolle": "betreuende Lehrkraft",
+   "img": "assets/figuren/brandt.webp"
+  },
+  "jonas": {
+   "name": "Jonas",
+   "rolle": "Redakteur der Pausenpost",
+   "img": "assets/figuren/jonas.webp"
+  },
+  "pohl": {
+   "name": "Hausmeister Pohl",
+   "rolle": "Hausmeister der Schule"
+  }
+ },
+ "hilfe": {
+  "name": "Komma",
+  "img": "assets/hilfe/komma.webp",
+  "emoji": "🐈",
+  "jubel": [
+   "Miau, richtig!",
+   "Schnell erkannt!",
+   "Das gibt eine Schlagzeile!",
+   "Gut recherchiert!",
+   "Genau so arbeitet eine Redaktion."
+  ]
+ },
+ "kapitel": [
+  {
+   "nr": 1,
+   "titel": "Redaktionssitzung",
+   "teaser": "Die Titelseite ist weg. Das Protokoll verrät, wer dabei war.",
+   "begruessung": "Miau. Ich bin Komma, der Redaktionskater. Tipp auf mich, wenn du Hilfe brauchst.",
+   "ende": "Ihr kennt jetzt die Fakten der Sitzung. Niemand hat etwas gesehen, aber jemand muss etwas wissen.",
+   "bild": "assets/kapitel/d2-k1.webp"
+  },
+  {
+   "nr": 2,
+   "titel": "Der Zettel",
+   "teaser": "Ein anonymer Zettel liegt auf Maras Tisch.",
+   "begruessung": "Ein Zettel ohne Namen. Sehr verdächtig. Lies jedes Wort.",
+   "ende": "Die Titelseite ist im Kopierraum, behauptet der Zettel. Aber wer schreibt so etwas?",
+   "bild": "assets/kapitel/d2-k2.webp"
+  },
+  {
+   "nr": 3,
+   "titel": "Interviewnotizen",
+   "teaser": "Maras Notizen von drei Gesprächen sind durcheinander.",
+   "begruessung": "Zeugen erzählen manchmal Unterschiedliches. Vergleiche genau.",
+   "ende": "Tobi wurde im Flur gesehen, obwohl er im Labor gewesen sein will. Ist er verdächtig?",
+   "bild": "assets/kapitel/d2-k3.webp"
+  },
+  {
+   "nr": 4,
+   "titel": "Leserbriefe",
+   "teaser": "Drei Leserbriefe, drei Meinungen, ein Hinweis.",
+   "begruessung": "Meinung oder Tatsache? Genau das musst du jetzt unterscheiden.",
+   "ende": "Ein Brief ohne Absender klingt, als hätte jemand eine eigene Geschichte zu erzählen.",
+   "bild": "assets/kapitel/d2-k4.webp"
+  },
+  {
+   "nr": 5,
+   "titel": "Der Faktencheck",
+   "teaser": "Zwei Zeitungen, zwei Zahlen, ein Satz zu viel.",
+   "begruessung": "Wenn zwei Zeitungen dasselbe berichten, sollten die Zahlen stimmen.",
+   "ende": "Ein einziger Satz in der Pausenpost verrät mehr, als sein Schreiber wollte.",
+   "bild": "assets/kapitel/d2-k5.webp"
+  },
+  {
+   "nr": 6,
+   "titel": "Die Enthüllung",
+   "teaser": "Der Fall wird gelöst, und die Redaktion lernt etwas.",
+   "begruessung": "Das Ende ist da. Lies den Artikel in Ruhe.",
+   "ende": "Die Titelseite ist gedruckt, und Jonas gehört jetzt dazu. Fehler zugeben kann stark machen.",
+   "bild": "assets/kapitel/d2-k6.webp"
+  }
+ ],
+ "abschluss": {
+  "titel": "Ausgabe gerettet!",
+  "text": "Die Jubiläumsausgabe des Schulfunke geht in den Druck, und der Konflikt ist gelöst. Mara ernennt dich zum Ehrenredakteur."
+ }
+}

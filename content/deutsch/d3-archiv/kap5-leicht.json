@@ -1,0 +1,105 @@
+{
+ "kap": 5,
+ "stufe": "leicht",
+ "titel": "Das Gedichtschloss",
+ "auftrag": "Die Tür zum letzten Raum ist mit einem Gedicht verschlossen. Lies es genau.",
+ "woerter": 45,
+ "material": [
+  {
+   "kopf": "Das Lied vom Staub",
+   "art": "gedicht",
+   "saetze": [
+    [
+     "Ich bin ein Wind ohne Haus."
+    ],
+    [
+     "Ich wehe die Wörter hinaus."
+    ],
+    [
+     "Ich bin leise, ich bin laut."
+    ],
+    [
+     "Ich habe mich nie getraut."
+    ],
+    [
+     "Ich bin Staub, ich bin Nacht."
+    ],
+    [
+     "Hat mich je jemand bedacht?"
+    ],
+    [
+     "Ich bin allein, ich bin klein."
+    ],
+    [
+     "Will ich nicht doch Geschichte sein?"
+    ]
+   ]
+  }
+ ],
+ "raetsel": [
+  {
+   "typ": "auswahl",
+   "frage": "Was bedeutet das Bild „Ich bin ein Wind ohne Haus“?",
+   "optionen": [
+    "Er weht nur im Sommer.",
+    "Er ist sehr stark.",
+    "Er wohnt in einem Haus aus Glas.",
+    "Er hat keinen Ort, an den er gehört."
+   ],
+   "richtig": 3,
+   "hilfe1": "Überlege: Was fehlt einem Wind ohne Haus?",
+   "hilfe2": "Ein Haus ist ein Zuhause.",
+   "hl": [
+    0
+   ],
+   "spur": false,
+   "rtyp": "Bildsprache verstehen"
+  },
+  {
+   "typ": "markieren",
+   "frage": "Welche Zeile zeigt, dass er sich nach einer eigenen Geschichte sehnt?",
+   "richtig": [
+    7
+   ],
+   "hilfe1": "Such die Frage am Ende des Gedichts.",
+   "hilfe2": "Es ist die letzte Zeile.",
+   "hl": [
+    5,
+    6
+   ],
+   "spur": false,
+   "rtyp": "Beweis markieren"
+  },
+  {
+   "typ": "reihenfolge",
+   "frage": "Zwei Reimpaare sind vertauscht. Bring die vier Zeilen in die richtige Reihenfolge.",
+   "items": [
+    "Ich bin leise, ich bin laut.",
+    "Ich habe mich nie getraut.",
+    "Ich bin Staub, ich bin Nacht.",
+    "Hat mich je jemand bedacht?"
+   ],
+   "alt": [
+    [
+     2,
+     3,
+     0,
+     1
+    ]
+   ],
+   "hilfe1": "Zeilen, die sich reimen, stehen direkt hintereinander.",
+   "hilfe2": "„laut“ reimt sich auf „getraut“, „Nacht“ auf „bedacht“.",
+   "spur": false,
+   "rtyp": "Reihenfolge"
+  },
+  {
+   "typ": "fehler",
+   "frage": "Am Gedichtschloss steht ein Vers, den man richtig lesen muss. Darin stecken drei Fehler. Findest du sie?",
+   "text": "Wer dieses Schloss öffnen [[wil|will|wiel]],\nder [[mus|muss|mussz]] ein Wort verschenken,\nein Wort, das niemand [[vergist|vergisst|vergiesst]].",
+   "hilfe1": "Lies jede Zeile laut. Achte auf Doppelbuchstaben.",
+   "hilfe2": "Gesucht sind Fehler in „will“, „muss“ und „vergisst“.",
+   "spur": true,
+   "rtyp": "Fehlerteufel"
+  }
+ ]
+}

@@ -1,0 +1,123 @@
+{
+ "kap": 2,
+ "stufe": "leicht",
+ "titel": "Das Buch ohne Wörter",
+ "auftrag": "Das Buch hat Lücken, denn ihm fehlen Wörter. Finde heraus, welche.",
+ "woerter": 58,
+ "material": [
+  {
+   "kopf": "Mira Federhold",
+   "art": "aussage",
+   "saetze": [
+    [
+     "Dieses Buch hat fast alle Verben verloren.",
+     "Das sind die Wörter, die sagen, was jemand tut.",
+     "Lies die Seite und überlege, was dort gestanden haben könnte."
+    ]
+   ],
+   "person": "mira"
+  },
+  {
+   "kopf": "Seite aus dem Buch ohne Wörter",
+   "art": "buch",
+   "saetze": [
+    [
+     "Der Mond ____ über dem Dorf.",
+     "Die Katze ____ auf dem Dach und miaute leise.",
+     "Unten im Hof ____ ein altes Fass.",
+     "Plötzlich ____ ein Fenster.",
+     "Ein Licht ____ in der Dunkelheit."
+    ]
+   ]
+  }
+ ],
+ "raetsel": [
+  {
+   "typ": "auswahl",
+   "frage": "Welches Wort passt am besten in die zweite Lücke? „Die Katze ____ auf dem Dach.“",
+   "optionen": [
+    "schwamm",
+    "las",
+    "backte",
+    "saß"
+   ],
+   "richtig": 3,
+   "hilfe1": "Überlege, was eine Katze auf einem Dach tun kann.",
+   "hilfe2": "Das Wort sagt, wie sie dort war.",
+   "hl": [
+    4
+   ],
+   "spur": false,
+   "rtyp": "Wort erschließen"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Wie wirkt die Stimmung auf dieser Seite?",
+   "optionen": [
+    "wütend und wild",
+    "laut und lustig",
+    "ruhig und ein wenig geheimnisvoll",
+    "traurig und verzweifelt"
+   ],
+   "richtig": 2,
+   "hilfe1": "Achte auf die Wörter „leise“ und „Dunkelheit“.",
+   "hilfe2": "Es ist Nacht, und alles ist still.",
+   "hl": [
+    4,
+    7
+   ],
+   "spur": false,
+   "rtyp": "Zwischen den Zeilen"
+  },
+  {
+   "typ": "markieren",
+   "frage": "Tippe den Satz an, der zeigt, dass es Nacht ist.",
+   "richtig": [
+    3
+   ],
+   "hilfe1": "Such nach einem Himmelskörper.",
+   "hilfe2": "Der Satz steht ganz am Anfang.",
+   "hl": [
+    6,
+    7
+   ],
+   "spur": false,
+   "rtyp": "Beweis markieren"
+  },
+  {
+   "typ": "luecke",
+   "frage": "Mira hat Wörter gesammelt, die ähnlich klingen. Wähle das richtige.",
+   "text": "Auf jeder ___ steht ein Wort. Die Geige hat vier ___. Das Kleid ist aus ___.",
+   "luecken": [
+    {
+     "optionen": [
+      "Seite",
+      "Saite",
+      "Seide"
+     ],
+     "richtig": 0
+    },
+    {
+     "optionen": [
+      "Seiten",
+      "Seide",
+      "Saiten"
+     ],
+     "richtig": 2
+    },
+    {
+     "optionen": [
+      "Seite",
+      "Seide",
+      "Saite"
+     ],
+     "richtig": 1
+    }
+   ],
+   "hilfe1": "Frage dich bei jedem Satz: Welche Bedeutung passt?",
+   "hilfe2": "Ein Buch hat Seiten. Eine Geige hat Saiten. Kleider gibt es aus Stoff.",
+   "spur": true,
+   "rtyp": "Lückentext"
+  }
+ ]
+}

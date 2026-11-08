@@ -1,0 +1,272 @@
+{
+ "kap": 4,
+ "stufe": "schwer",
+ "titel": "Die Karte im Kurpark",
+ "auftrag": "Elsa hat eine Wegbeschreibung abgeschrieben. Folge dem Weg auf der Karte.",
+ "woerter": 111,
+ "material": [
+  {
+   "kopf": "Wegbeschreibung",
+   "art": "karte",
+   "saetze": [
+    [
+     "Der Plan von 1911 gibt den Weg zum Hinweisstein so an: Vom Haupttor im Süden gehe man etwa vierzig Schritte nach Norden, bis man den Brunnen erreicht.",
+     "Dort wende man sich nach Westen, wo der Weg am Ufer des Teiches endet.",
+     "Am Ufer biege man nach Norden ab und folge dem Pfad bis zur ersten Bank.",
+     "Gleich hinter ihr beginne ein Beet, an dessen Nordrand der Hinweisstein stehe."
+    ],
+    [
+     "Elsa hat daneben vermerkt: „Die Bank im Plan wurde vor Jahren versetzt.",
+     "Ihr könnt euch auf sie nicht verlassen, haltet euch lieber an den Teich und an das Beet.“",
+     "Östlich des Brunnens liegen Spielplatz und eine zweite Bank, sie gehören nicht zum Weg."
+    ]
+   ],
+   "person": "elsa"
+  }
+ ],
+ "raetsel": [
+  {
+   "typ": "karte",
+   "frage": "Wo steht der Hinweisstein? Folge dem Weg und tippe den Ort an.",
+   "orte": [
+    {
+     "id": "tor",
+     "sym": "tor",
+     "x": 50,
+     "y": 62,
+     "label": "Haupttor"
+    },
+    {
+     "id": "brunnen",
+     "sym": "brunnen",
+     "x": 50,
+     "y": 38,
+     "label": "Brunnen"
+    },
+    {
+     "id": "teich",
+     "sym": "teich",
+     "x": 22,
+     "y": 40,
+     "label": "Teich"
+    },
+    {
+     "id": "bank1",
+     "sym": "bank",
+     "x": 20,
+     "y": 26,
+     "label": "Bank"
+    },
+    {
+     "id": "beet1",
+     "sym": "beet",
+     "x": 20,
+     "y": 12,
+     "label": "Beet"
+    },
+    {
+     "id": "pavillon",
+     "sym": "pavillon",
+     "x": 50,
+     "y": 14,
+     "label": "Pavillon"
+    },
+    {
+     "id": "beet2",
+     "sym": "beet",
+     "x": 70,
+     "y": 12,
+     "label": "Beet"
+    },
+    {
+     "id": "kiosk",
+     "sym": "kiosk",
+     "x": 80,
+     "y": 58,
+     "label": "Kiosk"
+    },
+    {
+     "id": "spiel",
+     "sym": "spielplatz",
+     "x": 82,
+     "y": 34,
+     "label": "Spielplatz"
+    },
+    {
+     "id": "bank2",
+     "sym": "bank",
+     "x": 66,
+     "y": 48,
+     "label": "Bank"
+    }
+   ],
+   "wege": [
+    [
+     "tor",
+     "brunnen"
+    ],
+    [
+     "brunnen",
+     "teich"
+    ],
+    [
+     "teich",
+     "bank1"
+    ],
+    [
+     "bank1",
+     "beet1"
+    ],
+    [
+     "brunnen",
+     "pavillon"
+    ],
+    [
+     "pavillon",
+     "beet2"
+    ],
+    [
+     "tor",
+     "kiosk"
+    ],
+    [
+     "brunnen",
+     "spiel"
+    ],
+    [
+     "brunnen",
+     "bank2"
+    ]
+   ],
+   "richtig": "beet1",
+   "hilfe1": "Folge den Himmelsrichtungen: Süden unten, Norden oben, Westen links.",
+   "hilfe2": "Vom Brunnen aus geht es nach Westen zum Teich, dann am Ufer nach Norden. Das Beet am Ende dieses Weges ist gesucht.",
+   "hl": [
+    1,
+    2
+   ],
+   "spur": false,
+   "rtyp": "Karte nach Text"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Warum rät Elsa, sich nicht auf die Bank im Plan zu verlassen?",
+   "optionen": [
+    "Die Bank steht heute an einer anderen Stelle.",
+    "Die Bank gehört einem anderen Park.",
+    "Die Bank ist zu alt zum Sitzen.",
+    "Die Bank wurde nie gebaut."
+   ],
+   "richtig": 0,
+   "hilfe1": "Lies Elsas Anmerkung.",
+   "hilfe2": "Das Wort „versetzt“ bedeutet, dass etwas an einen anderen Platz gestellt wurde.",
+   "hl": [
+    4
+   ],
+   "spur": false,
+   "rtyp": "Zwischen den Zeilen"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Wie viele Schritte geht man vom Haupttor bis zum Brunnen?",
+   "optionen": [
+    "etwa vierhundert",
+    "etwa vierzehn",
+    "genau hundert",
+    "etwa vierzig"
+   ],
+   "richtig": 3,
+   "hilfe1": "Such eine Zahl im ersten Satz.",
+   "hilfe2": "Das Wort steht vor „Schritte“.",
+   "hl": [
+    0
+   ],
+   "spur": false,
+   "rtyp": "Schnellsuche"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Stimmt das? „Der Spielplatz liegt westlich des Brunnens.“",
+   "optionen": [
+    "Stimmt",
+    "Stimmt nicht",
+    "Steht nicht im Text"
+   ],
+   "richtig": 1,
+   "hilfe1": "Such die Stelle, in der der Spielplatz vorkommt.",
+   "hilfe2": "Östlich bedeutet: auf der rechten Seite der Karte.",
+   "hl": [
+    6
+   ],
+   "spur": false,
+   "rtyp": "Wahr, falsch oder steht nicht im Text"
+  },
+  {
+   "typ": "luecke",
+   "frage": "Lies die Geschichte von Opa Gustav und wähle die passenden Wörter.",
+   "text": "Opa Gustav setzt sich ___ Bank. Dann sitzt er ___ Bank. Er hängt den Mantel ___ Haken. Der Mantel hängt ___ Haken. Er legt den Hut ___ Tisch und stellt sich ___ Brunnen. Der Hut liegt ___ Tisch.",
+   "luecken": [
+    {
+     "optionen": [
+      "auf der",
+      "auf die",
+      "auf den"
+     ],
+     "richtig": 1
+    },
+    {
+     "optionen": [
+      "auf der",
+      "auf die",
+      "auf den"
+     ],
+     "richtig": 0
+    },
+    {
+     "optionen": [
+      "an dem",
+      "an der",
+      "an den"
+     ],
+     "richtig": 2
+    },
+    {
+     "optionen": [
+      "an den",
+      "an dem",
+      "an die"
+     ],
+     "richtig": 1
+    },
+    {
+     "optionen": [
+      "auf den",
+      "auf dem",
+      "auf der"
+     ],
+     "richtig": 0
+    },
+    {
+     "optionen": [
+      "an dem",
+      "an der",
+      "an den"
+     ],
+     "richtig": 2
+    },
+    {
+     "optionen": [
+      "auf den",
+      "auf dem",
+      "auf die"
+     ],
+     "richtig": 1
+    }
+   ],
+   "hilfe1": "Frage dich bei jeder Lücke: Geht jemand irgendwohin, oder ist er schon dort?",
+   "hilfe2": "Wer irgendwohin geht oder etwas irgendwohin legt, braucht eine andere Form als das, was schon dort ist.",
+   "spur": true,
+   "rtyp": "Lückentext"
+  }
+ ]
+}

@@ -1,0 +1,102 @@
+{
+ "id": "d1-kurpark",
+ "kurz": "d1",
+ "fach": "deutsch",
+ "titel": "Das Geheimnis im Kurpark",
+ "untertitel": "Ein Detektivfall in sechs Kapiteln",
+ "kachel": "assets/bausteine/d1.webp",
+ "einleitung": "Du bist Nachwuchsdetektiv im Detektivbüro Lindenblatt im alten Pavillon im Kurpark. Seit Wochen verschwinden nachts Dinge im Park: Schilder, eine Uhr und zuletzt eine Gedenktafel. Frau Wiesel braucht deine Hilfe.",
+ "figuren": {
+  "wiesel": {
+   "name": "Frau Dr. Wiesel",
+   "rolle": "Leiterin des Büros",
+   "img": "assets/figuren/wiesel.webp"
+  },
+  "gustav": {
+   "name": "Opa Gustav",
+   "rolle": "Dauergast im Park",
+   "img": "assets/figuren/gustav.webp"
+  },
+  "maiwald": {
+   "name": "Frau Maiwald",
+   "rolle": "betreibt den Kiosk",
+   "img": "assets/figuren/maiwald.webp"
+  },
+  "elsa": {
+   "name": "Elsa Winter",
+   "rolle": "Praktikantin im Stadtarchiv",
+   "img": "assets/figuren/elsa.webp"
+  },
+  "kessler": {
+   "name": "Herr Kessler",
+   "rolle": "Bauunternehmer",
+   "img": "assets/figuren/kessler.webp"
+  }
+ },
+ "hilfe": {
+  "name": "Kasimir",
+  "img": "assets/hilfe/kasimir.webp",
+  "emoji": "🐦‍⬛",
+  "jubel": [
+   "Krah, sauber gelöst!",
+   "Gut beobachtet!",
+   "Das hätte Frau Wiesel nicht besser gemacht.",
+   "Richtig! Weiter so.",
+   "Genau hingeschaut, super!"
+  ]
+ },
+ "kapitel": [
+  {
+   "nr": 1,
+   "titel": "Der erste Fall",
+   "teaser": "Etwas verschwindet im Kurpark. Frau Wiesel hat einen Auftrag für dich.",
+   "begruessung": "Krah! Ich bin Kasimir, der Rabe des Büros. Wenn du nicht weiterweißt, tippe auf mich.",
+   "ende": "Ihr habt die ersten Fakten gesammelt. Frau Wiesel nickt: „Gute Arbeit. Morgen befragen wir die Zeugen.“",
+   "bild": "assets/kapitel/d1-k1.webp"
+  },
+  {
+   "nr": 2,
+   "titel": "Die Zeugen",
+   "teaser": "Vier Menschen haben etwas gesehen. Aber sagen sie die Wahrheit?",
+   "begruessung": "Zeugen erzählen manchmal Unsinn. Hör genau hin!",
+   "ende": "Gustav übertreibt gern, Frau Maiwald sieht viel, und Herr Kessler sagt auffallend wenig. Elsa deutet etwas an.",
+   "bild": "assets/kapitel/d1-k2.webp"
+  },
+  {
+   "nr": 3,
+   "titel": "Der Brief aus dem Hohlraum",
+   "teaser": "Elsa hat im Archiv etwas Geheimnisvolles gefunden.",
+   "begruessung": "Alte Briefe haben alte Wörter. Lass dich nicht verwirren.",
+   "ende": "Unter dem Brunnen liegt ein Kästchen. Der Brief zeigt, wie wichtig der Park den Menschen von damals war.",
+   "bild": "assets/kapitel/d1-k3.webp"
+  },
+  {
+   "nr": 4,
+   "titel": "Die Karte im Kurpark",
+   "teaser": "Ein alter Plan führt zu einem Hinweisstein.",
+   "begruessung": "Fahr mit dem Finger den Weg entlang, Schritt für Schritt.",
+   "ende": "Am Beet habt ihr den Hinweisstein gefunden. Er zeigt auf den Brunnen.",
+   "bild": "assets/kapitel/d1-k4.webp"
+  },
+  {
+   "nr": 5,
+   "titel": "Das Alibi",
+   "teaser": "Herr Kessler sagt, er war es nicht. Stimmt das?",
+   "begruessung": "Jetzt wird es spannend. Vergleiche Uhrzeiten genau!",
+   "ende": "Kesslers Alibi ist geplatzt. Der Bon und das Foto sprechen gegen ihn.",
+   "bild": "assets/kapitel/d1-k5.webp"
+  },
+  {
+   "nr": 6,
+   "titel": "Die Zeitkapsel",
+   "teaser": "Der Fall wird gelöst, und der Brunnen gibt sein Geheimnis preis.",
+   "begruessung": "Das Ende ist nah. Lies den Bericht in Ruhe.",
+   "ende": "Der Park bleibt! Elsa gehört jetzt zum Team, und die Kinder von 1911 haben das letzte Wort.",
+   "bild": "assets/kapitel/d1-k6.webp"
+  }
+ ],
+ "abschluss": {
+  "titel": "Fall gelöst!",
+  "text": "Herr Kessler wurde überführt, die Zeitkapsel ist geöffnet und der Kurpark bleibt für alle da. Frau Wiesel ernennt dich zum Ehrendetektiv des Büros Lindenblatt."
+ }
+}

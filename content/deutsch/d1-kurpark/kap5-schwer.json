@@ -1,0 +1,191 @@
+{
+ "kap": 5,
+ "stufe": "schwer",
+ "titel": "Das Alibi",
+ "auftrag": "Herr Kessler sagt, er war es nicht. Prüfe, ob seine Aussage stimmt.",
+ "woerter": 160,
+ "material": [
+  {
+   "kopf": "Aussage von Herrn Kessler",
+   "art": "aussage",
+   "saetze": [
+    [
+     "Am Samstag war ich bis 23 Uhr in meinem Büro, ich habe Rechnungen geschrieben und Pläne geprüft.",
+     "Dann bin ich direkt nach Hause gefahren und habe vor dem Fernseher gesessen.",
+     "Im Kurpark war ich seit Wochen nicht, und ich habe auch kein Interesse daran.",
+     "Ihre Fragen sind reine Zeitverschwendung, und ich wüsste gern, wer Sie überhaupt beauftragt hat."
+    ]
+   ],
+   "person": "kessler"
+  },
+  {
+   "kopf": "Kassenbon",
+   "art": "bon",
+   "saetze": [
+    [
+     "Bratwurst-Eck am Südtor"
+    ],
+    [
+     "Samstag, 22:41 Uhr"
+    ],
+    [
+     "1 Kaffee 2,50"
+    ],
+    [
+     "1 Bockwurst 3,20"
+    ],
+    [
+     "Summe 5,70"
+    ],
+    [
+     "Bezahlt mit Karte: Kessler Bau GmbH"
+    ]
+   ]
+  },
+  {
+   "kopf": "Foto von Frau Maiwald",
+   "art": "foto",
+   "saetze": [
+    [
+     "Aufgenommen am Samstag um 22:58 Uhr vom Kiosk aus.",
+     "Ein Mann in heller Jacke trägt eine flache Platte unter dem Arm zu einem weißen Lieferwagen, dessen Heckklappe offen steht.",
+     "Das Gesicht ist nicht zu erkennen, weil er sich wegdreht.",
+     "Auf der Tür des Wagens steht der halbe Schriftzug „KESS“.",
+     "Im Hintergrund ist der beleuchtete Brunnen zu sehen."
+    ]
+   ],
+   "person": "maiwald"
+  },
+  {
+   "kopf": "Notiz von Frau Wiesel",
+   "art": "aussage",
+   "saetze": [
+    [
+     "Das Bratwurst-Eck liegt nur zwei Minuten zu Fuß vom Brunnen entfernt.",
+     "Ich vermute, dass Herr Kessler dort Kraft für den Rest seiner Arbeit tanken wollte."
+    ]
+   ],
+   "person": "wiesel"
+  }
+ ],
+ "raetsel": [
+  {
+   "typ": "mehrfach",
+   "frage": "Welche zwei Angaben passen nicht zusammen?",
+   "optionen": [
+    "Foto: Das Gesicht des Mannes ist nicht zu erkennen.",
+    "Herr Kessler: Ich habe Pläne geprüft.",
+    "Frau Wiesel: Das Bratwurst-Eck liegt zwei Minuten vom Brunnen entfernt.",
+    "Kassenbon: Samstag, 22:41 Uhr, Bratwurst-Eck am Südtor",
+    "Kassenbon: Summe 5,70",
+    "Herr Kessler: Ich war bis 23 Uhr in meinem Büro."
+   ],
+   "richtig": [
+    3,
+    5
+   ],
+   "hilfe1": "Vergleiche die Uhrzeit im Büro mit der Uhrzeit auf dem Bon.",
+   "hilfe2": "Kann man um 22:41 Uhr im Büro und am Südtor sein?",
+   "hl": [
+    0,
+    5
+   ],
+   "spur": false,
+   "rtyp": "Widerspruch finden"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Wie viele Minuten liegen zwischen dem Kauf der Bockwurst und dem Foto?",
+   "optionen": [
+    "17 Minuten",
+    "27 Minuten",
+    "7 Minuten",
+    "57 Minuten"
+   ],
+   "richtig": 0,
+   "hilfe1": "Vergleiche die Uhrzeit auf dem Bon mit der Uhrzeit des Fotos.",
+   "hilfe2": "Von 22:41 bis 22:58 Uhr.",
+   "hl": [
+    5,
+    10
+   ],
+   "spur": false,
+   "rtyp": "Schnellsuche"
+  },
+  {
+   "typ": "markieren",
+   "frage": "Welcher Satz im Foto-Text deutet auf Herrn Kessler hin, obwohl man sein Gesicht nicht sieht?",
+   "richtig": [
+    13
+   ],
+   "hilfe1": "Das Gesicht fehlt. Such nach einem anderen Hinweis auf den Mann.",
+   "hilfe2": "Der Hinweis steht auf dem Fahrzeug.",
+   "hl": [
+    11,
+    12
+   ],
+   "spur": false,
+   "rtyp": "Beweis markieren"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Warum ist Kesslers Satz „Im Kurpark war ich seit Wochen nicht“ nicht glaubwürdig?",
+   "optionen": [
+    "Er mag Parks nicht.",
+    "Er hat keinen Führerschein.",
+    "Er hat den Bon zu Hause vergessen.",
+    "Der Bon und das Foto zeigen ihn in der Nähe des Parks."
+   ],
+   "richtig": 3,
+   "hilfe1": "Wo wurde der Bon ausgestellt, und was zeigt das Foto?",
+   "hilfe2": "Das Bratwurst-Eck liegt zwei Minuten vom Brunnen entfernt.",
+   "hl": [
+    15
+   ],
+   "spur": false,
+   "rtyp": "Zwischen den Zeilen"
+  },
+  {
+   "typ": "zuordnen",
+   "frage": "Passt die Aussage zu „schon vorbei“ oder zu „gerade jetzt“?",
+   "personen": [
+    {
+     "name": "Schon vorbei"
+    },
+    {
+     "name": "Gerade jetzt"
+    }
+   ],
+   "aussagen": [
+    {
+     "text": "Herr Kessler schrieb bis 23 Uhr Rechnungen.",
+     "richtig": 0
+    },
+    {
+     "text": "Frau Wiesel vergleicht gerade die Uhrzeiten.",
+     "richtig": 1
+    },
+    {
+     "text": "Der Lieferwagen stand vor dem Tor.",
+     "richtig": 0
+    },
+    {
+     "text": "Frau Maiwald zeigt das Foto.",
+     "richtig": 1
+    },
+    {
+     "text": "Er hat den Bon eingesteckt.",
+     "richtig": 0
+    },
+    {
+     "text": "Der Brunnen leuchtet im Hintergrund.",
+     "richtig": 1
+    }
+   ],
+   "hilfe1": "Achte auf die Wörter „schrieb“, „stand“, „hat eingesteckt“, „vergleicht“ und „zeigt“.",
+   "hilfe2": "Was vorbei ist, steht anders im Satz als das, was gerade passiert.",
+   "spur": true,
+   "rtyp": "Zeitform als Alibi"
+  }
+ ]
+}

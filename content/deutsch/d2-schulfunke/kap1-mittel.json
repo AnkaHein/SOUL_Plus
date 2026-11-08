@@ -1,0 +1,145 @@
+{
+ "kap": 1,
+ "stufe": "mittel",
+ "titel": "Redaktionssitzung",
+ "auftrag": "Lies das Protokoll der Sitzung. Dann beginnt die Suche.",
+ "woerter": 119,
+ "material": [
+  {
+   "kopf": "Protokoll der Redaktionssitzung",
+   "art": "protokoll",
+   "saetze": [
+    [
+     "Mittwoch, 14 Uhr, Raum 12"
+    ],
+    [
+     "Anwesend: Mara (Chefredakteurin), Tobi (Foto), Yusuf (Layout), Herr Brandt (Betreuung)"
+    ],
+    [
+     "Punkt 1: Die Jubiläumsausgabe von „Der Schulfunke“ muss morgen früh in den Druck, sagt Mara.",
+     "Alle Texte sind fertig."
+    ],
+    [
+     "Punkt 2: Tobi hat für die Titelseite ein Foto vom Schulhof gemacht, auf dem dreißig Kerzen auf einem Kuchen brennen.",
+     "Er bringt den Abzug um 15 Uhr in den Redaktionsraum."
+    ],
+    [
+     "Punkt 3: Yusuf setzt das Layout der Titelseite.",
+     "Der Gastartikel von Jonas über das Schulfest wird wegen Platzmangels stark gekürzt, entscheidet Mara."
+    ],
+    [
+     "Punkt 4: Herr Brandt liest alle Texte noch einmal."
+    ],
+    [
+     "Um 15:30 Uhr war die Mappe mit der fertigen Titelseite plötzlich weg.",
+     "Niemand hat sie gesehen, und die Tür des Redaktionsraums war nicht abgeschlossen."
+    ]
+   ]
+  }
+ ],
+ "raetsel": [
+  {
+   "typ": "zuordnen",
+   "frage": "Wer hat das gesagt oder getan? Tippe die passende Person an.",
+   "personen": [
+    {
+     "name": "Mara"
+    },
+    {
+     "name": "Tobi",
+     "img": "assets/figuren/tobi.webp"
+    },
+    {
+     "name": "Yusuf",
+     "img": "assets/figuren/yusuf.webp"
+    },
+    {
+     "name": "Herr Brandt",
+     "img": "assets/figuren/brandt.webp"
+    }
+   ],
+   "aussagen": [
+    {
+     "text": "Ich habe ein Foto mit Kerzen aufgenommen.",
+     "richtig": 1
+    },
+    {
+     "text": "Ich prüfe noch einmal alle Texte.",
+     "richtig": 3
+    },
+    {
+     "text": "Ich kürze den Gastartikel wegen Platzmangels.",
+     "richtig": 0
+    },
+    {
+     "text": "Ich baue die Titelseite zusammen.",
+     "richtig": 2
+    }
+   ],
+   "hilfe1": "Die Aussagen sind mit anderen Worten geschrieben. Achte auf die Aufgaben der Personen.",
+   "hilfe2": "Die Klammern im Protokoll sagen, wer wofür zuständig ist.",
+   "spur": false,
+   "rtyp": "Wer sagt was?"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Stimmt das? „Die Tür des Redaktionsraums war nicht abgeschlossen.“",
+   "optionen": [
+    "Stimmt",
+    "Stimmt nicht",
+    "Steht nicht im Text"
+   ],
+   "richtig": 0,
+   "hilfe1": "Lies den letzten Satz des Protokolls.",
+   "hilfe2": "Es steht dort, in welchem Zustand die Tür war.",
+   "hl": [
+    10
+   ],
+   "spur": false,
+   "rtyp": "Wahr, falsch oder steht nicht im Text"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Stimmt das? „Das Foto auf der Titelseite zeigt den Schulchor.“",
+   "optionen": [
+    "Stimmt",
+    "Stimmt nicht",
+    "Steht nicht im Text"
+   ],
+   "richtig": 1,
+   "hilfe1": "Such die Stelle über das Foto bei Punkt 2.",
+   "hilfe2": "Was ist auf dem Foto zu sehen? Ein Chor oder ein Kuchen?",
+   "hl": [
+    4
+   ],
+   "spur": false,
+   "rtyp": "Wahr, falsch oder steht nicht im Text"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Stimmt das? „Der Hausmeister hat die Mappe gesehen.“",
+   "optionen": [
+    "Stimmt",
+    "Stimmt nicht",
+    "Steht nicht im Text"
+   ],
+   "richtig": 2,
+   "hilfe1": "Such das Wort „Hausmeister“ im Protokoll.",
+   "hilfe2": "Der Hausmeister wird gar nicht erwähnt.",
+   "hl": [
+    10
+   ],
+   "spur": false,
+   "rtyp": "Wahr, falsch oder steht nicht im Text"
+  },
+  {
+   "typ": "fehler",
+   "frage": "Mara hat das Protokoll abgetippt. Darin stecken vier Fehler. Findest du sie?",
+   "text": "Protokoll der Redaktionssitzung\nDie [[Jubeläumsausgabe|Jubiläumsausgabe|Jubilaumsausgabe]] soll morgen früh in den Druck.\nTobi hat ein Foto mit dreißig [[Kerzzen|Kerzen|Kerzehn]] gemacht. Yusuf macht das Layout der [[Titelseitte|Titelseite|Titelsaite]].\nUm 15:30 Uhr war die [[Mape|Mappe|Mapppe]] weg und niemand hat sie gesehen.",
+   "hilfe1": "Lies die Wörter mit Doppelbuchstaben und mit „h“ besonders genau.",
+   "hilfe2": "Gesucht sind Fehler in „Jubiläumsausgabe“, „Kerzen“, „Titelseite“ und „Mappe“.",
+   "spur": true,
+   "rtyp": "Fehlerteufel"
+  }
+ ]
+}

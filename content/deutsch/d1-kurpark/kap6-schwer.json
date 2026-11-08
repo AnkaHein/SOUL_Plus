@@ -1,0 +1,128 @@
+{
+ "kap": 6,
+ "stufe": "schwer",
+ "titel": "Die Zeitkapsel",
+ "auftrag": "Der Fall ist fast gelöst. Lies den Abschlussbericht und die Briefe aus der Kapsel.",
+ "woerter": 176,
+ "material": [
+  {
+   "kopf": "Abschlussbericht von Frau Wiesel",
+   "art": "bericht",
+   "saetze": [
+    [
+     "Der Fall ist gelöst.",
+     "Herr Kessler hat zuerst die Messingschilder an den Bänken abgeschraubt, danach die Uhr am Pavillon angehalten und zuletzt die Gedenktafel mitgenommen.",
+     "Sein Ziel war, den Kurpark so unwichtig erscheinen zu lassen, dass niemand ihn vermissen würde.",
+     "Dann hätte der Stadtrat leichter für den Parkplatz gestimmt.",
+     "Die Kinder haben ihn durch den Widerspruch zwischen seiner Aussage, dem Kassenbon und dem Foto überführt, obwohl er seine Spuren sorgfältig verwischt hatte."
+    ],
+    [
+     "Elsa und die Kinder öffneten anschließend die Zeitkapsel unter dem Brunnen, die Ludwig Lindenblatt vor über hundert Jahren versteckt hatte.",
+     "Darin lagen Wünsche von Kindern aus dem Jahr 1911 und ein Plan der ersten Bepflanzung.",
+     "Der Stadtrat hat beschlossen, dass der Park bleibt, wie er ist.",
+     "Die Tafel hängt wieder am Brunnen, und Herr Kessler baut seinen Parkplatz nun an einer anderen Stelle, die bereits der Stadt gehört."
+    ]
+   ],
+   "person": "wiesel"
+  },
+  {
+   "kopf": "Briefe aus der Kapsel",
+   "art": "brief",
+   "saetze": [
+    [
+     "Wir wünschen euch Bäume, die höher sind als unser Pavillon."
+    ],
+    [
+     "Wir wünschen euch einen Teich, in dem man noch Kaulquappen findet."
+    ],
+    [
+     "Wir wünschen euch Mut, wenn jemand etwas Altes wegwerfen will, nur weil es nichts einbringt."
+    ]
+   ]
+  }
+ ],
+ "raetsel": [
+  {
+   "typ": "reihenfolge",
+   "frage": "Bring die Ereignisse in die richtige Reihenfolge. Was passierte zuerst?",
+   "items": [
+    "Herr Kessler schraubt die Messingschilder ab.",
+    "Die Uhr am Pavillon wird angehalten.",
+    "Die Gedenktafel verschwindet.",
+    "Die Kinder überführen Herrn Kessler.",
+    "Die Kinder öffnen die Zeitkapsel.",
+    "Der Stadtrat beschließt, dass der Park bleibt."
+   ],
+   "hilfe1": "Der Bericht nennt die Reihenfolge mit Wörtern wie „zuerst“, „danach“, „zuletzt“ und „anschließend“.",
+   "hilfe2": "Die Kapsel wird nach der Überführung geöffnet, die Entscheidung des Stadtrats kommt zuletzt.",
+   "hl": [
+    1,
+    5
+   ],
+   "spur": false,
+   "rtyp": "Zeitleiste"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Welche Zusammenfassung passt am besten zum Bericht?",
+   "optionen": [
+    "Herr Kessler wollte den Park wertlos wirken lassen, wurde aber überführt. Der Park bleibt erhalten.",
+    "Elsa hat die Schilder abgeschraubt und wurde bestraft.",
+    "Opa Gustav hat alles gestohlen, und der Park wird verkauft.",
+    "Die Kinder haben die Zeitkapsel gestohlen, und die Stadt baut einen Parkplatz."
+   ],
+   "richtig": 0,
+   "hilfe1": "Wer hat etwas getan, warum, und wie geht es aus?",
+   "hilfe2": "Die richtige Antwort nennt Herrn Kessler, seine Absicht und das Ergebnis.",
+   "hl": [
+    2,
+    7
+   ],
+   "spur": false,
+   "rtyp": "Beste Zusammenfassung"
+  },
+  {
+   "typ": "markieren",
+   "frage": "Welcher Satz verrät, wie die Kinder Herrn Kessler überführten?",
+   "richtig": [
+    4
+   ],
+   "hilfe1": "Such die Stelle mit „überführt“.",
+   "hilfe2": "Der Satz steht am Ende des ersten Absatzes.",
+   "hl": [
+    2,
+    3
+   ],
+   "spur": false,
+   "rtyp": "Beweis markieren"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Was zeigen die Wünsche von 1911 über die Kinder von damals?",
+   "optionen": [
+    "Sie wollten, dass der Park schnell vergessen wird.",
+    "Sie dachten an die Zukunft und wollten Natur und Altes bewahren.",
+    "Sie wünschten sich neue Gebäude statt Bäumen.",
+    "Sie hatten Angst vor den Kindern von heute."
+   ],
+   "richtig": 1,
+   "hilfe1": "Lies die drei Wünsche und frage dich, was ihnen wichtig war.",
+   "hilfe2": "Bäume, Teich und etwas Altes: Was verbindet diese drei?",
+   "hl": [
+    9,
+    11
+   ],
+   "spur": false,
+   "rtyp": "Zwischen den Zeilen"
+  },
+  {
+   "typ": "fehler",
+   "frage": "Frau Wiesel hat den Bericht für die Zeitung geschrieben. Darin stecken fünf Fehler. Findest du sie?",
+   "text": "Der Fall im Kurpark ist gelöst!\nHerr Kessler wurde [[überfürt|überführt|überfuhrt]], weil seine Aussage nicht zu den [[Beweißen|Beweisen|Beweissen]] passte. Er wollte, dass der [[Stadtrad|Stadtrat|Stadtratt]] für einen Parkplatz stimmt.\nDie Kinder fanden die [[Zeitkabsel|Zeitkapsel|Zeitkapsell]] unter dem Brunnen. Darin lagen [[Wunsche|Wünsche|Wünche]] von Kindern aus dem Jahr 1911.",
+   "hilfe1": "Prüfe die langen Wörter und achte auch auf Pünktchen über den Vokalen.",
+   "hilfe2": "Gesucht sind Fehler in „überführt“, „Beweisen“, „Stadtrat“, „Zeitkapsel“ und „Wünsche“.",
+   "spur": true,
+   "rtyp": "Fehlerteufel"
+  }
+ ]
+}

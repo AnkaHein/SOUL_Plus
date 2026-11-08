@@ -1,0 +1,127 @@
+{
+ "kap": 6,
+ "stufe": "mittel",
+ "titel": "Die Zeitkapsel",
+ "auftrag": "Der Fall ist fast gelöst. Lies den Abschlussbericht und die Briefe aus der Kapsel.",
+ "woerter": 127,
+ "material": [
+  {
+   "kopf": "Abschlussbericht von Frau Wiesel",
+   "art": "bericht",
+   "saetze": [
+    [
+     "Der Fall ist gelöst.",
+     "Herr Kessler hat zuerst die Messingschilder an den Bänken abgeschraubt, danach die Uhr am Pavillon angehalten und zuletzt die Gedenktafel mitgenommen.",
+     "Er wollte, dass der Park unwichtig wirkt.",
+     "Dann hätte der Stadtrat leichter für den Parkplatz gestimmt.",
+     "Die Kinder haben ihn durch den Kassenbon und das Foto überführt."
+    ],
+    [
+     "Elsa und die Kinder öffneten anschließend die Zeitkapsel unter dem Brunnen.",
+     "Darin lagen Wünsche von Kindern aus dem Jahr 1911.",
+     "Der Stadtrat hat beschlossen, dass der Park bleibt, wie er ist.",
+     "Die Tafel hängt wieder am Brunnen, und Herr Kessler baut seinen Parkplatz woanders."
+    ]
+   ],
+   "person": "wiesel"
+  },
+  {
+   "kopf": "Briefe aus der Kapsel",
+   "art": "brief",
+   "saetze": [
+    [
+     "Wir wünschen euch Bäume, die höher sind als unser Pavillon."
+    ],
+    [
+     "Wir wünschen euch einen Teich, in dem man noch Kaulquappen findet."
+    ],
+    [
+     "Wir wünschen euch Mut, wenn jemand etwas Altes wegwerfen will."
+    ]
+   ]
+  }
+ ],
+ "raetsel": [
+  {
+   "typ": "reihenfolge",
+   "frage": "Bring die Ereignisse in die richtige Reihenfolge. Was passierte zuerst?",
+   "items": [
+    "Herr Kessler schraubt die Messingschilder ab.",
+    "Die Uhr am Pavillon wird angehalten.",
+    "Die Gedenktafel verschwindet.",
+    "Die Kinder überführen Herrn Kessler.",
+    "Die Kinder öffnen die Zeitkapsel."
+   ],
+   "hilfe1": "Der Bericht nennt die Reihenfolge mit Wörtern wie „zuerst“, „danach“, „zuletzt“ und „anschließend“.",
+   "hilfe2": "Die Zeitkapsel wird erst nach der Überführung geöffnet.",
+   "hl": [
+    1,
+    5
+   ],
+   "spur": false,
+   "rtyp": "Zeitleiste"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Welche Zusammenfassung passt am besten zum Bericht?",
+   "optionen": [
+    "Elsa hat die Schilder abgeschraubt und wurde bestraft.",
+    "Opa Gustav hat alles gestohlen, und der Park wird verkauft.",
+    "Die Kinder haben die Zeitkapsel gestohlen und versteckt.",
+    "Herr Kessler wollte den Park wertlos wirken lassen. Die Kinder überführten ihn, und der Park bleibt."
+   ],
+   "richtig": 3,
+   "hilfe1": "Wer hat etwas getan, warum, und wie geht es aus?",
+   "hilfe2": "Die richtige Antwort nennt Herrn Kessler, die Kinder und den Park.",
+   "hl": [
+    2,
+    7
+   ],
+   "spur": false,
+   "rtyp": "Beste Zusammenfassung"
+  },
+  {
+   "typ": "markieren",
+   "frage": "Welcher Satz verrät, wie die Kinder Herrn Kessler überführten?",
+   "richtig": [
+    4
+   ],
+   "hilfe1": "Such die Stelle mit „überführt“.",
+   "hilfe2": "Der Satz steht am Ende des ersten Absatzes.",
+   "hl": [
+    2,
+    3
+   ],
+   "spur": false,
+   "rtyp": "Beweis markieren"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Was wünschten sich die Kinder von 1911 für die Zukunft?",
+   "optionen": [
+    "Dass der Park bald abgerissen wird",
+    "Dass ihre Namen auf Plakaten stehen",
+    "Dass der Park mit Bäumen und Natur erhalten bleibt",
+    "Dass die Stadt ein Hochhaus baut"
+   ],
+   "richtig": 2,
+   "hilfe1": "Lies die drei Wünsche in den Briefen.",
+   "hilfe2": "Es geht um Bäume, einen Teich und etwas Altes.",
+   "hl": [
+    9,
+    10
+   ],
+   "spur": false,
+   "rtyp": "Zwischen den Zeilen"
+  },
+  {
+   "typ": "fehler",
+   "frage": "Frau Wiesel hat den Bericht für die Zeitung geschrieben. Darin stecken vier Fehler. Findest du sie?",
+   "text": "Der Fall im Kurpark ist gelöst!\nHerr Kessler wurde [[überfürt|überführt|überfuhrt]]. Er wollte, dass der [[Stadtrad|Stadtrat|Stadtratt]] für einen Parkplatz stimmt.\nDie Kinder fanden die [[Zeitkabsel|Zeitkapsel|Zeitkapsell]] unter dem Brunnen. Darin lagen [[Wunsche|Wünsche|Wünche]] von Kindern aus dem Jahr 1911.",
+   "hilfe1": "Prüfe die langen Wörter und achte auch auf Pünktchen über den Vokalen.",
+   "hilfe2": "Gesucht sind Fehler in „überführt“, „Stadtrat“, „Zeitkapsel“ und „Wünsche“.",
+   "spur": true,
+   "rtyp": "Fehlerteufel"
+  }
+ ]
+}

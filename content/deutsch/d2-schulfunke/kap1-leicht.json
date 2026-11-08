@@ -1,0 +1,117 @@
+{
+ "kap": 1,
+ "stufe": "leicht",
+ "titel": "Redaktionssitzung",
+ "auftrag": "Lies das Protokoll der Sitzung. Dann beginnt die Suche.",
+ "woerter": 64,
+ "material": [
+  {
+   "kopf": "Protokoll der Redaktionssitzung",
+   "art": "protokoll",
+   "saetze": [
+    [
+     "Mittwoch, 14 Uhr, Raum 12"
+    ],
+    [
+     "Anwesend: Mara, Tobi, Yusuf und Herr Brandt"
+    ],
+    [
+     "Mara sagt, dass die Jubiläumsausgabe morgen in den Druck muss.",
+     "Tobi hat ein Foto vom Schulhof gemacht und bringt es um 15 Uhr.",
+     "Yusuf macht das Layout der Titelseite.",
+     "Herr Brandt will alle Texte noch einmal lesen.",
+     "Um 15:30 Uhr war die Mappe mit der Titelseite plötzlich weg.",
+     "Niemand hat sie gesehen."
+    ]
+   ]
+  }
+ ],
+ "raetsel": [
+  {
+   "typ": "zuordnen",
+   "frage": "Wer hat das gesagt oder getan? Tippe die passende Person an.",
+   "personen": [
+    {
+     "name": "Mara"
+    },
+    {
+     "name": "Tobi",
+     "img": "assets/figuren/tobi.webp"
+    },
+    {
+     "name": "Yusuf",
+     "img": "assets/figuren/yusuf.webp"
+    },
+    {
+     "name": "Herr Brandt",
+     "img": "assets/figuren/brandt.webp"
+    }
+   ],
+   "aussagen": [
+    {
+     "text": "Ich habe das Foto vom Schulhof gemacht.",
+     "richtig": 1
+    },
+    {
+     "text": "Ich lese noch einmal alle Texte.",
+     "richtig": 3
+    },
+    {
+     "text": "Die Ausgabe muss morgen in den Druck.",
+     "richtig": 0
+    },
+    {
+     "text": "Ich gestalte die Titelseite.",
+     "richtig": 2
+    }
+   ],
+   "hilfe1": "Lies den Text über jede Person noch einmal.",
+   "hilfe2": "Das Foto gehört zu dem, der fotografiert. Das Layout gehört zu dem, der gestaltet.",
+   "spur": false,
+   "rtyp": "Wer sagt was?"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Stimmt das? „Die Sitzung beginnt um 15 Uhr.“",
+   "optionen": [
+    "Stimmt",
+    "Stimmt nicht",
+    "Steht nicht im Text"
+   ],
+   "richtig": 1,
+   "hilfe1": "Such die Uhrzeit ganz oben im Protokoll.",
+   "hilfe2": "Die Sitzung beginnt um 14 Uhr, Tobi bringt das Foto um 15 Uhr.",
+   "hl": [
+    0
+   ],
+   "spur": false,
+   "rtyp": "Wahr, falsch oder steht nicht im Text"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Stimmt das? „Herr Brandt hat die Mappe mitgenommen.“",
+   "optionen": [
+    "Stimmt",
+    "Stimmt nicht",
+    "Steht nicht im Text"
+   ],
+   "richtig": 2,
+   "hilfe1": "Lies, was über die Mappe gesagt wird.",
+   "hilfe2": "Im Text steht nur, dass die Mappe weg war. Wer sie hat, steht dort nicht.",
+   "hl": [
+    6
+   ],
+   "spur": false,
+   "rtyp": "Wahr, falsch oder steht nicht im Text"
+  },
+  {
+   "typ": "fehler",
+   "frage": "Mara hat das Protokoll abgetippt. Darin stecken drei Fehler. Findest du sie?",
+   "text": "Protokoll der Redaktionssitzung\nDie [[Jubeläumsausgabe|Jubiläumsausgabe|Jubilaumsausgabe]] soll morgen in den Druck.\nYusuf macht das Layout der [[Titelseitte|Titelseite|Titelsaite]].\nUm 15:30 Uhr war die Mappe [[verschwunnden|verschwunden|verschwuhnden]].",
+   "hilfe1": "Lies die langen Wörter Silbe für Silbe.",
+   "hilfe2": "Gesucht sind Fehler in „Jubiläumsausgabe“, „Titelseite“ und „verschwunden“.",
+   "spur": true,
+   "rtyp": "Fehlerteufel"
+  }
+ ]
+}

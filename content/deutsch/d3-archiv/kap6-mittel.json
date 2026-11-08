@@ -1,0 +1,120 @@
+{
+ "kap": 6,
+ "stufe": "mittel",
+ "titel": "Die letzte Seite",
+ "auftrag": "Im letzten Raum liegt ein Buch mit einer einzigen Seite. Lies sie mit Mira.",
+ "woerter": 90,
+ "material": [
+  {
+   "kopf": "Die letzte Seite",
+   "art": "bericht",
+   "saetze": [
+    [
+     "Vor langer Zeit blieb eine Geschichte ungeschrieben.",
+     "Niemand las sie, niemand liebte sie.",
+     "Aus ihrem Staub wurde ein Schatten, der durch die Regale kroch.",
+     "Er hatte Hunger auf Wörter, denn er suchte seine eigene Geschichte.",
+     "Aber keine fremde Geschichte konnte ihn satt machen."
+    ],
+    [
+     "Mira fand die leere Seite.",
+     "Sie setzte sich zu dem Schatten und las ihm eine neue Geschichte vor, die sie selbst erfunden hatte.",
+     "Da wurde er leicht und warm.",
+     "Er nannte sich Mo und wurde der Geschichtenwind.",
+     "Seitdem trägt er Wörter nicht fort, sondern bringt sie zurück."
+    ]
+   ],
+   "person": "mira"
+  }
+ ],
+ "raetsel": [
+  {
+   "typ": "auswahl",
+   "frage": "Warum fraß der Staubschatten die Wörter?",
+   "optionen": [
+    "Er war ein Wortsammler.",
+    "Er mochte den Geschmack.",
+    "Er wollte die Bücher zerstören.",
+    "Er suchte seine eigene Geschichte."
+   ],
+   "richtig": 3,
+   "hilfe1": "Lies den dritten Satz noch einmal.",
+   "hilfe2": "Er hatte Hunger, weil ihm etwas fehlte.",
+   "hl": [
+    3
+   ],
+   "spur": false,
+   "rtyp": "Ursache und Wirkung"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Was half dem Staubschatten am Ende?",
+   "optionen": [
+    "Ein Gedicht von früher.",
+    "Ein Buch voller Wörter.",
+    "Eine Geschichte, die für ihn erfunden wurde.",
+    "Ein Zauberspruch."
+   ],
+   "richtig": 2,
+   "hilfe1": "Was tat Mira?",
+   "hilfe2": "Mira erfand selbst etwas und las es vor.",
+   "hl": [
+    6
+   ],
+   "spur": false,
+   "rtyp": "Ursache und Wirkung"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Stimmt das? „Mo trägt Wörter jetzt fort.“",
+   "optionen": [
+    "Stimmt",
+    "Stimmt nicht",
+    "Steht nicht im Text"
+   ],
+   "richtig": 1,
+   "hilfe1": "Lies den letzten Satz.",
+   "hilfe2": "Er bringt sie zurück.",
+   "hl": [
+    9
+   ],
+   "spur": false,
+   "rtyp": "Wahr, falsch oder steht nicht im Text"
+  },
+  {
+   "typ": "reihenfolge",
+   "frage": "Bring die Ereignisse in die richtige Reihenfolge.",
+   "items": [
+    "Der Staubschatten entsteht aus einer ungeschriebenen Geschichte.",
+    "Er frisst Wörter aus Hunger.",
+    "Mira findet die leere Seite.",
+    "Mira liest ihm seine Geschichte vor.",
+    "Der Staubschatten wird zu Mo, dem Geschichtenwind."
+   ],
+   "hilfe1": "Beginne mit dem, was vor langer Zeit geschah.",
+   "hilfe2": "Der Wind entsteht ganz am Ende.",
+   "hl": [
+    0,
+    5
+   ],
+   "spur": false,
+   "rtyp": "Zeitleiste"
+  },
+  {
+   "typ": "reihenfolge",
+   "frage": "Ordne die Teile zu einem Satz aus der Geschichte.",
+   "items": [
+    "Seitdem",
+    "bringt",
+    "er",
+    "Wörter",
+    "zurück."
+   ],
+   "art": "satz",
+   "hilfe1": "Der Satz beginnt mit „Seitdem“.",
+   "hilfe2": "Seitdem bringt er Wörter zurück.",
+   "spur": true,
+   "rtyp": "Satzbau"
+  }
+ ]
+}

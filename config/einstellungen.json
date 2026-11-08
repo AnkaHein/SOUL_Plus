@@ -1,0 +1,14 @@
+{
+  "pin": "4711",
+  "version": "0.1-prototyp",
+  "spiele": [
+    {"id": "vier-gewinnt", "name": "Vier gewinnt", "schwelle": 40, "icon": "🔴", "text": "Gegen den Computer oder zu zweit"},
+    {"id": "korb", "name": "Korb-Fangspiel", "schwelle": 80, "icon": "🧺", "text": "Fangen, was fällt"},
+    {"id": "escape1", "name": "Mini-Escape-Room 1", "schwelle": 120, "icon": "🗝️", "text": "Schnell raus in 10 Minuten"},
+    {"id": "murdoku1", "name": "Murdoku, Paket 1", "schwelle": 160, "icon": "🕵️", "text": "Wer war's? Logik-Krimi"},
+    {"id": "sudoku", "name": "Sudoku", "schwelle": 200, "icon": "🔢", "text": "In mehreren Größen"},
+    {"id": "escape2", "name": "Mini-Escape-Room 2", "schwelle": 250, "icon": "🚪", "text": "Der zweite Raum"},
+    {"id": "mehr", "name": "Weitere Spiele", "schwelle": 300, "icon": "⭐", "text": "Kommen später dazu"}
+  ],
+  "punkte": {"ersteAntwort": 10, "zweite": 6, "dritte": 3, "hilfeAbzug": 2, "kapitelBonus": 20, "bausteinBonus": 50}
+}

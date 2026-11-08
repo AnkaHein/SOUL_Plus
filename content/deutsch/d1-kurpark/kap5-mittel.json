@@ -1,0 +1,172 @@
+{
+ "kap": 5,
+ "stufe": "mittel",
+ "titel": "Das Alibi",
+ "auftrag": "Herr Kessler sagt, er war es nicht. Prüfe, ob seine Aussage stimmt.",
+ "woerter": 111,
+ "material": [
+  {
+   "kopf": "Aussage von Herrn Kessler",
+   "art": "aussage",
+   "saetze": [
+    [
+     "Am Samstag war ich bis 23 Uhr in meinem Büro, ich habe Rechnungen geschrieben.",
+     "Dann bin ich direkt nach Hause gefahren und habe vor dem Fernseher gesessen.",
+     "Im Kurpark war ich seit Wochen nicht, und ich habe auch kein Interesse daran.",
+     "Ihre Fragen sind reine Zeitverschwendung."
+    ]
+   ],
+   "person": "kessler"
+  },
+  {
+   "kopf": "Kassenbon",
+   "art": "bon",
+   "saetze": [
+    [
+     "Bratwurst-Eck am Südtor"
+    ],
+    [
+     "Samstag, 22:41 Uhr"
+    ],
+    [
+     "1 Kaffee 2,50"
+    ],
+    [
+     "1 Bockwurst 3,20"
+    ],
+    [
+     "Summe 5,70"
+    ],
+    [
+     "Bezahlt mit Karte: Kessler Bau GmbH"
+    ]
+   ]
+  },
+  {
+   "kopf": "Foto von Frau Maiwald",
+   "art": "foto",
+   "saetze": [
+    [
+     "Aufgenommen am Samstag um 22:58 Uhr vom Kiosk aus.",
+     "Ein Mann in heller Jacke trägt eine flache Platte unter dem Arm zu einem weißen Lieferwagen.",
+     "Das Gesicht ist nicht zu erkennen, weil er sich wegdreht.",
+     "Auf der Tür des Wagens steht der halbe Schriftzug „KESS“."
+    ]
+   ],
+   "person": "maiwald"
+  }
+ ],
+ "raetsel": [
+  {
+   "typ": "mehrfach",
+   "frage": "Welche zwei Angaben passen nicht zusammen?",
+   "optionen": [
+    "Herr Kessler: Ich habe Rechnungen geschrieben.",
+    "Foto: Das Gesicht des Mannes ist nicht zu erkennen.",
+    "Herr Kessler: Ich war bis 23 Uhr in meinem Büro.",
+    "Kassenbon: Summe 5,70",
+    "Kassenbon: Samstag, 22:41 Uhr, Bratwurst-Eck am Südtor"
+   ],
+   "richtig": [
+    2,
+    4
+   ],
+   "hilfe1": "Vergleiche die Uhrzeit im Büro mit der Uhrzeit auf dem Bon.",
+   "hilfe2": "Kann man um 22:41 Uhr im Büro und am Südtor sein?",
+   "hl": [
+    0,
+    5
+   ],
+   "spur": false,
+   "rtyp": "Widerspruch finden"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Woran erkennt man, dass der Bon zu Herrn Kessler gehört?",
+   "optionen": [
+    "Der Bon lag auf seinem Schreibtisch.",
+    "Er hat seinen Namen daraufgeschrieben.",
+    "Der Verkäufer kennt ihn gut.",
+    "Bezahlt wurde mit der Karte seiner Firma."
+   ],
+   "richtig": 3,
+   "hilfe1": "Lies die letzte Zeile auf dem Bon.",
+   "hilfe2": "Welche Firma steht dort, und wem gehört sie?",
+   "hl": [
+    9
+   ],
+   "spur": false,
+   "rtyp": "Zwischen den Zeilen"
+  },
+  {
+   "typ": "markieren",
+   "frage": "Welcher Satz im Foto-Text deutet auf Herrn Kessler hin, obwohl man sein Gesicht nicht sieht?",
+   "richtig": [
+    13
+   ],
+   "hilfe1": "Das Gesicht fehlt. Such nach einem anderen Hinweis auf den Mann.",
+   "hilfe2": "Es ist der letzte Satz.",
+   "hl": [
+    11,
+    12
+   ],
+   "spur": false,
+   "rtyp": "Beweis markieren"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Stimmt das? „Herr Kessler hat die Gedenktafel eigenhändig getragen.“",
+   "optionen": [
+    "Stimmt",
+    "Stimmt nicht",
+    "Steht nicht im Text"
+   ],
+   "richtig": 2,
+   "hilfe1": "Lies die Beschreibung des Fotos genau.",
+   "hilfe2": "Man sieht einen Mann mit einer flachen Platte, aber sein Gesicht ist nicht zu erkennen. Steht dort sein Name?",
+   "hl": [
+    11
+   ],
+   "spur": false,
+   "rtyp": "Wahr, falsch oder steht nicht im Text"
+  },
+  {
+   "typ": "zuordnen",
+   "frage": "Passt die Aussage zu „schon vorbei“ oder zu „gerade jetzt“?",
+   "personen": [
+    {
+     "name": "Schon vorbei"
+    },
+    {
+     "name": "Gerade jetzt"
+    }
+   ],
+   "aussagen": [
+    {
+     "text": "Herr Kessler schrieb bis 23 Uhr Rechnungen.",
+     "richtig": 0
+    },
+    {
+     "text": "Frau Wiesel vergleicht gerade die Uhrzeiten.",
+     "richtig": 1
+    },
+    {
+     "text": "Der Lieferwagen stand vor dem Tor.",
+     "richtig": 0
+    },
+    {
+     "text": "Frau Maiwald zeigt das Foto.",
+     "richtig": 1
+    },
+    {
+     "text": "Er hat den Bon eingesteckt.",
+     "richtig": 0
+    }
+   ],
+   "hilfe1": "Achte auf die Wörter „schrieb“, „stand“, „hat eingesteckt“ und „zeigt“.",
+   "hilfe2": "Was vorbei ist, steht anders im Satz als das, was gerade passiert.",
+   "spur": true,
+   "rtyp": "Zeitform als Alibi"
+  }
+ ]
+}

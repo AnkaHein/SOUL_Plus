@@ -1,0 +1,124 @@
+{
+ "kap": 6,
+ "stufe": "schwer",
+ "titel": "Die letzte Seite",
+ "auftrag": "Im letzten Raum liegt ein Buch mit einer einzigen Seite. Lies sie mit Mira.",
+ "woerter": 129,
+ "material": [
+  {
+   "kopf": "Die letzte Seite",
+   "art": "bericht",
+   "saetze": [
+    [
+     "Vor langer Zeit blieb eine Geschichte ungeschrieben.",
+     "Niemand las sie, niemand liebte sie.",
+     "Aus ihrem Staub wurde ein Schatten, der durch die Regale kroch und sich von Wörtern nährte.",
+     "Er hatte Hunger auf Wörter, denn er suchte seine eigene Geschichte.",
+     "Aber keine fremde Geschichte konnte ihn satt machen, weil sie nicht zu ihm gehörte."
+    ],
+    [
+     "Mira fand die leere Seite, als sie das Archiv zum ersten Mal ganz durchsuchte.",
+     "Sie setzte sich zu dem Schatten und las ihm eine neue Geschichte vor, die sie selbst erfunden hatte.",
+     "Darin kam ein Wind vor, der Wörter nicht stahl, sondern verschenkte.",
+     "Da wurde er leicht und warm.",
+     "Er nannte sich Mo und wurde der Geschichtenwind.",
+     "Seitdem trägt er Wörter nicht fort, sondern bringt sie zurück, und die Bücher im Archiv füllen sich wieder."
+    ]
+   ],
+   "person": "mira"
+  }
+ ],
+ "raetsel": [
+  {
+   "typ": "auswahl",
+   "frage": "Warum fraß der Staubschatten die Wörter?",
+   "optionen": [
+    "Er war ein Wortsammler.",
+    "Er mochte den Geschmack.",
+    "Er wollte die Bücher zerstören.",
+    "Er suchte seine eigene Geschichte."
+   ],
+   "richtig": 3,
+   "hilfe1": "Lies den dritten Satz noch einmal.",
+   "hilfe2": "Er hatte Hunger, weil ihm etwas fehlte.",
+   "hl": [
+    3
+   ],
+   "spur": false,
+   "rtyp": "Ursache und Wirkung"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Welche Zusammenfassung passt am besten?",
+   "optionen": [
+    "Ein Wind raubt alle Wörter der Welt.",
+    "Aus einer ungeschriebenen Geschichte wurde ein Schatten, den erst eine erfundene Geschichte erlöste.",
+    "Mira vertreibt einen Schatten aus dem Archiv.",
+    "Ein Buch verliert seine letzte Seite."
+   ],
+   "richtig": 1,
+   "hilfe1": "Die beste Zusammenfassung nennt Anfang, Problem und Lösung.",
+   "hilfe2": "Achte auf Entstehung und Erlösung.",
+   "hl": [
+    2,
+    6
+   ],
+   "spur": false,
+   "rtyp": "Zusammenfassen"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Stimmt das? „Mo trägt Wörter jetzt fort.“",
+   "optionen": [
+    "Stimmt",
+    "Stimmt nicht",
+    "Steht nicht im Text"
+   ],
+   "richtig": 1,
+   "hilfe1": "Lies den letzten Satz.",
+   "hilfe2": "Er bringt sie zurück.",
+   "hl": [
+    10
+   ],
+   "spur": false,
+   "rtyp": "Wahr, falsch oder steht nicht im Text"
+  },
+  {
+   "typ": "reihenfolge",
+   "frage": "Bring die Ereignisse in die richtige Reihenfolge.",
+   "items": [
+    "Der Staubschatten entsteht aus einer ungeschriebenen Geschichte.",
+    "Er frisst Wörter aus Hunger.",
+    "Mira findet die leere Seite.",
+    "Mira liest ihm seine Geschichte vor.",
+    "Der Staubschatten wird zu Mo, dem Geschichtenwind."
+   ],
+   "hilfe1": "Beginne mit dem, was vor langer Zeit geschah.",
+   "hilfe2": "Der Wind entsteht ganz am Ende.",
+   "hl": [
+    0,
+    5
+   ],
+   "spur": false,
+   "rtyp": "Zeitleiste"
+  },
+  {
+   "typ": "reihenfolge",
+   "frage": "Ordne die Teile zu einem Satz aus der Geschichte.",
+   "items": [
+    "Darin",
+    "kam",
+    "ein",
+    "Wind",
+    "vor,",
+    "der Wörter",
+    "verschenkte."
+   ],
+   "art": "satz",
+   "hilfe1": "Der Satz beginnt mit „Darin“.",
+   "hilfe2": "Darin kam ein Wind vor, der Wörter verschenkte.",
+   "spur": true,
+   "rtyp": "Satzbau"
+  }
+ ]
+}

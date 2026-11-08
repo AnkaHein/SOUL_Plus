@@ -1,0 +1,121 @@
+{
+ "kap": 4,
+ "stufe": "leicht",
+ "titel": "Leserbriefe",
+ "auftrag": "Drei Leserbriefe liegen in der Redaktion. Lies sie.",
+ "woerter": 55,
+ "material": [
+  {
+   "kopf": "Brief von Lena, Klasse 7",
+   "art": "brief",
+   "saetze": [
+    [
+     "Ich finde den Schulfunke langweilig.",
+     "Es gibt zu wenige Witze.",
+     "Letzte Woche stand ein Artikel über die Mensa auf Seite 3."
+    ]
+   ]
+  },
+  {
+   "kopf": "Brief von Herrn Winkler, Lehrer",
+   "art": "brief",
+   "saetze": [
+    [
+     "Die Zeitung erscheint seit dreißig Jahren.",
+     "Die Schüler leisten tolle Arbeit.",
+     "Ich wünsche mir mehr ernste Themen."
+    ]
+   ]
+  },
+  {
+   "kopf": "Brief ohne Absender",
+   "art": "brief",
+   "saetze": [
+    [
+     "Bei der Redaktion zählen nur die großen Namen.",
+     "Neue Autoren werden gekürzt.",
+     "Ich habe das selbst erlebt."
+    ]
+   ]
+  }
+ ],
+ "raetsel": [
+  {
+   "typ": "auswahl",
+   "frage": "Welcher Satz ist eine Tatsache und keine Meinung?",
+   "optionen": [
+    "Der Schulfunke ist langweilig.",
+    "Es gibt zu wenige Witze.",
+    "Die Schüler leisten tolle Arbeit.",
+    "Die Zeitung erscheint seit dreißig Jahren."
+   ],
+   "richtig": 3,
+   "hilfe1": "Eine Tatsache kann man prüfen. Eine Meinung ist das, was jemand findet.",
+   "hilfe2": "Wie viele Jahre es die Zeitung gibt, kann man nachzählen.",
+   "hl": [
+    3,
+    4
+   ],
+   "spur": false,
+   "rtyp": "Meinung oder Tatsache?"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Welche Überschrift passt am besten zum Brief ohne Absender?",
+   "optionen": [
+    "Dreißig Jahre Schulfunke",
+    "Gekürzt und übergangen",
+    "Mehr Witze, bitte!",
+    "Der Mensa-Artikel"
+   ],
+   "richtig": 1,
+   "hilfe1": "Lies den Brief noch einmal. Worüber beschwert sich der Schreiber?",
+   "hilfe2": "Er sagt, neue Autoren werden gekürzt.",
+   "hl": [
+    7
+   ],
+   "spur": false,
+   "rtyp": "Beste Überschrift"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Stimmt das? „Lena möchte mehr Witze in der Zeitung.“",
+   "optionen": [
+    "Stimmt",
+    "Stimmt nicht",
+    "Steht nicht im Text"
+   ],
+   "richtig": 0,
+   "hilfe1": "Lies Lenas Brief genau.",
+   "hilfe2": "Sie schreibt, dass es zu wenige Witze gibt.",
+   "hl": [
+    1
+   ],
+   "spur": false,
+   "rtyp": "Wahr, falsch oder steht nicht im Text"
+  },
+  {
+   "typ": "reihenfolge",
+   "frage": "Bring die Teile in die richtige Reihenfolge. So entsteht ein Satz aus einem Leserbrief.",
+   "items": [
+    "Seit dreißig Jahren",
+    "erscheint",
+    "der Schulfunke",
+    "jede Woche"
+   ],
+   "alt": [
+    [
+     0,
+     1,
+     3,
+     2
+    ]
+   ],
+   "art": "satz",
+   "hilfe1": "Der Satz beginnt mit der Zeitangabe.",
+   "hilfe2": "Nach „Seit dreißig Jahren“ kommt das Verb.",
+   "spur": true,
+   "rtyp": "Satzbau ordnen"
+  }
+ ]
+}

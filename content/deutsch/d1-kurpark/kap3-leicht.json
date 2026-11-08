@@ -1,0 +1,131 @@
+{
+ "kap": 3,
+ "stufe": "leicht",
+ "titel": "Der Brief aus dem Hohlraum",
+ "auftrag": "Elsa hat einen alten Brief gefunden. Lies ihn genau.",
+ "woerter": 76,
+ "material": [
+  {
+   "kopf": "Elsa Winter",
+   "art": "aussage",
+   "saetze": [
+    [
+     "Ich habe diesen Brief hinter einem Regalbrett im Archiv gefunden.",
+     "Er lag in einem Hohlraum, und niemand hat ihn je gelesen."
+    ]
+   ],
+   "person": "elsa"
+  },
+  {
+   "kopf": "Brief von 1911",
+   "art": "brief",
+   "saetze": [
+    [
+     "Lindenau, im Mai 1911"
+    ],
+    [
+     "Liebe Kinder von morgen,"
+    ],
+    [
+     "wenn ihr diesen Brief lest, sind wir längst alt.",
+     "Wir haben den Kurpark mit viel Mühe gebaut.",
+     "Unter dem Brunnen liegt ein Kästchen aus Kupfer.",
+     "Darin sind unsere Wünsche für euch versteckt.",
+     "Gebt gut auf den Park acht!",
+     "Er soll immer allen gehören."
+    ],
+    [
+     "Euer Ludwig Lindenblatt, Stadtgärtner"
+    ]
+   ]
+  }
+ ],
+ "raetsel": [
+  {
+   "typ": "auswahl",
+   "frage": "Was bedeutet „Mühe“ in dem Satz „Wir haben den Kurpark mit viel Mühe gebaut“?",
+   "optionen": [
+    "Anstrengung und viel Arbeit",
+    "Spaß und Spiel",
+    "Streit und Ärger",
+    "Geld und Gold"
+   ],
+   "richtig": 0,
+   "hilfe1": "Überlege, was man braucht, um einen ganzen Park zu bauen.",
+   "hilfe2": "Wer etwas „mit Mühe“ baut, strengt sich an.",
+   "hl": [
+    5
+   ],
+   "spur": false,
+   "rtyp": "Wort erschließen"
+  },
+  {
+   "typ": "markieren",
+   "frage": "Tippe den Satz an, der sagt, was unter dem Brunnen liegt.",
+   "richtig": [
+    6
+   ],
+   "hilfe1": "Such das Wort „Brunnen“ im Brief.",
+   "hilfe2": "Der Satz steht in der Mitte des Briefes.",
+   "hl": [
+    5,
+    7
+   ],
+   "spur": false,
+   "rtyp": "Beweis markieren"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Warum schreibt Ludwig Lindenblatt: „Er soll immer allen gehören“?",
+   "optionen": [
+    "Der Park soll Eintritt kosten.",
+    "Der Park soll seiner Familie gehören.",
+    "Der Park soll nicht verkauft oder zugebaut werden.",
+    "Der Park soll bald geschlossen werden."
+   ],
+   "richtig": 2,
+   "hilfe1": "Überlege, was „allen gehören“ für den Park heißt.",
+   "hilfe2": "Wenn ein Park allen gehört, darf ihn niemand für sich allein nehmen.",
+   "hl": [
+    9
+   ],
+   "spur": false,
+   "rtyp": "Zwischen den Zeilen"
+  },
+  {
+   "typ": "luecke",
+   "frage": "Lies den kurzen Bericht und wähle die passenden Wörter.",
+   "text": "Vor über hundert Jahren ___ Ludwig Lindenblatt den Brief. Gestern ___ Elsa ihn im Archiv. Jetzt ___ Frau Wiesel ihn laut vor.",
+   "luecken": [
+    {
+     "optionen": [
+      "schrieb",
+      "schreibt",
+      "schreiben"
+     ],
+     "richtig": 0
+    },
+    {
+     "optionen": [
+      "findet",
+      "finden",
+      "fand"
+     ],
+     "richtig": 2
+    },
+    {
+     "optionen": [
+      "las",
+      "liest",
+      "lesen"
+     ],
+     "richtig": 1
+    }
+   ],
+   "hilfe1": "Achte auf die Zeitangaben „Vor über hundert Jahren“, „Gestern“ und „Jetzt“.",
+   "hilfe2": "Was schon vorbei ist, klingt anders als das, was gerade passiert.",
+   "spur": true,
+   "rtyp": "Lückentext"
+  }
+ ]
+}

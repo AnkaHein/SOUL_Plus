@@ -1,0 +1,142 @@
+{
+ "kap": 5,
+ "stufe": "schwer",
+ "titel": "Das Gedichtschloss",
+ "auftrag": "Die Tür zum letzten Raum ist mit einem Gedicht verschlossen. Lies es genau.",
+ "woerter": 93,
+ "material": [
+  {
+   "kopf": "Das Lied vom Staub",
+   "art": "gedicht",
+   "saetze": [
+    [
+     "Ich bin ein Wind ohne Haus."
+    ],
+    [
+     "Ich wehe die Wörter hinaus."
+    ],
+    [
+     "Ich bin leise, ich bin laut."
+    ],
+    [
+     "Ich habe mich nie getraut."
+    ],
+    [
+     "Ich bin Staub, ich bin Nacht."
+    ],
+    [
+     "Hat mich je jemand bedacht?"
+    ],
+    [
+     "Ich fresse die Wörter, aus Not."
+    ],
+    [
+     "Mein Hunger ist ein leeres Brot."
+    ],
+    [
+     "Ich bin allein, ich bin klein."
+    ],
+    [
+     "Will ich nicht doch Geschichte sein?"
+    ],
+    [
+     "Wer mir sie liest, der macht mich ganz."
+    ],
+    [
+     "Dann tanze ich im Sonnenglanz."
+    ],
+    [
+     "Ich schlüpfe durch das Schlüsselloch."
+    ],
+    [
+     "Ich suche, was ich vermisse, noch."
+    ],
+    [
+     "Kein Wort, das ich verschlinge, macht satt."
+    ],
+    [
+     "Weil niemand meine Geschichte hat."
+    ]
+   ]
+  }
+ ],
+ "raetsel": [
+  {
+   "typ": "auswahl",
+   "frage": "Was bedeutet das Bild „Ich bin ein Wind ohne Haus“?",
+   "optionen": [
+    "Er weht nur im Sommer.",
+    "Er ist sehr stark.",
+    "Er wohnt in einem Haus aus Glas.",
+    "Er hat keinen Ort, an den er gehört."
+   ],
+   "richtig": 3,
+   "hilfe1": "Überlege: Was fehlt einem Wind ohne Haus?",
+   "hilfe2": "Ein Haus ist ein Zuhause.",
+   "hl": [
+    0
+   ],
+   "spur": false,
+   "rtyp": "Bildsprache verstehen"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Was meint das Bild „Mein Hunger ist ein leeres Brot“?",
+   "optionen": [
+    "Sein Hunger wird durch Wörter nicht gestillt.",
+    "Er backt gern.",
+    "Er bekommt zu viel Brot.",
+    "Er möchte Brot statt Wörter."
+   ],
+   "richtig": 0,
+   "hilfe1": "Ein leeres Brot macht nicht satt.",
+   "hilfe2": "Wörter sind sein „Brot“, aber sie sättigen ihn nicht.",
+   "hl": [
+    7
+   ],
+   "spur": false,
+   "rtyp": "Bildsprache verstehen"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Welche Zeile erklärt, warum ihn keine Wörter satt machen?",
+   "optionen": [
+    "Ich schlüpfe durch das Schlüsselloch.",
+    "Ich bin leise, ich bin laut.",
+    "Dann tanze ich im Sonnenglanz.",
+    "Weil niemand meine Geschichte hat."
+   ],
+   "richtig": 3,
+   "hilfe1": "Such nach der Zeile, die mit „weil“ beginnt.",
+   "hilfe2": "Es ist die allerletzte Zeile des Gedichts.",
+   "hl": [
+    14
+   ],
+   "spur": false,
+   "rtyp": "Zwischen den Zeilen"
+  },
+  {
+   "typ": "reihenfolge",
+   "frage": "Zwei Reimpaare sind vertauscht. Bring die vier Zeilen in die richtige Reihenfolge.",
+   "items": [
+    "Ich schlüpfe durch das Schlüsselloch.",
+    "Ich suche, was ich vermisse, noch.",
+    "Kein Wort, das ich verschlinge, macht satt.",
+    "Weil niemand meine Geschichte hat."
+   ],
+   "hilfe1": "Zeilen, die sich reimen, stehen direkt hintereinander. Der Gedankengang hängt von „weil“ ab.",
+   "hilfe2": "„Schlüsselloch“ reimt sich auf „noch“, „satt“ auf „hat“. Die Zeile mit „Weil“ gehört ans Ende.",
+   "spur": false,
+   "rtyp": "Reihenfolge"
+  },
+  {
+   "typ": "fehler",
+   "frage": "Am Gedichtschloss steht ein Vers, den man richtig lesen muss. Darin stecken fünf Fehler. Findest du sie?",
+   "text": "Wer dieses Schloss öffnen [[wil|will|wiel]],\nder [[mus|muss|mussz]] ein Wort verschenken,\nein Wort, das niemand [[vergist|vergisst|vergiesst]].\nDann springt das Tor und die [[Gesichte|Geschichte|Geschiechte]] beginnt,\nund der Staub wird [[ruig|ruhig|rueig]] und warm.",
+   "hilfe1": "Lies jede Zeile laut. Achte auf Doppelbuchstaben, auf „ch“ und auf das stumme „h“.",
+   "hilfe2": "Gesucht sind Fehler in „will“, „muss“, „vergisst“, „Geschichte“ und „ruhig“.",
+   "spur": true,
+   "rtyp": "Fehlerteufel"
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "deutsch": {
+  "bausteine": [
+   "d1-kurpark",
+   "d2-schulfunke",
+   "d3-archiv"
+  ]
+ },
+ "englisch": {
+  "bausteine": []
+ },
+ "mathe": {
+  "bausteine": []
+ },
+ "bio": {
+  "bausteine": []
+ },
+ "geo": {
+  "bausteine": []
+ },
+ "lern": {
+  "bausteine": []
+ }
+}

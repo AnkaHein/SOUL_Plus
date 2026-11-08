@@ -1,0 +1,267 @@
+{
+ "kap": 4,
+ "stufe": "mittel",
+ "titel": "Die Karte im Kurpark",
+ "auftrag": "Elsa hat eine Wegbeschreibung abgeschrieben. Folge dem Weg auf der Karte.",
+ "woerter": 75,
+ "material": [
+  {
+   "kopf": "Wegbeschreibung",
+   "art": "karte",
+   "saetze": [
+    [
+     "Beginne am Haupttor und geh geradeaus, bis du zum Brunnen kommst.",
+     "Rechts davon liegt der Spielplatz, den brauchst du nicht."
+    ],
+    [
+     "Biege am Brunnen nach links ab.",
+     "Der Weg führt dich zum Teich.",
+     "Dort wendest du dich nach rechts und gehst weiter, bis du an eine Bank kommst.",
+     "Es ist die erste Bank auf diesem Weg."
+    ],
+    [
+     "Hinter der Bank beginnt ein Beet.",
+     "Am Rand des Beetes steht der Hinweisstein.",
+     "Er ist grau und mit Moos bewachsen."
+    ]
+   ],
+   "person": "elsa"
+  }
+ ],
+ "raetsel": [
+  {
+   "typ": "karte",
+   "frage": "Wo steht der Hinweisstein? Folge dem Weg und tippe den Ort an.",
+   "orte": [
+    {
+     "id": "tor",
+     "sym": "tor",
+     "x": 50,
+     "y": 62,
+     "label": "Haupttor"
+    },
+    {
+     "id": "brunnen",
+     "sym": "brunnen",
+     "x": 50,
+     "y": 38,
+     "label": "Brunnen"
+    },
+    {
+     "id": "teich",
+     "sym": "teich",
+     "x": 22,
+     "y": 40,
+     "label": "Teich"
+    },
+    {
+     "id": "bank1",
+     "sym": "bank",
+     "x": 20,
+     "y": 26,
+     "label": "Bank"
+    },
+    {
+     "id": "beet1",
+     "sym": "beet",
+     "x": 20,
+     "y": 12,
+     "label": "Beet"
+    },
+    {
+     "id": "pavillon",
+     "sym": "pavillon",
+     "x": 50,
+     "y": 14,
+     "label": "Pavillon"
+    },
+    {
+     "id": "beet2",
+     "sym": "beet",
+     "x": 70,
+     "y": 12,
+     "label": "Beet"
+    },
+    {
+     "id": "kiosk",
+     "sym": "kiosk",
+     "x": 80,
+     "y": 58,
+     "label": "Kiosk"
+    },
+    {
+     "id": "spiel",
+     "sym": "spielplatz",
+     "x": 82,
+     "y": 34,
+     "label": "Spielplatz"
+    },
+    {
+     "id": "bank2",
+     "sym": "bank",
+     "x": 66,
+     "y": 48,
+     "label": "Bank"
+    }
+   ],
+   "wege": [
+    [
+     "tor",
+     "brunnen"
+    ],
+    [
+     "brunnen",
+     "teich"
+    ],
+    [
+     "teich",
+     "bank1"
+    ],
+    [
+     "bank1",
+     "beet1"
+    ],
+    [
+     "brunnen",
+     "pavillon"
+    ],
+    [
+     "pavillon",
+     "beet2"
+    ],
+    [
+     "tor",
+     "kiosk"
+    ],
+    [
+     "brunnen",
+     "spiel"
+    ],
+    [
+     "brunnen",
+     "bank2"
+    ]
+   ],
+   "richtig": "beet1",
+   "hilfe1": "Beginne am Haupttor und gehe nur die Orte entlang, die in der Beschreibung vorkommen.",
+   "hilfe2": "Auf der Karte gibt es zwei Bänke und zwei Beete. Nur eine Bank liegt am Weg hinter dem Teich.",
+   "hl": [
+    2,
+    4
+   ],
+   "spur": false,
+   "rtyp": "Karte nach Text"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Welcher Ort wird erwähnt, muss aber nicht besucht werden?",
+   "optionen": [
+    "der Spielplatz",
+    "der Teich",
+    "das Beet",
+    "das Haupttor"
+   ],
+   "richtig": 0,
+   "hilfe1": "Such nach einem Satz, in dem steht: „den brauchst du nicht“.",
+   "hilfe2": "Der Satz steht im ersten Absatz.",
+   "hl": [
+    1
+   ],
+   "spur": false,
+   "rtyp": "Schnellsuche"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Stimmt das? „Der Hinweisstein ist mit Moos bewachsen.“",
+   "optionen": [
+    "Stimmt",
+    "Stimmt nicht",
+    "Steht nicht im Text"
+   ],
+   "richtig": 0,
+   "hilfe1": "Such die Beschreibung des Steins im letzten Absatz.",
+   "hilfe2": "Welche Farbe hat er, und was wächst darauf?",
+   "hl": [
+    8
+   ],
+   "spur": false,
+   "rtyp": "Wahr, falsch oder steht nicht im Text"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Stimmt das? „Der Hinweisstein steht direkt am Pavillon.“",
+   "optionen": [
+    "Stimmt",
+    "Stimmt nicht",
+    "Steht nicht im Text"
+   ],
+   "richtig": 1,
+   "hilfe1": "Wo steht der Stein laut Text?",
+   "hilfe2": "Er steht am Beet, nicht am Pavillon.",
+   "hl": [
+    7
+   ],
+   "spur": false,
+   "rtyp": "Wahr, falsch oder steht nicht im Text"
+  },
+  {
+   "typ": "luecke",
+   "frage": "Lies die Geschichte von Opa Gustav und wähle die passenden Wörter.",
+   "text": "Opa Gustav setzt sich ___ Bank. Dann sitzt er ___ Bank. Er hängt den Mantel ___ Haken. Der Mantel hängt ___ Haken. Danach geht er ___ Teich und bleibt ___ Teich stehen.",
+   "luecken": [
+    {
+     "optionen": [
+      "auf der",
+      "auf die",
+      "auf den"
+     ],
+     "richtig": 1
+    },
+    {
+     "optionen": [
+      "auf der",
+      "auf die",
+      "auf den"
+     ],
+     "richtig": 0
+    },
+    {
+     "optionen": [
+      "an dem",
+      "an der",
+      "an den"
+     ],
+     "richtig": 2
+    },
+    {
+     "optionen": [
+      "an den",
+      "an dem",
+      "an die"
+     ],
+     "richtig": 1
+    },
+    {
+     "optionen": [
+      "zum",
+      "am",
+      "beim"
+     ],
+     "richtig": 0
+    },
+    {
+     "optionen": [
+      "zum",
+      "ans",
+      "am"
+     ],
+     "richtig": 2
+    }
+   ],
+   "hilfe1": "Frage dich: Geht jemand irgendwohin, oder ist er schon dort?",
+   "hilfe2": "Vergleiche „setzt sich“ und „sitzt“. Das zweite Wort passt nicht zu „auf die“.",
+   "spur": true,
+   "rtyp": "Lückentext"
+  }
+ ]
+}

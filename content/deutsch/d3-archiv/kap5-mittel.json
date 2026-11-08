@@ -1,0 +1,135 @@
+{
+ "kap": 5,
+ "stufe": "mittel",
+ "titel": "Das Gedichtschloss",
+ "auftrag": "Die Tür zum letzten Raum ist mit einem Gedicht verschlossen. Lies es genau.",
+ "woerter": 70,
+ "material": [
+  {
+   "kopf": "Das Lied vom Staub",
+   "art": "gedicht",
+   "saetze": [
+    [
+     "Ich bin ein Wind ohne Haus."
+    ],
+    [
+     "Ich wehe die Wörter hinaus."
+    ],
+    [
+     "Ich bin leise, ich bin laut."
+    ],
+    [
+     "Ich habe mich nie getraut."
+    ],
+    [
+     "Ich bin Staub, ich bin Nacht."
+    ],
+    [
+     "Hat mich je jemand bedacht?"
+    ],
+    [
+     "Ich fresse die Wörter, aus Not."
+    ],
+    [
+     "Mein Hunger ist ein leeres Brot."
+    ],
+    [
+     "Ich bin allein, ich bin klein."
+    ],
+    [
+     "Will ich nicht doch Geschichte sein?"
+    ],
+    [
+     "Wer mir sie liest, der macht mich ganz."
+    ],
+    [
+     "Dann tanze ich im Sonnenglanz."
+    ]
+   ]
+  }
+ ],
+ "raetsel": [
+  {
+   "typ": "auswahl",
+   "frage": "Was bedeutet das Bild „Ich bin ein Wind ohne Haus“?",
+   "optionen": [
+    "Er weht nur im Sommer.",
+    "Er ist sehr stark.",
+    "Er wohnt in einem Haus aus Glas.",
+    "Er hat keinen Ort, an den er gehört."
+   ],
+   "richtig": 3,
+   "hilfe1": "Überlege: Was fehlt einem Wind ohne Haus?",
+   "hilfe2": "Ein Haus ist ein Zuhause.",
+   "hl": [
+    0
+   ],
+   "spur": false,
+   "rtyp": "Bildsprache verstehen"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Was meint das Bild „Mein Hunger ist ein leeres Brot“?",
+   "optionen": [
+    "Sein Hunger wird durch Wörter nicht gestillt.",
+    "Er backt gern.",
+    "Er bekommt zu viel Brot.",
+    "Er möchte Brot statt Wörter."
+   ],
+   "richtig": 0,
+   "hilfe1": "Ein leeres Brot macht nicht satt.",
+   "hilfe2": "Wörter sind sein „Brot“, aber sie sättigen ihn nicht.",
+   "hl": [
+    7
+   ],
+   "spur": false,
+   "rtyp": "Bildsprache verstehen"
+  },
+  {
+   "typ": "markieren",
+   "frage": "Welche Zeile verrät, was den Staubschatten wieder „ganz“ machen würde?",
+   "richtig": [
+    10
+   ],
+   "hilfe1": "Such die Stelle, die vom Lesen spricht.",
+   "hilfe2": "Die Zeile steht in der vorletzten Strophe.",
+   "hl": [
+    9,
+    11
+   ],
+   "spur": false,
+   "rtyp": "Beweis markieren"
+  },
+  {
+   "typ": "reihenfolge",
+   "frage": "Zwei Reimpaare sind vertauscht. Bring die vier Zeilen in die richtige Reihenfolge.",
+   "items": [
+    "Ich fresse die Wörter, aus Not.",
+    "Mein Hunger ist ein leeres Brot.",
+    "Ich bin allein, ich bin klein.",
+    "Will ich nicht doch Geschichte sein?"
+   ],
+   "alt": [
+    [
+     2,
+     3,
+     0,
+     1
+    ]
+   ],
+   "hilfe1": "Zeilen, die sich reimen, stehen direkt hintereinander.",
+   "hilfe2": "„Not“ reimt sich auf „Brot“, „klein“ auf „sein“.",
+   "spur": false,
+   "rtyp": "Reihenfolge"
+  },
+  {
+   "typ": "fehler",
+   "frage": "Am Gedichtschloss steht ein Vers, den man richtig lesen muss. Darin stecken vier Fehler. Findest du sie?",
+   "text": "Wer dieses Schloss öffnen [[wil|will|wiel]],\nder [[mus|muss|mussz]] ein Wort verschenken,\nein Wort, das niemand [[vergist|vergisst|vergiesst]].\nDann springt das Tor und die [[Gesichte|Geschichte|Geschiechte]] beginnt.",
+   "hilfe1": "Lies jede Zeile laut. Achte auf Doppelbuchstaben und auf „ch“.",
+   "hilfe2": "Gesucht sind Fehler in „will“, „muss“, „vergisst“ und „Geschichte“.",
+   "spur": true,
+   "rtyp": "Fehlerteufel"
+  }
+ ]
+}

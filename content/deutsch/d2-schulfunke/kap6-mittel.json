@@ -1,0 +1,113 @@
+{
+ "kap": 6,
+ "stufe": "mittel",
+ "titel": "Die Enthüllung",
+ "auftrag": "Mara hat den Fall in einem Artikel aufgeschrieben. Lies ihn.",
+ "woerter": 125,
+ "material": [
+  {
+   "kopf": "Titelseite gefunden!",
+   "art": "zeitung",
+   "saetze": [
+    [
+     "Die verschwundene Titelseite des Schulfunke ist wieder da.",
+     "Sie lag im Kopierraum, hinter dem großen Kopierer.",
+     "Jonas von der Pausenpost hatte sie dort versteckt.",
+     "Er war wütend, weil sein Artikel über das Schulfest auf zehn Zeilen gekürzt worden war und niemand ihn vorher gefragt hatte."
+    ],
+    [
+     "Verraten hat er sich selbst: In der Pausenpost schrieb er von den dreißig Kerzen auf dem Titelfoto, obwohl nur vier Personen das Foto kannten.",
+     "Auch der anonyme Zettel passte zu ihm.",
+     "Tobi, der zuerst verdächtigt wurde, hatte nur vergessen zu sagen, dass er für einen Becher Tee aus dem Labor gegangen war."
+    ],
+    [
+     "Jonas hat seinen Fehler zugegeben, und Mara hat sich bei ihm entschuldigt.",
+     "Sein Artikel erscheint nun in voller Länge, und er arbeitet künftig im Team des Schulfunke mit."
+    ]
+   ],
+   "person": "mara"
+  }
+ ],
+ "raetsel": [
+  {
+   "typ": "reihenfolge",
+   "frage": "Bring die Ereignisse in die richtige Reihenfolge. Was passierte zuerst?",
+   "items": [
+    "Mara kürzt den Artikel von Jonas.",
+    "Die Titelseite verschwindet.",
+    "Der anonyme Zettel taucht auf.",
+    "Die Kinder bemerken die Kerzen in der Pausenpost.",
+    "Die Titelseite wird im Kopierraum gefunden."
+   ],
+   "hilfe1": "Der Artikel erzählt die Geschichte nicht streng von vorn nach hinten. Denk darüber nach, was Ursache und was Folge ist.",
+   "hilfe2": "Die Kürzung ist der Grund für alles Weitere.",
+   "hl": [
+    1,
+    3
+   ],
+   "spur": false,
+   "rtyp": "Zeitleiste"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Welche Schlagzeile passt am besten zum Artikel?",
+   "optionen": [
+    "Titelseite gefunden: Streit beigelegt",
+    "Pausenpost wird eingestellt",
+    "Titelseite für immer verloren",
+    "Mara verlässt die Redaktion"
+   ],
+   "richtig": 0,
+   "hilfe1": "Worum geht es im ganzen Artikel? Wie geht es aus?",
+   "hilfe2": "Die Titelseite ist wieder da und der Streit ist vorbei.",
+   "hl": [
+    0,
+    8
+   ],
+   "spur": false,
+   "rtyp": "Beste Überschrift"
+  },
+  {
+   "typ": "markieren",
+   "frage": "Welcher Satz verrät, warum Jonas die Titelseite versteckt hat?",
+   "richtig": [
+    3
+   ],
+   "hilfe1": "Such das Wort „wütend“.",
+   "hilfe2": "Der Satz steht am Ende des ersten Absatzes.",
+   "hl": [
+    1,
+    4
+   ],
+   "spur": false,
+   "rtyp": "Beweis markieren"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Warum war Tobi zuerst verdächtig, obwohl er nichts getan hatte?",
+   "optionen": [
+    "Er hatte die Titelseite selbst versteckt.",
+    "Er arbeitet für die Pausenpost.",
+    "Er hat den Zettel geschrieben.",
+    "Er hatte vergessen zu sagen, dass er das Labor verlassen hatte."
+   ],
+   "richtig": 3,
+   "hilfe1": "Lies den Absatz über Tobi noch einmal.",
+   "hilfe2": "Tobi wurde im Flur gesehen, hatte das aber nicht gesagt.",
+   "hl": [
+    6
+   ],
+   "spur": false,
+   "rtyp": "Zwischen den Zeilen"
+  },
+  {
+   "typ": "fehler",
+   "frage": "Mara hat den Artikel für den Druck abgetippt. Darin stecken vier Fehler. Findest du sie?",
+   "text": "Die verschwundene Titelseite ist [[wider|wieder|wiedar]] da!\nJonas hat seinen Fehler zugegeben. Mara hat sich [[endschuldigt|entschuldigt|entschuldikt]], und Jonas arbeitet jetzt im Team mit. Der Artikel von Jonas erscheint in der [[nechsten|nächsten|nachsten]] Ausgabe in voller Länge.\nTobi hat nur vergessen, dass er für einen [[Beger|Becher|Becker]] Tee das Labor verlassen hatte.",
+   "hilfe1": "Achte auf „wieder“ und „wider“, auf „ent-“ und auf den Umlaut.",
+   "hilfe2": "Gesucht sind Fehler in „wieder“, „entschuldigt“, „nächsten“ und „Becher“.",
+   "spur": true,
+   "rtyp": "Fehlerteufel"
+  }
+ ]
+}

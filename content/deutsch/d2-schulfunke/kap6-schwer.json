@@ -1,0 +1,115 @@
+{
+ "kap": 6,
+ "stufe": "schwer",
+ "titel": "Die Enthüllung",
+ "auftrag": "Mara hat den Fall in einem Artikel aufgeschrieben. Lies ihn genau.",
+ "woerter": 173,
+ "material": [
+  {
+   "kopf": "Titelseite gefunden!",
+   "art": "zeitung",
+   "saetze": [
+    [
+     "Die verschwundene Titelseite des Schulfunke ist wieder da.",
+     "Sie lag im Kopierraum, hinter dem großen Kopierer, wo niemand sie suchen würde.",
+     "Jonas von der Pausenpost hatte sie dort versteckt.",
+     "Er war wütend, weil sein Artikel über das Schulfest auf zehn Zeilen gekürzt worden war und niemand ihn vorher gefragt hatte.",
+     "Mit dem Zettel wollte er erreichen, dass die Redaktion über ihren Umgang mit neuen Autoren nachdenkt."
+    ],
+    [
+     "Verraten hat er sich selbst: In der Pausenpost schrieb er von den dreißig Kerzen auf dem Titelfoto, obwohl nur vier Personen das Foto kannten und die Datei nirgends sonst lag.",
+     "Auch das Wort „ignoriert“ aus dem Zettel kam in seinem Leserbrief vor.",
+     "Tobi, der zuerst verdächtigt wurde, hatte nur vergessen zu sagen, dass er das Fotolabor kurz für einen Becher Tee verlassen hatte.",
+     "Der Hausmeister hatte ihn dabei im Flur gesehen."
+    ],
+    [
+     "Jonas hat seinen Fehler zugegeben, und Mara hat sich bei ihm entschuldigt, weil sie die Kürzung ohne Rücksprache beschlossen hatte.",
+     "Sein Artikel erscheint nun in voller Länge, und er arbeitet künftig im Team des Schulfunke mit."
+    ]
+   ],
+   "person": "mara"
+  }
+ ],
+ "raetsel": [
+  {
+   "typ": "reihenfolge",
+   "frage": "Bring die Ereignisse in die richtige Reihenfolge. Was passierte zuerst?",
+   "items": [
+    "Mara kürzt den Artikel von Jonas.",
+    "Die Titelseite verschwindet.",
+    "Der anonyme Zettel taucht auf.",
+    "Der Hausmeister sieht Tobi im Flur.",
+    "Die Kinder bemerken die Kerzen in der Pausenpost.",
+    "Die Titelseite wird im Kopierraum gefunden."
+   ],
+   "hilfe1": "Der Artikel erzählt die Geschichte nicht streng von vorn nach hinten. Denk darüber nach, was Ursache und was Folge ist.",
+   "hilfe2": "Die Kürzung ist der Grund für alles Weitere. Die Entdeckung im Kopierraum kommt zuletzt.",
+   "hl": [
+    1,
+    3
+   ],
+   "spur": false,
+   "rtyp": "Zeitleiste"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Welche Schlagzeile passt am besten zum Artikel?",
+   "optionen": [
+    "Pausenpost wird eingestellt",
+    "Titelseite gefunden: Wer zuhört, löst Konflikte",
+    "Titelseite für immer verloren",
+    "Mara verlässt die Redaktion"
+   ],
+   "richtig": 1,
+   "hilfe1": "Worum geht es im ganzen Artikel? Wie geht es aus?",
+   "hilfe2": "Der Artikel zeigt, dass beide Seiten Fehler zugegeben haben und der Konflikt endet.",
+   "hl": [
+    9
+   ],
+   "spur": false,
+   "rtyp": "Beste Überschrift"
+  },
+  {
+   "typ": "markieren",
+   "frage": "Welcher Satz verrät, wie sich Jonas verraten hat?",
+   "richtig": [
+    5
+   ],
+   "hilfe1": "Such die Stelle mit „verraten“ im zweiten Absatz.",
+   "hilfe2": "Der Satz steht gleich nach „Verraten hat er sich selbst“.",
+   "hl": [
+    3,
+    6
+   ],
+   "spur": false,
+   "rtyp": "Beweis markieren"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Warum entschuldigt sich Mara bei Jonas, obwohl er die Titelseite versteckt hat?",
+   "optionen": [
+    "Sie hat die Titelseite selbst versteckt.",
+    "Sie wollte, dass Jonas die Zeitung verlässt.",
+    "Sie hat Jonas’ Artikel nie gelesen.",
+    "Sie hat die Kürzung ohne Rücksprache beschlossen."
+   ],
+   "richtig": 3,
+   "hilfe1": "Lies den letzten Absatz noch einmal.",
+   "hilfe2": "Hinter dem Wort „weil“ steht der Grund.",
+   "hl": [
+    9
+   ],
+   "spur": false,
+   "rtyp": "Zwischen den Zeilen"
+  },
+  {
+   "typ": "fehler",
+   "frage": "Mara hat den Artikel für den Druck abgetippt. Darin stecken fünf Fehler. Findest du sie?",
+   "text": "Die verschwundene Titelseite ist [[wider|wieder|wiedar]] da!\nJonas hat seinen Fehler zugegeben. Mara hat sich [[endschuldigt|entschuldigt|entschuldikt]], weil sie die Kürzung ohne [[Rücksprahe|Rücksprache|Rüksprache]] beschlossen hatte. Der Artikel von Jonas erscheint in der [[nechsten|nächsten|nachsten]] Ausgabe.\nTobi hat nur vergessen, dass er für einen [[Beger|Becher|Becker]] Tee das Labor verlassen hatte.",
+   "hilfe1": "Achte auf „wieder“ und „wider“, auf „ent-“ und auf Wörter mit Umlaut und „ch“.",
+   "hilfe2": "Gesucht sind Fehler in „wieder“, „entschuldigt“, „Rücksprache“, „nächsten“ und „Becher“.",
+   "spur": true,
+   "rtyp": "Fehlerteufel"
+  }
+ ]
+}

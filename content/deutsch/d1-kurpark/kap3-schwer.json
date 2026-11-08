@@ -1,0 +1,180 @@
+{
+ "kap": 3,
+ "stufe": "schwer",
+ "titel": "Der Brief aus dem Hohlraum",
+ "auftrag": "Elsa hat einen alten Brief gefunden. Lies ihn genau.",
+ "woerter": 191,
+ "material": [
+  {
+   "kopf": "Elsa Winter",
+   "art": "aussage",
+   "saetze": [
+    [
+     "Ich habe diesen Brief hinter einem Regalbrett im Archiv gefunden.",
+     "Er lag in einem Hohlraum, und niemand hat ihn je gelesen, denn das Brett war seit Jahrzehnten festgeschraubt.",
+     "Das Papier ist brüchig, bitte seid vorsichtig."
+    ]
+   ],
+   "person": "elsa"
+  },
+  {
+   "kopf": "Brief von 1911",
+   "art": "brief",
+   "saetze": [
+    [
+     "Lindenau, im Mai 1911"
+    ],
+    [
+     "Liebe Kinder von morgen,"
+    ],
+    [
+     "wenn ihr diesen Brief lest, sind wir Alten längst nicht mehr da, und vieles, was uns heute wichtig ist, mag euch fremd erscheinen.",
+     "Wir haben diesen Park mit viel Mühe und mit den Spenden vieler Gönner errichtet.",
+     "Sie haben die Bänke, die Uhr am Pavillon und den Brunnen bezahlt, und ihre Namen stehen auf kleinen Messingschildern, damit niemand sie vergisst."
+    ],
+    [
+     "Unter dem Brunnen ruht ein Kästchen aus Kupfer.",
+     "Darin haben wir unsere Wünsche für euch verwahrt, und ein Plan, den wir im Stadtarchiv hinterlegt haben, zeigt dereinst den Weg dorthin.",
+     "Öffnet das Kästchen nicht aus Neugier, sondern erst dann, wenn der Park in Gefahr gerät."
+    ],
+    [
+     "Wir fürchten, dass spätere Zeiten den Wert eines Ortes nur nach seinem Preis bemessen.",
+     "Gebt deshalb gut auf ihn acht.",
+     "Er soll immer allen gehören, den Reichen genauso wie den Armen, und keiner darf ihn für sich allein beanspruchen."
+    ],
+    [
+     "Euer Ludwig Lindenblatt, Stadtgärtner"
+    ]
+   ]
+  }
+ ],
+ "raetsel": [
+  {
+   "typ": "auswahl",
+   "frage": "Was bedeutet „dereinst“ in dem Satz „zeigt dereinst den Weg dorthin“?",
+   "optionen": [
+    "nur im Winter",
+    "nie mehr",
+    "sofort und schnell",
+    "irgendwann in der Zukunft"
+   ],
+   "richtig": 3,
+   "hilfe1": "Der Brief ist an Kinder geschrieben, die erst viel später leben.",
+   "hilfe2": "Es geht um eine Zeit, die noch kommt.",
+   "hl": [
+    9
+   ],
+   "spur": false,
+   "rtyp": "Wort erschließen"
+  },
+  {
+   "typ": "markieren",
+   "frage": "Welcher Satz verrät, wovor Ludwig Lindenblatt Angst hat?",
+   "richtig": [
+    11
+   ],
+   "hilfe1": "Such das Wort „fürchten“.",
+   "hilfe2": "Der Satz steht im dritten Absatz.",
+   "hl": [
+    10,
+    12
+   ],
+   "spur": false,
+   "rtyp": "Beweis markieren"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Stimmt das? „Der Plan zum Kästchen liegt im Stadtarchiv.“",
+   "optionen": [
+    "Stimmt",
+    "Stimmt nicht",
+    "Steht nicht im Text"
+   ],
+   "richtig": 0,
+   "hilfe1": "Suche das Wort „Plan“.",
+   "hilfe2": "Im zweiten Absatz steht, wo der Plan hinterlegt wurde.",
+   "hl": [
+    9
+   ],
+   "spur": false,
+   "rtyp": "Wahr, falsch oder steht nicht im Text"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Was will Ludwig Lindenblatt mit dem Satz über den „Preis“ eines Ortes sagen?",
+   "optionen": [
+    "Ein Ort ist mehr wert als das Geld, das man für ihn bekäme.",
+    "Der Park ist zu teuer und sollte verkauft werden.",
+    "Man muss Eintritt für den Park verlangen.",
+    "Die Gönner wollen ihr Geld zurück."
+   ],
+   "richtig": 0,
+   "hilfe1": "Überlege: Wer zählt den „Wert“ nur in Geld?",
+   "hilfe2": "Der Brief warnt vor Menschen, die nur auf den Preis schauen.",
+   "hl": [
+    11
+   ],
+   "spur": false,
+   "rtyp": "Zwischen den Zeilen"
+  },
+  {
+   "typ": "luecke",
+   "frage": "Lies den kurzen Bericht und wähle die passenden Wörter.",
+   "text": "Vor über hundert Jahren ___ Ludwig Lindenblatt den Brief. Er ___ ihn in einen Hohlraum und ___ ihn mit einem Brett. Gestern ___ Elsa ihn im Archiv. Jetzt ___ Frau Wiesel ihn laut vor und die Kinder ___ gespannt zu.",
+   "luecken": [
+    {
+     "optionen": [
+      "schreibt",
+      "schrieb",
+      "schreiben"
+     ],
+     "richtig": 1
+    },
+    {
+     "optionen": [
+      "legte",
+      "legt",
+      "legen"
+     ],
+     "richtig": 0
+    },
+    {
+     "optionen": [
+      "verschließt",
+      "verschließen",
+      "verschloss"
+     ],
+     "richtig": 2
+    },
+    {
+     "optionen": [
+      "findet",
+      "fand",
+      "finden"
+     ],
+     "richtig": 1
+    },
+    {
+     "optionen": [
+      "liest",
+      "las",
+      "lesen"
+     ],
+     "richtig": 0
+    },
+    {
+     "optionen": [
+      "hörte",
+      "hört",
+      "hören"
+     ],
+     "richtig": 2
+    }
+   ],
+   "hilfe1": "Achte auf die Zeitangaben „Vor über hundert Jahren“, „Gestern“ und „Jetzt“.",
+   "hilfe2": "Was schon vorbei ist, klingt anders als das, was gerade passiert.",
+   "spur": true,
+   "rtyp": "Lückentext"
+  }
+ ]
+}

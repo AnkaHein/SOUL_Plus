@@ -1,0 +1,141 @@
+{
+ "kap": 4,
+ "stufe": "mittel",
+ "titel": "Das Tagebuch des Staubschattens",
+ "auftrag": "Im Archiv liegt ein Tagebuch aus Staub. Lies es genau.",
+ "woerter": 115,
+ "material": [
+  {
+   "kopf": "Tagebuch",
+   "art": "tagebuch",
+   "saetze": [
+    [
+     "Heute habe ich wieder ein Wort gegessen.",
+     "Es war das Wort „Sonne“.",
+     "Es schmeckte nach Wärme, aber danach war mir kälter als vorher.",
+     "Ich weiß nicht, wer ich bin und woher ich komme.",
+     "Ich weiß nur, dass ich immer Hunger auf Wörter habe, und je mehr ich esse, desto leerer fühle ich mich."
+    ],
+    [
+     "Niemand spricht mit mir.",
+     "Die Bücher schweigen, wenn ich komme, und die Regale scheinen sich vor mir zu verbeugen.",
+     "Gestern sah ich eine Frau mit einer Brille.",
+     "Sie hat leise geweint, als eine Seite leer wurde.",
+     "Das tat mir leid, und ich wollte etwas sagen.",
+     "Aber ich hatte keine Wörter mehr, die ich ihr geben konnte, denn ich hatte sie alle gegessen."
+    ]
+   ],
+   "person": "staub"
+  }
+ ],
+ "raetsel": [
+  {
+   "typ": "auswahl",
+   "frage": "Wer schreibt dieses Tagebuch?",
+   "optionen": [
+    "Tilo, der Müller",
+    "Silbe, der Bücherwurm",
+    "Mira Federhold",
+    "der Staubschatten, der Wörter frisst"
+   ],
+   "richtig": 3,
+   "hilfe1": "Wer frisst im Archiv Wörter?",
+   "hilfe2": "Der Schreiber sagt „ich“ und spricht von seinem Hunger auf Wörter.",
+   "hl": [
+    0,
+    4
+   ],
+   "spur": false,
+   "rtyp": "Wer erzählt?"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Welches Gefühl passt am besten zu dem Satz „Niemand spricht mit mir“?",
+   "optionen": [
+    "Stolz",
+    "Wut",
+    "Einsamkeit",
+    "Langeweile"
+   ],
+   "richtig": 2,
+   "hilfe1": "Überlege, wie man sich fühlt, wenn niemand mit einem spricht.",
+   "hilfe2": "Das Gefühl hat mit „allein sein“ zu tun.",
+   "hl": [
+    5
+   ],
+   "spur": false,
+   "rtyp": "Gefühle erschließen"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Was zeigt der Satz „je mehr ich esse, desto leerer fühle ich mich“?",
+   "optionen": [
+    "Er wird immer dicker.",
+    "Die Wörter lösen sein Problem nicht.",
+    "Er mag den Geschmack nicht.",
+    "Er hat zu wenig Wörter gegessen."
+   ],
+   "richtig": 1,
+   "hilfe1": "Überlege: Wird es besser oder schlimmer, wenn er mehr isst?",
+   "hilfe2": "Das Essen hilft nicht gegen seine Leere.",
+   "hl": [
+    4
+   ],
+   "spur": false,
+   "rtyp": "Zwischen den Zeilen"
+  },
+  {
+   "typ": "markieren",
+   "frage": "Welcher Satz zeigt, dass er der Frau gern geholfen hätte?",
+   "richtig": [
+    9
+   ],
+   "hilfe1": "Such die Stelle nach dem Satz über die Frau mit der Brille.",
+   "hilfe2": "Es ist der Satz, der mit „Das tat mir leid“ beginnt.",
+   "hl": [
+    8,
+    10
+   ],
+   "spur": false,
+   "rtyp": "Beweis markieren"
+  },
+  {
+   "typ": "zuordnen",
+   "frage": "Passt die Aussage zu „schon vorbei“ oder zu „gerade jetzt“?",
+   "personen": [
+    {
+     "name": "Schon vorbei"
+    },
+    {
+     "name": "Gerade jetzt"
+    }
+   ],
+   "aussagen": [
+    {
+     "text": "Ich weiß nicht, wer ich bin.",
+     "richtig": 1
+    },
+    {
+     "text": "Gestern sah ich eine Frau mit einer Brille.",
+     "richtig": 0
+    },
+    {
+     "text": "Ich habe immer Hunger auf Wörter.",
+     "richtig": 1
+    },
+    {
+     "text": "Sie hat leise geweint.",
+     "richtig": 0
+    },
+    {
+     "text": "Ich hatte sie alle gegessen.",
+     "richtig": 0
+    }
+   ],
+   "hilfe1": "Achte auf „weiß“, „sah“, „habe“, „hat geweint“ und „hatte gegessen“.",
+   "hilfe2": "Was „sah“, „hat geweint“ oder „hatte gegessen“ ist, ist schon vorbei.",
+   "spur": true,
+   "rtyp": "Zeitform als Alibi"
+  }
+ ]
+}

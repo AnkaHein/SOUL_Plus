@@ -1,0 +1,180 @@
+{
+ "kap": 2,
+ "stufe": "mittel",
+ "titel": "Die Zeugen",
+ "auftrag": "Frau Wiesel hat vier Menschen befragt. Lies ihre Aussagen.",
+ "woerter": 191,
+ "material": [
+  {
+   "kopf": "Opa Gustav",
+   "art": "aussage",
+   "saetze": [
+    [
+     "Ich sitze seit vierzig Jahren jeden Tag auf der Bank am Teich, mir entgeht nichts.",
+     "In der Nacht zum Sonntag sah ich einen Schatten am Brunnen.",
+     "Der Mann war riesig, bestimmt drei Meter groß!",
+     "Er trug eine Tafel unter dem Arm und lief zum Tor.",
+     "Um 21 Uhr war der Kiosk schon dunkel, da bin ich nach Hause gegangen und später noch einmal zurückgekommen."
+    ]
+   ],
+   "person": "gustav"
+  },
+  {
+   "kopf": "Frau Maiwald",
+   "art": "aussage",
+   "saetze": [
+    [
+     "Mein Kiosk steht gleich neben dem Tor.",
+     "Am Samstag habe ich bis 22 Uhr verkauft und danach noch eine Stunde die Kasse gezählt.",
+     "Kurz nach elf fuhr ein weißer Lieferwagen langsam am Park vorbei.",
+     "Ich habe mich gewundert, denn um diese Zeit ist hier sonst nichts los."
+    ]
+   ],
+   "person": "maiwald"
+  },
+  {
+   "kopf": "Herr Kessler",
+   "art": "aussage",
+   "saetze": [
+    [
+     "Ich habe nichts gesehen und nichts gehört.",
+     "Der Kurpark ist alt, schmutzig und teuer in der Pflege.",
+     "Ein Parkplatz wäre viel besser für die Stadt.",
+     "Wer das nicht einsieht, denkt nur an früher.",
+     "Ich war am Samstag den ganzen Abend beschäftigt."
+    ]
+   ],
+   "person": "kessler"
+  },
+  {
+   "kopf": "Elsa Winter",
+   "art": "aussage",
+   "saetze": [
+    [
+     "Ich arbeite als Praktikantin im Stadtarchiv.",
+     "Am Samstag war ich im Park, weil ich alte Pläne mit dem heutigen Weg vergleichen wollte.",
+     "Ich hatte eine Mappe und einen Maßstab dabei.",
+     "Gestohlen habe ich nichts, das müssen Sie mir glauben."
+    ]
+   ],
+   "person": "elsa"
+  }
+ ],
+ "raetsel": [
+  {
+   "typ": "zuordnen",
+   "frage": "Wer hat das gesagt? Tippe die passende Person an.",
+   "personen": [
+    {
+     "name": "Gustav",
+     "img": "assets/figuren/gustav.webp"
+    },
+    {
+     "name": "Frau Maiwald",
+     "img": "assets/figuren/maiwald.webp"
+    },
+    {
+     "name": "Herr Kessler",
+     "img": "assets/figuren/kessler.webp"
+    },
+    {
+     "name": "Elsa",
+     "img": "assets/figuren/elsa.webp"
+    }
+   ],
+   "aussagen": [
+    {
+     "text": "Ich habe die Kasse gezählt und dabei einen Lieferwagen gesehen.",
+     "richtig": 1
+    },
+    {
+     "text": "Ich wollte alte Pläne mit dem Weg von heute vergleichen.",
+     "richtig": 3
+    },
+    {
+     "text": "Ein Mann hat eine Tafel zum Tor getragen.",
+     "richtig": 0
+    },
+    {
+     "text": "Der Park kostet zu viel Geld.",
+     "richtig": 2
+    }
+   ],
+   "hilfe1": "Die Aussagen sind mit anderen Worten wiedergegeben. Suche den passenden Inhalt.",
+   "hilfe2": "Wer zählt die Kasse? Wer kennt sich mit Plänen aus?",
+   "spur": false,
+   "rtyp": "Wer sagt was?"
+  },
+  {
+   "typ": "mehrfach",
+   "frage": "Zwei Aussagen passen nicht zusammen. Welche?",
+   "optionen": [
+    "Elsa: Ich hatte eine Mappe und einen Maßstab dabei.",
+    "Opa Gustav: Um 21 Uhr war der Kiosk schon dunkel.",
+    "Herr Kessler: Der Kurpark ist teuer in der Pflege.",
+    "Frau Maiwald: Ich habe bis 22 Uhr verkauft und danach noch gerechnet.",
+    "Opa Gustav: Ich sitze jeden Tag am Teich."
+   ],
+   "richtig": [
+    1,
+    3
+   ],
+   "hilfe1": "Vergleiche die Uhrzeiten, die genannt werden.",
+   "hilfe2": "Es geht um den Kiosk am Samstagabend.",
+   "hl": [
+    4,
+    6
+   ],
+   "spur": false,
+   "rtyp": "Widerspruch finden"
+  },
+  {
+   "typ": "markieren",
+   "frage": "Welcher Satz von Herrn Kessler ist auffällig, weil er nichts über den Abend verrät?",
+   "richtig": [
+    13
+   ],
+   "hilfe1": "Kessler sagt vieles über den Park, aber wenig über sich. Such die Stelle über den Samstag.",
+   "hilfe2": "Es ist der letzte Satz seiner Aussage.",
+   "hl": [
+    9,
+    12
+   ],
+   "spur": false,
+   "rtyp": "Beweis markieren"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Warum glaubt Frau Wiesel Opa Gustav nicht jedes Wort?",
+   "optionen": [
+    "Er war in der Nacht gar nicht im Park.",
+    "Er übertreibt, und seine Uhrzeit passt nicht zu den anderen.",
+    "Er mag Frau Wiesel nicht.",
+    "Er kann nicht gut sprechen."
+   ],
+   "richtig": 1,
+   "hilfe1": "Lies Gustavs Aussage über den Mann und über die Uhrzeit.",
+   "hilfe2": "Ein Mensch ist nie drei Meter groß, und der Kiosk war länger offen.",
+   "hl": [
+    2
+   ],
+   "spur": false,
+   "rtyp": "Zwischen den Zeilen"
+  },
+  {
+   "typ": "reihenfolge",
+   "frage": "Bring die Teile in die richtige Reihenfolge. So entsteht eine Aussage von Frau Maiwald.",
+   "items": [
+    "Kurz nach elf",
+    "fuhr",
+    "ein weißer Lieferwagen",
+    "langsam am Park vorbei"
+   ],
+   "art": "satz",
+   "hilfe1": "Der Satz beginnt mit der Zeit.",
+   "hilfe2": "An zweiter Stelle steht das Wort, das sagt, was geschieht.",
+   "spur": true,
+   "rtyp": "Zeugenaussage ordnen"
+  }
+ ]
+}

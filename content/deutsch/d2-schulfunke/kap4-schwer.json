@@ -1,0 +1,141 @@
+{
+ "kap": 4,
+ "stufe": "schwer",
+ "titel": "Leserbriefe",
+ "auftrag": "Drei Leserbriefe liegen in der Redaktion. Lies sie genau.",
+ "woerter": 161,
+ "material": [
+  {
+   "kopf": "Brief von Lena, Klasse 7",
+   "art": "brief",
+   "saetze": [
+    [
+     "Ich finde den Schulfunke langweilig, weil es zu wenige Witze gibt und die Artikel immer nach demselben Muster geschrieben sind.",
+     "Letzte Woche stand ein Artikel über die Mensa auf Seite 3, der aus zwölf Zeilen bestand.",
+     "Das ist meiner Meinung nach viel zu kurz für ein so wichtiges Thema, das fast alle von uns jeden Tag betrifft."
+    ]
+   ]
+  },
+  {
+   "kopf": "Brief von Herrn Winkler, Lehrer",
+   "art": "brief",
+   "saetze": [
+    [
+     "Die Zeitung erscheint seit dreißig Jahren, und die Schüler leisten jede Woche tolle Arbeit, die ich nicht missen möchte.",
+     "Ich wünsche mir aber mehr ernste Themen, zum Beispiel den Umweltschutz oder die Zukunft unserer Schule.",
+     "Außerdem sollte sich die Redaktion für neue Autoren öffnen, denn nur so bleibt eine Zeitung lebendig."
+    ]
+   ]
+  },
+  {
+   "kopf": "Brief ohne Absender",
+   "art": "brief",
+   "saetze": [
+    [
+     "Bei der Redaktion zählen nur die großen Namen.",
+     "Neue Autoren werden gekürzt, bis nichts mehr übrig ist, und niemand fragt sie vorher.",
+     "Ich habe das selbst erlebt, und es hat mich sehr enttäuscht.",
+     "Eine Zeitung, die alle fragt, aber niemandem zuhört, sollte sich nicht wundern, wenn die Leser ausbleiben und die Schreiber verschwinden."
+    ]
+   ]
+  }
+ ],
+ "raetsel": [
+  {
+   "typ": "auswahl",
+   "frage": "Welcher Satz ist eine Tatsache und keine Meinung?",
+   "optionen": [
+    "Die Artikel sind immer nach demselben Muster geschrieben.",
+    "Die Schüler leisten tolle Arbeit.",
+    "Der Artikel war viel zu kurz.",
+    "Der Artikel über die Mensa bestand aus zwölf Zeilen."
+   ],
+   "richtig": 3,
+   "hilfe1": "Eine Tatsache kann man nachprüfen, zum Beispiel durch Zählen.",
+   "hilfe2": "Zwölf Zeilen kann man nachzählen.",
+   "hl": [
+    1
+   ],
+   "spur": false,
+   "rtyp": "Meinung oder Tatsache?"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Welche Überschrift passt am besten zum Brief ohne Absender?",
+   "optionen": [
+    "Dreißig Jahre Schulfunke",
+    "Wer nicht gehört wird, geht",
+    "Mehr Witze, bitte!",
+    "Der Mensa-Artikel"
+   ],
+   "richtig": 1,
+   "hilfe1": "Fasse die Kernaussage des Briefes in einem Satz zusammen.",
+   "hilfe2": "Es geht darum, dass niemand zuhört und die Schreiber verschwinden.",
+   "hl": [
+    9
+   ],
+   "spur": false,
+   "rtyp": "Beste Überschrift"
+  },
+  {
+   "typ": "markieren",
+   "frage": "Welcher Satz im Brief ohne Absender ist eine persönliche Erfahrung des Schreibers?",
+   "richtig": [
+    8
+   ],
+   "hilfe1": "Such den Satz mit „Ich“.",
+   "hilfe2": "Er steht in der Mitte des Briefes.",
+   "hl": [
+    6,
+    7
+   ],
+   "spur": false,
+   "rtyp": "Beweis markieren"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Was lässt sich aus dem Brief ohne Absender über den Schreiber schließen?",
+   "optionen": [
+    "Er wurde selbst einmal gekürzt und fühlt sich übergangen.",
+    "Er ist Lehrer an der Schule.",
+    "Er hat noch nie etwas geschrieben.",
+    "Er arbeitet in der Druckerei."
+   ],
+   "richtig": 0,
+   "hilfe1": "Achte auf die Sätze mit „selbst erlebt“ und „niemand fragt sie“.",
+   "hilfe2": "Wer schreibt, dass neue Autoren gekürzt werden, könnte selbst einer sein.",
+   "hl": [
+    8
+   ],
+   "spur": false,
+   "rtyp": "Zwischen den Zeilen"
+  },
+  {
+   "typ": "reihenfolge",
+   "frage": "Bring die Teile in die richtige Reihenfolge. So entsteht ein Satz aus einem Leserbrief.",
+   "items": [
+    "Seit dreißig Jahren",
+    "erscheint",
+    "der Schulfunke",
+    "jede Woche",
+    "und",
+    "alle lesen ihn"
+   ],
+   "alt": [
+    [
+     0,
+     1,
+     3,
+     2,
+     4,
+     5
+    ]
+   ],
+   "art": "satz",
+   "hilfe1": "Der Satz beginnt mit der Zeitangabe.",
+   "hilfe2": "Nach „Seit dreißig Jahren“ kommt das Verb. „und“ verbindet zwei Satzteile.",
+   "spur": true,
+   "rtyp": "Satzbau ordnen"
+  }
+ ]
+}

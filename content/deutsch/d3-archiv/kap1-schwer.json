@@ -1,0 +1,125 @@
+{
+ "kap": 1,
+ "stufe": "schwer",
+ "titel": "Die Tür im Regal",
+ "auftrag": "Mira zeigt dir das Archiv. Lies den Anfang des Märchens aus dem ersten Buch.",
+ "woerter": 224,
+ "material": [
+  {
+   "kopf": "Mira Federhold",
+   "art": "aussage",
+   "saetze": [
+    [
+     "Willkommen im Archiv!",
+     "Ich bin Mira Federhold, und ich hüte die Geschichten, die hier unter der Stadtbibliothek leben.",
+     "Man kommt nur durch die Tür im Regal herein, wenn man das richtige Buch zieht, und wer das falsche zieht, steht plötzlich wieder zwischen den Kochbüchern.",
+     "Seit einiger Zeit verlieren die Bücher ihre Wörter.",
+     "Zuerst waren es nur ein paar Seiten, jetzt sind ganze Kapitel leer, und ich fürchte, dass etwas im Archiv sie holt.",
+     "Bitte hilf mir herauszufinden, was es ist."
+    ]
+   ],
+   "person": "mira"
+  },
+  {
+   "kopf": "Der Müller und der Mondfisch",
+   "art": "maerchen",
+   "saetze": [
+    [
+     "Es war einmal ein kleiner Müller namens Tilo, der in einer alten Mühle am Rand des Dorfes lebte und von den anderen oft belächelt wurde, weil er so wenig sprach.",
+     "Jeden Morgen, noch vor Sonnenaufgang, mahlte er Korn für das ganze Dorf, ohne dass jemand es bemerkte.",
+     "Eines Tages hörte er ein leises Weinen im Mühlteich.",
+     "Er schaute hinein und sah einen silbernen Fisch, der im Mondlicht glänzte.",
+     "Der Fisch sprach: „Hilf mir, ich habe mein Lied verloren und kann nicht mehr schwimmen.“"
+    ],
+    [
+     "Tilo überlegte nicht lange.",
+     "Er setzte sich ans Ufer und sang ihm ein Lied vor, obwohl er nie vor jemandem gesungen hatte.",
+     "Da leuchtete der Fisch auf und schenkte ihm drei Wünsche.",
+     "Der erste Wunsch war, dass im Dorf nie jemand hungern muss.",
+     "Was Tilo sich als Zweites wünschte, erzählt das Buch erst viel später, und diese Seiten sind heute leer."
+    ]
+   ]
+  }
+ ],
+ "raetsel": [
+  {
+   "typ": "reihenfolge",
+   "frage": "Bring die Ereignisse in die richtige Reihenfolge. Was passierte zuerst?",
+   "items": [
+    "Tilo mahlt vor Sonnenaufgang Korn für das Dorf.",
+    "Tilo hört ein Weinen im Teich.",
+    "Tilo sieht einen silbernen Fisch.",
+    "Der Fisch bittet um Hilfe.",
+    "Tilo singt dem Fisch ein Lied vor.",
+    "Der Fisch schenkt Tilo drei Wünsche."
+   ],
+   "hilfe1": "Das Märchen erzählt von vorn nach hinten.",
+   "hilfe2": "Der Fisch schenkt die Wünsche erst, nachdem Tilo gesungen hat.",
+   "hl": [
+    7,
+    8,
+    13
+   ],
+   "spur": false,
+   "rtyp": "Zeitleiste"
+  },
+  {
+   "typ": "markieren",
+   "frage": "Welcher Satz zeigt, dass Tilo Mut brauchte, um dem Fisch zu helfen?",
+   "richtig": [
+    12
+   ],
+   "hilfe1": "Such die Stelle, in der etwas steht, das Tilo sonst nie tat.",
+   "hilfe2": "Es geht um das Wort „obwohl“.",
+   "hl": [
+    10,
+    11
+   ],
+   "spur": false,
+   "rtyp": "Beweis markieren"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Stimmt das? „Die Dorfbewohner wussten, dass Tilo jeden Morgen für sie Korn mahlte.“",
+   "optionen": [
+    "Stimmt",
+    "Stimmt nicht",
+    "Steht nicht im Text"
+   ],
+   "richtig": 1,
+   "hilfe1": "Lies den Satz über das Kornmahlen.",
+   "hilfe2": "Es steht, dass es „niemand bemerkte“.",
+   "hl": [
+    7
+   ],
+   "spur": false,
+   "rtyp": "Wahr, falsch oder steht nicht im Text"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Stimmt das? „Tilos zweiter Wunsch war, reich zu werden.“",
+   "optionen": [
+    "Stimmt",
+    "Stimmt nicht",
+    "Steht nicht im Text"
+   ],
+   "richtig": 2,
+   "hilfe1": "Lies den letzten Satz des Märchens.",
+   "hilfe2": "Die Seiten mit dem zweiten Wunsch sind leer. Man kann ihn nicht wissen.",
+   "hl": [
+    15
+   ],
+   "spur": false,
+   "rtyp": "Wahr, falsch oder steht nicht im Text"
+  },
+  {
+   "typ": "fehler",
+   "frage": "Mira hat ein Schild an die Tür geschrieben. Darin stecken fünf Fehler. Findest du sie?",
+   "text": "Willkommen im [[Archif|Archiv|Arciv]]!\nHier [[wonen|wohnen|wonnen]] Geschichten, die niemand [[vergesen|vergessen|vergeßen]] soll.\nBitte [[lessen|lesen|leesen]] sie leise, versprich dem Archiv, gut auf sie zu achten, und zieh immer das [[rihtige|richtige|riechtige]] Buch.",
+   "hilfe1": "Lies das Schild laut und leise. Achte auf „h“, „f“ oder „v“ und auf „ss“.",
+   "hilfe2": "Gesucht sind Fehler in „Archiv“, „wohnen“, „vergessen“, „lesen“ und „richtige“.",
+   "spur": true,
+   "rtyp": "Fehlerteufel"
+  }
+ ]
+}

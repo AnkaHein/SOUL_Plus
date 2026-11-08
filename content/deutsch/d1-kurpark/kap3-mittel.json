@@ -1,0 +1,169 @@
+{
+ "kap": 3,
+ "stufe": "mittel",
+ "titel": "Der Brief aus dem Hohlraum",
+ "auftrag": "Elsa hat einen alten Brief gefunden. Lies ihn genau.",
+ "woerter": 135,
+ "material": [
+  {
+   "kopf": "Elsa Winter",
+   "art": "aussage",
+   "saetze": [
+    [
+     "Ich habe diesen Brief hinter einem Regalbrett im Archiv gefunden.",
+     "Er lag in einem Hohlraum, und niemand hat ihn je gelesen.",
+     "Das Papier ist brüchig, bitte seid vorsichtig."
+    ]
+   ],
+   "person": "elsa"
+  },
+  {
+   "kopf": "Brief von 1911",
+   "art": "brief",
+   "saetze": [
+    [
+     "Lindenau, im Mai 1911"
+    ],
+    [
+     "Liebe Kinder von morgen,"
+    ],
+    [
+     "wenn ihr diesen Brief lest, sind wir Alten längst nicht mehr da.",
+     "Wir haben den Kurpark mit viel Mühe und vielen Spenden gebaut.",
+     "Die Gönner der Stadt haben die Bänke, die Uhr am Pavillon und den Brunnen bezahlt.",
+     "Ihre Namen stehen auf kleinen Schildern aus Messing."
+    ],
+    [
+     "Unter dem Brunnen liegt ein Kästchen aus Kupfer.",
+     "Darin sind unsere Wünsche für euch versteckt, und ein Plan zeigt, wie man es findet.",
+     "Öffnet es erst, wenn der Park in Gefahr ist.",
+     "Gebt gut auf ihn acht, denn er soll immer allen gehören, den Reichen genauso wie den Armen."
+    ],
+    [
+     "Euer Ludwig Lindenblatt, Stadtgärtner"
+    ]
+   ]
+  }
+ ],
+ "raetsel": [
+  {
+   "typ": "auswahl",
+   "frage": "Was sind „Gönner“ in diesem Brief?",
+   "optionen": [
+    "Menschen, die Bänke streichen",
+    "Menschen, die Geld für etwas geben",
+    "Menschen, die den Park besuchen",
+    "Menschen, die im Park arbeiten"
+   ],
+   "richtig": 1,
+   "hilfe1": "Lies den Satz, in dem „Gönner“ steht, und frage dich: Wer bezahlt hier?",
+   "hilfe2": "Die Gönner haben Bänke, Uhr und Brunnen bezahlt.",
+   "hl": [
+    7
+   ],
+   "spur": false,
+   "rtyp": "Wort erschließen"
+  },
+  {
+   "typ": "markieren",
+   "frage": "Welcher Satz verrät, was auf den Messingschildern steht?",
+   "richtig": [
+    8
+   ],
+   "hilfe1": "Such das Wort „Messing“.",
+   "hilfe2": "Der Satz steht im ersten Absatz, nach den Gönnern.",
+   "hl": [
+    6,
+    7
+   ],
+   "spur": false,
+   "rtyp": "Beweis markieren"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Stimmt das? „Das Kästchen unter dem Brunnen besteht aus Gold.“",
+   "optionen": [
+    "Stimmt",
+    "Stimmt nicht",
+    "Steht nicht im Text"
+   ],
+   "richtig": 1,
+   "hilfe1": "Such die Stelle, an der das Kästchen beschrieben wird.",
+   "hilfe2": "Aus welchem Metall ist es?",
+   "hl": [
+    9
+   ],
+   "spur": false,
+   "rtyp": "Wahr, falsch oder steht nicht im Text"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Warum soll das Kästchen erst geöffnet werden, wenn der Park in Gefahr ist?",
+   "optionen": [
+    "Das Kästchen ist vorher noch leer.",
+    "Der Brunnen ist vorher noch nicht gebaut.",
+    "Die Wünsche sollen dann helfen, den Park zu retten.",
+    "Die Kinder von 1911 haben es so gewollt, weil sie Geheimnisse mögen."
+   ],
+   "richtig": 2,
+   "hilfe1": "Lies den Satz „Öffnet es erst …“ noch einmal.",
+   "hilfe2": "Wann braucht der Park Hilfe? Dann sollen die Wünsche helfen.",
+   "hl": [
+    11
+   ],
+   "spur": false,
+   "rtyp": "Zwischen den Zeilen"
+  },
+  {
+   "typ": "luecke",
+   "frage": "Lies den kurzen Bericht und wähle die passenden Wörter.",
+   "text": "Vor über hundert Jahren ___ Ludwig Lindenblatt den Brief. Er ___ ihn in einen Hohlraum. Gestern ___ Elsa ihn im Archiv. Jetzt ___ Frau Wiesel ihn laut vor und die Kinder ___ gespannt zu.",
+   "luecken": [
+    {
+     "optionen": [
+      "schreibt",
+      "schrieb",
+      "schreiben"
+     ],
+     "richtig": 1
+    },
+    {
+     "optionen": [
+      "legte",
+      "legt",
+      "legen"
+     ],
+     "richtig": 0
+    },
+    {
+     "optionen": [
+      "findet",
+      "finden",
+      "fand"
+     ],
+     "richtig": 2
+    },
+    {
+     "optionen": [
+      "las",
+      "liest",
+      "lesen"
+     ],
+     "richtig": 1
+    },
+    {
+     "optionen": [
+      "hören",
+      "hörte",
+      "hört"
+     ],
+     "richtig": 0
+    }
+   ],
+   "hilfe1": "Achte auf die Zeitangaben „Vor über hundert Jahren“, „Gestern“ und „Jetzt“.",
+   "hilfe2": "Was schon vorbei ist, klingt anders als das, was gerade passiert.",
+   "spur": true,
+   "rtyp": "Lückentext"
+  }
+ ]
+}

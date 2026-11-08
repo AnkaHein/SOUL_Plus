@@ -1,0 +1,154 @@
+{
+ "kap": 4,
+ "stufe": "schwer",
+ "titel": "Das Tagebuch des Staubschattens",
+ "auftrag": "Im Archiv liegt ein Tagebuch aus Staub. Lies es genau.",
+ "woerter": 182,
+ "material": [
+  {
+   "kopf": "Tagebuch",
+   "art": "tagebuch",
+   "saetze": [
+    [
+     "Heute habe ich wieder ein Wort gegessen.",
+     "Es war das Wort „Sonne“.",
+     "Es schmeckte nach Wärme, aber danach war mir kälter als vorher.",
+     "Ich weiß nicht, wer ich bin und woher ich komme.",
+     "Ich weiß nur, dass ich immer Hunger auf Wörter habe, und je mehr ich esse, desto leerer fühle ich mich, als würde jeder Bissen ein Loch in mich reißen."
+    ],
+    [
+     "Niemand spricht mit mir.",
+     "Die Bücher schweigen, wenn ich komme, und die Regale scheinen sich vor mir zu verbeugen, aber sie sehen mich nicht an.",
+     "Ich bin ein Schatten ohne Körper, der durch Ritzen schlüpft und nichts hinterlässt als Stille.",
+     "Gestern sah ich eine Frau mit einer Brille.",
+     "Sie hat leise geweint, als eine Seite leer wurde, und ich habe mich geschämt, ohne zu wissen, warum.",
+     "Das tat mir leid, und ich wollte etwas sagen.",
+     "Aber ich hatte keine Wörter mehr, die ich ihr geben konnte, denn ich hatte sie alle gegessen."
+    ],
+    [
+     "Manchmal träume ich von einem Buch, das ganz weit hinten im Archiv liegt.",
+     "Ich kenne weder seinen Titel noch seine Farbe.",
+     "Aber ich glaube, dass es mich kennt."
+    ]
+   ],
+   "person": "staub"
+  }
+ ],
+ "raetsel": [
+  {
+   "typ": "auswahl",
+   "frage": "Wer schreibt dieses Tagebuch?",
+   "optionen": [
+    "Tilo, der Müller",
+    "der Staubschatten, der Wörter frisst",
+    "Silbe, der Bücherwurm",
+    "Mira Federhold"
+   ],
+   "richtig": 1,
+   "hilfe1": "Wer frisst im Archiv Wörter?",
+   "hilfe2": "Der Schreiber sagt „ich“ und spricht von seinem Hunger auf Wörter.",
+   "hl": [
+    0,
+    4
+   ],
+   "spur": false,
+   "rtyp": "Wer erzählt?"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Welches Gefühl steckt hinter dem Satz „ich habe mich geschämt, ohne zu wissen, warum“?",
+   "optionen": [
+    "Wut und Hass",
+    "Stolz und Freude",
+    "Langeweile und Müdigkeit",
+    "Schuldgefühl und Mitleid"
+   ],
+   "richtig": 3,
+   "hilfe1": "Er hat der Frau etwas genommen. Wie fühlt er sich dabei?",
+   "hilfe2": "Wer sich schämt, hat das Gefühl, etwas falsch gemacht zu haben.",
+   "hl": [
+    9
+   ],
+   "spur": false,
+   "rtyp": "Gefühle erschließen"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Was meint der Schreiber mit „als würde jeder Bissen ein Loch in mich reißen“?",
+   "optionen": [
+    "Er hat sich beim Essen verletzt.",
+    "Das Essen macht ihn nicht satt, sondern leerer.",
+    "Er isst zu schnell.",
+    "Er mag keine Wörter."
+   ],
+   "richtig": 1,
+   "hilfe1": "Das Bild beschreibt, wie sich sein Hunger anfühlt.",
+   "hilfe2": "Ein Loch ist etwas, das fehlt, nicht etwas, das füllt.",
+   "hl": [
+    4
+   ],
+   "spur": false,
+   "rtyp": "Zwischen den Zeilen"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Worauf deutet der Traum von dem Buch hin?",
+   "optionen": [
+    "Er will das Archiv verlassen.",
+    "Er hat Angst vor Büchern.",
+    "Er sehnt sich nach seiner eigenen Geschichte.",
+    "Er will Mira besuchen."
+   ],
+   "richtig": 2,
+   "hilfe1": "Lies den letzten Absatz noch einmal.",
+   "hilfe2": "Das Buch „kennt“ ihn. Welches Buch kennt jemanden?",
+   "hl": [
+    14
+   ],
+   "spur": false,
+   "rtyp": "Zwischen den Zeilen"
+  },
+  {
+   "typ": "zuordnen",
+   "frage": "Passt die Aussage zu „schon vorbei“ oder zu „gerade jetzt“?",
+   "personen": [
+    {
+     "name": "Schon vorbei"
+    },
+    {
+     "name": "Gerade jetzt"
+    }
+   ],
+   "aussagen": [
+    {
+     "text": "Ich weiß nicht, wer ich bin.",
+     "richtig": 1
+    },
+    {
+     "text": "Gestern sah ich eine Frau mit einer Brille.",
+     "richtig": 0
+    },
+    {
+     "text": "Ich habe immer Hunger auf Wörter.",
+     "richtig": 1
+    },
+    {
+     "text": "Sie hat leise geweint.",
+     "richtig": 0
+    },
+    {
+     "text": "Ich hatte sie alle gegessen.",
+     "richtig": 0
+    },
+    {
+     "text": "Manchmal träume ich von einem Buch.",
+     "richtig": 1
+    }
+   ],
+   "hilfe1": "Achte auf „weiß“, „sah“, „habe“, „hat geweint“, „hatte gegessen“ und „träume“.",
+   "hilfe2": "Was „sah“, „hat geweint“ oder „hatte gegessen“ ist, ist schon vorbei.",
+   "spur": true,
+   "rtyp": "Zeitform als Alibi"
+  }
+ ]
+}

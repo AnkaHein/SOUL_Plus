@@ -1,0 +1,129 @@
+{
+ "kap": 3,
+ "stufe": "schwer",
+ "titel": "Die Fabel",
+ "auftrag": "Mira hat eine kurze Fabel gefunden. Lies sie genau.",
+ "woerter": 166,
+ "material": [
+  {
+   "kopf": "Der Fuchs und der Rabe",
+   "art": "fabel",
+   "saetze": [
+    [
+     "Ein Fuchs wollte über den Fluss, der nach tagelangem Regen weit über die Ufer getreten war.",
+     "Aber die Brücke war kaputt, und niemand weit und breit konnte sagen, wann sie repariert würde.",
+     "Er sah einen Raben auf einem Zweig sitzen und sagte: „Du kannst fliegen.",
+     "Sieh nach, wo es einen Weg gibt!“",
+     "Der Rabe antwortete: „Ich helfe dir, aber ich kenne mich am Boden nicht aus, und im Wald habe ich mich schon dreimal verflogen.“"
+    ],
+    [
+     "Der Fuchs dagegen kannte jeden Pfad am Ufer, jedes Schilf und jeden Stein, auf dem man trockenen Fußes stehen konnte.",
+     "So flog der Rabe voraus und rief, wo das Wasser flach war, und der Fuchs lief am Ufer entlang und fand die Furt, die der Rabe von oben gesehen hatte.",
+     "Beide kamen heil ans andere Ufer.",
+     "Da sagte der Fuchs: „Allein hätte ich das nie geschafft.“",
+     "Und der Rabe krächzte: „Ich auch nicht.“",
+     "Seitdem erzählt man sich, dass an dieser Stelle noch immer ein Fuchs und ein Rabe zusammen unterwegs sind."
+    ]
+   ]
+  }
+ ],
+ "raetsel": [
+  {
+   "typ": "auswahl",
+   "frage": "Welche Lehre passt am besten zur Fabel?",
+   "optionen": [
+    "Man soll nie jemandem helfen, den man nicht kennt.",
+    "Wer seine Stärken teilt, kommt gemeinsam weiter.",
+    "Flüsse sind nach Regen immer gefährlich.",
+    "Füchse sind klüger als Raben."
+   ],
+   "richtig": 1,
+   "hilfe1": "Überlege, was Fuchs und Rabe zusammen geschafft haben.",
+   "hilfe2": "Was konnte der eine, was der andere nicht konnte?",
+   "hl": [
+    5,
+    8
+   ],
+   "spur": false,
+   "rtyp": "Beste Zusammenfassung"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Stimmt das? „Der Rabe hatte sich im Wald schon einmal verflogen.“",
+   "optionen": [
+    "Stimmt",
+    "Stimmt nicht",
+    "Steht nicht im Text"
+   ],
+   "richtig": 1,
+   "hilfe1": "Lies die Antwort des Raben genau.",
+   "hilfe2": "Wie oft hat er sich verflogen?",
+   "hl": [
+    4
+   ],
+   "spur": false,
+   "rtyp": "Wahr, falsch oder steht nicht im Text"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Stimmt das? „Die Brücke wurde nach einer Woche repariert.“",
+   "optionen": [
+    "Stimmt",
+    "Stimmt nicht",
+    "Steht nicht im Text"
+   ],
+   "richtig": 2,
+   "hilfe1": "Lies, was über die Reparatur der Brücke gesagt wird.",
+   "hilfe2": "Niemand konnte sagen, wann sie repariert würde. Ob sie repariert wurde, steht dort nicht.",
+   "hl": [
+    1
+   ],
+   "spur": false,
+   "rtyp": "Wahr, falsch oder steht nicht im Text"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Warum sagt der Rabe am Schluss: „Ich auch nicht.“?",
+   "optionen": [
+    "Er hat den Fuchs nicht verstanden.",
+    "Er wollte den Fuchs verspotten.",
+    "Er wollte lieber allein fliegen.",
+    "Auch er hätte es allein nicht geschafft."
+   ],
+   "richtig": 3,
+   "hilfe1": "Lies, was der Fuchs vorher sagt und was der Rabe darauf antwortet.",
+   "hilfe2": "Beide haben einander gebraucht.",
+   "hl": [
+    8,
+    9
+   ],
+   "spur": false,
+   "rtyp": "Zwischen den Zeilen"
+  },
+  {
+   "typ": "reihenfolge",
+   "frage": "Bring die Teile in die richtige Reihenfolge. So entsteht ein Satz aus der Fabel.",
+   "items": [
+    "So flog",
+    "der Rabe",
+    "voraus",
+    "und rief,",
+    "wo das Wasser flach war."
+   ],
+   "alt": [
+    [
+     0,
+     2,
+     1,
+     3,
+     4
+    ]
+   ],
+   "art": "satz",
+   "hilfe1": "Der Satz beginnt mit „So“.",
+   "hilfe2": "Nach „So flog“ kommt, wer fliegt.",
+   "spur": true,
+   "rtyp": "Satzbau ordnen"
+  }
+ ]
+}

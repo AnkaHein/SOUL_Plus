@@ -1,0 +1,150 @@
+{
+ "kap": 1,
+ "stufe": "schwer",
+ "titel": "Redaktionssitzung",
+ "auftrag": "Lies das Protokoll der Sitzung. Dann beginnt die Suche.",
+ "woerter": 166,
+ "material": [
+  {
+   "kopf": "Protokoll der Redaktionssitzung",
+   "art": "protokoll",
+   "saetze": [
+    [
+     "Mittwoch, 14 Uhr, Raum 12"
+    ],
+    [
+     "Anwesend: Mara (Chefredakteurin), Tobi (Foto), Yusuf (Layout), Herr Brandt (Betreuung)"
+    ],
+    [
+     "Punkt 1: Die Jubiläumsausgabe von „Der Schulfunke“ zum dreißigjährigen Bestehen muss morgen früh in den Druck, sagt Mara.",
+     "Alle Texte sind fertig, doch sie besteht darauf, dass keine Seite mehr verändert wird, nachdem das Layout abgenommen ist."
+    ],
+    [
+     "Punkt 2: Tobi hat für die Titelseite ein Foto vom Schulhof gemacht, auf dem dreißig Kerzen auf einem Kuchen brennen.",
+     "Er bringt den Abzug um 15 Uhr in den Redaktionsraum, weil er ihn vorher noch im Fotolabor entwickeln muss."
+    ],
+    [
+     "Punkt 3: Yusuf setzt das Layout der Titelseite.",
+     "Der Gastartikel von Jonas über das Schulfest wird wegen Platzmangels auf zehn Zeilen gekürzt, entscheidet Mara.",
+     "Yusuf merkt an, dass Jonas davon noch nichts weiß."
+    ],
+    [
+     "Punkt 4: Herr Brandt liest alle Texte noch einmal und bittet darum, die Konkurrenzzeitung „Pausenpost“ nicht zu erwähnen."
+    ],
+    [
+     "Um 15:30 Uhr war die Mappe mit der fertigen Titelseite plötzlich weg.",
+     "Niemand hat sie gesehen, und die Tür des Redaktionsraums war nicht abgeschlossen."
+    ]
+   ]
+  }
+ ],
+ "raetsel": [
+  {
+   "typ": "zuordnen",
+   "frage": "Wer hat das gesagt oder getan? Tippe die passende Person an.",
+   "personen": [
+    {
+     "name": "Mara"
+    },
+    {
+     "name": "Tobi",
+     "img": "assets/figuren/tobi.webp"
+    },
+    {
+     "name": "Yusuf",
+     "img": "assets/figuren/yusuf.webp"
+    },
+    {
+     "name": "Herr Brandt",
+     "img": "assets/figuren/brandt.webp"
+    }
+   ],
+   "aussagen": [
+    {
+     "text": "Ich lasse keine Veränderungen mehr zu, wenn das Layout abgenommen ist.",
+     "richtig": 0
+    },
+    {
+     "text": "Ich muss den Abzug erst im Fotolabor entwickeln.",
+     "richtig": 1
+    },
+    {
+     "text": "Jonas weiß noch nicht, dass sein Artikel gekürzt wird.",
+     "richtig": 2
+    },
+    {
+     "text": "Die Konkurrenz soll in unserer Ausgabe nicht vorkommen.",
+     "richtig": 3
+    },
+    {
+     "text": "Ich habe das Foto mit den Kerzen gemacht.",
+     "richtig": 1
+    }
+   ],
+   "hilfe1": "Die Aussagen sind umschrieben. Suche den passenden Punkt im Protokoll.",
+   "hilfe2": "Jeder Punkt gehört zu einer Person. Die Klammern zeigen, wer wofür zuständig ist.",
+   "spur": false,
+   "rtyp": "Wer sagt was?"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Stimmt das? „Der Artikel von Jonas wird komplett gestrichen.“",
+   "optionen": [
+    "Stimmt",
+    "Stimmt nicht",
+    "Steht nicht im Text"
+   ],
+   "richtig": 1,
+   "hilfe1": "Such die Stelle über den Gastartikel bei Punkt 3.",
+   "hilfe2": "Wie viele Zeilen darf der Artikel behalten?",
+   "hl": [
+    7
+   ],
+   "spur": false,
+   "rtyp": "Wahr, falsch oder steht nicht im Text"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Stimmt das? „Die Jubiläumsausgabe feiert das dreißigjährige Bestehen der Zeitung.“",
+   "optionen": [
+    "Stimmt",
+    "Stimmt nicht",
+    "Steht nicht im Text"
+   ],
+   "richtig": 0,
+   "hilfe1": "Such das Wort „dreißigjährigen“ bei Punkt 1.",
+   "hilfe2": "Die Zahl dreißig kommt auch bei den Kerzen vor, aber hier geht es um die Zeitung.",
+   "hl": [
+    2
+   ],
+   "spur": false,
+   "rtyp": "Wahr, falsch oder steht nicht im Text"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Stimmt das? „Herr Brandt hat Jonas bereits über die Kürzung informiert.“",
+   "optionen": [
+    "Stimmt",
+    "Stimmt nicht",
+    "Steht nicht im Text"
+   ],
+   "richtig": 2,
+   "hilfe1": "Lies Punkt 3 und Punkt 4 genau.",
+   "hilfe2": "Es steht nur, dass Jonas noch nichts weiß. Was Herr Brandt dazu getan hat, steht dort nicht.",
+   "hl": [
+    8
+   ],
+   "spur": false,
+   "rtyp": "Wahr, falsch oder steht nicht im Text"
+  },
+  {
+   "typ": "fehler",
+   "frage": "Mara hat das Protokoll abgetippt. Darin stecken fünf Fehler. Findest du sie?",
+   "text": "Protokoll der Redaktionssitzung\nDie [[Jubeläumsausgabe|Jubiläumsausgabe|Jubilaumsausgabe]] soll morgen früh in den Druck, und alle Seiten müssen abgenommen sein.\nTobi hat ein Foto mit dreißig [[Kerzzen|Kerzen|Kerzehn]] gemacht und [[endwickelt|entwickelt|entwikelt]] es im Fotolabor.\nUm 15:30 Uhr war die [[Mape|Mappe|Mapppe]] weg und niemand hat sie [[gesen|gesehen|geseen]].",
+   "hilfe1": "Lies die Wörter mit Doppelbuchstaben und mit „h“ besonders genau.",
+   "hilfe2": "Gesucht sind Fehler in „Jubiläumsausgabe“, „Kerzen“, „entwickelt“, „Mappe“ und „gesehen“.",
+   "spur": true,
+   "rtyp": "Fehlerteufel"
+  }
+ ]
+}
