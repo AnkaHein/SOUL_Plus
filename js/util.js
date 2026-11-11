@@ -66,7 +66,7 @@ function audioKey(text) {
   return h.toString(16).padStart(8, '0');
 }
 const Voice = {
-  btn: null, audio: null,
+  btn: null, audio: null, lang: 'de',
   stop() {
     try { speechSynthesis.cancel(); } catch (e) { }
     if (this.audio) { try { this.audio.pause(); } catch (e) { } this.audio = null; }
@@ -74,14 +74,14 @@ const Voice = {
   },
   ok() { return true; },
   pick() {
-    const vs = (typeof speechSynthesis !== 'undefined' ? speechSynthesis.getVoices() : []).filter(v => /^de/i.test(v.lang));
+    const vs = (typeof speechSynthesis !== 'undefined' ? speechSynthesis.getVoices() : []).filter(v => (this.lang === 'en' ? /^en/i : /^de/i).test(v.lang));
     const gut = vs.find(v => /premium|enhanced|natural|neural|anna|petra|markus|google/i.test(v.name));
     return gut || vs.find(v => v.localService) || vs[0];
   },
   browser(text, btn, tempo) {
     if (typeof speechSynthesis === 'undefined' || typeof SpeechSynthesisUtterance === 'undefined') { this.stop(); return; }
     const u = new SpeechSynthesisUtterance(text);
-    u.lang = 'de-DE'; u.rate = Math.min(tempo || 0.9, 0.9);
+    u.lang = this.lang === 'en' ? 'en-GB' : 'de-DE'; u.rate = Math.min(tempo || 0.9, 0.9);
     const v = this.pick(); if (v) u.voice = v;
     u.onend = u.onerror = () => { if (this.btn === btn) this.stop(); };
     speechSynthesis.speak(u);

@@ -19,7 +19,7 @@ async function J(path) {
   if (!r.ok) throw new Error('Datei fehlt: ' + path);
   const j = await r.json(); S.cache[path] = j; return j;
 }
-const bpath = id => `content/${id[0] === 'l' ? 'lern' : 'deutsch'}/${id}/`;
+const bpath = id => `content/${id[0] === 'l' ? 'lern' : id[0] === 'e' ? 'englisch' : 'deutsch'}/${id}/`;
 async function Bz(id) { const j = await J(bpath(id) + 'baustein.json'); return j; }
 
 /* ---------- Darstellung ---------- */
@@ -31,7 +31,7 @@ function fachVars(f) {
 function setBg(name) {
   S.bgName = name || S.bgName;
   const n = S.bgName, fr = document.getElementById('frame');
-  const m = /^([dl]\d)-/.exec(n || '');
+  const m = /^([dle]\d)-/.exec(n || '');
   const portrait = innerHeight > innerWidth;
   if (m && fr) {
     fr.classList.add('themed'); document.body.dataset.theme = m[1];
@@ -280,6 +280,7 @@ async function openKapitel(bid, k) {
 SCREENS.raetsel = function () {
   const R = S.run; if (!R) return SCREENS.start();
   const { bz, data } = R, kap = bz.kapitel[R.k - 1];
+  Voice.lang = bz.sprache === 'en' ? 'en' : 'de';
   setBg(bz.kurz + '-raetsel'); fachVars(bz.fach);
   const e = S.P.einst;
   R.mat = Material(data.material, bz.figuren, [0.75, 0.9, 1.1][e.tempo] || 0.9, e.vorlesen !== false && R.stufe === 'leicht' && bz.fach !== 'lern');
