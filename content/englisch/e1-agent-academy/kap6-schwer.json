@@ -1,0 +1,129 @@
+{
+ "kap": 6,
+ "stufe": "schwer",
+ "titel": "Unmasking",
+ "auftrag": "Read the newspaper report. Then solve five puzzles.",
+ "woerter": 136,
+ "material": [
+  {
+   "kopf": "The London Evening Echo",
+   "art": "zeitung",
+   "saetze": [
+    [
+     "Silver Compass found – double agent caught!"
+    ],
+    [
+     "Yesterday evening, Agent Wren found the Silver Compass in a locker at the Blue Teapot café in Brighton.",
+     "The compass was wrapped in a green cloth, but Wren had told only one trainee about the cloth."
+    ],
+    [
+     "Later, at the Academy, Mr Hale told everybody that the thief had wrapped the compass in a green cloth.",
+     "Nobody else could know that, because only Wren and the trainee had seen it.",
+     "Quietly, Agent Wren asked the police to follow him."
+    ],
+    [
+     "At six o'clock Pidge the pigeon followed Mr Hale to a bridge near the station, and there the police arrested him.",
+     "He had planned to sell the compass to a collector for a lot of money.",
+     "A spokesperson for the Academy said that the trainee's careful reading had saved the day."
+    ]
+   ]
+  }
+ ],
+ "raetsel": [
+  {
+   "typ": "auswahl",
+   "frage": "What is the best summary of the report?",
+   "optionen": [
+    "Sam wrote a story about a green cloth.",
+    "The police lost the Silver Compass in Brighton.",
+    "Mr Hale stole the compass and was caught because of a detail only the thief knew."
+   ],
+   "richtig": 2,
+   "hilfe1": "Read the whole report. What is the big news?",
+   "hilfe2": "Look at the sentence that begins: Nobody else could know that.",
+   "hl": [
+    4
+   ],
+   "spur": false,
+   "rtyp": "Best summary"
+  },
+  {
+   "typ": "markieren",
+   "frage": "Tap the sentence that explains why Mr Hale's words were a mistake.",
+   "richtig": [
+    4
+   ],
+   "hilfe1": "Look for the word \"because\".",
+   "hilfe2": "It is the second sentence of the second paragraph.",
+   "hl": [
+    4
+   ],
+   "spur": false,
+   "rtyp": "Find the proof"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Why did Agent Wren ask the police to follow Mr Hale quietly?",
+   "optionen": [
+    "She wanted to catch him when he met the buyer.",
+    "She wanted to ask him for a train ticket.",
+    "She was afraid of the pigeon."
+   ],
+   "richtig": 0,
+   "hilfe1": "Think: why do you follow somebody quietly?",
+   "hilfe2": "Mr Hale wanted to sell the compass to a collector.",
+   "hl": [
+    5,
+    7
+   ],
+   "spur": false,
+   "rtyp": "Between the lines"
+  },
+  {
+   "typ": "reihenfolge",
+   "frage": "Put the events in the right order. What happened first?",
+   "items": [
+    "Wren found the compass.",
+    "Mr Hale talked about the green cloth.",
+    "Wren asked the police to follow him.",
+    "Pidge followed Mr Hale to a bridge.",
+    "The police arrested Mr Hale."
+   ],
+   "hilfe1": "Read the report from top to bottom.",
+   "hilfe2": "The arrest is the last event.",
+   "hl": [
+    1,
+    6
+   ],
+   "spur": false,
+   "rtyp": "Timeline"
+  },
+  {
+   "typ": "reihenfolge",
+   "frage": "Put the parts in the right order. It is a sentence from the report.",
+   "items": [
+    "At six o'clock",
+    "Pidge",
+    "followed",
+    "Mr Hale",
+    "to a bridge",
+    "near the station"
+   ],
+   "alt": [
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     0
+    ]
+   ],
+   "art": "satz",
+   "hilfe1": "The sentence starts with the time.",
+   "hilfe2": "After \"Pidge\" comes the word that tells you what Pidge did.",
+   "spur": true,
+   "rtyp": "Put the words in order"
+  }
+ ]
+}

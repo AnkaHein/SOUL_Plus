@@ -1,0 +1,162 @@
+{
+ "kap": 4,
+ "stufe": "mittel",
+ "titel": "The Café Code",
+ "auftrag": "Read the menu and the note. Then solve five puzzles.",
+ "woerter": 95,
+ "material": [
+  {
+   "kopf": "Menu: The Blue Teapot",
+   "art": "aushang",
+   "saetze": [
+    [
+     "Tea – £2"
+    ],
+    [
+     "Hot chocolate – £3"
+    ],
+    [
+     "Carrot cake – £4"
+    ],
+    [
+     "Cheese toastie – £6"
+    ],
+    [
+     "Today only: a free biscuit with every tea"
+    ]
+   ]
+  },
+  {
+   "kopf": "Note from Sam",
+   "art": "zettel",
+   "saetze": [
+    [
+     "Hello!",
+     "The locker is at the back of the café.",
+     "The code has three numbers.",
+     "First: the price of the cheapest drink.",
+     "Second: the price of the carrot cake.",
+     "Third: the price of the toastie minus the price of a tea."
+    ],
+    [
+     "Last night somebody left a small parcel in the locker and asked me to keep it safe.",
+     "The person was in a big hurry and did not give a name."
+    ],
+    [
+     "Sam"
+    ]
+   ],
+   "person": "sam"
+  }
+ ],
+ "raetsel": [
+  {
+   "typ": "auswahl",
+   "frage": "What is the code for the locker?",
+   "optionen": [
+    "2 – 4 – 4",
+    "3 – 4 – 4",
+    "2 – 4 – 6"
+   ],
+   "richtig": 0,
+   "hilfe1": "Find the cheapest drink first. Then the cake. For the third number you must subtract.",
+   "hilfe2": "Toastie minus tea: 6 minus 2.",
+   "hl": [
+    10
+   ],
+   "spur": false,
+   "rtyp": "Solve the code"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "True or false? “Sam knows the name of the person with the parcel.”",
+   "optionen": [
+    "True",
+    "False",
+    "Not in the text"
+   ],
+   "richtig": 1,
+   "hilfe1": "Read the last sentence of the note.",
+   "hilfe2": "Sam says: ... did not give a name.",
+   "hl": [
+    12
+   ],
+   "spur": false,
+   "rtyp": "True, false or not in the text"
+  },
+  {
+   "typ": "markieren",
+   "frage": "Tap the sentence that tells you what the person asked Sam to do.",
+   "richtig": [
+    11
+   ],
+   "hilfe1": "Look for the word \"safe\".",
+   "hilfe2": "It is the first sentence of the second paragraph.",
+   "hl": [
+    11
+   ],
+   "spur": false,
+   "rtyp": "Find the proof"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Why did the person leave the parcel in the café?",
+   "optionen": [
+    "The person wanted to buy a cake.",
+    "The café was closed.",
+    "It is a safe place to hide it."
+   ],
+   "richtig": 2,
+   "hilfe1": "Think: why do people ask others to \"keep it safe\"?",
+   "hilfe2": "The person was in a hurry and wanted to hide the parcel.",
+   "hl": [
+    12
+   ],
+   "spur": false,
+   "rtyp": "Between the lines"
+  },
+  {
+   "typ": "luecke",
+   "frage": "Read the short text about Sam. Choose the right words.",
+   "text": "Every morning Sam ___ the café at seven. He ___ tea and ___ the cakes. His friends ___ him at nine.",
+   "luecken": [
+    {
+     "optionen": [
+      "open",
+      "opens",
+      "opening"
+     ],
+     "richtig": 1
+    },
+    {
+     "optionen": [
+      "makes",
+      "make",
+      "making"
+     ],
+     "richtig": 0
+    },
+    {
+     "optionen": [
+      "bake",
+      "baking",
+      "bakes"
+     ],
+     "richtig": 2
+    },
+    {
+     "optionen": [
+      "visits",
+      "visit",
+      "visiting"
+     ],
+     "richtig": 1
+    }
+   ],
+   "hilfe1": "Sam is one person. His friends are many people.",
+   "hilfe2": "One person (he, she, it) needs an -s. Many people (they) do not.",
+   "spur": true,
+   "rtyp": "Gap text"
+  }
+ ]
+}

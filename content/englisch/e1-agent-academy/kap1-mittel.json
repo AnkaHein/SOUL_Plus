@@ -1,0 +1,144 @@
+{
+ "kap": 1,
+ "stufe": "mittel",
+ "titel": "The Invitation",
+ "auftrag": "Read the email from Agent Wren. Then solve five puzzles.",
+ "woerter": 108,
+ "material": [
+  {
+   "kopf": "Email from Agent Wren",
+   "art": "mail",
+   "saetze": [
+    [
+     "Hello trainee,"
+    ],
+    [
+     "Welcome to London!",
+     "You are one of eight new trainees at the Agent Academy.",
+     "Please come tomorrow at nine o'clock.",
+     "The Academy is behind the old bookshop in Fox Lane.",
+     "Ring the brass bell twice, then say your name."
+    ],
+    [
+     "Meet me in the Map Room on the second floor.",
+     "Bring your ID card and this email, but please leave your phone at home.",
+     "Nobody may know about the Academy, so do not talk about it on the bus."
+    ],
+    [
+     "Something very important is missing, and we need your help.",
+     "I cannot tell you more in an email.",
+     "I will explain everything tomorrow."
+    ],
+    [
+     "See you soon!"
+    ],
+    [
+     "Agent Wren"
+    ]
+   ],
+   "person": "wren"
+  }
+ ],
+ "raetsel": [
+  {
+   "typ": "markieren",
+   "frage": "Tap the sentence that tells you how to get in.",
+   "richtig": [
+    5
+   ],
+   "hilfe1": "Look for the word \"bell\".",
+   "hilfe2": "It is in the first paragraph.",
+   "hl": [
+    5
+   ],
+   "spur": false,
+   "rtyp": "Find the proof"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Where is the Academy?",
+   "optionen": [
+    "behind the old bookshop in Fox Lane",
+    "next to the airport",
+    "on the second floor of a bus"
+   ],
+   "richtig": 0,
+   "hilfe1": "Look for the word \"behind\".",
+   "hilfe2": "The place has a name: Fox Lane.",
+   "hl": [
+    4
+   ],
+   "spur": false,
+   "rtyp": "Who, what, when?"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "True or false? “The trainees may bring their phones.”",
+   "optionen": [
+    "True",
+    "False",
+    "Not in the text"
+   ],
+   "richtig": 1,
+   "hilfe1": "Find the sentence about the phone.",
+   "hilfe2": "Wren says: leave your phone at ...",
+   "hl": [
+    7
+   ],
+   "spur": false,
+   "rtyp": "True, false or not in the text"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "What does \"missing\" mean in the text?",
+   "optionen": [
+    "very old",
+    "too heavy",
+    "not there any more"
+   ],
+   "richtig": 2,
+   "hilfe1": "Think about the sentence: Something very important is missing, and we need your help.",
+   "hilfe2": "If you help, you can find it again.",
+   "hl": [
+    9
+   ],
+   "spur": false,
+   "rtyp": "Guess the word"
+  },
+  {
+   "typ": "luecke",
+   "frage": "Read the short message. Choose the right words.",
+   "text": "Agent Wren ___ an email yesterday. Today I ___ it again. Tomorrow I ___ the Map Room.",
+   "luecken": [
+    {
+     "optionen": [
+      "writes",
+      "wrote",
+      "write"
+     ],
+     "richtig": 1
+    },
+    {
+     "optionen": [
+      "read",
+      "reads",
+      "reading"
+     ],
+     "richtig": 0
+    },
+    {
+     "optionen": [
+      "visited",
+      "visits",
+      "visit"
+     ],
+     "richtig": 2
+    }
+   ],
+   "hilfe1": "Look at the time words: yesterday, today, tomorrow.",
+   "hilfe2": "Yesterday = it is finished. Tomorrow = it has not happened yet.",
+   "spur": true,
+   "rtyp": "Gap text"
+  }
+ ]
+}

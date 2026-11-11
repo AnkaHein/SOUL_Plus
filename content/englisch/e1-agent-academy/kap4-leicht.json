@@ -1,0 +1,130 @@
+{
+ "kap": 4,
+ "stufe": "leicht",
+ "titel": "The Café Code",
+ "auftrag": "Read the menu and the note. Then solve four puzzles.",
+ "woerter": 51,
+ "material": [
+  {
+   "kopf": "Menu: The Blue Teapot",
+   "art": "aushang",
+   "saetze": [
+    [
+     "Tea – £2"
+    ],
+    [
+     "Hot chocolate – £3"
+    ],
+    [
+     "Carrot cake – £4"
+    ],
+    [
+     "Cheese toastie – £6"
+    ]
+   ]
+  },
+  {
+   "kopf": "Note from Sam",
+   "art": "zettel",
+   "saetze": [
+    [
+     "Hello!",
+     "The locker is at the back of the café.",
+     "The code has three numbers.",
+     "First: the price of a tea.",
+     "Second: the price of the carrot cake.",
+     "Third: the price of a cheese toastie."
+    ],
+    [
+     "Sam"
+    ]
+   ],
+   "person": "sam"
+  }
+ ],
+ "raetsel": [
+  {
+   "typ": "auswahl",
+   "frage": "What is the code for the locker?",
+   "optionen": [
+    "4 – 2 – 6",
+    "2 – 3 – 6",
+    "2 – 4 – 6"
+   ],
+   "richtig": 2,
+   "hilfe1": "Look at the menu. Find the prices of tea, carrot cake and cheese toastie.",
+   "hilfe2": "The order is: tea, cake, toastie.",
+   "hl": [
+    8
+   ],
+   "spur": false,
+   "rtyp": "Solve the code"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "True or false? “The code has four numbers.”",
+   "optionen": [
+    "True",
+    "False",
+    "Not in the text"
+   ],
+   "richtig": 1,
+   "hilfe1": "Read the note.",
+   "hilfe2": "Sam says: The code has ... numbers.",
+   "hl": [
+    6
+   ],
+   "spur": false,
+   "rtyp": "True, false or not in the text"
+  },
+  {
+   "typ": "markieren",
+   "frage": "Tap the sentence that tells you where the locker is.",
+   "richtig": [
+    5
+   ],
+   "hilfe1": "Look for the word \"locker\".",
+   "hilfe2": "It is the first sentence of the note.",
+   "hl": [
+    5
+   ],
+   "spur": false,
+   "rtyp": "Find the proof"
+  },
+  {
+   "typ": "luecke",
+   "frage": "Read the short text about Sam. Choose the right words.",
+   "text": "Every morning Sam ___ the café at seven. He ___ tea and ___ the cakes.",
+   "luecken": [
+    {
+     "optionen": [
+      "opens",
+      "open",
+      "opening"
+     ],
+     "richtig": 0
+    },
+    {
+     "optionen": [
+      "make",
+      "making",
+      "makes"
+     ],
+     "richtig": 2
+    },
+    {
+     "optionen": [
+      "bake",
+      "bakes",
+      "baking"
+     ],
+     "richtig": 1
+    }
+   ],
+   "hilfe1": "Sam is one person. Look at the ending of the verb.",
+   "hilfe2": "One person (he, she, it) needs an -s.",
+   "spur": true,
+   "rtyp": "Gap text"
+  }
+ ]
+}

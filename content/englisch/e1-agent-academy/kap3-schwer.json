@@ -1,0 +1,128 @@
+{
+ "kap": 3,
+ "stufe": "schwer",
+ "titel": "Train to Brighton",
+ "auftrag": "Read the timetable, the announcements and the diary. Then solve five puzzles.",
+ "woerter": 141,
+ "material": [
+  {
+   "kopf": "Timetable: London Victoria to Brighton",
+   "art": "aushang",
+   "saetze": [
+    [
+     "09:12 – platform 2 – arrives 10:20"
+    ],
+    [
+     "09:42 – platform 4 – arrives 10:58 – stops at Gatwick Airport"
+    ],
+    [
+     "10:12 – platform 1 – arrives 11:20"
+    ],
+    [
+     "Attention please.",
+     "Because of a signal problem, the nine forty-two to Brighton now leaves from platform 6, not from platform 4.",
+     "The train will be fifteen minutes late.",
+     "Passengers for Gatwick Airport should change at East Croydon.",
+     "Please keep your bags with you at all times."
+    ]
+   ]
+  },
+  {
+   "kopf": "Agent Wren's diary",
+   "art": "tagebuch",
+   "saetze": [
+    [
+     "We came to the station at half past nine and bought two tickets.",
+     "I did not tell anybody which train we planned to take, except Mr Hale.",
+     "Then we waited on platform 4.",
+     "Suddenly the announcement said: platform 6!",
+     "We ran to platform 6 and jumped on the train just before the doors closed.",
+     "Pidge sat on my bag all the way, and I kept watching the other passengers."
+    ]
+   ],
+   "person": "wren"
+  }
+ ],
+ "raetsel": [
+  {
+   "typ": "auswahl",
+   "frage": "Why does the train leave from a different platform?",
+   "optionen": [
+    "There is a problem with the signals.",
+    "The driver is late.",
+    "The station is too busy."
+   ],
+   "richtig": 0,
+   "hilfe1": "Look for the words \"Because of\".",
+   "hilfe2": "The reason is in the first sentence of the announcement.",
+   "hl": [
+    4
+   ],
+   "spur": false,
+   "rtyp": "Quick search"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "When will the train arrive in Brighton?",
+   "optionen": [
+    "at 11:20",
+    "at 11:13",
+    "at 10:58"
+   ],
+   "richtig": 1,
+   "hilfe1": "The train arrives at 10:58, but it is late.",
+   "hilfe2": "Add fifteen minutes to 10:58.",
+   "hl": [
+    1,
+    5
+   ],
+   "spur": false,
+   "rtyp": "Think about it"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Why does Agent Wren mention Mr Hale in her diary?",
+   "optionen": [
+    "Only he knew about the train, so she wonders about him.",
+    "Mr Hale is the driver of the train.",
+    "Mr Hale sells the tickets."
+   ],
+   "richtig": 0,
+   "hilfe1": "Read the second sentence of the diary.",
+   "hilfe2": "If only one person knew something, you can ask: Who told others?",
+   "hl": [
+    9
+   ],
+   "spur": false,
+   "rtyp": "Between the lines"
+  },
+  {
+   "typ": "reihenfolge",
+   "frage": "Put the events in the right order. What happened first?",
+   "items": [
+    "They bought two tickets.",
+    "They waited on platform 4.",
+    "The announcement said: platform 6!",
+    "They jumped on the train.",
+    "Pidge sat on the bag."
+   ],
+   "hilfe1": "Read the diary from top to bottom.",
+   "hilfe2": "The announcement comes after the waiting and before the running.",
+   "hl": [
+    8,
+    13
+   ],
+   "spur": false,
+   "rtyp": "Timeline"
+  },
+  {
+   "typ": "fehler",
+   "frage": "Agent Wren wrote a short note on the train. It has five mistakes. Can you find them?",
+   "text": "We [[goes|go|going]] to Brighton by train. The train [[leave|leaves|leaving]] at nine forty-two, but it is fifteen minutes late. Pidge [[sit|sits|sitting]] on my bag, and Mr Hale [[nows|knows|know]] the [[plann|plan|plans]].",
+   "hilfe1": "Look at the verbs and at the spelling.",
+   "hilfe2": "Every verb that goes with one person or thing needs an -s. Check the nouns too.",
+   "spur": true,
+   "rtyp": "Spot the mistakes"
+  }
+ ]
+}

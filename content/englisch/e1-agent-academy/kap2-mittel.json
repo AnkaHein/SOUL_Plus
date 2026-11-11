@@ -1,0 +1,124 @@
+{
+ "kap": 2,
+ "stufe": "mittel",
+ "titel": "The Briefing",
+ "auftrag": "Read the case file. Then solve five puzzles.",
+ "woerter": 112,
+ "material": [
+  {
+   "kopf": "Case file: The Silver Compass",
+   "art": "protokoll",
+   "saetze": [
+    [
+     "Object: the Silver Compass.",
+     "It is small, round and very old.",
+     "It was a present from a king and it points to secret places on old maps."
+    ],
+    [
+     "The compass was kept in the Map Room on the second floor.",
+     "Dr Cole saw it there on Monday at six pm.",
+     "At seven pm Agent Wren locked the room.",
+     "On Tuesday morning the compass was gone, but the door was still locked."
+    ],
+    [
+     "Three people have a key: Agent Wren, Mr Hale and Dr Cole.",
+     "Sam, the cook, brings lunch to the Academy every day, but he has no key."
+    ],
+    [
+     "A note lay on the table.",
+     "It says: Take the nine forty-two train to Brighton."
+    ]
+   ]
+  }
+ ],
+ "raetsel": [
+  {
+   "typ": "markieren",
+   "frage": "Tap the sentence that tells you the door was still locked.",
+   "richtig": [
+    6
+   ],
+   "hilfe1": "Look for the word \"locked\".",
+   "hilfe2": "It is the last sentence of the second paragraph.",
+   "hl": [
+    6
+   ],
+   "spur": false,
+   "rtyp": "Find the proof"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "What is special about the compass?",
+   "optionen": [
+    "It plays music when it is opened.",
+    "It tells the time in Brighton.",
+    "It points to secret places on old maps."
+   ],
+   "richtig": 2,
+   "hilfe1": "Read the first paragraph.",
+   "hilfe2": "Look for the word \"points\".",
+   "hl": [
+    2
+   ],
+   "spur": false,
+   "rtyp": "Who, what, when?"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "True or false? “Sam has a key to the Map Room.”",
+   "optionen": [
+    "True",
+    "False",
+    "Not in the text"
+   ],
+   "richtig": 1,
+   "hilfe1": "Find the sentence about Sam.",
+   "hilfe2": "Sam brings lunch. Does he have a key?",
+   "hl": [
+    8
+   ],
+   "spur": false,
+   "rtyp": "True, false or not in the text"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "What does \"locked\" mean in: Agent Wren locked the room?",
+   "optionen": [
+    "painted with a brush",
+    "closed with a key",
+    "cleaned with water"
+   ],
+   "richtig": 1,
+   "hilfe1": "Think about the key in the next sentence.",
+   "hilfe2": "You need a key to lock a door.",
+   "hl": [
+    5
+   ],
+   "spur": false,
+   "rtyp": "Guess the word"
+  },
+  {
+   "typ": "reihenfolge",
+   "frage": "Put the words in the right order. It is a sentence from the file.",
+   "items": [
+    "On Tuesday morning",
+    "the compass",
+    "was",
+    "gone"
+   ],
+   "alt": [
+    [
+     1,
+     2,
+     3,
+     0
+    ]
+   ],
+   "art": "satz",
+   "hilfe1": "The sentence starts with the time.",
+   "hilfe2": "The compass comes first, then \"was\".",
+   "spur": true,
+   "rtyp": "Put the words in order"
+  }
+ ]
+}

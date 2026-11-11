@@ -1,0 +1,92 @@
+{
+ "kap": 6,
+ "stufe": "leicht",
+ "titel": "Unmasking",
+ "auftrag": "Read the newspaper report. Then solve four puzzles.",
+ "woerter": 56,
+ "material": [
+  {
+   "kopf": "The London Evening Echo",
+   "art": "zeitung",
+   "saetze": [
+    [
+     "Silver Compass found!"
+    ],
+    [
+     "Yesterday, Agent Wren found the Silver Compass in a café in Brighton.",
+     "It was wrapped in a green cloth.",
+     "Only Wren and a trainee knew about the cloth.",
+     "But Mr Hale talked about it.",
+     "He was the double agent!",
+     "Pidge the pigeon flew to the police, and at six o'clock they arrested him."
+    ]
+   ]
+  }
+ ],
+ "raetsel": [
+  {
+   "typ": "auswahl",
+   "frage": "What is the best summary of the report?",
+   "optionen": [
+    "Sam opened a new café in Brighton.",
+    "A double agent was caught because he knew too much.",
+    "A pigeon won a race in London."
+   ],
+   "richtig": 1,
+   "hilfe1": "Read the whole report. What is the big news?",
+   "hilfe2": "Look at the sentence with \"double agent\".",
+   "hl": [
+    5
+   ],
+   "spur": false,
+   "rtyp": "Best summary"
+  },
+  {
+   "typ": "markieren",
+   "frage": "Tap the sentence that shows how Mr Hale gave himself away.",
+   "richtig": [
+    4
+   ],
+   "hilfe1": "Look for the word \"cloth\". Who talked about it?",
+   "hilfe2": "It comes right after the sentence about Wren and the trainee.",
+   "hl": [
+    4
+   ],
+   "spur": false,
+   "rtyp": "Find the proof"
+  },
+  {
+   "typ": "reihenfolge",
+   "frage": "Put the events in the right order. What happened first?",
+   "items": [
+    "Wren found the compass.",
+    "Mr Hale talked about the cloth.",
+    "Pidge flew to the police.",
+    "The police arrested him."
+   ],
+   "hilfe1": "Read the report from top to bottom.",
+   "hilfe2": "Pidge flew to the police before the arrest.",
+   "hl": [
+    1,
+    6
+   ],
+   "spur": false,
+   "rtyp": "Timeline"
+  },
+  {
+   "typ": "reihenfolge",
+   "frage": "Put the words in the right order. It is a sentence from the report.",
+   "items": [
+    "At six o'clock",
+    "the police",
+    "arrested",
+    "Mr Hale"
+   ],
+   "art": "satz",
+   "hilfe1": "The sentence starts with the time.",
+   "hilfe2": "After \"the police\" comes the word that tells you what they did.",
+   "spur": true,
+   "rtyp": "Put the words in order"
+  }
+ ]
+}

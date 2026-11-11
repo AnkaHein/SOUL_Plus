@@ -1,0 +1,172 @@
+{
+ "kap": 4,
+ "stufe": "schwer",
+ "titel": "The Café Code",
+ "auftrag": "Read the menu and the note. Then solve five puzzles.",
+ "woerter": 137,
+ "material": [
+  {
+   "kopf": "Menu: The Blue Teapot",
+   "art": "aushang",
+   "saetze": [
+    [
+     "Tea – £2"
+    ],
+    [
+     "Hot chocolate – £3"
+    ],
+    [
+     "Carrot cake – £4"
+    ],
+    [
+     "Cheese toastie – £6"
+    ],
+    [
+     "Today only: a free biscuit with every tea"
+    ]
+   ]
+  },
+  {
+   "kopf": "Note from Sam",
+   "art": "zettel",
+   "saetze": [
+    [
+     "Hello!",
+     "The locker is at the back of the café, next to the toilets.",
+     "The code has three numbers.",
+     "First: the price of the cheapest drink.",
+     "Second: the price of the carrot cake.",
+     "Third: the price of the toastie minus the price of a tea."
+    ],
+    [
+     "Last night somebody left a small parcel in the locker and asked me to keep it safe.",
+     "The person was in a big hurry and did not give a name, but I noticed that he kept looking over his shoulder.",
+     "He wore gloves, although it was warm, and he asked me not to tell anybody about the locker.",
+     "If a friend from London comes, give them this note."
+    ],
+    [
+     "Sam"
+    ]
+   ],
+   "person": "sam"
+  }
+ ],
+ "raetsel": [
+  {
+   "typ": "auswahl",
+   "frage": "What is the code for the locker?",
+   "optionen": [
+    "3 – 4 – 4",
+    "2 – 4 – 6",
+    "2 – 4 – 4"
+   ],
+   "richtig": 2,
+   "hilfe1": "Find the cheapest drink first. Then the cake. For the third number you must subtract.",
+   "hilfe2": "Toastie minus tea: 6 minus 2.",
+   "hl": [
+    10
+   ],
+   "spur": false,
+   "rtyp": "Solve the code"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "True or false? “The man gave Sam his name.”",
+   "optionen": [
+    "True",
+    "False",
+    "Not in the text"
+   ],
+   "richtig": 1,
+   "hilfe1": "Read the second paragraph of the note.",
+   "hilfe2": "Sam says: ... did not give a name.",
+   "hl": [
+    12
+   ],
+   "spur": false,
+   "rtyp": "True, false or not in the text"
+  },
+  {
+   "typ": "markieren",
+   "frage": "Tap the sentence that shows the man did not want to be seen.",
+   "richtig": [
+    12
+   ],
+   "hilfe1": "Look for the words \"over his shoulder\".",
+   "hilfe2": "It is in the second paragraph, the second sentence.",
+   "hl": [
+    12
+   ],
+   "spur": false,
+   "rtyp": "Find the proof"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Why does the man wear gloves although it is warm?",
+   "optionen": [
+    "He does not want to leave fingerprints.",
+    "He is cold.",
+    "He wants to look elegant."
+   ],
+   "richtig": 0,
+   "hilfe1": "Think about a person who hides something. What must a thief not leave behind?",
+   "hilfe2": "Fingerprints are a kind of proof.",
+   "hl": [
+    13
+   ],
+   "spur": false,
+   "rtyp": "Between the lines"
+  },
+  {
+   "typ": "luecke",
+   "frage": "Read the short text about Sam. Choose the right words.",
+   "text": "Every morning Sam ___ the café at seven. He ___ tea and ___ the cakes. Last night a man ___ a parcel in the locker, and Sam ___ him not to tell anybody.",
+   "luecken": [
+    {
+     "optionen": [
+      "open",
+      "opens",
+      "opening"
+     ],
+     "richtig": 1
+    },
+    {
+     "optionen": [
+      "makes",
+      "make",
+      "making"
+     ],
+     "richtig": 0
+    },
+    {
+     "optionen": [
+      "bake",
+      "baking",
+      "bakes"
+     ],
+     "richtig": 2
+    },
+    {
+     "optionen": [
+      "leaves",
+      "left",
+      "leaving"
+     ],
+     "richtig": 1
+    },
+    {
+     "optionen": [
+      "promised",
+      "promises",
+      "promise"
+     ],
+     "richtig": 0
+    }
+   ],
+   "hilfe1": "Some actions happen every day. Some happened last night.",
+   "hilfe2": "Last night = the action is finished. The verb changes.",
+   "spur": true,
+   "rtyp": "Gap text"
+  }
+ ]
+}

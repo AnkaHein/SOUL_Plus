@@ -1,0 +1,205 @@
+{
+ "kap": 5,
+ "stufe": "mittel",
+ "titel": "The Witnesses",
+ "auftrag": "Three people tell Agent Wren what they did on Monday. Listen carefully. Then solve five puzzles.",
+ "woerter": 127,
+ "material": [
+  {
+   "kopf": "Dr Cole",
+   "art": "aussage",
+   "saetze": [
+    [
+     "On Monday I left the Academy at six thirty and had a coffee with a friend.",
+     "At eight o'clock I came back because I forgot my glasses.",
+     "In the corridor on the second floor I saw Mr Hale.",
+     "He was carrying a bag and he looked nervous."
+    ]
+   ],
+   "person": "cole"
+  },
+  {
+   "kopf": "Sam",
+   "art": "aussage",
+   "saetze": [
+    [
+     "On Monday I closed the café at nine and cleaned the kitchen.",
+     "At ten o'clock a tall man in gloves came in.",
+     "He asked me to keep a small parcel in the locker.",
+     "I did not see his face."
+    ]
+   ],
+   "person": "sam"
+  },
+  {
+   "kopf": "Mr Hale",
+   "art": "aussage",
+   "saetze": [
+    [
+     "On Monday I finished work at six and went home.",
+     "I cooked dinner, watched TV and went to bed early.",
+     "I did not come back to the Academy.",
+     "Somebody stole the compass, wrapped it in a green cloth and ran away."
+    ]
+   ],
+   "person": "hale"
+  }
+ ],
+ "raetsel": [
+  {
+   "typ": "zuordnen",
+   "frage": "Who says what? Put each sentence with the right person.",
+   "personen": [
+    {
+     "name": "Dr Cole",
+     "img": "assets/figuren/cole.webp"
+    },
+    {
+     "name": "Sam",
+     "img": "assets/figuren/sam.webp"
+    },
+    {
+     "name": "Mr Hale",
+     "img": "assets/figuren/hale.webp"
+    }
+   ],
+   "aussagen": [
+    {
+     "text": "I forgot my glasses.",
+     "richtig": 0
+    },
+    {
+     "text": "I cleaned the kitchen.",
+     "richtig": 1
+    },
+    {
+     "text": "A tall man gave me a parcel.",
+     "richtig": 1
+    },
+    {
+     "text": "I did not come back to the Academy.",
+     "richtig": 2
+    },
+    {
+     "text": "I went to bed early.",
+     "richtig": 2
+    },
+    {
+     "text": "I saw Mr Hale on the second floor.",
+     "richtig": 0
+    }
+   ],
+   "hilfe1": "Read the three statements again. Who says \"I\"?",
+   "hilfe2": "Dr Cole is at the Academy. Sam is at the café. Mr Hale is at home.",
+   "spur": false,
+   "rtyp": "Who says what?"
+  },
+  {
+   "typ": "mehrfach",
+   "frage": "Two of these sentences cannot both be true. Which two?",
+   "optionen": [
+    "Sam closed the café at nine.",
+    "Mr Hale did not come back to the Academy.",
+    "Dr Cole forgot her glasses.",
+    "Dr Cole saw Mr Hale at the Academy at eight."
+   ],
+   "richtig": [
+    1,
+    3
+   ],
+   "hilfe1": "Look for two statements about the same place and the same evening.",
+   "hilfe2": "Dr Cole says she saw Mr Hale. Mr Hale says he was not there.",
+   "hl": [
+    2,
+    10
+   ],
+   "spur": false,
+   "rtyp": "Find the contradiction"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "When did the tall man come into the café?",
+   "optionen": [
+    "at six thirty",
+    "at eight o'clock",
+    "at ten o'clock"
+   ],
+   "richtig": 2,
+   "hilfe1": "Read what Sam says.",
+   "hilfe2": "Sam closed the café at nine. The man came later.",
+   "hl": [
+    5
+   ],
+   "spur": false,
+   "rtyp": "Who, what, when?"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "True or false? “Dr Cole left the Academy at eight o'clock.”",
+   "optionen": [
+    "True",
+    "False",
+    "Not in the text"
+   ],
+   "richtig": 1,
+   "hilfe1": "Read the first sentence of Dr Cole's statement.",
+   "hilfe2": "She LEFT at six thirty. At eight she CAME BACK.",
+   "hl": [
+    0
+   ],
+   "spur": false,
+   "rtyp": "True, false or not in the text"
+  },
+  {
+   "typ": "luecke",
+   "frage": "Mr Hale tells his story. Choose the right words.",
+   "text": "On Monday I ___ work at six and ___ home. I ___ dinner, ___ TV and ___ to bed early.",
+   "luecken": [
+    {
+     "optionen": [
+      "finish",
+      "finished",
+      "finishes"
+     ],
+     "richtig": 1
+    },
+    {
+     "optionen": [
+      "went",
+      "go",
+      "goes"
+     ],
+     "richtig": 0
+    },
+    {
+     "optionen": [
+      "cook",
+      "cooks",
+      "cooked"
+     ],
+     "richtig": 2
+    },
+    {
+     "optionen": [
+      "watch",
+      "watched",
+      "watches"
+     ],
+     "richtig": 1
+    },
+    {
+     "optionen": [
+      "went",
+      "go",
+      "goes"
+     ],
+     "richtig": 0
+    }
+   ],
+   "hilfe1": "Mr Hale tells about Monday. Monday is over.",
+   "hilfe2": "Finished action = past form. \"Go\" becomes \"went\".",
+   "spur": true,
+   "rtyp": "Gap text"
+  }
+ ]
+}

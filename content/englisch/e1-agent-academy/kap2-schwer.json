@@ -1,0 +1,128 @@
+{
+ "kap": 2,
+ "stufe": "schwer",
+ "titel": "The Briefing",
+ "auftrag": "Read the case file and Agent Wren's notes. Then solve five puzzles.",
+ "woerter": 190,
+ "material": [
+  {
+   "kopf": "Case file: The Silver Compass",
+   "art": "protokoll",
+   "saetze": [
+    [
+     "Object: the Silver Compass.",
+     "It is small, round and very old.",
+     "It was a present from a king, and it can point to secret places on old maps.",
+     "For that reason it is worth a lot of money, and for the Academy it is priceless."
+    ],
+    [
+     "The compass was kept in the Map Room on the second floor.",
+     "Dr Cole saw it there on Monday at six pm.",
+     "At seven pm Agent Wren locked the room herself.",
+     "On Tuesday morning the compass was gone, but the door was still locked and no window was broken."
+    ],
+    [
+     "Three people have a key: Agent Wren, Mr Hale and Dr Cole.",
+     "Sam, the cook, brings lunch to the Academy every day, but he has never had a key.",
+     "A note was lying on the table where the compass used to be.",
+     "It says: Take the nine forty-two train to Brighton."
+    ]
+   ]
+  },
+  {
+   "kopf": "Agent Wren's notes",
+   "art": "zettel",
+   "saetze": [
+    [
+     "Nobody broke in.",
+     "So somebody with a key took the compass, or somebody opened the door and locked it again.",
+     "The note looks like a trap.",
+     "Perhaps it was left on purpose, so that we run to Brighton and forget to look closer to home."
+    ]
+   ]
+  }
+ ],
+ "raetsel": [
+  {
+   "typ": "markieren",
+   "frage": "Tap the sentence that proves nobody broke the window.",
+   "richtig": [
+    7
+   ],
+   "hilfe1": "Look for the word \"window\".",
+   "hilfe2": "It is in the second paragraph of the case file.",
+   "hl": [
+    7
+   ],
+   "spur": false,
+   "rtyp": "Find the proof"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Why is the compass worth a lot of money?",
+   "optionen": [
+    "It belongs to Sam.",
+    "It is very old and can show secret places.",
+    "It is made of chocolate."
+   ],
+   "richtig": 1,
+   "hilfe1": "Read the first paragraph of the case file.",
+   "hilfe2": "Look for the words \"For that reason\".",
+   "hl": [
+    3
+   ],
+   "spur": false,
+   "rtyp": "Who, what, when?"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "What does Agent Wren think about the note?",
+   "optionen": [
+    "It may be a trap.",
+    "It is a birthday card.",
+    "It is a train timetable."
+   ],
+   "richtig": 0,
+   "hilfe1": "Read her notes. Look for the word \"trap\".",
+   "hilfe2": "She says it was left \"on purpose\".",
+   "hl": [
+    14
+   ],
+   "spur": false,
+   "rtyp": "Between the lines"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "True or false? “Agent Wren thinks that a stranger broke into the Academy.”",
+   "optionen": [
+    "True",
+    "False",
+    "Not in the text"
+   ],
+   "richtig": 1,
+   "hilfe1": "Read the first sentences of her notes.",
+   "hilfe2": "She says: Nobody broke in.",
+   "hl": [
+    12
+   ],
+   "spur": false,
+   "rtyp": "True, false or not in the text"
+  },
+  {
+   "typ": "reihenfolge",
+   "frage": "Put the parts in the right order. It is a sentence from the case file.",
+   "items": [
+    "On Tuesday morning",
+    "the compass",
+    "was gone,",
+    "but the door",
+    "was still locked"
+   ],
+   "art": "satz",
+   "hilfe1": "The sentence starts with the time.",
+   "hilfe2": "The second half starts with the word \"but\".",
+   "spur": true,
+   "rtyp": "Put the words in order"
+  }
+ ]
+}

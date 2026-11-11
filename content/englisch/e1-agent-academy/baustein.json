@@ -1,0 +1,98 @@
+{
+ "id": "e1-agent-academy",
+ "kurz": "e1",
+ "fach": "englisch",
+ "sprache": "en",
+ "titel": "Agent Academy – Operation Red Fox",
+ "untertitel": "Ein Spionagefall in London in sechs Kapiteln",
+ "kachel": "assets/bausteine/e1.webp",
+ "einleitung": "Du bist neu in der Agent Academy in London. Der Silberne Kompass ist aus dem Kartenraum verschwunden. Agent Wren braucht deine Hilfe. Lies die englischen Texte genau, löse die Rätsel und finde heraus, wer ein Doppelagent ist.",
+ "figuren": {
+  "wren": {
+   "name": "Agent Wren",
+   "rolle": "Trainerin",
+   "img": "assets/figuren/wren.webp"
+  },
+  "hale": {
+   "name": "Mr Hale",
+   "rolle": "Wrens Assistent",
+   "img": "assets/figuren/hale.webp"
+  },
+  "cole": {
+   "name": "Dr Imani Cole",
+   "rolle": "Archivarin",
+   "img": "assets/figuren/cole.webp"
+  },
+  "sam": {
+   "name": "Sam",
+   "rolle": "Koch im Café",
+   "img": "assets/figuren/sam.webp"
+  }
+ },
+ "hilfe": {
+  "name": "Pidge",
+  "img": "assets/hilfe/pidge.webp",
+  "emoji": "🕊️",
+  "jubel": [
+   "Coo, well done!",
+   "Pidge is proud of you!",
+   "Great reading, agent!",
+   "Case closed… almost!",
+   "Top secret success!"
+  ]
+ },
+ "kapitel": [
+  {
+   "nr": 1,
+   "titel": "The Invitation",
+   "teaser": "Eine geheime E-Mail lädt dich in die Academy ein.",
+   "begruessung": "Welcome, trainee. I am Pidge. Tap me if you need help.",
+   "ende": "You are in! Agent Wren is waiting in the Map Room.",
+   "bild": "assets/kapitel/e1-k1.webp"
+  },
+  {
+   "nr": 2,
+   "titel": "The Briefing",
+   "teaser": "Agent Wren erklärt den Fall des verschwundenen Kompasses.",
+   "begruessung": "Read the case file carefully. Every detail counts.",
+   "ende": "The compass was stolen. And somebody left a note about a train.",
+   "bild": "assets/kapitel/e1-k2.webp"
+  },
+  {
+   "nr": 3,
+   "titel": "Train to Brighton",
+   "teaser": "Fahrplan, Durchsagen und ein Bahnsteigwechsel.",
+   "begruessung": "Trains, platforms, times. Look for the facts you need.",
+   "ende": "You reach Brighton. The Blue Teapot café is just around the corner.",
+   "bild": "assets/kapitel/e1-k3.webp"
+  },
+  {
+   "nr": 4,
+   "titel": "The Café Code",
+   "teaser": "Ein Schließfach, eine Speisekarte und ein Zahlencode.",
+   "begruessung": "Menus and notes can hide a code. Read slowly.",
+   "ende": "Click! Inside the locker lies the Silver Compass, wrapped in a green cloth. Tell nobody about the cloth.",
+   "bild": "assets/kapitel/e1-k4.webp"
+  },
+  {
+   "nr": 5,
+   "titel": "The Witnesses",
+   "teaser": "Drei Personen erzählen, was am Montagabend geschah.",
+   "begruessung": "Who says what? And who tells a different story?",
+   "ende": "Two stories do not fit together. Somebody is not telling the truth.",
+   "bild": "assets/kapitel/e1-k5.webp"
+  },
+  {
+   "nr": 6,
+   "titel": "Unmasking",
+   "teaser": "Die Zeitung berichtet. Wer ist der Doppelagent?",
+   "begruessung": "The last puzzle. Read the news report from the Evening Echo.",
+   "ende": "Mr Hale gave himself away. Case closed!",
+   "bild": "assets/kapitel/e1-k6.webp"
+  }
+ ],
+ "abschluss": {
+  "titel": "Operation Red Fox: gelöst!",
+  "text": "Mr Hale ist als Doppelagent enttarnt, der Silberne Kompass ist zurück im Kartenraum. Agent Wren ernennt dich zum Agenten der Academy."
+ }
+}

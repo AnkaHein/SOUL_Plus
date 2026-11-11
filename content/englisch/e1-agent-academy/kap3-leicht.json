@@ -1,0 +1,106 @@
+{
+ "kap": 3,
+ "stufe": "leicht",
+ "titel": "Train to Brighton",
+ "auftrag": "Read the timetable and the diary. Then solve four puzzles.",
+ "woerter": 71,
+ "material": [
+  {
+   "kopf": "Timetable: London Victoria to Brighton",
+   "art": "aushang",
+   "saetze": [
+    [
+     "09:12 – platform 2 – arrives 10:20"
+    ],
+    [
+     "09:42 – platform 4 – arrives 10:58"
+    ],
+    [
+     "10:12 – platform 1 – arrives 11:20"
+    ],
+    [
+     "Attention please.",
+     "The nine forty-two to Brighton now leaves from platform 6.",
+     "Please mind the gap."
+    ]
+   ]
+  },
+  {
+   "kopf": "Agent Wren's diary",
+   "art": "tagebuch",
+   "saetze": [
+    [
+     "We came to the station at half past nine.",
+     "We bought two tickets.",
+     "Then we waited on platform 4.",
+     "The announcement said: platform 6!",
+     "We ran to platform 6 and jumped on the train."
+    ]
+   ],
+   "person": "wren"
+  }
+ ],
+ "raetsel": [
+  {
+   "typ": "auswahl",
+   "frage": "When does the nine forty-two train arrive in Brighton?",
+   "optionen": [
+    "at 10:58",
+    "at 11:20",
+    "at 10:20"
+   ],
+   "richtig": 0,
+   "hilfe1": "Find the line that starts with 09:42.",
+   "hilfe2": "Read to the end of the line. Look for the word \"arrives\".",
+   "hl": [
+    1
+   ],
+   "spur": false,
+   "rtyp": "Quick search"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "True or false? “The train now leaves from platform 4.”",
+   "optionen": [
+    "True",
+    "False",
+    "Not in the text"
+   ],
+   "richtig": 1,
+   "hilfe1": "Read the announcement.",
+   "hilfe2": "The announcement says: platform ...",
+   "hl": [
+    4
+   ],
+   "spur": false,
+   "rtyp": "True, false or not in the text"
+  },
+  {
+   "typ": "reihenfolge",
+   "frage": "Put the events in the right order. What happened first?",
+   "items": [
+    "They came to the station.",
+    "They bought two tickets.",
+    "They ran to platform 6.",
+    "They jumped on the train."
+   ],
+   "hilfe1": "Read Agent Wren's diary from top to bottom.",
+   "hilfe2": "Running comes before jumping on the train.",
+   "hl": [
+    6,
+    10
+   ],
+   "spur": false,
+   "rtyp": "Timeline"
+  },
+  {
+   "typ": "fehler",
+   "frage": "Agent Wren wrote a short note on the train. It has three mistakes. Can you find them?",
+   "text": "We [[goes|go|going]] to Brighton by train. The train [[leave|leaves|leaving]] at nine forty-two. Pidge [[sit|sits|sitting]] on my bag.",
+   "hilfe1": "Look at the verbs. They must fit \"we\", \"the train\" and \"Pidge\".",
+   "hilfe2": "\"The train\" and \"Pidge\" are one thing each. They need an -s.",
+   "spur": true,
+   "rtyp": "Spot the mistakes"
+  }
+ ]
+}

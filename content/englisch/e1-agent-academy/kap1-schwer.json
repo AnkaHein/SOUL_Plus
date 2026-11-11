@@ -1,0 +1,155 @@
+{
+ "kap": 1,
+ "stufe": "schwer",
+ "titel": "The Invitation",
+ "auftrag": "Read the email and the note on the back. Then solve five puzzles.",
+ "woerter": 159,
+ "material": [
+  {
+   "kopf": "Email from Agent Wren",
+   "art": "mail",
+   "saetze": [
+    [
+     "Dear trainee,"
+    ],
+    [
+     "Congratulations!",
+     "Out of two hundred applicants, you are one of only eight people who passed our tests.",
+     "Please report to the Agent Academy tomorrow at nine o'clock sharp.",
+     "We are hidden behind the old bookshop in Fox Lane.",
+     "Ring the brass bell twice and give your name to the person who opens the door."
+    ],
+    [
+     "Meet me in the Map Room on the second floor.",
+     "Bring your ID card and a printed copy of this email, but leave your phone at home, because phones are not allowed in the building.",
+     "Nobody outside may know that the Academy exists, so please do not mention it to your friends, not even by accident."
+    ],
+    [
+     "Something very valuable has disappeared, and we suspect that it was not an accident.",
+     "I will explain the details tomorrow.",
+     "Until then, trust nobody but me."
+    ],
+    [
+     "Yours,"
+    ],
+    [
+     "Agent Wren"
+    ]
+   ],
+   "person": "wren"
+  },
+  {
+   "kopf": "Note on the back",
+   "art": "zettel",
+   "saetze": [
+    [
+     "P.S.",
+     "Arrive early if you can.",
+     "The last trainee who was late had to clean all the globes."
+    ]
+   ]
+  }
+ ],
+ "raetsel": [
+  {
+   "typ": "markieren",
+   "frage": "Tap the sentence that shows the trainees must keep the Academy secret.",
+   "richtig": [
+    8
+   ],
+   "hilfe1": "Look for the word \"Nobody\".",
+   "hilfe2": "It is in the second paragraph, the second sentence.",
+   "hl": [
+    8
+   ],
+   "spur": false,
+   "rtyp": "Find the proof"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "How many applicants were not accepted?",
+   "optionen": [
+    "200",
+    "192",
+    "8"
+   ],
+   "richtig": 1,
+   "hilfe1": "Count: two hundred applicants. Eight passed.",
+   "hilfe2": "200 minus 8 is the answer.",
+   "hl": [
+    2
+   ],
+   "spur": false,
+   "rtyp": "Think about it"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "True or false? “Agent Wren thinks the missing thing disappeared by accident.”",
+   "optionen": [
+    "True",
+    "False",
+    "Not in the text"
+   ],
+   "richtig": 1,
+   "hilfe1": "Read the sentence that starts with: Something very valuable ...",
+   "hilfe2": "She says: we suspect that it was NOT an accident.",
+   "hl": [
+    9
+   ],
+   "spur": false,
+   "rtyp": "True, false or not in the text"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Why does Agent Wren write: Trust nobody but me?",
+   "optionen": [
+    "She is afraid that somebody inside the Academy is involved.",
+    "She wants the trainees to be lonely.",
+    "She does not like the other agents' hats."
+   ],
+   "richtig": 0,
+   "hilfe1": "Think: the problem is inside the Academy.",
+   "hilfe2": "If nobody may be trusted, the problem is probably close.",
+   "hl": [
+    11
+   ],
+   "spur": false,
+   "rtyp": "Between the lines"
+  },
+  {
+   "typ": "luecke",
+   "frage": "Read the short report. Choose the right words.",
+   "text": "Last year the Academy ___ ten trainees. Right now it ___ eight trainees. Tomorrow the trainees ___ their first day.",
+   "luecken": [
+    {
+     "optionen": [
+      "welcomes",
+      "welcomed",
+      "welcome"
+     ],
+     "richtig": 1
+    },
+    {
+     "optionen": [
+      "has",
+      "had",
+      "having"
+     ],
+     "richtig": 0
+    },
+    {
+     "optionen": [
+      "started",
+      "starting",
+      "will start"
+     ],
+     "richtig": 2
+    }
+   ],
+   "hilfe1": "Look at the time words: Last year, Right now, Tomorrow.",
+   "hilfe2": "Think: finished in the past, true now, in the future.",
+   "spur": true,
+   "rtyp": "Gap text"
+  }
+ ]
+}

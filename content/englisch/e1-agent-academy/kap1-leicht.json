@@ -1,0 +1,124 @@
+{
+ "kap": 1,
+ "stufe": "leicht",
+ "titel": "The Invitation",
+ "auftrag": "Read the email from Agent Wren. Then solve four puzzles.",
+ "woerter": 65,
+ "material": [
+  {
+   "kopf": "Email from Agent Wren",
+   "art": "mail",
+   "saetze": [
+    [
+     "Hi trainee,"
+    ],
+    [
+     "Welcome to London!",
+     "You are one of our new trainees.",
+     "Please come to the Agent Academy tomorrow at nine o'clock.",
+     "Meet me in the Map Room on the second floor."
+    ],
+    [
+     "Bring your ID card and this email.",
+     "Please do not tell anybody about the Academy.",
+     "It is a secret."
+    ],
+    [
+     "Something important is missing, and we need your help."
+    ],
+    [
+     "See you tomorrow!"
+    ],
+    [
+     "Agent Wren"
+    ]
+   ],
+   "person": "wren"
+  }
+ ],
+ "raetsel": [
+  {
+   "typ": "auswahl",
+   "frage": "When must the trainees come to the Academy?",
+   "optionen": [
+    "tomorrow at nine o'clock",
+    "last Monday at six",
+    "tonight at midnight"
+   ],
+   "richtig": 0,
+   "hilfe1": "Look for the word \"tomorrow\".",
+   "hilfe2": "The time is in the second sentence of the first paragraph.",
+   "hl": [
+    3
+   ],
+   "spur": false,
+   "rtyp": "Who, what, when?"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "True or false? “The Map Room is on the first floor.”",
+   "optionen": [
+    "True",
+    "False",
+    "Not in the text"
+   ],
+   "richtig": 1,
+   "hilfe1": "Find the sentence about the Map Room.",
+   "hilfe2": "Is it the first floor or the second floor?",
+   "hl": [
+    4
+   ],
+   "spur": false,
+   "rtyp": "True, false or not in the text"
+  },
+  {
+   "typ": "markieren",
+   "frage": "Tap the sentence that tells you what to bring.",
+   "richtig": [
+    5
+   ],
+   "hilfe1": "Look for the word \"bring\".",
+   "hilfe2": "It is the first sentence of the third paragraph.",
+   "hl": [
+    5
+   ],
+   "spur": false,
+   "rtyp": "Find the proof"
+  },
+  {
+   "typ": "luecke",
+   "frage": "Read the short message. Choose the right words.",
+   "text": "Hi! I ___ a new trainee. Tomorrow I ___ to the Academy. Yesterday I ___ the email.",
+   "luecken": [
+    {
+     "optionen": [
+      "am",
+      "is",
+      "are"
+     ],
+     "richtig": 0
+    },
+    {
+     "optionen": [
+      "goes",
+      "went",
+      "go"
+     ],
+     "richtig": 2
+    },
+    {
+     "optionen": [
+      "reads",
+      "read",
+      "reading"
+     ],
+     "richtig": 1
+    }
+   ],
+   "hilfe1": "Look at the time words: Tomorrow, Yesterday.",
+   "hilfe2": "\"I\" goes with \"am\". Yesterday means it is finished.",
+   "spur": true,
+   "rtyp": "Gap text"
+  }
+ ]
+}

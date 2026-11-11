@@ -1,0 +1,165 @@
+{
+ "kap": 5,
+ "stufe": "leicht",
+ "titel": "The Witnesses",
+ "auftrag": "Three people tell Agent Wren what they did on Monday. Listen carefully. Then solve four puzzles.",
+ "woerter": 67,
+ "material": [
+  {
+   "kopf": "Dr Cole",
+   "art": "aussage",
+   "saetze": [
+    [
+     "On Monday I left the Academy at six thirty.",
+     "At eight I came back for my glasses.",
+     "In the corridor I saw Mr Hale."
+    ]
+   ],
+   "person": "cole"
+  },
+  {
+   "kopf": "Sam",
+   "art": "aussage",
+   "saetze": [
+    [
+     "On Monday I closed the café at nine.",
+     "At ten a man in gloves came in.",
+     "He left a parcel in the locker."
+    ]
+   ],
+   "person": "sam"
+  },
+  {
+   "kopf": "Mr Hale",
+   "art": "aussage",
+   "saetze": [
+    [
+     "On Monday I went home at six.",
+     "I ate dinner and watched TV.",
+     "I never came back to the Academy."
+    ]
+   ],
+   "person": "hale"
+  }
+ ],
+ "raetsel": [
+  {
+   "typ": "zuordnen",
+   "frage": "Who says what? Put each sentence with the right person.",
+   "personen": [
+    {
+     "name": "Dr Cole",
+     "img": "assets/figuren/cole.webp"
+    },
+    {
+     "name": "Sam",
+     "img": "assets/figuren/sam.webp"
+    },
+    {
+     "name": "Mr Hale",
+     "img": "assets/figuren/hale.webp"
+    }
+   ],
+   "aussagen": [
+    {
+     "text": "I came back for my glasses.",
+     "richtig": 0
+    },
+    {
+     "text": "I closed the café at nine.",
+     "richtig": 1
+    },
+    {
+     "text": "A man in gloves came to my café.",
+     "richtig": 1
+    },
+    {
+     "text": "I never came back to the Academy.",
+     "richtig": 2
+    },
+    {
+     "text": "I ate dinner and watched TV.",
+     "richtig": 2
+    },
+    {
+     "text": "I saw Mr Hale in the corridor.",
+     "richtig": 0
+    }
+   ],
+   "hilfe1": "Read the three statements again. Who says \"I\"?",
+   "hilfe2": "Dr Cole is at the Academy. Sam is at the café. Mr Hale is at home.",
+   "spur": false,
+   "rtyp": "Who says what?"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Who says something different from Mr Hale?",
+   "optionen": [
+    "Pidge",
+    "Dr Cole",
+    "Sam"
+   ],
+   "richtig": 1,
+   "hilfe1": "Mr Hale says: I never came back to the Academy.",
+   "hilfe2": "Who saw Mr Hale at the Academy?",
+   "hl": [
+    2,
+    8
+   ],
+   "spur": false,
+   "rtyp": "Find the difference"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "True or false? “Mr Hale says he stayed at the Academy on Monday evening.”",
+   "optionen": [
+    "True",
+    "False",
+    "Not in the text"
+   ],
+   "richtig": 1,
+   "hilfe1": "Read what Mr Hale says.",
+   "hilfe2": "He says: I went home at six.",
+   "hl": [
+    6
+   ],
+   "spur": false,
+   "rtyp": "True, false or not in the text"
+  },
+  {
+   "typ": "luecke",
+   "frage": "Mr Hale tells his story. Choose the right words.",
+   "text": "On Monday I ___ home at six. Then I ___ dinner and ___ TV.",
+   "luecken": [
+    {
+     "optionen": [
+      "went",
+      "go",
+      "goes"
+     ],
+     "richtig": 0
+    },
+    {
+     "optionen": [
+      "eat",
+      "eats",
+      "ate"
+     ],
+     "richtig": 2
+    },
+    {
+     "optionen": [
+      "watch",
+      "watched",
+      "watches"
+     ],
+     "richtig": 1
+    }
+   ],
+   "hilfe1": "Mr Hale tells about Monday. Monday is over.",
+   "hilfe2": "Finished action = past form. \"Go\" becomes \"went\".",
+   "spur": true,
+   "rtyp": "Gap text"
+  }
+ ]
+}

@@ -1,0 +1,105 @@
+{
+ "kap": 2,
+ "stufe": "leicht",
+ "titel": "The Briefing",
+ "auftrag": "Read the case file. Then solve four puzzles.",
+ "woerter": 73,
+ "material": [
+  {
+   "kopf": "Case file: The Silver Compass",
+   "art": "protokoll",
+   "saetze": [
+    [
+     "The Silver Compass is missing.",
+     "It was in the Map Room.",
+     "Dr Cole saw it on Monday at six pm."
+    ],
+    [
+     "At seven pm the Map Room was locked.",
+     "On Tuesday morning the compass was gone."
+    ],
+    [
+     "Three people have a key: Agent Wren, Mr Hale and Dr Cole.",
+     "Sam, the cook, brings lunch to the Academy every day."
+    ],
+    [
+     "There was a note on the table.",
+     "It says: Take the nine forty-two train to Brighton."
+    ]
+   ]
+  }
+ ],
+ "raetsel": [
+  {
+   "typ": "markieren",
+   "frage": "Tap the sentence that tells you when the compass was seen last.",
+   "richtig": [
+    2
+   ],
+   "hilfe1": "Look for the word \"saw\".",
+   "hilfe2": "It is in the first paragraph.",
+   "hl": [
+    2
+   ],
+   "spur": false,
+   "rtyp": "Find the proof"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "Who has a key to the Map Room?",
+   "optionen": [
+    "Agent Wren, Mr Hale and Dr Cole",
+    "the Silver Compass",
+    "Sam and the trainees"
+   ],
+   "richtig": 0,
+   "hilfe1": "Look for the word \"key\".",
+   "hilfe2": "Count the names in the third paragraph.",
+   "hl": [
+    5
+   ],
+   "spur": false,
+   "rtyp": "Who, what, when?"
+  },
+  {
+   "typ": "auswahl",
+   "frage": "What does \"missing\" mean here?",
+   "optionen": [
+    "It is very old.",
+    "It is too small.",
+    "It is not there any more."
+   ],
+   "richtig": 2,
+   "hilfe1": "On Tuesday morning the compass was gone.",
+   "hilfe2": "Gone means: not there.",
+   "hl": [
+    4
+   ],
+   "spur": false,
+   "rtyp": "Guess the word"
+  },
+  {
+   "typ": "reihenfolge",
+   "frage": "Put the words in the right order. It is a sentence from the file.",
+   "items": [
+    "On Monday",
+    "Dr Cole",
+    "saw",
+    "the compass"
+   ],
+   "alt": [
+    [
+     1,
+     2,
+     3,
+     0
+    ]
+   ],
+   "art": "satz",
+   "hilfe1": "The sentence starts with the time.",
+   "hilfe2": "After \"Dr Cole\" comes the word that tells you what she did.",
+   "spur": true,
+   "rtyp": "Put the words in order"
+  }
+ ]
+}
